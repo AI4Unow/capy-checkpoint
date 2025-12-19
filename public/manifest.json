@@ -1,0 +1,33 @@
+{
+  "name": "Capy-Checkpoint",
+  "short_name": "CapyMath",
+  "description": "Math learning game for Cambridge Primary Checkpoint - Flappy Bird meets adaptive learning!",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#FEFAE0",
+  "theme_color": "#FFD6E0",
+  "categories": ["education", "games"],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "800x600",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}

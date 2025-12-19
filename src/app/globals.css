@@ -1,26 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Nunito:wght@400;700&family=Baloo+2:wght@600&display=swap');
+
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --pink: #FFD6E0;
+  --sage: #DDE5B6;
+  --cream: #FEFAE0;
+  --sky: #A2D2FF;
+  --text: #5E503F;
+  --red: #FF4D6D;
+  --yellow: #FFD60A;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-pink: var(--pink);
+  --color-sage: var(--sage);
+  --color-cream: var(--cream);
+  --color-sky: var(--sky);
+  --color-text: var(--text);
+  --color-red: var(--red);
+  --color-yellow: var(--yellow);
+  --font-fredoka: 'Fredoka', sans-serif;
+  --font-nunito: 'Nunito', sans-serif;
+  --font-baloo: 'Baloo 2', sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Nunito', sans-serif;
+  background-color: var(--cream);
+  color: var(--text);
+  overflow: hidden;
+}
+
+/* Animations */
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  70% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.5s ease-out;
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 214, 10, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(255, 214, 10, 0.8);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
 }
