@@ -1,7 +1,7 @@
 # Track Plan: Core Gameplay Loop with Firebase Integration
 
 ## Phase 1: Foundation & Firebase Integration
-- [ ] Task: Write Tests - Firebase Question Service
+- [x] Task: Write Tests - Firebase Question Service a581361
 - [ ] Task: Implement Feature - Firebase Question Service (fetch questions from Firestore)
 - [ ] Task: Write Tests - Game State Store (Zustand)
 - [ ] Task: Implement Feature - Game State Store (track score, current question, lives)
