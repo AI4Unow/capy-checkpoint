@@ -3,9 +3,9 @@ import { EventBus, GameEvents } from "../EventBus";
 import questionsData from "@/data/all-questions.json";
 import type { Question } from "@/types/question";
 
-const FLAP_VELOCITY = -350;
-const SCROLL_SPEED = 180;
-const GATE_SPAWN_INTERVAL = 4000;
+const FLAP_VELOCITY = -300;
+const SCROLL_SPEED = 120;
+const GATE_SPAWN_INTERVAL = 5500;
 const GROUND_Y = 520;
 const PATH_HEIGHT = 120; // Height of each answer path
 
