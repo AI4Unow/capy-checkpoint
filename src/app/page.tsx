@@ -13,6 +13,9 @@ import { StreakDisplay } from "@/components/StreakDisplay";
 import { MenuOverlay } from "@/components/MenuOverlay";
 import { CalibrationIndicator } from "@/components/CalibrationIndicator";
 import { PauseOverlay } from "@/components/PauseOverlay";
+import { BadgeCollection } from "@/components/BadgeCollection";
+import { BadgeUnlock } from "@/components/BadgeUnlock";
+import { BadgeChecker } from "@/components/BadgeChecker";
 import { useGameStore } from "@/stores/gameStore";
 import { useLearningStore } from "@/stores/learningStore";
 import { useSettingsStore } from "@/stores/settingsStore";
@@ -32,6 +35,7 @@ const PhaserGame = dynamic(() => import("@/game/PhaserGame"), {
 export default function Home() {
   const [showBoutique, setShowBoutique] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
+  const [showBadges, setShowBadges] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState<{
     question: Question;
     studentAnswerIndex: number;
@@ -84,14 +88,22 @@ export default function Home() {
         <CalibrationIndicator />
         <PhaserGame />
 
-        {/* Boutique button (visible when not playing) */}
+        {/* Boutique and Badges buttons (visible when not playing) */}
         {!isPlaying && !showSummary && (
-          <button
-            onClick={() => setShowBoutique(true)}
-            className="absolute bottom-4 right-4 z-20 bg-pink px-4 py-2 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-text hover:scale-105 transition-transform"
-          >
-            🛍️ Boutique
-          </button>
+          <div className="absolute bottom-4 right-4 z-20 flex gap-2">
+            <button
+              onClick={() => setShowBadges(true)}
+              className="bg-purple-400 px-4 py-2 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-text hover:scale-105 transition-transform"
+            >
+              🏅 Badges
+            </button>
+            <button
+              onClick={() => setShowBoutique(true)}
+              className="bg-pink px-4 py-2 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-text hover:scale-105 transition-transform"
+            >
+              🛍️ Boutique
+            </button>
+          </div>
         )}
       </div>
 
@@ -124,6 +136,15 @@ export default function Home() {
 
       {/* Pause overlay (shows when paused) */}
       <PauseOverlay />
+
+      {/* Badge collection modal */}
+      {showBadges && <BadgeCollection onClose={() => setShowBadges(false)} />}
+
+      {/* Badge unlock celebration */}
+      <BadgeUnlock />
+
+      {/* Badge checker (listens to game events) */}
+      <BadgeChecker />
     </div>
   );
 }

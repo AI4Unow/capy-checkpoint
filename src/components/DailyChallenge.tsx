@@ -10,6 +10,7 @@ import { synthSounds } from "@/game/audio/SynthSounds";
 import questionsData from "@/data/all-questions.json";
 import type { Question } from "@/types/question";
 import type { DailyChallengeResult } from "@/types/dailyChallenge";
+import { unlockPerfectDaily } from "@/stores/badgeStore";
 
 interface DailyChallengeProps {
   onClose: () => void;
@@ -70,6 +71,12 @@ export function DailyChallenge({ onClose }: DailyChallengeProps) {
           const challengeResult = completeChallenge(correct, questions.length);
           setResult(challengeResult);
           addCoins(challengeResult.coinsEarned);
+
+          // Unlock perfect daily badge if 3/3
+          if (correct === questions.length) {
+            unlockPerfectDaily();
+          }
+
           setPhase("result");
         }
       }, 1000);
