@@ -1,6 +1,6 @@
 import Phaser from "phaser";
 import { EventBus, GameEvents } from "../EventBus";
-import questionsData from "@/data/questions.json";
+import questionsData from "@/data/all-questions.json";
 import type { Question } from "@/types/question";
 
 const FLAP_VELOCITY = -350;

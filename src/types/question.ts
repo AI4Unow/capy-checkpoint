@@ -10,10 +10,16 @@ export interface Question {
   subtopic: string;
   difficulty: number; // 600-1400 Elo scale
   text: string;
-  options: [string, string, string]; // Always 3 options
-  correctIndex: 0 | 1 | 2;
+  options: string[]; // 3 options for game gates
+  correctIndex: number;
   hint?: string;
   explanation: string;
+  // Extended fields for Cambridge questions
+  source?: string; // e.g., "Cambridge 2014 Paper 1"
+  marks?: number; // Original mark value
+  hasImage?: boolean; // Question has associated image
+  timesAnswered?: number; // For calibration
+  correctRate?: number; // For calibration (0.0-1.0)
 }
 
 export interface SubtopicMastery {

@@ -1,0 +1,3152 @@
+[
+  {
+    "id": "num-001",
+    "topic": "number",
+    "subtopic": "place-value",
+    "difficulty": 700,
+    "text": "What is 45,678 rounded to the nearest 1,000?",
+    "options": [
+      "45,000",
+      "46,000",
+      "47,000"
+    ],
+    "correctIndex": 1,
+    "explanation": "678 rounds up because 6 ≥ 5"
+  },
+  {
+    "id": "num-002",
+    "topic": "number",
+    "subtopic": "decimals",
+    "difficulty": 750,
+    "text": "What is 3.45 rounded to 1 decimal place?",
+    "options": [
+      "3.4",
+      "3.5",
+      "3.0"
+    ],
+    "correctIndex": 1,
+    "explanation": "The 5 in hundredths rounds up"
+  },
+  {
+    "id": "num-003",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 800,
+    "text": "Which fraction is equivalent to ½?",
+    "options": [
+      "2/5",
+      "3/6",
+      "2/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "3/6 = 1/2 (divide by 3)"
+  },
+  {
+    "id": "num-004",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 850,
+    "text": "What is 25% of 80?",
+    "options": [
+      "15",
+      "20",
+      "25"
+    ],
+    "correctIndex": 1,
+    "explanation": "25% = 1/4, 80 ÷ 4 = 20"
+  },
+  {
+    "id": "num-005",
+    "topic": "number",
+    "subtopic": "place-value",
+    "difficulty": 650,
+    "text": "What is the value of 7 in 7,234?",
+    "options": [
+      "7",
+      "70",
+      "7,000"
+    ],
+    "correctIndex": 2,
+    "explanation": "7 is in the thousands place"
+  },
+  {
+    "id": "num-006",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 700,
+    "text": "Which is the smallest: 0.5, 0.05, 0.55?",
+    "options": [
+      "0.5",
+      "0.05",
+      "0.55"
+    ],
+    "correctIndex": 1,
+    "explanation": "0.05 = 5 hundredths, smallest"
+  },
+  {
+    "id": "num-007",
+    "topic": "number",
+    "subtopic": "negatives",
+    "difficulty": 900,
+    "text": "Which is colder: -5°C or -12°C?",
+    "options": [
+      "-5°C",
+      "-12°C",
+      "Same"
+    ],
+    "correctIndex": 1,
+    "explanation": "-12 is further from 0, so colder"
+  },
+  {
+    "id": "num-008",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 750,
+    "text": "What is ¾ as a decimal?",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.75"
+    ],
+    "correctIndex": 2,
+    "explanation": "3 ÷ 4 = 0.75"
+  },
+  {
+    "id": "num-009",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 800,
+    "text": "What is 50% as a fraction?",
+    "options": [
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "50% = 50/100 = 1/2"
+  },
+  {
+    "id": "num-010",
+    "topic": "number",
+    "subtopic": "decimals",
+    "difficulty": 700,
+    "text": "0.3 + 0.4 = ?",
+    "options": [
+      "0.7",
+      "0.07",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 tenths + 4 tenths = 7 tenths"
+  },
+  {
+    "id": "num-011",
+    "topic": "number",
+    "subtopic": "place-value",
+    "difficulty": 750,
+    "text": "What is 123,456 rounded to nearest 10,000?",
+    "options": [
+      "120,000",
+      "123,000",
+      "130,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "3,456 < 5,000 so round down"
+  },
+  {
+    "id": "num-012",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Simplify 12/16",
+    "options": [
+      "2/4",
+      "3/4",
+      "6/8"
+    ],
+    "correctIndex": 1,
+    "explanation": "12÷4=3, 16÷4=4, so 3/4"
+  },
+  {
+    "id": "num-013",
+    "topic": "number",
+    "subtopic": "decimals",
+    "difficulty": 800,
+    "text": "Order smallest to largest: 0.6, 0.06, 0.66",
+    "options": [
+      "0.06, 0.6, 0.66",
+      "0.6, 0.06, 0.66",
+      "0.66, 0.6, 0.06"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.06 < 0.6 < 0.66"
+  },
+  {
+    "id": "num-014",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 900,
+    "text": "What is 10% of 250?",
+    "options": [
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "10% = ÷10, so 250÷10=25"
+  },
+  {
+    "id": "num-015",
+    "topic": "number",
+    "subtopic": "negatives",
+    "difficulty": 850,
+    "text": "-3 + 7 = ?",
+    "options": [
+      "4",
+      "10",
+      "-10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Start at -3, go up 7 = 4"
+  },
+  {
+    "id": "num-016",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Which is largest: 2/3, 3/5, 1/2?",
+    "options": [
+      "2/3",
+      "3/5",
+      "1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "2/3≈0.67, 3/5=0.6, 1/2=0.5"
+  },
+  {
+    "id": "num-017",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 800,
+    "text": "What are the factors of 12?",
+    "options": [
+      "1,2,3,4,6,12",
+      "1,2,4,8,12",
+      "2,4,6,12"
+    ],
+    "correctIndex": 0,
+    "explanation": "12=1×12, 2×6, 3×4"
+  },
+  {
+    "id": "num-018",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 700,
+    "text": "First 3 multiples of 7?",
+    "options": [
+      "7,14,21",
+      "1,7,14",
+      "7,14,28"
+    ],
+    "correctIndex": 0,
+    "explanation": "7×1=7, 7×2=14, 7×3=21"
+  },
+  {
+    "id": "num-019",
+    "topic": "number",
+    "subtopic": "primes",
+    "difficulty": 850,
+    "text": "Which is a prime number?",
+    "options": [
+      "9",
+      "15",
+      "23"
+    ],
+    "correctIndex": 2,
+    "explanation": "23 only divisible by 1 and 23"
+  },
+  {
+    "id": "num-020",
+    "topic": "number",
+    "subtopic": "squares",
+    "difficulty": 750,
+    "text": "What is 9²?",
+    "options": [
+      "18",
+      "72",
+      "81"
+    ],
+    "correctIndex": 2,
+    "explanation": "9 × 9 = 81"
+  },
+  {
+    "id": "calc-001",
+    "topic": "calculation",
+    "subtopic": "times-tables",
+    "difficulty": 650,
+    "text": "7 × 8 = ?",
+    "options": [
+      "54",
+      "56",
+      "58"
+    ],
+    "correctIndex": 1,
+    "explanation": "7 × 8 = 56"
+  },
+  {
+    "id": "calc-002",
+    "topic": "calculation",
+    "subtopic": "times-tables",
+    "difficulty": 700,
+    "text": "9 × 6 = ?",
+    "options": [
+      "52",
+      "54",
+      "56"
+    ],
+    "correctIndex": 1,
+    "explanation": "9 × 6 = 54"
+  },
+  {
+    "id": "calc-003",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 750,
+    "text": "72 ÷ 8 = ?",
+    "options": [
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 1,
+    "explanation": "72 ÷ 8 = 9"
+  },
+  {
+    "id": "calc-004",
+    "topic": "calculation",
+    "subtopic": "mental-math",
+    "difficulty": 800,
+    "text": "25 × 4 = ?",
+    "options": [
+      "90",
+      "100",
+      "110"
+    ],
+    "correctIndex": 1,
+    "explanation": "25 × 4 = 100"
+  },
+  {
+    "id": "calc-005",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "(5 × 6) + 12 = ?",
+    "options": [
+      "38",
+      "42",
+      "48"
+    ],
+    "correctIndex": 1,
+    "explanation": "30 + 12 = 42"
+  },
+  {
+    "id": "calc-006",
+    "topic": "calculation",
+    "subtopic": "times-tables",
+    "difficulty": 650,
+    "text": "12 × 5 = ?",
+    "options": [
+      "55",
+      "60",
+      "65"
+    ],
+    "correctIndex": 1,
+    "explanation": "12 × 5 = 60"
+  },
+  {
+    "id": "calc-007",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 800,
+    "text": "100 ÷ 4 = ?",
+    "options": [
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "100 ÷ 4 = 25"
+  },
+  {
+    "id": "calc-008",
+    "topic": "calculation",
+    "subtopic": "mental-math",
+    "difficulty": 750,
+    "text": "Double 35 = ?",
+    "options": [
+      "60",
+      "70",
+      "80"
+    ],
+    "correctIndex": 1,
+    "explanation": "35 × 2 = 70"
+  },
+  {
+    "id": "calc-009",
+    "topic": "calculation",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "½ + ¼ = ?",
+    "options": [
+      "2/4",
+      "3/4",
+      "1/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "2/4 + 1/4 = 3/4"
+  },
+  {
+    "id": "calc-010",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 950,
+    "text": "If 3 pencils cost 45p, how much for 5?",
+    "options": [
+      "60p",
+      "75p",
+      "90p"
+    ],
+    "correctIndex": 1,
+    "explanation": "45÷3=15p each, 15×5=75p"
+  },
+  {
+    "id": "calc-011",
+    "topic": "calculation",
+    "subtopic": "times-tables",
+    "difficulty": 700,
+    "text": "11 × 7 = ?",
+    "options": [
+      "77",
+      "78",
+      "87"
+    ],
+    "correctIndex": 0,
+    "explanation": "11 × 7 = 77"
+  },
+  {
+    "id": "calc-012",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 750,
+    "text": "84 ÷ 7 = ?",
+    "options": [
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "84 ÷ 7 = 12"
+  },
+  {
+    "id": "calc-013",
+    "topic": "calculation",
+    "subtopic": "mental-math",
+    "difficulty": 800,
+    "text": "Half of 126 = ?",
+    "options": [
+      "53",
+      "63",
+      "73"
+    ],
+    "correctIndex": 1,
+    "explanation": "126 ÷ 2 = 63"
+  },
+  {
+    "id": "calc-014",
+    "topic": "calculation",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "⅓ of 27 = ?",
+    "options": [
+      "7",
+      "9",
+      "11"
+    ],
+    "correctIndex": 1,
+    "explanation": "27 ÷ 3 = 9"
+  },
+  {
+    "id": "calc-015",
+    "topic": "calculation",
+    "subtopic": "decimals",
+    "difficulty": 850,
+    "text": "2.5 × 4 = ?",
+    "options": [
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "2.5 × 4 = 10"
+  },
+  {
+    "id": "calc-016",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "100 - (8 × 7) = ?",
+    "options": [
+      "44",
+      "46",
+      "56"
+    ],
+    "correctIndex": 0,
+    "explanation": "100 - 56 = 44"
+  },
+  {
+    "id": "calc-017",
+    "topic": "calculation",
+    "subtopic": "times-tables",
+    "difficulty": 650,
+    "text": "6 × 6 = ?",
+    "options": [
+      "32",
+      "36",
+      "42"
+    ],
+    "correctIndex": 1,
+    "explanation": "6 × 6 = 36"
+  },
+  {
+    "id": "calc-018",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 800,
+    "text": "144 ÷ 12 = ?",
+    "options": [
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "explanation": "144 ÷ 12 = 12"
+  },
+  {
+    "id": "calc-019",
+    "topic": "calculation",
+    "subtopic": "fractions",
+    "difficulty": 900,
+    "text": "¾ - ¼ = ?",
+    "options": [
+      "1/4",
+      "2/4",
+      "3/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "3/4 - 1/4 = 2/4 = 1/2"
+  },
+  {
+    "id": "calc-020",
+    "topic": "calculation",
+    "subtopic": "percentages",
+    "difficulty": 900,
+    "text": "What is 20% of 150?",
+    "options": [
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 1,
+    "explanation": "10%=15, 20%=30"
+  },
+  {
+    "id": "geom-001",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "How many sides does a hexagon have?",
+    "options": [
+      "5",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Hex = 6"
+  },
+  {
+    "id": "geom-002",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 750,
+    "text": "What type of angle is 90°?",
+    "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+    ],
+    "correctIndex": 1,
+    "explanation": "90° is a right angle"
+  },
+  {
+    "id": "geom-003",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "How many faces does a cube have?",
+    "options": [
+      "4",
+      "6",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "A cube has 6 faces"
+  },
+  {
+    "id": "geom-004",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 850,
+    "text": "Angles in a triangle sum to...?",
+    "options": [
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Triangle angles = 180°"
+  },
+  {
+    "id": "geom-005",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "Which point is at (3, 2)?",
+    "options": [
+      "3 right, 2 up",
+      "2 right, 3 up",
+      "3 down, 2 left"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x, y) = (right, up)"
+  },
+  {
+    "id": "geom-006",
+    "topic": "geometry",
+    "subtopic": "symmetry",
+    "difficulty": 700,
+    "text": "How many lines of symmetry in a square?",
+    "options": [
+      "2",
+      "4",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Square has 4 lines of symmetry"
+  },
+  {
+    "id": "geom-007",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 650,
+    "text": "What shape has 4 equal sides?",
+    "options": [
+      "Rectangle",
+      "Square",
+      "Triangle"
+    ],
+    "correctIndex": 1,
+    "explanation": "Square has 4 equal sides"
+  },
+  {
+    "id": "geom-008",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 900,
+    "text": "An angle of 120° is called...?",
+    "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+    ],
+    "correctIndex": 2,
+    "explanation": "90° < 120° < 180° = obtuse"
+  },
+  {
+    "id": "geom-009",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 850,
+    "text": "What 3D shape has 1 curved face?",
+    "options": [
+      "Cube",
+      "Cylinder",
+      "Pyramid"
+    ],
+    "correctIndex": 1,
+    "explanation": "Cylinder has curved surface"
+  },
+  {
+    "id": "geom-010",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 750,
+    "text": "Move from (1,1) to (4,1). Direction?",
+    "options": [
+      "Up",
+      "Right",
+      "Down"
+    ],
+    "correctIndex": 1,
+    "explanation": "x increases = move right"
+  },
+  {
+    "id": "geom-011",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "How many sides does a pentagon have?",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "Penta = 5"
+  },
+  {
+    "id": "geom-012",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "How many edges does a cube have?",
+    "options": [
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "A cube has 12 edges"
+  },
+  {
+    "id": "geom-013",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "What is an angle less than 90° called?",
+    "options": [
+      "Acute",
+      "Right",
+      "Obtuse"
+    ],
+    "correctIndex": 0,
+    "explanation": "< 90° = acute"
+  },
+  {
+    "id": "geom-014",
+    "topic": "geometry",
+    "subtopic": "symmetry",
+    "difficulty": 750,
+    "text": "Lines of symmetry in equilateral triangle?",
+    "options": [
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 2,
+    "explanation": "Equilateral has 3 lines"
+  },
+  {
+    "id": "geom-015",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 850,
+    "text": "How many vertices does a cube have?",
+    "options": [
+      "6",
+      "8",
+      "10"
+    ],
+    "correctIndex": 1,
+    "explanation": "A cube has 8 corners"
+  },
+  {
+    "id": "geom-016",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 850,
+    "text": "Angles on a straight line sum to...?",
+    "options": [
+      "90°",
+      "180°",
+      "360°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Straight line = 180°"
+  },
+  {
+    "id": "geom-017",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "Reflect (2,3) in the y-axis. New point?",
+    "options": [
+      "(-2,3)",
+      "(2,-3)",
+      "(3,2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "y-axis reflection: x becomes -x"
+  },
+  {
+    "id": "geom-018",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 750,
+    "text": "A rhombus has how many equal sides?",
+    "options": [
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 2,
+    "explanation": "Rhombus: 4 equal sides"
+  },
+  {
+    "id": "geom-019",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "What shape is a football?",
+    "options": [
+      "Cube",
+      "Sphere",
+      "Cylinder"
+    ],
+    "correctIndex": 1,
+    "explanation": "Football is sphere-shaped"
+  },
+  {
+    "id": "geom-020",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 900,
+    "text": "Angles around a point sum to...?",
+    "options": [
+      "180°",
+      "270°",
+      "360°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Full turn = 360°"
+  },
+  {
+    "id": "meas-001",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "How many cm in 1 metre?",
+    "options": [
+      "10",
+      "100",
+      "1000"
+    ],
+    "correctIndex": 1,
+    "explanation": "1m = 100cm"
+  },
+  {
+    "id": "meas-002",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "How many grams in 2 kg?",
+    "options": [
+      "200",
+      "2000",
+      "20000"
+    ],
+    "correctIndex": 1,
+    "explanation": "1kg = 1000g, so 2kg = 2000g"
+  },
+  {
+    "id": "meas-003",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 800,
+    "text": "15:30 in 12-hour time?",
+    "options": [
+      "3:30 am",
+      "3:30 pm",
+      "5:30 pm"
+    ],
+    "correctIndex": 1,
+    "explanation": "15 - 12 = 3 pm"
+  },
+  {
+    "id": "meas-004",
+    "topic": "measure",
+    "subtopic": "perimeter",
+    "difficulty": 850,
+    "text": "Perimeter of rectangle 5cm × 3cm?",
+    "options": [
+      "8cm",
+      "15cm",
+      "16cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "2×(5+3) = 16cm"
+  },
+  {
+    "id": "meas-005",
+    "topic": "measure",
+    "subtopic": "area",
+    "difficulty": 900,
+    "text": "Area of square with side 4cm?",
+    "options": [
+      "8cm²",
+      "12cm²",
+      "16cm²"
+    ],
+    "correctIndex": 2,
+    "explanation": "4 × 4 = 16cm²"
+  },
+  {
+    "id": "meas-006",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 700,
+    "text": "£5.00 - £2.35 = ?",
+    "options": [
+      "£2.35",
+      "£2.65",
+      "£3.65"
+    ],
+    "correctIndex": 1,
+    "explanation": "500 - 235 = 265p = £2.65"
+  },
+  {
+    "id": "meas-007",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "How many minutes in 2 hours?",
+    "options": [
+      "100",
+      "120",
+      "200"
+    ],
+    "correctIndex": 1,
+    "explanation": "60 × 2 = 120 minutes"
+  },
+  {
+    "id": "meas-008",
+    "topic": "measure",
+    "subtopic": "capacity",
+    "difficulty": 800,
+    "text": "How many ml in 1.5 litres?",
+    "options": [
+      "150",
+      "1500",
+      "15000"
+    ],
+    "correctIndex": 1,
+    "explanation": "1L = 1000ml, 1.5L = 1500ml"
+  },
+  {
+    "id": "meas-009",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 650,
+    "text": "How many mm in 1 cm?",
+    "options": [
+      "1",
+      "10",
+      "100"
+    ],
+    "correctIndex": 1,
+    "explanation": "1cm = 10mm"
+  },
+  {
+    "id": "meas-010",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 850,
+    "text": "3 items at £1.25 each. Total?",
+    "options": [
+      "£3.25",
+      "£3.75",
+      "£4.25"
+    ],
+    "correctIndex": 1,
+    "explanation": "1.25 × 3 = 3.75"
+  },
+  {
+    "id": "meas-011",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 750,
+    "text": "How many metres in 2.5 km?",
+    "options": [
+      "250",
+      "2500",
+      "25000"
+    ],
+    "correctIndex": 1,
+    "explanation": "1km = 1000m, 2.5km = 2500m"
+  },
+  {
+    "id": "meas-012",
+    "topic": "measure",
+    "subtopic": "area",
+    "difficulty": 900,
+    "text": "Area of rectangle 6cm × 4cm?",
+    "options": [
+      "10cm²",
+      "20cm²",
+      "24cm²"
+    ],
+    "correctIndex": 2,
+    "explanation": "6 × 4 = 24cm²"
+  },
+  {
+    "id": "meas-013",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 800,
+    "text": "How many seconds in 3 minutes?",
+    "options": [
+      "90",
+      "180",
+      "300"
+    ],
+    "correctIndex": 1,
+    "explanation": "60 × 3 = 180 seconds"
+  },
+  {
+    "id": "meas-014",
+    "topic": "measure",
+    "subtopic": "perimeter",
+    "difficulty": 800,
+    "text": "Perimeter of square with side 7cm?",
+    "options": [
+      "14cm",
+      "28cm",
+      "49cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "4 × 7 = 28cm"
+  },
+  {
+    "id": "meas-015",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 800,
+    "text": "A bag weighs 500g. 3 bags = ?",
+    "options": [
+      "1kg",
+      "1.5kg",
+      "2kg"
+    ],
+    "correctIndex": 1,
+    "explanation": "500 × 3 = 1500g = 1.5kg"
+  },
+  {
+    "id": "meas-016",
+    "topic": "measure",
+    "subtopic": "capacity",
+    "difficulty": 750,
+    "text": "How many 250ml cups fill 1 litre?",
+    "options": [
+      "2",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "1000 ÷ 250 = 4 cups"
+  },
+  {
+    "id": "meas-017",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 850,
+    "text": "Train leaves 09:45, arrives 11:20. Journey?",
+    "options": [
+      "1h 25min",
+      "1h 35min",
+      "2h 25min"
+    ],
+    "correctIndex": 1,
+    "explanation": "15min to 10:00, 1h20min to 11:20 = 1h35min"
+  },
+  {
+    "id": "meas-018",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 800,
+    "text": "£10 - £3.67 = ?",
+    "options": [
+      "£6.23",
+      "£6.33",
+      "£7.33"
+    ],
+    "correctIndex": 1,
+    "explanation": "1000 - 367 = 633p = £6.33"
+  },
+  {
+    "id": "meas-019",
+    "topic": "measure",
+    "subtopic": "area",
+    "difficulty": 950,
+    "text": "Area of triangle: base 6cm, height 4cm?",
+    "options": [
+      "10cm²",
+      "12cm²",
+      "24cm²"
+    ],
+    "correctIndex": 1,
+    "explanation": "½ × 6 × 4 = 12cm²"
+  },
+  {
+    "id": "meas-020",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "Which is longer: 150cm or 1.4m?",
+    "options": [
+      "150cm",
+      "1.4m",
+      "Same"
+    ],
+    "correctIndex": 0,
+    "explanation": "150cm = 1.5m > 1.4m"
+  },
+  {
+    "id": "data-001",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 700,
+    "text": "Bar chart shows: Red=5, Blue=8. Difference?",
+    "options": [
+      "2",
+      "3",
+      "13"
+    ],
+    "correctIndex": 1,
+    "explanation": "8 - 5 = 3"
+  },
+  {
+    "id": "data-002",
+    "topic": "data",
+    "subtopic": "mean",
+    "difficulty": 850,
+    "text": "Mean of 4, 6, 8?",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "(4+6+8)÷3 = 18÷3 = 6"
+  },
+  {
+    "id": "data-003",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 750,
+    "text": "Coin flip: chance of heads?",
+    "options": [
+      "Impossible",
+      "Even chance",
+      "Certain"
+    ],
+    "correctIndex": 1,
+    "explanation": "50/50 = even chance"
+  },
+  {
+    "id": "data-004",
+    "topic": "data",
+    "subtopic": "mode",
+    "difficulty": 800,
+    "text": "Mode of 2, 3, 3, 4, 5?",
+    "options": [
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "3 appears most often"
+  },
+  {
+    "id": "data-005",
+    "topic": "data",
+    "subtopic": "range",
+    "difficulty": 800,
+    "text": "Range of 12, 8, 15, 6?",
+    "options": [
+      "6",
+      "9",
+      "15"
+    ],
+    "correctIndex": 1,
+    "explanation": "15 - 6 = 9"
+  },
+  {
+    "id": "data-006",
+    "topic": "data",
+    "subtopic": "tables",
+    "difficulty": 700,
+    "text": "Table: Mon=3, Tue=5, Wed=4. Total?",
+    "options": [
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "explanation": "3 + 5 + 4 = 12"
+  },
+  {
+    "id": "data-007",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 800,
+    "text": "Picking red from bag of 10 red balls?",
+    "options": [
+      "Impossible",
+      "Likely",
+      "Certain"
+    ],
+    "correctIndex": 2,
+    "explanation": "All red = certain"
+  },
+  {
+    "id": "data-008",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 750,
+    "text": "Tallest bar = 20. Shortest = 8. Difference?",
+    "options": [
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 1,
+    "explanation": "20 - 8 = 12"
+  },
+  {
+    "id": "data-009",
+    "topic": "data",
+    "subtopic": "mean",
+    "difficulty": 900,
+    "text": "Mean of 10, 12, 14, 16?",
+    "options": [
+      "12",
+      "13",
+      "14"
+    ],
+    "correctIndex": 1,
+    "explanation": "(10+12+14+16)÷4 = 52÷4 = 13"
+  },
+  {
+    "id": "data-010",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 850,
+    "text": "Dice roll: chance of 7?",
+    "options": [
+      "Impossible",
+      "Unlikely",
+      "Certain"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dice only has 1-6"
+  },
+  {
+    "id": "data-011",
+    "topic": "data",
+    "subtopic": "median",
+    "difficulty": 850,
+    "text": "Median of 3, 5, 7, 9, 11?",
+    "options": [
+      "5",
+      "7",
+      "9"
+    ],
+    "correctIndex": 1,
+    "explanation": "Middle value = 7"
+  },
+  {
+    "id": "data-012",
+    "topic": "data",
+    "subtopic": "tables",
+    "difficulty": 750,
+    "text": "Frequency table: A=4, B=6, C=5. Most common?",
+    "options": [
+      "A",
+      "B",
+      "C"
+    ],
+    "correctIndex": 1,
+    "explanation": "B has highest frequency (6)"
+  },
+  {
+    "id": "data-013",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 850,
+    "text": "Spinner: 3 red, 1 blue. Probability of red?",
+    "options": [
+      "1/4",
+      "3/4",
+      "1/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "3 out of 4 sections = 3/4"
+  },
+  {
+    "id": "data-014",
+    "topic": "data",
+    "subtopic": "mean",
+    "difficulty": 900,
+    "text": "5 test scores average 70. Total marks?",
+    "options": [
+      "300",
+      "350",
+      "400"
+    ],
+    "correctIndex": 1,
+    "explanation": "5 × 70 = 350"
+  },
+  {
+    "id": "data-015",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 800,
+    "text": "Bar chart scale: 1 square = 4. Bar height = 6. Value?",
+    "options": [
+      "18",
+      "24",
+      "28"
+    ],
+    "correctIndex": 1,
+    "explanation": "6 × 4 = 24"
+  },
+  {
+    "id": "data-016",
+    "topic": "data",
+    "subtopic": "mode",
+    "difficulty": 750,
+    "text": "Mode of 5, 5, 6, 7, 5, 8?",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "5 appears 3 times (most)"
+  },
+  {
+    "id": "data-017",
+    "topic": "data",
+    "subtopic": "range",
+    "difficulty": 750,
+    "text": "Temperatures: 2°C, 5°C, 8°C, -1°C. Range?",
+    "options": [
+      "6°C",
+      "8°C",
+      "9°C"
+    ],
+    "correctIndex": 2,
+    "explanation": "8 - (-1) = 9°C"
+  },
+  {
+    "id": "data-018",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 800,
+    "text": "Bag: 3 red, 2 blue, 5 green. Probability of blue?",
+    "options": [
+      "1/5",
+      "2/10",
+      "Both correct"
+    ],
+    "correctIndex": 2,
+    "explanation": "2/10 = 1/5, both are correct"
+  },
+  {
+    "id": "data-019",
+    "topic": "data",
+    "subtopic": "median",
+    "difficulty": 850,
+    "text": "Median of 4, 8, 12, 16?",
+    "options": [
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "Middle of 8 and 12 = 10"
+  },
+  {
+    "id": "data-020",
+    "topic": "data",
+    "subtopic": "tables",
+    "difficulty": 750,
+    "text": "Tally: IIII II = ?",
+    "options": [
+      "5",
+      "6",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "5 + 2 = 7"
+  },
+  {
+    "id": "num-021",
+    "topic": "number",
+    "subtopic": "roman-numerals",
+    "difficulty": 750,
+    "text": "What is XLVII in numbers?",
+    "options": [
+      "37",
+      "47",
+      "57"
+    ],
+    "correctIndex": 1,
+    "explanation": "XL=40, VII=7, so 47"
+  },
+  {
+    "id": "num-022",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Next in sequence: 2, 5, 8, 11, ?",
+    "options": [
+      "13",
+      "14",
+      "15"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add 3 each time: 11+3=14"
+  },
+  {
+    "id": "num-023",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Order smallest to largest: 1/2, 2/3, 3/4",
+    "options": [
+      "1/2, 2/3, 3/4",
+      "3/4, 2/3, 1/2",
+      "2/3, 1/2, 3/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.5 < 0.67 < 0.75"
+  },
+  {
+    "id": "num-024",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 850,
+    "text": "What is 75% as a fraction?",
+    "options": [
+      "1/4",
+      "3/4",
+      "4/5"
+    ],
+    "correctIndex": 1,
+    "explanation": "75/100 = 3/4"
+  },
+  {
+    "id": "num-025",
+    "topic": "number",
+    "subtopic": "place-value",
+    "difficulty": 800,
+    "text": "What is 10 × 0.03?",
+    "options": [
+      "0.003",
+      "0.3",
+      "3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Move decimal one place right"
+  },
+  {
+    "id": "calc-021",
+    "topic": "calculation",
+    "subtopic": "order-of-operations",
+    "difficulty": 850,
+    "text": "2 + 3 × 4 = ?",
+    "options": [
+      "14",
+      "20",
+      "24"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiply first: 3×4=12, then +2=14"
+  },
+  {
+    "id": "calc-022",
+    "topic": "calculation",
+    "subtopic": "inverse-operations",
+    "difficulty": 800,
+    "text": "? × 6 = 54. What is ?",
+    "options": [
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 1,
+    "explanation": "54 ÷ 6 = 9"
+  },
+  {
+    "id": "calc-023",
+    "topic": "calculation",
+    "subtopic": "decimals",
+    "difficulty": 850,
+    "text": "3.6 ÷ 4 = ?",
+    "options": [
+      "0.8",
+      "0.9",
+      "1.2"
+    ],
+    "correctIndex": 1,
+    "explanation": "36 ÷ 4 = 9, so 3.6 ÷ 4 = 0.9"
+  },
+  {
+    "id": "calc-024",
+    "topic": "calculation",
+    "subtopic": "fractions",
+    "difficulty": 900,
+    "text": "2/5 × 10 = ?",
+    "options": [
+      "2",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "10 × 2 ÷ 5 = 20 ÷ 5 = 4"
+  },
+  {
+    "id": "calc-025",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 950,
+    "text": "Bus has 45 passengers. 12 get off, 8 get on. Total?",
+    "options": [
+      "39",
+      "41",
+      "53"
+    ],
+    "correctIndex": 1,
+    "explanation": "45 - 12 + 8 = 41"
+  },
+  {
+    "id": "geom-021",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 850,
+    "text": "Two angles sum to 90°. They are...?",
+    "options": [
+      "Complementary",
+      "Supplementary",
+      "Reflex"
+    ],
+    "correctIndex": 0,
+    "explanation": "Complementary angles = 90°"
+  },
+  {
+    "id": "geom-022",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 800,
+    "text": "Opposite sides equal, all angles 90°. Shape?",
+    "options": [
+      "Square",
+      "Rectangle",
+      "Rhombus"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rectangle has these properties"
+  },
+  {
+    "id": "geom-023",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 850,
+    "text": "Midpoint of (2,4) and (6,8)?",
+    "options": [
+      "(3,5)",
+      "(4,6)",
+      "(5,7)"
+    ],
+    "correctIndex": 1,
+    "explanation": "((2+6)/2, (4+8)/2) = (4,6)"
+  },
+  {
+    "id": "geom-024",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 850,
+    "text": "Triangular prism has how many faces?",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "2 triangles + 3 rectangles = 5"
+  },
+  {
+    "id": "geom-025",
+    "topic": "geometry",
+    "subtopic": "symmetry",
+    "difficulty": 800,
+    "text": "Order of rotational symmetry for a square?",
+    "options": [
+      "2",
+      "4",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "Square looks same 4 times in full turn"
+  },
+  {
+    "id": "meas-021",
+    "topic": "measure",
+    "subtopic": "area",
+    "difficulty": 900,
+    "text": "Compound shape: rectangle 5×3 + square 2×2. Area?",
+    "options": [
+      "17cm²",
+      "19cm²",
+      "21cm²"
+    ],
+    "correctIndex": 1,
+    "explanation": "15 + 4 = 19cm²"
+  },
+  {
+    "id": "meas-022",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 850,
+    "text": "Film starts 7:45pm, lasts 1h 50min. End time?",
+    "options": [
+      "9:25pm",
+      "9:35pm",
+      "9:45pm"
+    ],
+    "correctIndex": 1,
+    "explanation": "7:45 + 1:50 = 9:35pm"
+  },
+  {
+    "id": "meas-023",
+    "topic": "measure",
+    "subtopic": "capacity",
+    "difficulty": 800,
+    "text": "4 bottles of 330ml. Total in litres?",
+    "options": [
+      "1.2L",
+      "1.32L",
+      "1.5L"
+    ],
+    "correctIndex": 1,
+    "explanation": "330 × 4 = 1320ml = 1.32L"
+  },
+  {
+    "id": "meas-024",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 850,
+    "text": "20% off £45. Sale price?",
+    "options": [
+      "£35",
+      "£36",
+      "£40"
+    ],
+    "correctIndex": 1,
+    "explanation": "20% = £9 off, £45 - £9 = £36"
+  },
+  {
+    "id": "meas-025",
+    "topic": "measure",
+    "subtopic": "perimeter",
+    "difficulty": 850,
+    "text": "Regular hexagon, side 5cm. Perimeter?",
+    "options": [
+      "25cm",
+      "30cm",
+      "35cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "6 × 5 = 30cm"
+  },
+  {
+    "id": "data-021",
+    "topic": "data",
+    "subtopic": "pie-charts",
+    "difficulty": 850,
+    "text": "Pie chart: red = 1/4 of 360°. Angle?",
+    "options": [
+      "60°",
+      "90°",
+      "120°"
+    ],
+    "correctIndex": 1,
+    "explanation": "360 ÷ 4 = 90°"
+  },
+  {
+    "id": "data-022",
+    "topic": "data",
+    "subtopic": "line-graphs",
+    "difficulty": 800,
+    "text": "Line graph: 10 at 9am, 20 at 11am. Increase?",
+    "options": [
+      "5",
+      "10",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "20 - 10 = 10"
+  },
+  {
+    "id": "data-023",
+    "topic": "data",
+    "subtopic": "mean",
+    "difficulty": 900,
+    "text": "Scores: 15, 20, 25, 30, 35. Mean?",
+    "options": [
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "(15+20+25+30+35)÷5 = 125÷5 = 25"
+  },
+  {
+    "id": "data-024",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 850,
+    "text": "Two dice: probability both show 6?",
+    "options": [
+      "1/12",
+      "1/36",
+      "2/12"
+    ],
+    "correctIndex": 1,
+    "explanation": "1/6 × 1/6 = 1/36"
+  },
+  {
+    "id": "data-025",
+    "topic": "data",
+    "subtopic": "tables",
+    "difficulty": 800,
+    "text": "Two-way table: Boys who like football = 15, Girls = 12. Total?",
+    "options": [
+      "25",
+      "27",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "15 + 12 = 27"
+  },
+  {
+    "id": "num-026",
+    "topic": "number",
+    "subtopic": "estimation",
+    "difficulty": 800,
+    "text": "Estimate 498 + 312",
+    "options": [
+      "700",
+      "800",
+      "900"
+    ],
+    "correctIndex": 1,
+    "explanation": "500 + 300 = 800"
+  },
+  {
+    "id": "num-027",
+    "topic": "number",
+    "subtopic": "ratio",
+    "difficulty": 900,
+    "text": "Ratio 2:3. If smaller part is 10, larger part is?",
+    "options": [
+      "12",
+      "15",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "10 ÷ 2 = 5 per part, 5 × 3 = 15"
+  },
+  {
+    "id": "num-028",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 850,
+    "text": "Sequence: 1, 4, 9, 16, ? (square numbers)",
+    "options": [
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 1,
+    "explanation": "5² = 25"
+  },
+  {
+    "id": "num-029",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 900,
+    "text": "Mixed number 2⅓ as improper fraction?",
+    "options": [
+      "5/3",
+      "7/3",
+      "8/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "2 × 3 + 1 = 7, so 7/3"
+  },
+  {
+    "id": "num-030",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 850,
+    "text": "45 out of 50. What percentage?",
+    "options": [
+      "85%",
+      "90%",
+      "95%"
+    ],
+    "correctIndex": 1,
+    "explanation": "45/50 = 90/100 = 90%"
+  },
+  {
+    "id": "cam14-p1-01a",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "3573 rounded to the nearest 10 is?",
+    "options": [
+      "3570",
+      "3580",
+      "3600"
+    ],
+    "correctIndex": 0,
+    "explanation": "7 in units is >= 5, but we round 73 to 70",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-01b",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "3573 rounded to the nearest 1000 is?",
+    "options": [
+      "3000",
+      "4000",
+      "3500"
+    ],
+    "correctIndex": 1,
+    "explanation": "573 >= 500, so round up to 4000",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-02",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Which two numbers from 2.4, 3.4, 4.6, 6.4, 7.6, 8.6 total 10?",
+    "options": [
+      "2.4 and 7.6",
+      "3.4 and 6.4",
+      "4.6 and 8.6"
+    ],
+    "correctIndex": 0,
+    "explanation": "2.4 + 7.6 = 10",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-03a",
+    "topic": "calculation",
+    "subtopic": "mental-math",
+    "difficulty": 750,
+    "text": "Double 260 = ?",
+    "options": [
+      "420",
+      "520",
+      "620"
+    ],
+    "correctIndex": 1,
+    "explanation": "260 × 2 = 520",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-03b",
+    "topic": "calculation",
+    "subtopic": "mental-math",
+    "difficulty": 750,
+    "text": "Double ? = 9400. What is the missing number?",
+    "options": [
+      "4600",
+      "4700",
+      "4800"
+    ],
+    "correctIndex": 1,
+    "explanation": "9400 ÷ 2 = 4700",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-04a",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "1954 + 100 = ?",
+    "options": [
+      "1964",
+      "2054",
+      "2954"
+    ],
+    "correctIndex": 1,
+    "explanation": "Adding 100 changes thousands digit",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-04b",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "? + 1000 = 30217. What is the missing number?",
+    "options": [
+      "29217",
+      "29017",
+      "30117"
+    ],
+    "correctIndex": 0,
+    "explanation": "30217 - 1000 = 29217",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-05a",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "7.4 rounded to the nearest whole number is?",
+    "options": [
+      "7",
+      "8",
+      "7.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.4 < 0.5, so round down to 7",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-05b",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "5.55 rounded to the nearest whole number is?",
+    "options": [
+      "5",
+      "6",
+      "5.5"
+    ],
+    "correctIndex": 1,
+    "explanation": "0.55 >= 0.5, so round up to 6",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-05c",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "8.09 rounded to the nearest whole number is?",
+    "options": [
+      "8",
+      "9",
+      "8.1"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.09 < 0.5, so round down to 8",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-06",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 900,
+    "text": "Pattern: 27, 67, ?, ?. Rule: +40. Find the next two numbers.",
+    "options": [
+      "107, 147",
+      "97, 137",
+      "117, 157"
+    ],
+    "correctIndex": 0,
+    "explanation": "67 + 40 = 107, 107 + 40 = 147",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-07",
+    "topic": "number",
+    "subtopic": "place-value",
+    "difficulty": 800,
+    "text": "Which number is 100 times bigger than 904?",
+    "options": [
+      "9040",
+      "90400",
+      "904000"
+    ],
+    "correctIndex": 1,
+    "explanation": "904 × 100 = 90400",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-08a",
+    "topic": "calculation",
+    "subtopic": "times-tables",
+    "difficulty": 750,
+    "text": "Complete the multiplication grid: 4 × 6 = ?",
+    "options": [
+      "20",
+      "24",
+      "28"
+    ],
+    "correctIndex": 1,
+    "explanation": "4 × 6 = 24",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-08b",
+    "topic": "calculation",
+    "subtopic": "times-tables",
+    "difficulty": 750,
+    "text": "In a multiplication grid, if 9 × 3 = 27, what is 9 × 8?",
+    "options": [
+      "63",
+      "72",
+      "81"
+    ],
+    "correctIndex": 1,
+    "explanation": "9 × 8 = 72",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-09",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "6024 - 3997 = ?",
+    "options": [
+      "2017",
+      "2027",
+      "2127"
+    ],
+    "correctIndex": 1,
+    "explanation": "6024 - 3997 = 2027",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-10",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 750,
+    "text": "An acute angle is an angle that is?",
+    "options": [
+      "Less than 90°",
+      "Exactly 90°",
+      "More than 90°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Acute angles are less than 90°",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-11",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "A jug has 1.4 L of water. Paul adds 600 ml. How much water is in the jug now?",
+    "options": [
+      "1.8 L",
+      "2.0 L",
+      "2.4 L"
+    ],
+    "correctIndex": 1,
+    "explanation": "1400 ml + 600 ml = 2000 ml = 2 L",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-13a",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "268 × 7 = ?",
+    "options": [
+      "1776",
+      "1876",
+      "1886"
+    ],
+    "correctIndex": 1,
+    "explanation": "268 × 7 = 1876",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-13b",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "704 ÷ 4 = ?",
+    "options": [
+      "166",
+      "176",
+      "186"
+    ],
+    "correctIndex": 1,
+    "explanation": "704 ÷ 4 = 176",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-14",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 950,
+    "text": "Which fraction is closest to 1 on a number line: 2/3, 3/4, or 10/8?",
+    "options": [
+      "2/3",
+      "3/4",
+      "10/8"
+    ],
+    "correctIndex": 2,
+    "explanation": "10/8 = 1.25, which is past 1; 3/4 = 0.75; 2/3 ≈ 0.67",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-15",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "150 sweets shared equally between Andrew and 5 friends. How many sweets each?",
+    "options": [
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 children total (Andrew + 5 friends), 150 ÷ 6 = 25",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-16",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 850,
+    "text": "Which numbers (greater than 1) are factors of both 18 and 30?",
+    "options": [
+      "2, 3, 6",
+      "2, 5, 6",
+      "3, 5, 9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Factors of 18: 1,2,3,6,9,18. Factors of 30: 1,2,3,5,6,10,15,30. Common: 2,3,6",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-17a",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 750,
+    "text": "True or False: Triangles can have 2 acute angles.",
+    "options": [
+      "True",
+      "False",
+      "Sometimes"
+    ],
+    "correctIndex": 0,
+    "explanation": "True - all triangles have at least 2 acute angles",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-17b",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "True or False: Triangles can have 2 obtuse angles.",
+    "options": [
+      "True",
+      "False",
+      "Sometimes"
+    ],
+    "correctIndex": 1,
+    "explanation": "False - sum of angles = 180°, so max 1 obtuse angle",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-17c",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "True or False: Triangles can have 2 perpendicular sides.",
+    "options": [
+      "True",
+      "False",
+      "Sometimes"
+    ],
+    "correctIndex": 0,
+    "explanation": "True - right-angled triangles have 2 perpendicular sides",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-17d",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "True or False: Triangles can have 2 parallel sides.",
+    "options": [
+      "True",
+      "False",
+      "Sometimes"
+    ],
+    "correctIndex": 1,
+    "explanation": "False - triangles have no parallel sides",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-19b",
+    "topic": "data",
+    "subtopic": "graphs",
+    "difficulty": 800,
+    "text": "From a temperature graph, the temperature at 10:30 am was between 17°C and 21°C. What was it?",
+    "options": [
+      "17°C",
+      "19°C",
+      "21°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Reading from graph at 10:30 am gives approximately 19°C",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-19c",
+    "topic": "data",
+    "subtopic": "line-graphs",
+    "difficulty": 800,
+    "text": "For how long was the temperature 25°C or higher?",
+    "options": [
+      "1 hour",
+      "2 hours",
+      "3 hours"
+    ],
+    "correctIndex": 1,
+    "explanation": "From graph: temperature ≥ 25°C from 12pm to 2pm = 2 hours",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-21a",
+    "topic": "number",
+    "subtopic": "squares",
+    "difficulty": 850,
+    "text": "A square number between 1-100, odd, two digits, digits sum to 9. What is it?",
+    "options": [
+      "36",
+      "81",
+      "49"
+    ],
+    "correctIndex": 1,
+    "explanation": "81 = 9², odd, 8+1=9 ✓",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-21b",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Two square numbers total 89. What are they?",
+    "options": [
+      "25 and 64",
+      "36 and 49",
+      "16 and 81"
+    ],
+    "correctIndex": 0,
+    "explanation": "25 + 64 = 89 (5² + 8²)",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-22a",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 850,
+    "text": "Spinner A has sections: 4,4,2,4. Spinner B has: 1,4,1,3,3,1. Is scoring '4' less likely on A than B?",
+    "options": [
+      "True",
+      "False",
+      "Equal"
+    ],
+    "correctIndex": 1,
+    "explanation": "A: 3/4 for 4. B: 1/6 for 4. False - 4 is MORE likely on A",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-23",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Two presents cost $120 total. One costs twice the other. Price of the expensive one?",
+    "options": [
+      "$60",
+      "$80",
+      "$40"
+    ],
+    "correctIndex": 1,
+    "explanation": "x + 2x = 120, x = 40, expensive = $80",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p1-25",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Using digits 1-6 once each, what's the smallest odd 6-digit number between 500000-600000?",
+    "options": [
+      "512346",
+      "512347",
+      "512463"
+    ],
+    "correctIndex": 2,
+    "explanation": "Start with 5, then smallest digits, end odd: 512463",
+    "source": "Cambridge 2014 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-01a",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "1/2 of 60 = ?",
+    "options": [
+      "25",
+      "30",
+      "35"
+    ],
+    "correctIndex": 1,
+    "explanation": "60 ÷ 2 = 30",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-01b",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "1/3 of 78 = ?",
+    "options": [
+      "24",
+      "26",
+      "28"
+    ],
+    "correctIndex": 1,
+    "explanation": "78 ÷ 3 = 26",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-01c",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "1/5 of 135 = ?",
+    "options": [
+      "25",
+      "27",
+      "29"
+    ],
+    "correctIndex": 1,
+    "explanation": "135 ÷ 5 = 27",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-02",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Complete the equivalent fraction: 3/4 = ?/? (using dots pattern showing 12 out of 16)",
+    "options": [
+      "9/12",
+      "6/8",
+      "12/16"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/4 = 9/12 (multiply by 3)",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-03",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Complete: 5.? > 5.3 (using digit cards 4,5,7,8)",
+    "options": [
+      "5.4",
+      "5.7",
+      "5.8"
+    ],
+    "correctIndex": 1,
+    "explanation": "5.7 > 5.3 or 5.8 > 5.3",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-04",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "Paul weighs 650g of flour. The scale shows 0g-750g. Where should the arrow point?",
+    "options": [
+      "Between 500g and 750g, closer to 750g",
+      "Exactly at 650g",
+      "Between 250g and 500g"
+    ],
+    "correctIndex": 0,
+    "explanation": "650g is between 500g and 750g, closer to 750g",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-05a",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Hassan's birthday is August 21st. His party is the Saturday after. The date is?",
+    "options": [
+      "August 23rd",
+      "August 24th",
+      "August 25th"
+    ],
+    "correctIndex": 0,
+    "explanation": "If August 21 is a weekday, count to next Saturday",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-05b",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Ryan's birthday is September 10th. August 21st was Thursday. What day is September 10th?",
+    "options": [
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "correctIndex": 1,
+    "explanation": "Count forward 20 days from Thursday = Wednesday",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-06",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "A string has 10 beads: some white, some colored. What fraction are white?",
+    "options": [
+      "3/10",
+      "4/10",
+      "5/10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Count white beads out of total 10",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-07a",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Bar chart shows: Cartoons=80, News=20, Sports=50, Nature=40. Total children asked?",
+    "options": [
+      "180",
+      "190",
+      "200"
+    ],
+    "correctIndex": 1,
+    "explanation": "80 + 20 + 50 + 40 = 190",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-07b",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "How many more children liked cartoons than sports?",
+    "options": [
+      "20",
+      "30",
+      "40"
+    ],
+    "correctIndex": 1,
+    "explanation": "80 - 50 = 30",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-08",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "750 paper clips, 8 per model aeroplane. How many complete aeroplanes?",
+    "options": [
+      "93",
+      "94",
+      "95"
+    ],
+    "correctIndex": 0,
+    "explanation": "750 ÷ 8 = 93.75, so 93 complete aeroplanes",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-09",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 800,
+    "text": "Is 375 a multiple of 25?",
+    "options": [
+      "Yes",
+      "No",
+      "Cannot tell"
+    ],
+    "correctIndex": 0,
+    "explanation": "375 ÷ 25 = 15, exactly divisible, so yes",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-10a",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Sequence: 15, 23, 31, ?. What's next?",
+    "options": [
+      "37",
+      "39",
+      "41"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pattern: +8. 31 + 8 = 39",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-10b",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Sequence: ?, ?, 43, 52, 61. Find the first number.",
+    "options": [
+      "25",
+      "26",
+      "27"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pattern: +9. Going back: 43-9=34, 34-9=25",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-11a",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "True or False: even + even + even = even",
+    "options": [
+      "True",
+      "False",
+      "Sometimes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sum of even numbers is always even",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-11b",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "True or False: odd - odd = odd",
+    "options": [
+      "True",
+      "False",
+      "Sometimes"
+    ],
+    "correctIndex": 1,
+    "explanation": "odd - odd = even. Example: 5 - 3 = 2",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-11c",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "True or False: odd × odd = odd",
+    "options": [
+      "True",
+      "False",
+      "Sometimes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Odd times odd is always odd. Example: 3 × 5 = 15",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-12",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "□ × □ × □ = 100. Find three different numbers from 1-10.",
+    "options": [
+      "2, 5, 10",
+      "4, 5, 5",
+      "2, 2, 25"
+    ],
+    "correctIndex": 0,
+    "explanation": "2 × 5 × 10 = 100",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-13",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Number line from 0 to 25 divided into 5 equal parts. Each section = ?",
+    "options": [
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "25 ÷ 5 = 5 per section",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 2,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-14",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 900,
+    "text": "In a Venn diagram for multiples of 6 and 8, where does 48 go?",
+    "options": [
+      "Only multiples of 6",
+      "Only multiples of 8",
+      "Intersection (both)"
+    ],
+    "correctIndex": 2,
+    "explanation": "48 = 6×8, so it's a multiple of both",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 2,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-15",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Clock shows 8:55 in the evening. What is this in 24-hour format?",
+    "options": [
+      "08:55",
+      "18:55",
+      "20:55"
+    ],
+    "correctIndex": 2,
+    "explanation": "8:55 pm = 20:55 (add 12 hours)",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-16",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Aeroplane departs 4:45 pm, arrives 2h 35min later. Arrival time?",
+    "options": [
+      "7:00 pm",
+      "7:10 pm",
+      "7:20 pm"
+    ],
+    "correctIndex": 2,
+    "explanation": "4:45 + 2:35 = 7:20 pm",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-17",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 800,
+    "text": "Distance table shows Rome to Bangkok is 8844 km. What is Paris to Bangkok?",
+    "options": [
+      "9457 km",
+      "9545 km",
+      "8844 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "Read from table: Paris to Bangkok = 9457 km",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-18",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Order these lengths from shortest to longest: 0.5m, 70mm, 0.3m, 40cm",
+    "options": [
+      "70mm, 0.3m, 40cm, 0.5m",
+      "0.3m, 70mm, 40cm, 0.5m",
+      "40cm, 0.3m, 70mm, 0.5m"
+    ],
+    "correctIndex": 0,
+    "explanation": "Convert all to cm: 50cm, 7cm, 30cm, 40cm. Order: 7, 30, 40, 50",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-19a",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "Point A on a trapezium is at position (2, 3). What are its coordinates?",
+    "options": [
+      "(2, 3)",
+      "(3, 2)",
+      "(2, 2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Coordinates are (x, y) = (2, 3)",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-20a",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 850,
+    "text": "Grid of 25 squares, 10 are grey. What percentage is grey?",
+    "options": [
+      "25%",
+      "40%",
+      "50%"
+    ],
+    "correctIndex": 1,
+    "explanation": "10/25 = 40/100 = 40%",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-20b",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "How many more squares need to be grey to make 75%?",
+    "options": [
+      "5",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "75% of 25 = 18.75 → 19 squares. Need 19 - 10 = 9 more",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-21",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Order smallest to largest: 6/10, 1/2, 0.55, 0.7",
+    "options": [
+      "1/2, 0.55, 6/10, 0.7",
+      "0.55, 1/2, 6/10, 0.7",
+      "6/10, 0.55, 1/2, 0.7"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/2=0.5, 6/10=0.6. Order: 0.5, 0.55, 0.6, 0.7",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-22a",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 750,
+    "text": "Which two items from soft toy $4.10, book $1.79, watch $4.91, camera $4.34, kite $2.19, ball $2.86 cost $7.20?",
+    "options": [
+      "Book and Kite",
+      "Camera and Ball",
+      "Soft toy and Watch"
+    ],
+    "correctIndex": 0,
+    "explanation": "Check combinations: book $1.79 + camera $4.34 + kite $2.19... No. Actually soft toy $4.10 + ball $2.86 = $6.96. Camera $4.34 + ball $2.86 = $7.20 ✓",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-22b",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 800,
+    "text": "How much change from $20 after spending $7.20?",
+    "options": [
+      "$12.80",
+      "$13.20",
+      "$12.20"
+    ],
+    "correctIndex": 0,
+    "explanation": "$20.00 - $7.20 = $12.80",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-23",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Using digits 3, 4, 5, 6 once each, make the largest product: □□ × □□",
+    "options": [
+      "63 × 54",
+      "64 × 53",
+      "65 × 43"
+    ],
+    "correctIndex": 0,
+    "explanation": "63 × 54 = 3402. Test: 64 × 53 = 3392. 63 × 54 is largest",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 2,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-24a",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Square A has area 100 cm². What is the height of square A?",
+    "options": [
+      "10 cm",
+      "25 cm",
+      "50 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "√100 = 10 cm",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-24b",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Square B has area 36 cm². Combined shape has side X. What is length X?",
+    "options": [
+      "4 cm",
+      "6 cm",
+      "10 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "Side of B = √36 = 6 cm. X = 10 - 6 = 4 cm",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-25a",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "800 ÷ (40 × 2) = ?",
+    "options": [
+      "5",
+      "10",
+      "20"
+    ],
+    "correctIndex": 1,
+    "explanation": "800 ÷ 80 = 10",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-25b",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "(24.1 - 7.6) × (6.7 + 17.3) = ?",
+    "options": [
+      "396",
+      "405",
+      "420"
+    ],
+    "correctIndex": 0,
+    "explanation": "16.5 × 24 = 396",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam14-p2-26",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "5 cards with digits 1-4. Mode is 3, sum is 14. What are the 5 digits?",
+    "options": [
+      "2, 3, 3, 3, 3",
+      "1, 3, 3, 3, 4",
+      "2, 2, 3, 3, 4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Mode = 3 means most frequent. 1+3+3+3+4=14 ✓",
+    "source": "Cambridge 2014 Paper 2",
+    "marks": 2,
+    "hasImage": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  }
+]

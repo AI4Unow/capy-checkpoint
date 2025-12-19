@@ -1,0 +1,128 @@
+/**
+ * Upload questions to Firebase Firestore
+ * Run with: npx tsx scripts/upload-questions-to-firebase.ts
+ */
+
+import * as admin from "firebase-admin";
+import * as fs from "fs";
+import * as path from "path";
+
+// Service account path
+const serviceAccountPath = path.join(__dirname, "../../firebase_service_account.json");
+
+// Initialize Firebase Admin
+const serviceAccount = JSON.parse(fs.readFileSync(serviceAccountPath, "utf-8"));
+admin.initializeApp({
+  credential: admin.credential.cert(serviceAccount),
+});
+
+const db = admin.firestore();
+
+interface Question {
+  id: string;
+  topic: string;
+  subtopic: string;
+  difficulty: number;
+  text: string;
+  options: string[];
+  correctIndex: number;
+  explanation: string;
+  source?: string;
+  marks?: number;
+  hasImage?: boolean;
+  timesAnswered?: number;
+  correctRate?: number;
+}
+
+async function loadJsonFile(filePath: string): Promise<Question[]> {
+  const content = fs.readFileSync(filePath, "utf-8");
+  return JSON.parse(content);
+}
+
+async function uploadQuestions(questions: Question[], collectionName = "questions"): Promise<number> {
+  const batch = db.batch();
+  let batchCount = 0;
+  let totalUploaded = 0;
+
+  for (const question of questions) {
+    const docRef = db.collection(collectionName).doc(question.id);
+    batch.set(docRef, question, { merge: true });
+    batchCount++;
+    totalUploaded++;
+
+    // Firestore batch limit is 500
+    if (batchCount >= 400) {
+      await batch.commit();
+      console.log(`Committed batch of ${batchCount} questions...`);
+      batchCount = 0;
+    }
+  }
+
+  // Commit remaining
+  if (batchCount > 0) {
+    await batch.commit();
+    console.log(`Committed final batch of ${batchCount} questions...`);
+  }
+
+  return totalUploaded;
+}
+
+async function main() {
+  const basePath = path.dirname(__dirname);
+  const existingQuestionsPath = path.join(basePath, "src/data/questions.json");
+  const cambridgeQuestionsPath = path.join(basePath, "src/data/cambridge-2014-questions.json");
+
+  // Load questions
+  let existingQuestions: Question[] = [];
+  let cambridgeQuestions: Question[] = [];
+
+  if (fs.existsSync(existingQuestionsPath)) {
+    existingQuestions = await loadJsonFile(existingQuestionsPath);
+    console.log(`Loaded ${existingQuestions.length} existing questions`);
+  }
+
+  if (fs.existsSync(cambridgeQuestionsPath)) {
+    cambridgeQuestions = await loadJsonFile(cambridgeQuestionsPath);
+    console.log(`Loaded ${cambridgeQuestions.length} Cambridge 2014 questions`);
+  }
+
+  // Merge (avoid duplicates by ID)
+  const questionMap = new Map<string, Question>();
+  for (const q of existingQuestions) {
+    questionMap.set(q.id, q);
+  }
+  for (const q of cambridgeQuestions) {
+    questionMap.set(q.id, q);
+  }
+
+  const allQuestions = Array.from(questionMap.values());
+  console.log(`\nTotal unique questions: ${allQuestions.length}`);
+
+  // Count by topic
+  const topicCounts: Record<string, number> = {};
+  for (const q of allQuestions) {
+    topicCounts[q.topic] = (topicCounts[q.topic] || 0) + 1;
+  }
+
+  console.log("\nBy topic:");
+  for (const [topic, count] of Object.entries(topicCounts).sort()) {
+    console.log(`  ${topic}: ${count}`);
+  }
+
+  // Upload questions
+  console.log("\nUploading questions to Firestore...");
+  const uploaded = await uploadQuestions(allQuestions);
+  console.log(`\n✅ Successfully uploaded ${uploaded} questions to Firestore!`);
+
+  // Save merged questions locally
+  const mergedPath = path.join(basePath, "src/data/all-questions.json");
+  fs.writeFileSync(mergedPath, JSON.stringify(allQuestions, null, 2));
+  console.log(`📁 Saved merged questions to: ${mergedPath}`);
+
+  process.exit(0);
+}
+
+main().catch((err) => {
+  console.error("Error:", err);
+  process.exit(1);
+});
