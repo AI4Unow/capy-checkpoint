@@ -2,7 +2,7 @@
 
 ## Phase 1: Foundation & Firebase Integration
 - [x] Task: Write Tests - Firebase Question Service a581361
-- [ ] Task: Implement Feature - Firebase Question Service (fetch questions from Firestore)
+- [x] Task: Implement Feature - Firebase Question Service (fetch questions from Firestore) a581361
 - [ ] Task: Write Tests - Game State Store (Zustand)
 - [ ] Task: Implement Feature - Game State Store (track score, current question, lives)
 - [ ] Task: Conductor - User Manual Verification 'Foundation & Firebase Integration' (Protocol in workflow.md)
