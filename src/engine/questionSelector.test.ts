@@ -44,7 +44,7 @@ describe("Question Selector", () => {
       };
 
       const selected = selectNextQuestion(mockQuestions, context);
-      expect(mockQuestions.map((q) => q.id)).toContain(selected.id);
+      expect(mockQuestions.map((q) => q.id)).toContain(selected.question.id);
     });
 
     it("filters out recently answered questions", () => {
@@ -58,7 +58,7 @@ describe("Question Selector", () => {
 
       // With only q5 available after filtering
       const selected = selectNextQuestion(mockQuestions, context);
-      expect(selected.id).toBe("q5");
+      expect(selected.question.id).toBe("q5");
     });
 
     it("falls back to random when all questions are recent", () => {
@@ -71,7 +71,7 @@ describe("Question Selector", () => {
       };
 
       const selected = selectNextQuestion(mockQuestions, context);
-      expect(mockQuestions.map((q) => q.id)).toContain(selected.id);
+      expect(mockQuestions.map((q) => q.id)).toContain(selected.question.id);
     });
 
     it("prefers questions in student rating range", () => {
@@ -91,7 +91,7 @@ describe("Question Selector", () => {
       for (let i = 0; i < 20; i++) {
         vi.mocked(Math.random).mockReturnValue(0.95 + i * 0.001);
         const selected = selectNextQuestion(mockQuestions, context);
-        selections.add(selected.id);
+        selections.add(selected.question.id);
       }
 
       // Should mostly select questions near 800 rating (700, 800, 850, 750)
@@ -111,7 +111,7 @@ describe("Question Selector", () => {
       // Single question scenario
       const singleQuestion = [createMockQuestion({ id: "only-one" })];
       const selected = selectNextQuestion(singleQuestion, context);
-      expect(selected.id).toBe("only-one");
+      expect(selected.question.id).toBe("only-one");
     });
   });
 

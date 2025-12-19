@@ -57,4 +57,15 @@ export const GameEvents = {
   READY: "ready",
   RESTART: "restart",
   GO_TO_MENU: "go-to-menu",
+  // Adaptive learning UX events
+  DIFFICULTY_CHANGE: "difficulty-change",
+  MASTERY_ACHIEVED: "mastery-achieved",
+  STREAK_MILESTONE: "streak-milestone",
+  QUESTION_REASON: "question-reason",
+  ONBOARDING_COMPLETE: "onboarding-complete",
+  SCENE_CHANGE: "scene-change",
 } as const;
+
+// Type definitions for event payloads
+export type DifficultyLevel = "warmup" | "practice" | "challenge" | "boss";
+export type QuestionReason = "review" | "weak" | "world" | "random";

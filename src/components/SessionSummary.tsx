@@ -9,22 +9,51 @@ interface SessionSummaryProps {
   onMenu: () => void;
 }
 
+// Format subtopic for display
+function formatSubtopic(subtopic: string): string {
+  return subtopic
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
 export function SessionSummary({
   onPlayAgain,
   onBoutique,
   onMenu,
 }: SessionSummaryProps) {
   const { score, correctCount } = useGameStore();
-  const { studentRating, bestStreak, getRatingInfo, sessionTotal, sessionCorrect } =
-    useLearningStore();
+  const {
+    studentRating,
+    bestStreak,
+    getRatingInfo,
+    sessionTotal,
+    sessionCorrect,
+    sessionMasteries,
+    sessionImproved,
+    sessionWeakest,
+    getDueReviewCount,
+  } = useLearningStore();
   const ratingInfo = getRatingInfo();
+  const dueCount = getDueReviewCount();
 
   const accuracy = sessionTotal > 0 ? Math.round((sessionCorrect / sessionTotal) * 100) : 0;
   const coinsEarned = correctCount * 10;
 
+  // Get top improvements (sorted by delta, descending)
+  const topImproved = [...sessionImproved]
+    .filter((i) => i.delta > 0)
+    .sort((a, b) => b.delta - a.delta)
+    .slice(0, 2);
+
+  // Get areas needing work (sorted by wrong count, descending)
+  const needsWork = [...sessionWeakest]
+    .sort((a, b) => b.wrongCount - a.wrongCount)
+    .slice(0, 2);
+
   return (
     <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-50 p-4">
-      <div className="bg-cream rounded-3xl border-4 border-text max-w-sm w-full overflow-hidden animate-bounce-in">
+      <div className="bg-cream rounded-3xl border-4 border-text max-w-sm w-full overflow-hidden animate-bounce-in max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="bg-pink p-6 text-center border-b-4 border-text">
           <h2 className="text-3xl font-[family-name:var(--font-fredoka)] text-text">
@@ -81,6 +110,74 @@ export function SessionSummary({
               </span>
             </div>
           </div>
+
+          {/* Learning Insights Section */}
+          {(sessionMasteries.length > 0 || topImproved.length > 0 || needsWork.length > 0) && (
+            <div className="bg-sky/30 rounded-xl p-4 -mx-2 space-y-3">
+              <h3 className="font-[family-name:var(--font-fredoka)] text-text text-lg">
+                📊 Learning Insights
+              </h3>
+
+              {/* Mastered this session */}
+              {sessionMasteries.length > 0 && (
+                <div className="flex items-start gap-2">
+                  <span className="text-lg">🏆</span>
+                  <div>
+                    <span className="text-sm text-text/70">Mastered Today:</span>
+                    <div className="font-[family-name:var(--font-nunito)] text-text">
+                      {sessionMasteries.map(formatSubtopic).join(", ")}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Improved areas */}
+              {topImproved.length > 0 && (
+                <div className="flex items-start gap-2">
+                  <span className="text-lg">📈</span>
+                  <div>
+                    <span className="text-sm text-text/70">Improved:</span>
+                    <div className="font-[family-name:var(--font-nunito)] text-text">
+                      {topImproved.map((i) => (
+                        <span key={i.subtopic}>
+                          {formatSubtopic(i.subtopic)} (+{Math.round(i.delta * 100)}%)
+                        </span>
+                      )).reduce((prev, curr, idx) => (
+                        idx === 0 ? [curr] : [...prev, ", ", curr]
+                      ) as React.ReactNode[], [] as React.ReactNode[])}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Needs work */}
+              {needsWork.length > 0 && (
+                <div className="flex items-start gap-2">
+                  <span className="text-lg">💪</span>
+                  <div>
+                    <span className="text-sm text-text/70">Needs Practice:</span>
+                    <div className="font-[family-name:var(--font-nunito)] text-text">
+                      {needsWork.map((w) => (
+                        <span key={w.subtopic}>
+                          {formatSubtopic(w.subtopic)} ({w.wrongCount} wrong)
+                        </span>
+                      )).reduce((prev, curr, idx) => (
+                        idx === 0 ? [curr] : [...prev, ", ", curr]
+                      ) as React.ReactNode[], [] as React.ReactNode[])}
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* Due for review tomorrow */}
+              {dueCount > 0 && (
+                <div className="flex items-center gap-2 text-sm text-text/70">
+                  <span>📅</span>
+                  <span>{dueCount} topic{dueCount > 1 ? "s" : ""} due for review</span>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Rating level */}
           <div className="flex justify-between items-center bg-sage/30 rounded-xl p-3 -mx-2">

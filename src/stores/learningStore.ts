@@ -16,8 +16,9 @@ import {
   updateMastery,
   getTopicMastery,
 } from "@/engine/mastery";
-import { createSM2State, updateSM2, boolToQuality } from "@/engine/sm2";
-import { selectNextQuestion } from "@/engine/questionSelector";
+import { createSM2State, updateSM2, boolToQuality, isDueForReview } from "@/engine/sm2";
+import { selectNextQuestion, type QuestionSelection, type SessionMode } from "@/engine/questionSelector";
+import { EventBus, GameEvents } from "@/game/EventBus";
 
 /**
  * Learning state persisted to localStorage
@@ -40,6 +41,14 @@ interface LearningState {
   sessionTotal: number;
   streakCount: number;
   bestStreak: number;
+
+  // Adaptive UX state
+  sessionMode: SessionMode;
+  onboardingComplete: boolean;
+  lastMasteredSubtopic: string | null;
+  sessionMasteries: string[];
+  sessionImproved: { subtopic: string; delta: number }[];
+  sessionWeakest: { subtopic: string; wrongCount: number }[];
 }
 
 interface LearningActions {
@@ -49,17 +58,21 @@ interface LearningActions {
     isCorrect: boolean,
     responseTimeMs?: number
   ) => void;
-  selectQuestion: (questions: Question[]) => Question;
+  selectQuestion: (questions: Question[]) => QuestionSelection;
 
   // Getters
   getMasteryMap: () => Map<string, SubtopicMastery>;
   getSM2Map: () => Map<string, SM2State>;
   getTopicProgress: (topic: Topic) => number;
   getRatingInfo: () => { name: string; emoji: string; progress: number };
+  getDueReviewCount: () => number;
 
   // World progression
   setWorld: (world: number) => void;
   canUnlockWorld: (world: number) => boolean;
+
+  // Session mode
+  setSessionMode: (mode: SessionMode) => void;
 
   // Reset
   resetSession: () => void;
@@ -89,6 +102,13 @@ export const useLearningStore = create<LearningState & LearningActions>()(
       sessionTotal: 0,
       streakCount: 0,
       bestStreak: 0,
+      // Adaptive UX state
+      sessionMode: "adventure" as SessionMode,
+      onboardingComplete: false,
+      lastMasteredSubtopic: null,
+      sessionMasteries: [],
+      sessionImproved: [],
+      sessionWeakest: [],
 
       /**
        * Record answer and update all adaptive systems
@@ -112,8 +132,39 @@ export const useLearningStore = create<LearningState & LearningActions>()(
         if (!mastery) {
           mastery = createMasteryEntry(question.subtopic, question.topic);
         }
+        const prevStatus = mastery.status;
+        const prevScore = mastery.score;
         const updatedMastery = updateMastery(mastery, isCorrect);
         masteryMap.set(question.subtopic, updatedMastery);
+
+        // Check for mastery achievement
+        const newMasteries = [...state.sessionMasteries];
+        if (prevStatus !== "mastered" && updatedMastery.status === "mastered") {
+          newMasteries.push(question.subtopic);
+          set({ lastMasteredSubtopic: question.subtopic });
+          EventBus.emit(GameEvents.MASTERY_ACHIEVED, { subtopic: question.subtopic });
+        }
+
+        // Track session improvement
+        const scoreDelta = updatedMastery.score - prevScore;
+        const improved = [...state.sessionImproved];
+        const existingImproved = improved.find(i => i.subtopic === question.subtopic);
+        if (existingImproved) {
+          existingImproved.delta += scoreDelta;
+        } else if (scoreDelta !== 0) {
+          improved.push({ subtopic: question.subtopic, delta: scoreDelta });
+        }
+
+        // Track weakest (wrong answers)
+        const weakest = [...state.sessionWeakest];
+        if (!isCorrect) {
+          const existingWeak = weakest.find(w => w.subtopic === question.subtopic);
+          if (existingWeak) {
+            existingWeak.wrongCount++;
+          } else {
+            weakest.push({ subtopic: question.subtopic, wrongCount: 1 });
+          }
+        }
 
         // 3. Update SM2 for this subtopic
         const sm2Map = get().getSM2Map();
@@ -128,9 +179,24 @@ export const useLearningStore = create<LearningState & LearningActions>()(
         // 4. Update recent questions
         const recentIds = [...state.recentQuestionIds, question.id].slice(-10);
 
-        // 5. Update streak
+        // 5. Update streak and emit milestone events
         const newStreak = isCorrect ? state.streakCount + 1 : 0;
         const newBestStreak = Math.max(state.bestStreak, newStreak);
+
+        // Emit streak milestone events
+        if (newStreak === 5) {
+          EventBus.emit(GameEvents.STREAK_MILESTONE, { count: 5, bonus: 20 });
+        } else if (newStreak === 10) {
+          EventBus.emit(GameEvents.STREAK_MILESTONE, { count: 10, bonus: 100 });
+        }
+
+        // 6. Check onboarding completion
+        const newTotalResponses = state.totalResponses + 1;
+        let onboardingComplete = state.onboardingComplete;
+        if (!onboardingComplete && newTotalResponses >= 10) {
+          onboardingComplete = true;
+          EventBus.emit(GameEvents.ONBOARDING_COMPLETE);
+        }
 
         // Convert maps back to arrays for persistence
         const masteryEntries = Array.from(masteryMap.values());
@@ -143,7 +209,7 @@ export const useLearningStore = create<LearningState & LearningActions>()(
 
         set({
           studentRating: newRating,
-          totalResponses: state.totalResponses + 1,
+          totalResponses: newTotalResponses,
           masteryEntries,
           sm2Entries,
           recentQuestionIds: recentIds,
@@ -151,6 +217,10 @@ export const useLearningStore = create<LearningState & LearningActions>()(
           sessionTotal: state.sessionTotal + 1,
           streakCount: newStreak,
           bestStreak: newBestStreak,
+          onboardingComplete,
+          sessionMasteries: newMasteries,
+          sessionImproved: improved,
+          sessionWeakest: weakest,
         });
       },
 
@@ -165,6 +235,7 @@ export const useLearningStore = create<LearningState & LearningActions>()(
           masteryMap: get().getMasteryMap(),
           sm2Map: get().getSM2Map(),
           recentQuestionIds: state.recentQuestionIds,
+          sessionMode: state.sessionMode,
         });
       },
 
@@ -219,6 +290,20 @@ export const useLearningStore = create<LearningState & LearningActions>()(
       },
 
       /**
+       * Get count of topics due for review
+       */
+      getDueReviewCount: () => {
+        const sm2Map = get().getSM2Map();
+        let dueCount = 0;
+        sm2Map.forEach((state) => {
+          if (isDueForReview(state)) {
+            dueCount++;
+          }
+        });
+        return dueCount;
+      },
+
+      /**
        * Set current world
        */
       setWorld: (world) => {
@@ -237,6 +322,13 @@ export const useLearningStore = create<LearningState & LearningActions>()(
       },
 
       /**
+       * Set session mode
+       */
+      setSessionMode: (mode) => {
+        set({ sessionMode: mode });
+      },
+
+      /**
        * Reset session stats (keeps learning progress)
        */
       resetSession: () => {
@@ -244,6 +336,10 @@ export const useLearningStore = create<LearningState & LearningActions>()(
           sessionCorrect: 0,
           sessionTotal: 0,
           streakCount: 0,
+          lastMasteredSubtopic: null,
+          sessionMasteries: [],
+          sessionImproved: [],
+          sessionWeakest: [],
         });
       },
 
@@ -262,6 +358,12 @@ export const useLearningStore = create<LearningState & LearningActions>()(
           sessionTotal: 0,
           streakCount: 0,
           bestStreak: 0,
+          sessionMode: "adventure",
+          onboardingComplete: false,
+          lastMasteredSubtopic: null,
+          sessionMasteries: [],
+          sessionImproved: [],
+          sessionWeakest: [],
         });
       },
     }),
@@ -275,6 +377,7 @@ export const useLearningStore = create<LearningState & LearningActions>()(
         sm2Entries: state.sm2Entries,
         recentQuestionIds: state.recentQuestionIds,
         bestStreak: state.bestStreak,
+        onboardingComplete: state.onboardingComplete,
       }),
     }
   )

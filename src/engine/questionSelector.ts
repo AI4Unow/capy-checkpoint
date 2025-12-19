@@ -2,15 +2,46 @@ import type { Question, Topic } from "@/types/question";
 import type { SubtopicMastery } from "./mastery";
 import type { SM2State } from "./sm2";
 import { isDueForReview } from "./sm2";
+import type { DifficultyLevel, QuestionReason } from "@/game/EventBus";
 
 /**
- * Question selection weights
+ * Get difficulty label based on question vs student rating delta
  */
-const SELECTION_WEIGHTS = {
-  dueForReview: 0.4,
-  weakSubtopic: 0.3,
-  currentWorld: 0.2,
-  random: 0.1,
+export function getDifficultyLabel(
+  questionDiff: number,
+  studentRating: number
+): DifficultyLevel {
+  const delta = questionDiff - studentRating;
+  if (delta < -100) return "warmup";
+  if (delta < 50) return "practice";
+  if (delta < 150) return "challenge";
+  return "boss";
+}
+
+/**
+ * Question selection result with reason
+ */
+export interface QuestionSelection {
+  question: Question;
+  reason: QuestionReason;
+}
+
+/**
+ * Session mode affects question selection weights
+ */
+export type SessionMode = "adventure" | "practice" | "review" | "challenge";
+
+/**
+ * Question selection weights by mode
+ */
+const SELECTION_WEIGHTS_BY_MODE: Record<
+  SessionMode,
+  { dueForReview: number; weakSubtopic: number; currentWorld: number; random: number }
+> = {
+  adventure: { dueForReview: 0.4, weakSubtopic: 0.3, currentWorld: 0.2, random: 0.1 },
+  practice: { dueForReview: 0.2, weakSubtopic: 0.7, currentWorld: 0.0, random: 0.1 },
+  review: { dueForReview: 0.7, weakSubtopic: 0.2, currentWorld: 0.0, random: 0.1 },
+  challenge: { dueForReview: 0.4, weakSubtopic: 0.3, currentWorld: 0.2, random: 0.1 },
 };
 
 /**
@@ -30,22 +61,33 @@ interface SelectionContext {
   masteryMap: Map<string, SubtopicMastery>;
   sm2Map: Map<string, SM2State>;
   recentQuestionIds: string[];
+  sessionMode?: SessionMode;
 }
 
 /**
  * Select next question using weighted priority
+ * Returns both the question and the reason for selection
  */
 export function selectNextQuestion(
   questions: Question[],
   context: SelectionContext
-): Question {
+): QuestionSelection {
   const {
     studentRating,
     currentWorld,
     masteryMap,
     sm2Map,
     recentQuestionIds,
+    sessionMode = "adventure",
   } = context;
+
+  // Get weights based on session mode
+  const weights = SELECTION_WEIGHTS_BY_MODE[sessionMode];
+
+  // Challenge mode applies +100 difficulty offset
+  const ratingForMatching = sessionMode === "challenge"
+    ? studentRating + 100
+    : studentRating;
 
   // Filter out recently answered questions (last 5)
   const available = questions.filter(
@@ -53,59 +95,77 @@ export function selectNextQuestion(
   );
 
   if (available.length === 0) {
-    return questions[Math.floor(Math.random() * questions.length)];
+    return {
+      question: questions[Math.floor(Math.random() * questions.length)],
+      reason: "random",
+    };
   }
 
   // Roll weighted random
   const roll = Math.random();
   let cumulative = 0;
 
-  // 1. Due for review (40%)
-  cumulative += SELECTION_WEIGHTS.dueForReview;
+  // 1. Due for review
+  cumulative += weights.dueForReview;
   if (roll < cumulative) {
-    const dueQuestions = getDueQuestions(available, sm2Map, studentRating);
+    const dueQuestions = getDueQuestions(available, sm2Map, ratingForMatching);
     if (dueQuestions.length > 0) {
-      return pickRandomFromArray(dueQuestions);
+      return {
+        question: pickRandomFromArray(dueQuestions),
+        reason: "review",
+      };
     }
   }
 
-  // 2. Weak subtopic (30%)
-  cumulative += SELECTION_WEIGHTS.weakSubtopic;
+  // 2. Weak subtopic
+  cumulative += weights.weakSubtopic;
   if (roll < cumulative) {
     const weakQuestion = getWeakSubtopicQuestion(
       available,
       masteryMap,
-      studentRating
+      ratingForMatching
     );
     if (weakQuestion) {
-      return weakQuestion;
+      return {
+        question: weakQuestion,
+        reason: "weak",
+      };
     }
   }
 
-  // 3. Current world theme (20%)
-  cumulative += SELECTION_WEIGHTS.currentWorld;
+  // 3. Current world theme
+  cumulative += weights.currentWorld;
   if (roll < cumulative) {
     const worldTopics = WORLD_TOPICS[currentWorld] || ["number"];
     const themeQuestions = available.filter(
       (q) =>
         worldTopics.includes(q.topic) &&
-        isInRatingRange(q.difficulty, studentRating)
+        isInRatingRange(q.difficulty, ratingForMatching)
     );
     if (themeQuestions.length > 0) {
-      return pickRandomFromArray(themeQuestions);
+      return {
+        question: pickRandomFromArray(themeQuestions),
+        reason: "world",
+      };
     }
   }
 
-  // 4. Random (10%) - fallback
+  // 4. Random - fallback
   const inRangeQuestions = available.filter((q) =>
-    isInRatingRange(q.difficulty, studentRating)
+    isInRatingRange(q.difficulty, ratingForMatching)
   );
 
   if (inRangeQuestions.length > 0) {
-    return pickRandomFromArray(inRangeQuestions);
+    return {
+      question: pickRandomFromArray(inRangeQuestions),
+      reason: "random",
+    };
   }
 
-  return pickRandomFromArray(available);
+  return {
+    question: pickRandomFromArray(available),
+    reason: "random",
+  };
 }
 
 /**

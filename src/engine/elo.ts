@@ -34,10 +34,16 @@ export function updateRating(
  * Lower K for established students (stability)
  */
 export function getKFactor(responsesCount: number): number {
+  if (responsesCount < 10) return 40; // Fast calibration during onboarding
   if (responsesCount < 30) return 32;
   if (responsesCount < 100) return 24;
   return 16;
 }
+
+/**
+ * Initial rating for new users (lower for gentle onboarding)
+ */
+export const INITIAL_RATING_NEW_USER = 600;
 
 /**
  * Clamp rating within reasonable bounds

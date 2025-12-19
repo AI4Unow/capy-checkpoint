@@ -1,7 +1,9 @@
 import Phaser from "phaser";
-import { EventBus, GameEvents } from "../EventBus";
+import { EventBus, GameEvents, type QuestionReason } from "../EventBus";
 import questionsData from "@/data/all-questions.json";
 import type { Question } from "@/types/question";
+import type { QuestionSelection } from "@/engine/questionSelector";
+import { getDifficultyLabel } from "@/engine/questionSelector";
 
 const FLAP_VELOCITY = -250;
 const SCROLL_SPEED = 40;
@@ -19,8 +21,8 @@ interface AnswerGate {
   answered: boolean;
 }
 
-// Question selector function passed from React
-type QuestionSelector = (questions: Question[]) => Question;
+// Question selector function passed from React (now returns QuestionSelection)
+type QuestionSelector = (questions: Question[]) => QuestionSelection;
 type AnswerRecorder = (
   question: Question,
   isCorrect: boolean,
@@ -48,6 +50,7 @@ export class Game extends Phaser.Scene {
   private questionSelector: QuestionSelector | null = null;
   private answerRecorder: AnswerRecorder | null = null;
   private questionStartTime = 0;
+  private studentRating = 800; // Updated from React via setter
 
   constructor() {
     super("Game");
@@ -70,6 +73,13 @@ export class Game extends Phaser.Scene {
    */
   setAnswerRecorder(recorder: AnswerRecorder): void {
     this.answerRecorder = recorder;
+  }
+
+  /**
+   * Set the student rating for difficulty calculation
+   */
+  setStudentRating(rating: number): void {
+    this.studentRating = rating;
   }
 
   create(): void {
@@ -223,7 +233,21 @@ export class Game extends Phaser.Scene {
   private selectNextQuestion(): void {
     // Use adaptive selector if available
     if (this.questionSelector) {
-      this.currentQuestion = this.questionSelector(this.questions);
+      const selection = this.questionSelector(this.questions);
+      this.currentQuestion = selection.question;
+
+      // Emit question reason event
+      EventBus.emit(GameEvents.QUESTION_REASON, {
+        reason: selection.reason,
+        subtopic: selection.question.subtopic,
+      });
+
+      // Emit difficulty change event
+      const difficultyLevel = getDifficultyLabel(
+        selection.question.difficulty,
+        this.studentRating
+      );
+      EventBus.emit(GameEvents.DIFFICULTY_CHANGE, { level: difficultyLevel });
     } else {
       // Fallback to random selection
       const available = this.questions.filter(
@@ -237,6 +261,19 @@ export class Game extends Phaser.Scene {
       } else {
         this.currentQuestion =
           available[Math.floor(Math.random() * available.length)];
+      }
+
+      // Emit events for fallback selection
+      if (this.currentQuestion) {
+        EventBus.emit(GameEvents.QUESTION_REASON, {
+          reason: "random" as QuestionReason,
+          subtopic: this.currentQuestion.subtopic,
+        });
+        const difficultyLevel = getDifficultyLabel(
+          this.currentQuestion.difficulty,
+          this.studentRating
+        );
+        EventBus.emit(GameEvents.DIFFICULTY_CHANGE, { level: difficultyLevel });
       }
     }
 

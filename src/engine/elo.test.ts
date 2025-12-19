@@ -68,8 +68,14 @@ describe("Elo Rating System", () => {
   });
 
   describe("getKFactor", () => {
-    it("returns 32 for new students (< 30 responses)", () => {
-      expect(getKFactor(0)).toBe(32);
+    it("returns 40 for onboarding students (< 10 responses)", () => {
+      expect(getKFactor(0)).toBe(40);
+      expect(getKFactor(5)).toBe(40);
+      expect(getKFactor(9)).toBe(40);
+    });
+
+    it("returns 32 for new students (10-29 responses)", () => {
+      expect(getKFactor(10)).toBe(32);
       expect(getKFactor(15)).toBe(32);
       expect(getKFactor(29)).toBe(32);
     });

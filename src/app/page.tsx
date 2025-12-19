@@ -6,6 +6,12 @@ import { GameHUD } from "@/components/GameHUD";
 import { Boutique } from "@/components/Boutique";
 import { SessionSummary } from "@/components/SessionSummary";
 import { AIHint } from "@/components/AIHint";
+import { DifficultyIndicator } from "@/components/DifficultyIndicator";
+import { MasteryCelebration } from "@/components/MasteryCelebration";
+import { QuestionReasonBadge } from "@/components/QuestionReasonBadge";
+import { StreakDisplay } from "@/components/StreakDisplay";
+import { MenuOverlay } from "@/components/MenuOverlay";
+import { CalibrationIndicator } from "@/components/CalibrationIndicator";
 import { useGameStore } from "@/stores/gameStore";
 import { useLearningStore } from "@/stores/learningStore";
 import { EventBus, GameEvents } from "@/game/EventBus";
@@ -65,6 +71,11 @@ export default function Home() {
     <div className="w-screen h-screen flex items-center justify-center bg-cream p-4">
       <div className="relative w-full h-full max-w-[1280px] max-h-[720px] aspect-video rounded-[32px] border-[8px] border-text overflow-hidden shadow-2xl">
         <GameHUD />
+        <DifficultyIndicator />
+        <QuestionReasonBadge />
+        <StreakDisplay />
+        <MenuOverlay />
+        <CalibrationIndicator />
         <PhaserGame />
 
         {/* Boutique button (visible when not playing) */}
@@ -101,6 +112,9 @@ export default function Home() {
           onClose={() => setWrongAnswer(null)}
         />
       )}
+
+      {/* Mastery celebration overlay */}
+      <MasteryCelebration />
     </div>
   );
 }
