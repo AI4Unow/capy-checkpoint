@@ -67,6 +67,10 @@ export const GameEvents = {
   // Pause/Resume events
   PAUSE: "pause",
   RESUME: "resume",
+  // Sound events
+  SOUND_TOGGLE: "sound-toggle",
+  VOLUME_CHANGE: "volume-change",
+  MUSIC_TOGGLE: "music-toggle",
 } as const;
 
 // Type definitions for event payloads

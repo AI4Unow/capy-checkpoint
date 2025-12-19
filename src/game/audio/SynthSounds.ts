@@ -1,0 +1,113 @@
+/**
+ * Synthesized sound effects using Web Audio API
+ * These are procedurally generated sounds that don't require external files
+ * Used as fallback when audio files aren't available
+ */
+export class SynthSounds {
+  private audioContext: AudioContext | null = null;
+  private enabled: boolean = false;
+  private volume: number = 0.5;
+
+  constructor() {
+    // AudioContext created on first user interaction
+  }
+
+  /**
+   * Initialize AudioContext (must be called from user gesture)
+   */
+  init(): void {
+    if (this.audioContext) return;
+    this.audioContext = new AudioContext();
+  }
+
+  setEnabled(enabled: boolean): void {
+    this.enabled = enabled;
+  }
+
+  setVolume(vol: number): void {
+    this.volume = Math.max(0, Math.min(1, vol));
+  }
+
+  /**
+   * Play a quick "pop" for flap
+   */
+  playFlap(): void {
+    if (!this.enabled || !this.audioContext) return;
+    this.playTone(400, 0.05, "sine", 0.3);
+  }
+
+  /**
+   * Play ascending chime for correct answer
+   */
+  playCorrect(): void {
+    if (!this.enabled || !this.audioContext) return;
+    this.playTone(523, 0.1, "sine", 0.4); // C5
+    setTimeout(() => this.playTone(659, 0.1, "sine", 0.4), 100); // E5
+    setTimeout(() => this.playTone(784, 0.15, "sine", 0.5), 200); // G5
+  }
+
+  /**
+   * Play descending buzz for wrong answer
+   */
+  playWrong(): void {
+    if (!this.enabled || !this.audioContext) return;
+    this.playTone(200, 0.15, "sawtooth", 0.3);
+    setTimeout(() => this.playTone(150, 0.2, "sawtooth", 0.2), 100);
+  }
+
+  /**
+   * Play excited fanfare for streak
+   */
+  playStreak(): void {
+    if (!this.enabled || !this.audioContext) return;
+    const notes = [523, 659, 784, 880, 1047]; // C5, E5, G5, A5, C6
+    notes.forEach((freq, i) => {
+      setTimeout(() => this.playTone(freq, 0.1, "sine", 0.5), i * 60);
+    });
+  }
+
+  /**
+   * Play triumphant level up sound
+   */
+  playLevelUp(): void {
+    if (!this.enabled || !this.audioContext) return;
+    const notes = [262, 330, 392, 523]; // C4, E4, G4, C5
+    notes.forEach((freq, i) => {
+      setTimeout(() => this.playTone(freq, 0.2, "triangle", 0.6), i * 150);
+    });
+  }
+
+  /**
+   * Play a single tone
+   */
+  private playTone(
+    frequency: number,
+    duration: number,
+    type: OscillatorType,
+    volumeMultiplier: number = 1
+  ): void {
+    if (!this.audioContext) return;
+
+    const oscillator = this.audioContext.createOscillator();
+    const gainNode = this.audioContext.createGain();
+
+    oscillator.type = type;
+    oscillator.frequency.value = frequency;
+
+    const finalVolume = this.volume * volumeMultiplier * 0.3; // Keep it quiet
+    gainNode.gain.setValueAtTime(finalVolume, this.audioContext.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(
+      0.001,
+      this.audioContext.currentTime + duration
+    );
+
+    oscillator.connect(gainNode);
+    gainNode.connect(this.audioContext.destination);
+
+    oscillator.start(this.audioContext.currentTime);
+    oscillator.stop(this.audioContext.currentTime + duration);
+  }
+}
+
+// Singleton instance
+export const synthSounds = new SynthSounds();

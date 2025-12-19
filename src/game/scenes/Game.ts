@@ -1,5 +1,6 @@
 import Phaser from "phaser";
 import { EventBus, GameEvents, type QuestionReason } from "../EventBus";
+import { synthSounds } from "../audio/SynthSounds";
 import questionsData from "@/data/all-questions.json";
 import type { Question } from "@/types/question";
 import type { QuestionSelection } from "@/engine/questionSelector";
@@ -247,6 +248,7 @@ export class Game extends Phaser.Scene {
     }
 
     capyBody.velocity.y = FLAP_VELOCITY;
+    synthSounds.playFlap();
   }
 
   /**
@@ -427,6 +429,7 @@ export class Game extends Phaser.Scene {
   private handleCorrect(): void {
     this.score++;
     EventBus.emit(GameEvents.SCORE_UPDATE, this.score);
+    synthSounds.playCorrect();
 
     // Visual feedback
     this.cameras.main.flash(200, 100, 255, 100, false); // Green flash
@@ -450,6 +453,7 @@ export class Game extends Phaser.Scene {
   private handleWrong(): void {
     this.lives--;
     EventBus.emit(GameEvents.LIVES_UPDATE, this.lives);
+    synthSounds.playWrong();
 
     // Visual feedback
     this.cameras.main.shake(200, 0.015);

@@ -1,4 +1,6 @@
 import Phaser from "phaser";
+import { synthSounds } from "../audio/SynthSounds";
+import { EventBus, GameEvents } from "../EventBus";
 
 // Game dimensions
 const GAME_WIDTH = 1280;
@@ -8,11 +10,25 @@ const GAME_HEIGHT = 720;
  * Menu scene - start screen
  */
 export class Menu extends Phaser.Scene {
+  private audioUnlocked: boolean = false;
+
   constructor() {
     super("Menu");
   }
 
   create(): void {
+    // Unlock audio on first interaction (Web Audio requires user gesture)
+    this.input.once("pointerdown", () => this.unlockAudio());
+    this.input.keyboard?.once("keydown", () => this.unlockAudio());
+
+    // Listen for sound settings from React
+    EventBus.on(GameEvents.SOUND_TOGGLE, (...args: unknown[]) => {
+      synthSounds.setEnabled(args[0] as boolean);
+    });
+    EventBus.on(GameEvents.VOLUME_CHANGE, (...args: unknown[]) => {
+      synthSounds.setVolume(args[0] as number);
+    });
+
     // Background (tiled for new dimensions)
     this.add.tileSprite(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, "background");
 
@@ -82,5 +98,14 @@ export class Menu extends Phaser.Scene {
     });
 
     this.cameras.main.fadeIn(500);
+  }
+
+  /**
+   * Unlock Web Audio Context on first user interaction
+   */
+  private unlockAudio(): void {
+    if (this.audioUnlocked) return;
+    this.audioUnlocked = true;
+    synthSounds.init();
   }
 }

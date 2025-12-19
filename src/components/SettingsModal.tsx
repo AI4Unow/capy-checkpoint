@@ -1,6 +1,8 @@
 "use client";
 
+import { useEffect } from "react";
 import { useSettingsStore } from "@/stores/settingsStore";
+import { EventBus, GameEvents } from "@/game/EventBus";
 
 interface SettingsModalProps {
   onClose: () => void;
@@ -15,11 +17,26 @@ export function SettingsModal({ onClose }: SettingsModalProps) {
     colorBlindMode,
     soundEnabled,
     musicEnabled,
+    soundVolume,
     setReducedMotion,
     setColorBlindMode,
     setSoundEnabled,
     setMusicEnabled,
+    setSoundVolume,
   } = useSettingsStore();
+
+  // Emit sound settings to Phaser when they change
+  useEffect(() => {
+    EventBus.emit(GameEvents.SOUND_TOGGLE, soundEnabled);
+  }, [soundEnabled]);
+
+  useEffect(() => {
+    EventBus.emit(GameEvents.VOLUME_CHANGE, soundVolume);
+  }, [soundVolume]);
+
+  useEffect(() => {
+    EventBus.emit(GameEvents.MUSIC_TOGGLE, musicEnabled);
+  }, [musicEnabled]);
 
   return (
     <div className="fixed inset-0 bg-black/60 flex items-center justify-center z-[60] p-4">
@@ -100,6 +117,29 @@ export function SettingsModal({ onClose }: SettingsModalProps) {
                 onChange={setSoundEnabled}
               />
             </label>
+
+            {/* Volume Slider (only show when sound enabled) */}
+            {soundEnabled && (
+              <div className="py-3 border-b border-text/10">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="font-[family-name:var(--font-nunito)] text-text">
+                    Volume
+                  </span>
+                  <span className="text-sm text-text/60">
+                    {Math.round(soundVolume * 100)}%
+                  </span>
+                </div>
+                <input
+                  type="range"
+                  min="0"
+                  max="1"
+                  step="0.1"
+                  value={soundVolume}
+                  onChange={(e) => setSoundVolume(parseFloat(e.target.value))}
+                  className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-sage"
+                />
+              </div>
+            )}
 
             {/* Music */}
             <label className="flex items-center justify-between py-3">
