@@ -245,3 +245,59 @@ export function getTargetDifficulty(
   const exponent = Math.log10(1 / targetSuccessRate - 1);
   return Math.round(studentRating + 400 * exponent);
 }
+
+/**
+ * Select 3 questions for daily challenge with progressive difficulty
+ * 1st: Easy (warmup) - below student rating
+ * 2nd: At level - match student rating
+ * 3rd: Challenge - above student rating
+ */
+export function selectDailyChallengeQuestions(
+  questions: Question[],
+  studentRating: number
+): Question[] {
+  const result: Question[] = [];
+  const usedIds = new Set<string>();
+
+  // Helper to select question by target difficulty
+  const selectByDifficulty = (targetRating: number): Question | null => {
+    const candidates = questions
+      .filter((q) => !usedIds.has(q.id))
+      .sort(
+        (a, b) =>
+          Math.abs(a.difficulty - targetRating) -
+          Math.abs(b.difficulty - targetRating)
+      );
+
+    if (candidates.length === 0) return null;
+
+    // Pick from top 3 closest matches for variety
+    const topMatches = candidates.slice(0, Math.min(3, candidates.length));
+    const selected = topMatches[Math.floor(Math.random() * topMatches.length)];
+    usedIds.add(selected.id);
+    return selected;
+  };
+
+  // 1. Easy warmup (rating - 100)
+  const easy = selectByDifficulty(studentRating - 100);
+  if (easy) result.push(easy);
+
+  // 2. At level (exact rating)
+  const atLevel = selectByDifficulty(studentRating);
+  if (atLevel) result.push(atLevel);
+
+  // 3. Challenge (rating + 50)
+  const challenge = selectByDifficulty(studentRating + 50);
+  if (challenge) result.push(challenge);
+
+  // Fill remaining slots with random questions if needed
+  while (result.length < 3 && questions.length > result.length) {
+    const remaining = questions.filter((q) => !usedIds.has(q.id));
+    if (remaining.length === 0) break;
+    const random = remaining[Math.floor(Math.random() * remaining.length)];
+    usedIds.add(random.id);
+    result.push(random);
+  }
+
+  return result;
+}

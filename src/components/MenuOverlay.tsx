@@ -2,11 +2,15 @@
 
 import { useState, useEffect } from "react";
 import { useLearningStore } from "@/stores/learningStore";
+import { useDailyChallengeStore } from "@/stores/dailyChallengeStore";
+import { DailyChallenge } from "./DailyChallenge";
 import { EventBus, GameEvents } from "@/game/EventBus";
 
 export function MenuOverlay() {
   const { getDueReviewCount, totalResponses, onboardingComplete } = useLearningStore();
+  const { isAvailable, currentStreak } = useDailyChallengeStore();
   const [isOnMenu, setIsOnMenu] = useState(true);
+  const [showDailyChallenge, setShowDailyChallenge] = useState(false);
 
   useEffect(() => {
     const handleSceneChange = (...args: unknown[]) => {
@@ -36,37 +40,60 @@ export function MenuOverlay() {
   if (!isOnMenu) return null;
 
   const dueCount = getDueReviewCount();
+  const challengeAvailable = isAvailable();
 
   return (
-    <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2">
-      {/* Due reviews badge */}
-      {dueCount > 0 && (
-        <div className="bg-purple-500/90 px-4 py-2 rounded-full border-2 border-purple-600 shadow-lg animate-bounce-in">
-          <span className="font-[family-name:var(--font-nunito)] text-white text-sm">
-            📅 {dueCount} topic{dueCount > 1 ? "s" : ""} due for review
-          </span>
-        </div>
-      )}
+    <>
+      <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2">
+        {/* Daily Challenge button */}
+        <button
+          onClick={() => setShowDailyChallenge(true)}
+          className={`px-6 py-3 rounded-full border-4 border-text font-[family-name:var(--font-baloo)] text-lg text-text shadow-lg transition-transform hover:scale-105 ${
+            challengeAvailable
+              ? "bg-yellow animate-pulse"
+              : "bg-gray-200"
+          }`}
+        >
+          🌟 Daily Challenge
+          {currentStreak > 0 && (
+            <span className="ml-2 text-sm">🔥 {currentStreak}</span>
+          )}
+        </button>
 
-      {/* All caught up */}
-      {dueCount === 0 && totalResponses > 0 && (
-        <div className="bg-green-500/90 px-4 py-2 rounded-full border-2 border-green-600 shadow-lg animate-bounce-in">
-          <span className="font-[family-name:var(--font-nunito)] text-white text-sm">
-            ✨ All caught up!
-          </span>
-        </div>
-      )}
+        {/* Due reviews badge */}
+        {dueCount > 0 && (
+          <div className="bg-purple-500/90 px-4 py-2 rounded-full border-2 border-purple-600 shadow-lg animate-bounce-in">
+            <span className="font-[family-name:var(--font-nunito)] text-white text-sm">
+              📅 {dueCount} topic{dueCount > 1 ? "s" : ""} due for review
+            </span>
+          </div>
+        )}
 
-      {/* Onboarding message for new users */}
-      {!onboardingComplete && totalResponses < 10 && (
-        <div className="bg-sky/90 px-4 py-2 rounded-xl border-2 border-sky shadow-lg mt-2">
-          <span className="font-[family-name:var(--font-nunito)] text-text text-sm">
-            {totalResponses === 0
-              ? "🎯 Let's find your level!"
-              : `🎯 Calibrating... ${totalResponses}/10`}
-          </span>
-        </div>
+        {/* All caught up */}
+        {dueCount === 0 && totalResponses > 0 && (
+          <div className="bg-green-500/90 px-4 py-2 rounded-full border-2 border-green-600 shadow-lg animate-bounce-in">
+            <span className="font-[family-name:var(--font-nunito)] text-white text-sm">
+              ✨ All caught up!
+            </span>
+          </div>
+        )}
+
+        {/* Onboarding message for new users */}
+        {!onboardingComplete && totalResponses < 10 && (
+          <div className="bg-sky/90 px-4 py-2 rounded-xl border-2 border-sky shadow-lg mt-2">
+            <span className="font-[family-name:var(--font-nunito)] text-text text-sm">
+              {totalResponses === 0
+                ? "🎯 Let's find your level!"
+                : `🎯 Calibrating... ${totalResponses}/10`}
+            </span>
+          </div>
+        )}
+      </div>
+
+      {/* Daily Challenge modal */}
+      {showDailyChallenge && (
+        <DailyChallenge onClose={() => setShowDailyChallenge(false)} />
       )}
-    </div>
+    </>
   );
 }
