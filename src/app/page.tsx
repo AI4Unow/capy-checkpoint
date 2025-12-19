@@ -12,8 +12,10 @@ import { QuestionReasonBadge } from "@/components/QuestionReasonBadge";
 import { StreakDisplay } from "@/components/StreakDisplay";
 import { MenuOverlay } from "@/components/MenuOverlay";
 import { CalibrationIndicator } from "@/components/CalibrationIndicator";
+import { PauseOverlay } from "@/components/PauseOverlay";
 import { useGameStore } from "@/stores/gameStore";
 import { useLearningStore } from "@/stores/learningStore";
+import { useSettingsStore } from "@/stores/settingsStore";
 import { EventBus, GameEvents } from "@/game/EventBus";
 import type { Question } from "@/types/question";
 
@@ -36,6 +38,7 @@ export default function Home() {
   } | null>(null);
   const { isGameOver, isPlaying } = useGameStore();
   const { resetSession } = useLearningStore();
+  const { reducedMotion } = useSettingsStore();
 
   // Listen for wrong answers to show AI hint
   useEffect(() => {
@@ -68,7 +71,10 @@ export default function Home() {
   };
 
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-cream p-4">
+    <div
+      className="w-screen h-screen flex items-center justify-center bg-cream p-4"
+      data-reduced-motion={reducedMotion ? "true" : "false"}
+    >
       <div className="relative w-full h-full max-w-[1280px] max-h-[720px] aspect-video rounded-[32px] border-[8px] border-text overflow-hidden shadow-2xl">
         <GameHUD />
         <DifficultyIndicator />
@@ -115,6 +121,9 @@ export default function Home() {
 
       {/* Mastery celebration overlay */}
       <MasteryCelebration />
+
+      {/* Pause overlay (shows when paused) */}
+      <PauseOverlay />
     </div>
   );
 }

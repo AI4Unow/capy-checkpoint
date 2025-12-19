@@ -123,3 +123,46 @@ body {
 .animate-streak-pulse {
   animation: streak-pulse 0.3s ease-in-out;
 }
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out;
+}
+
+/* Reduced Motion - System Preference */
+@media (prefers-reduced-motion: reduce) {
+  .animate-confetti,
+  .animate-bounce-in,
+  .animate-pulse-glow,
+  .animate-fade-in-out,
+  .animate-streak-pulse,
+  .animate-fade-in {
+    animation: none !important;
+  }
+
+  * {
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Reduced Motion - User Setting */
+[data-reduced-motion="true"] .animate-confetti,
+[data-reduced-motion="true"] .animate-bounce-in,
+[data-reduced-motion="true"] .animate-pulse-glow,
+[data-reduced-motion="true"] .animate-fade-in-out,
+[data-reduced-motion="true"] .animate-streak-pulse,
+[data-reduced-motion="true"] .animate-fade-in {
+  animation: none !important;
+}
+
+[data-reduced-motion="true"] * {
+  transition-duration: 0.01ms !important;
+}

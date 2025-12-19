@@ -27,22 +27,22 @@ describe('questionsService', () => {
     it('should fetch questions from Firestore when configured', async () => {
       // Setup
       vi.mocked(firebase.isFirebaseConfigured).mockReturnValue(true);
-      vi.mocked(firebase.getFirebaseDb).mockReturnValue({} as any);
-      
+      vi.mocked(firebase.getFirebaseDb).mockReturnValue({} as ReturnType<typeof firebase.getFirebaseDb>);
+
       const mockQuestions = [
         { id: '1', text: 'Q1', topic: 'number', difficulty: 800 },
         { id: '2', text: 'Q2', topic: 'geometry', difficulty: 900 },
       ];
 
       const mockSnapshot = {
-        forEach: (callback: any) => {
+        forEach: (callback: (doc: { data: () => typeof mockQuestions[0] }) => void) => {
           mockQuestions.forEach(q => callback({ data: () => q }));
         },
         length: mockQuestions.length
       };
 
-      vi.mocked(getDocs).mockResolvedValue(mockSnapshot as any);
-      vi.mocked(collection).mockReturnValue({} as any);
+      vi.mocked(getDocs).mockResolvedValue(mockSnapshot as Awaited<ReturnType<typeof getDocs>>);
+      vi.mocked(collection).mockReturnValue({} as ReturnType<typeof collection>);
 
       // Execute
       const result = await fetchQuestions();
@@ -63,13 +63,13 @@ describe('questionsService', () => {
       ];
 
       const mockSnapshot = {
-        forEach: (callback: any) => {
+        forEach: (callback: (doc: { data: () => typeof mockQuestions[0] }) => void) => {
           mockQuestions.forEach(q => callback({ data: () => q }));
         },
         length: mockQuestions.length
       };
 
-      vi.mocked(getDocs).mockResolvedValue(mockSnapshot as any);
+      vi.mocked(getDocs).mockResolvedValue(mockSnapshot as Awaited<ReturnType<typeof getDocs>>);
 
       const { fetchQuestionsByTopic } = await import('./questionsService');
       

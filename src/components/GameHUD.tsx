@@ -2,9 +2,10 @@
 
 import { useGameStore } from "@/stores/gameStore";
 import { useLearningStore } from "@/stores/learningStore";
+import { EventBus, GameEvents } from "@/game/EventBus";
 
 /**
- * Game HUD - displays lives, score, coins, and rating level
+ * Game HUD - displays lives, score, coins, rating level, and pause button
  */
 export function GameHUD() {
   const { score, lives, coins, isPlaying } = useGameStore();
@@ -12,6 +13,10 @@ export function GameHUD() {
   const ratingInfo = getRatingInfo();
 
   if (!isPlaying) return null;
+
+  const handlePause = () => {
+    EventBus.emit(GameEvents.PAUSE);
+  };
 
   return (
     <div className="absolute top-4 left-4 right-4 flex justify-between items-center z-10 pointer-events-none">
@@ -44,6 +49,15 @@ export function GameHUD() {
           </div>
         </div>
       </div>
+
+      {/* Pause Button */}
+      <button
+        onClick={handlePause}
+        className="pointer-events-auto bg-white/80 w-12 h-12 rounded-full border-4 border-text flex items-center justify-center hover:scale-110 transition-transform"
+        aria-label="Pause game"
+      >
+        <span className="text-2xl">⏸️</span>
+      </button>
 
       {/* Score & Streak */}
       <div className="bg-white/80 px-4 py-2 rounded-full border-4 border-sky font-[family-name:var(--font-baloo)] text-2xl text-text flex items-center gap-2">

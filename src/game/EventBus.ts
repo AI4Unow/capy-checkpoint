@@ -64,6 +64,9 @@ export const GameEvents = {
   QUESTION_REASON: "question-reason",
   ONBOARDING_COMPLETE: "onboarding-complete",
   SCENE_CHANGE: "scene-change",
+  // Pause/Resume events
+  PAUSE: "pause",
+  RESUME: "resume",
 } as const;
 
 // Type definitions for event payloads

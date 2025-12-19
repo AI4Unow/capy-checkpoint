@@ -39,6 +39,7 @@ export class Game extends Phaser.Scene {
   private score = 0;
   private lives = 3;
   private isGameOver = false;
+  private isPaused = false;
   private gateTimer!: Phaser.Time.TimerEvent;
   private activeGates: AnswerGate[] = [];
   private questions: Question[] = [];
@@ -82,6 +83,41 @@ export class Game extends Phaser.Scene {
     this.studentRating = rating;
   }
 
+  /**
+   * Pause the game - stops physics, timers, and emits event
+   */
+  pauseGame(): void {
+    if (this.isGameOver || this.isPaused) return;
+
+    this.isPaused = true;
+    this.physics.pause();
+    this.time.paused = true;
+    EventBus.emit(GameEvents.PAUSE);
+  }
+
+  /**
+   * Resume the game - restarts physics, timers, and emits event
+   */
+  resumeGame(): void {
+    if (!this.isPaused) return;
+
+    this.isPaused = false;
+    this.physics.resume();
+    this.time.paused = false;
+    EventBus.emit(GameEvents.RESUME);
+  }
+
+  /**
+   * Toggle pause state
+   */
+  togglePause(): void {
+    if (this.isPaused) {
+      this.resumeGame();
+    } else {
+      this.pauseGame();
+    }
+  }
+
   create(): void {
     this.score = 0;
     this.lives = 3;
@@ -117,6 +153,17 @@ export class Game extends Phaser.Scene {
     this.input.keyboard?.on("keydown-ONE", () => this.selectAnswerPath(0));
     this.input.keyboard?.on("keydown-TWO", () => this.selectAnswerPath(1));
     this.input.keyboard?.on("keydown-THREE", () => this.selectAnswerPath(2));
+
+    // ESC key to pause/resume
+    this.input.keyboard?.on("keydown-ESC", () => this.togglePause());
+
+    // Listen for pause/resume events from React
+    EventBus.on(GameEvents.PAUSE, () => {
+      if (!this.isPaused) this.pauseGame();
+    });
+    EventBus.on(GameEvents.RESUME, () => {
+      if (this.isPaused) this.resumeGame();
+    });
 
     // Question text (larger and better positioned)
     this.questionText = this.add.text(GAME_WIDTH / 2, 60, "", {
@@ -154,7 +201,7 @@ export class Game extends Phaser.Scene {
   }
 
   update(): void {
-    if (this.isGameOver) return;
+    if (this.isGameOver || this.isPaused) return;
 
     // Scroll background
     this.background.tilePositionX += SCROLL_SPEED * 0.016;
@@ -190,7 +237,7 @@ export class Game extends Phaser.Scene {
   }
 
   private flap(): void {
-    if (this.isGameOver) return;
+    if (this.isGameOver || this.isPaused) return;
 
     const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
 
