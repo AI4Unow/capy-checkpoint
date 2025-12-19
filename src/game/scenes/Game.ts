@@ -3,11 +3,15 @@ import { EventBus, GameEvents } from "../EventBus";
 import questionsData from "@/data/all-questions.json";
 import type { Question } from "@/types/question";
 
-const FLAP_VELOCITY = -300;
-const SCROLL_SPEED = 120;
-const GATE_SPAWN_INTERVAL = 5500;
-const GROUND_Y = 520;
-const PATH_HEIGHT = 120; // Height of each answer path
+const FLAP_VELOCITY = -250;
+const SCROLL_SPEED = 40;
+const GATE_SPAWN_INTERVAL = 30000;
+const GROUND_Y = 650;
+const PATH_HEIGHT = 150; // Height of each answer path
+
+// Game dimensions
+const GAME_WIDTH = 1280;
+const GAME_HEIGHT = 720;
 
 interface AnswerGate {
   container: Phaser.GameObjects.Container;
@@ -75,15 +79,15 @@ export class Game extends Phaser.Scene {
     this.activeGates = [];
     this.answeredIds.clear();
 
-    // Background
-    this.background = this.add.tileSprite(400, 300, 800, 600, "background");
+    // Background (centered for new dimensions)
+    this.background = this.add.tileSprite(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, "background");
 
     // Ground
-    this.ground = this.add.rectangle(400, GROUND_Y + 40, 800, 80, 0xdde5b6);
+    this.ground = this.add.rectangle(GAME_WIDTH / 2, GROUND_Y + 40, GAME_WIDTH, 80, 0xdde5b6);
     this.physics.add.existing(this.ground, true);
 
     // Capybara
-    this.capybara = this.physics.add.sprite(120, 300, "capybara");
+    this.capybara = this.physics.add.sprite(150, GAME_HEIGHT / 2, "capybara");
     this.capybara.setCollideWorldBounds(true);
     this.capybara.setDepth(10);
     const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
@@ -95,17 +99,24 @@ export class Game extends Phaser.Scene {
       if (!this.isGameOver) this.gameOver();
     });
 
-    // Input
+    // Input - flap controls
     this.input.on("pointerdown", () => this.flap());
     this.input.keyboard?.on("keydown-SPACE", () => this.flap());
 
-    // Question text
-    this.questionText = this.add.text(400, 80, "", {
+    // Keyboard controls for answer selection (1, 2, 3)
+    this.input.keyboard?.on("keydown-ONE", () => this.selectAnswerPath(0));
+    this.input.keyboard?.on("keydown-TWO", () => this.selectAnswerPath(1));
+    this.input.keyboard?.on("keydown-THREE", () => this.selectAnswerPath(2));
+
+    // Question text (larger and better positioned)
+    this.questionText = this.add.text(GAME_WIDTH / 2, 60, "", {
       fontFamily: "Fredoka",
-      fontSize: "28px",
+      fontSize: "32px",
       color: "#5E503F",
       backgroundColor: "#FFFFFF",
-      padding: { x: 20, y: 12 },
+      padding: { x: 24, y: 14 },
+      wordWrap: { width: GAME_WIDTH - 100 },
+      align: "center",
     });
     this.questionText.setOrigin(0.5);
     this.questionText.setDepth(20);
@@ -181,6 +192,34 @@ export class Game extends Phaser.Scene {
     capyBody.velocity.y = FLAP_VELOCITY;
   }
 
+  /**
+   * Select answer path by pressing 1, 2, or 3 keys
+   */
+  private selectAnswerPath(pathIndex: number): void {
+    if (this.isGameOver || !this.currentQuestion) return;
+
+    // Enable gravity if not already enabled
+    const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
+    if (!capyBody.allowGravity) {
+      capyBody.allowGravity = true;
+    }
+
+    // Move capybara to selected path Y position
+    const pathYPositions = [220, 380, 540];
+    const targetY = pathYPositions[pathIndex];
+
+    // Animate capybara to target position
+    this.tweens.add({
+      targets: this.capybara,
+      y: targetY,
+      duration: 200,
+      ease: "Power2",
+    });
+
+    // Briefly stop gravity during movement
+    capyBody.velocity.y = 0;
+  }
+
   private selectNextQuestion(): void {
     // Use adaptive selector if available
     if (this.questionSelector) {
@@ -212,29 +251,41 @@ export class Game extends Phaser.Scene {
     if (this.isGameOver || !this.currentQuestion) return;
 
     const question = this.currentQuestion;
-    const container = this.add.container(850, 0);
+    const container = this.add.container(GAME_WIDTH + 100, 0);
     container.setDepth(5);
 
-    // 3 answer paths (top, middle, bottom)
-    const pathYPositions = [180, 300, 420];
+    // 3 answer paths (top, middle, bottom) - adjusted for 720p height
+    const pathYPositions = [220, 380, 540];
     const colors = [0xffd6e0, 0xdde5b6, 0xa2d2ff]; // pink, sage, sky
+    const keyLabels = ["1", "2", "3"]; // Keyboard shortcut labels
 
     question.options.forEach((option, index) => {
       const y = pathYPositions[index];
 
-      // Answer box
-      const box = this.add.rectangle(0, y, 140, PATH_HEIGHT - 20, colors[index]);
+      // Answer box (wider for longer text)
+      const box = this.add.rectangle(0, y, 200, PATH_HEIGHT - 20, colors[index]);
       box.setStrokeStyle(4, 0x5e503f);
 
-      // Answer text
+      // Key indicator circle
+      const keyCircle = this.add.circle(-120, y, 24, 0x5e503f);
+      const keyText = this.add.text(-120, y, keyLabels[index], {
+        fontFamily: "Fredoka",
+        fontSize: "28px",
+        color: "#FFFFFF",
+      });
+      keyText.setOrigin(0.5);
+
+      // Answer text (with word wrap for long answers)
       const text = this.add.text(0, y, option, {
         fontFamily: "Baloo 2",
-        fontSize: "32px",
+        fontSize: "28px",
         color: "#5E503F",
+        wordWrap: { width: 180 },
+        align: "center",
       });
       text.setOrigin(0.5);
 
-      container.add([box, text]);
+      container.add([box, keyCircle, keyText, text]);
     });
 
     // Store gate info
@@ -248,13 +299,13 @@ export class Game extends Phaser.Scene {
   private checkAnswer(_gate: AnswerGate): void {
     if (!this.currentQuestion) return;
 
-    // Determine which path capybara is in
+    // Determine which path capybara is in (adjusted for 720p)
     const capyY = this.capybara.y;
     let selectedPath: number;
 
-    if (capyY < 240) {
+    if (capyY < 300) {
       selectedPath = 0; // Top
-    } else if (capyY < 360) {
+    } else if (capyY < 460) {
       selectedPath = 1; // Middle
     } else {
       selectedPath = 2; // Bottom
@@ -335,33 +386,33 @@ export class Game extends Phaser.Scene {
 
     EventBus.emit(GameEvents.GAME_OVER, this.score);
 
-    // Dark overlay
-    const overlay = this.add.rectangle(400, 300, 800, 600, 0x000000, 0.5);
+    // Dark overlay (centered for new dimensions)
+    const overlay = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, 0x000000, 0.5);
     overlay.setDepth(40);
 
     // Game over text
-    const gameOverText = this.add.text(400, 220, "Game Over!", {
+    const gameOverText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 - 80, "Game Over!", {
       fontFamily: "Fredoka",
-      fontSize: "56px",
+      fontSize: "64px",
       color: "#FFFFFF",
     });
     gameOverText.setOrigin(0.5);
     gameOverText.setDepth(50);
 
-    const scoreText = this.add.text(400, 290, `Score: ${this.score}`, {
+    const scoreText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2, `Score: ${this.score}`, {
       fontFamily: "Nunito",
-      fontSize: "32px",
+      fontSize: "36px",
       color: "#FFFFFF",
     });
     scoreText.setOrigin(0.5);
     scoreText.setDepth(50);
 
     // Retry button
-    const retryBtn = this.add.rectangle(400, 380, 200, 60, 0xdde5b6);
+    const retryBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 80, 220, 60, 0xdde5b6);
     retryBtn.setStrokeStyle(4, 0x5e503f);
     retryBtn.setInteractive({ useHandCursor: true });
     retryBtn.setDepth(50);
-    const retryText = this.add.text(400, 380, "Try Again", {
+    const retryText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 80, "Try Again", {
       fontFamily: "Baloo 2",
       fontSize: "28px",
       color: "#5E503F",
@@ -371,11 +422,11 @@ export class Game extends Phaser.Scene {
     retryBtn.on("pointerdown", () => this.scene.restart());
 
     // Menu button
-    const menuBtn = this.add.rectangle(400, 460, 200, 60, 0xffd6e0);
+    const menuBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 160, 220, 60, 0xffd6e0);
     menuBtn.setStrokeStyle(4, 0x5e503f);
     menuBtn.setInteractive({ useHandCursor: true });
     menuBtn.setDepth(50);
-    const menuText = this.add.text(400, 460, "Menu", {
+    const menuText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 160, "Menu", {
       fontFamily: "Baloo 2",
       fontSize: "28px",
       color: "#5E503F",

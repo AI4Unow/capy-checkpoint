@@ -1,5 +1,9 @@
 import Phaser from "phaser";
 
+// Game dimensions
+const GAME_WIDTH = 1280;
+const GAME_HEIGHT = 720;
+
 /**
  * Menu scene - start screen
  */
@@ -9,29 +13,30 @@ export class Menu extends Phaser.Scene {
   }
 
   create(): void {
-    this.add.image(400, 300, "background");
+    // Background (tiled for new dimensions)
+    this.add.tileSprite(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, "background");
 
     // Title
-    const title = this.add.text(400, 150, "Capy-Checkpoint", {
+    const title = this.add.text(GAME_WIDTH / 2, 150, "Capy-Checkpoint", {
       fontFamily: "Fredoka",
-      fontSize: "56px",
+      fontSize: "72px",
       color: "#5E503F",
     });
     title.setOrigin(0.5);
 
-    const subtitle = this.add.text(400, 210, "Math Adventure!", {
+    const subtitle = this.add.text(GAME_WIDTH / 2, 230, "Math Adventure!", {
       fontFamily: "Nunito",
-      fontSize: "24px",
+      fontSize: "32px",
       color: "#5E503F",
     });
     subtitle.setOrigin(0.5);
 
     // Capybara
-    const capy = this.add.image(400, 350, "capybara");
-    capy.setScale(1.5);
+    const capy = this.add.image(GAME_WIDTH / 2, 400, "capybara");
+    capy.setScale(2);
     this.tweens.add({
       targets: capy,
-      y: capy.y - 20,
+      y: capy.y - 25,
       duration: 1500,
       yoyo: true,
       repeat: -1,
@@ -39,16 +44,25 @@ export class Menu extends Phaser.Scene {
     });
 
     // Play button
-    const playBtn = this.add.rectangle(400, 480, 200, 60, 0xffd6e0);
+    const playBtn = this.add.rectangle(GAME_WIDTH / 2, 560, 240, 70, 0xffd6e0);
     playBtn.setStrokeStyle(4, 0x5e503f);
     playBtn.setInteractive({ useHandCursor: true });
 
-    const playText = this.add.text(400, 480, "PLAY", {
+    const playText = this.add.text(GAME_WIDTH / 2, 560, "PLAY", {
       fontFamily: "Baloo 2",
-      fontSize: "32px",
+      fontSize: "40px",
       color: "#5E503F",
     });
     playText.setOrigin(0.5);
+
+    // Instructions
+    const instructions = this.add.text(GAME_WIDTH / 2, 650, "Press SPACE to flap • Press 1, 2, 3 to select answers", {
+      fontFamily: "Nunito",
+      fontSize: "20px",
+      color: "#5E503F",
+    });
+    instructions.setOrigin(0.5);
+    instructions.setAlpha(0.8);
 
     playBtn.on("pointerover", () => {
       playBtn.setFillStyle(0xffe4ec);

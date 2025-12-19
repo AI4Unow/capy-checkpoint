@@ -11,8 +11,8 @@ export const createGameConfig = (
 ): Phaser.Types.Core.GameConfig => ({
   type: Phaser.AUTO,
   parent,
-  width: 800,
-  height: 600,
+  width: 1280,
+  height: 720,
   backgroundColor: "#A2D2FF",
   scale: {
     mode: Phaser.Scale.FIT,

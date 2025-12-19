@@ -62,8 +62,8 @@ export default function Home() {
   };
 
   return (
-    <div className="w-screen h-screen flex items-center justify-center bg-cream">
-      <div className="relative w-full max-w-[800px] aspect-[4/3] rounded-[40px] border-[12px] border-text overflow-hidden shadow-2xl">
+    <div className="w-screen h-screen flex items-center justify-center bg-cream p-4">
+      <div className="relative w-full h-full max-w-[1280px] max-h-[720px] aspect-video rounded-[32px] border-[8px] border-text overflow-hidden shadow-2xl">
         <GameHUD />
         <PhaserGame />
 
