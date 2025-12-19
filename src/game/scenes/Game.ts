@@ -166,8 +166,8 @@ export class Game extends Phaser.Scene {
       if (this.isPaused) this.resumeGame();
     });
 
-    // Question text (larger and better positioned)
-    this.questionText = this.add.text(GAME_WIDTH / 2, 60, "", {
+    // Question text (positioned below HUD area)
+    this.questionText = this.add.text(GAME_WIDTH / 2, 110, "", {
       fontFamily: "Fredoka",
       fontSize: "32px",
       color: "#5E503F",
