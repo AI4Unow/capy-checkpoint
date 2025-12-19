@@ -1,6 +1,6 @@
 {
-  "name": "Capy-Checkpoint",
-  "short_name": "CapyMath",
+  "name": "Mathie",
+  "short_name": "Mathie",
   "description": "Math learning game for Cambridge Primary Checkpoint - Flappy Bird meets adaptive learning!",
   "start_url": "/",
   "display": "standalone",

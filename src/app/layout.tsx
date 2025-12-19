@@ -22,7 +22,7 @@ const baloo = Baloo_2({
 });
 
 export const metadata: Metadata = {
-  title: "Capy-Checkpoint",
+  title: "Mathie",
   description: "Math learning game for Cambridge Primary Checkpoint",
   manifest: "/manifest.json",
 };

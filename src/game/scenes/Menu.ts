@@ -17,7 +17,7 @@ export class Menu extends Phaser.Scene {
     this.add.tileSprite(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, "background");
 
     // Title
-    const title = this.add.text(GAME_WIDTH / 2, 150, "Capy-Checkpoint", {
+    const title = this.add.text(GAME_WIDTH / 2, 150, "Mathie", {
       fontFamily: "Fredoka",
       fontSize: "72px",
       color: "#5E503F",
