@@ -6,10 +6,6 @@
 import {
   collection,
   getDocs,
-  query,
-  where,
-  orderBy,
-  limit,
   doc,
   updateDoc,
   increment,
@@ -126,7 +122,7 @@ export async function getRandomQuestion(
  */
 export async function updateQuestionStats(
   questionId: string,
-  correct: boolean
+  _correct: boolean
 ): Promise<void> {
   if (!isFirebaseConfigured()) return;
 

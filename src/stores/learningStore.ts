@@ -14,7 +14,6 @@ import {
 import {
   createMasteryEntry,
   updateMastery,
-  getWeakestSubtopics,
   getTopicMastery,
 } from "@/engine/mastery";
 import { createSM2State, updateSM2, boolToQuality } from "@/engine/sm2";

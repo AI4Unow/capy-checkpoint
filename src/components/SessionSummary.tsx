@@ -14,8 +14,8 @@ export function SessionSummary({
   onBoutique,
   onMenu,
 }: SessionSummaryProps) {
-  const { score, coins, answeredCount, correctCount } = useGameStore();
-  const { studentRating, streakCount, bestStreak, getRatingInfo, sessionTotal, sessionCorrect } =
+  const { score, correctCount } = useGameStore();
+  const { studentRating, bestStreak, getRatingInfo, sessionTotal, sessionCorrect } =
     useLearningStore();
   const ratingInfo = getRatingInfo();
 

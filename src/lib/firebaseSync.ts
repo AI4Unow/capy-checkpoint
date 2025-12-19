@@ -7,7 +7,7 @@ import {
   onSnapshot,
   Unsubscribe,
 } from "firebase/firestore";
-import { getFirebaseDb, isFirebaseConfigured } from "./firebase";
+import { getFirebaseDb } from "./firebase";
 import type { SubtopicMastery } from "@/engine/mastery";
 import type { SM2State } from "@/engine/sm2";
 

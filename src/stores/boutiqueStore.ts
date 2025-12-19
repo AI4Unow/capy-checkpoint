@@ -6,7 +6,6 @@ import {
   BoutiqueItem,
   getItemById,
   isItemUnlocked,
-  BOUTIQUE_ITEMS,
 } from "@/data/boutique";
 
 interface BoutiqueState {

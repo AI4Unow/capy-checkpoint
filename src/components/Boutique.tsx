@@ -5,7 +5,6 @@ import { useGameStore } from "@/stores/gameStore";
 import { useLearningStore } from "@/stores/learningStore";
 import { useBoutiqueStore } from "@/stores/boutiqueStore";
 import {
-  BOUTIQUE_ITEMS,
   BoutiqueItem,
   getItemsByCategory,
   getRarityColor,

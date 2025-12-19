@@ -245,7 +245,7 @@ export class Game extends Phaser.Scene {
     });
   }
 
-  private checkAnswer(gate: AnswerGate): void {
+  private checkAnswer(_gate: AnswerGate): void {
     if (!this.currentQuestion) return;
 
     // Determine which path capybara is in

@@ -10,7 +10,6 @@ import {
   onAuthStateChanged,
   User,
   linkWithPopup,
-  Auth,
 } from "firebase/auth";
 import { getFirebaseAuth, isFirebaseConfigured } from "@/lib/firebase";
 import {

@@ -8,7 +8,7 @@ import { useLearningStore } from "@/stores/learningStore";
  */
 export function GameHUD() {
   const { score, lives, coins, isPlaying } = useGameStore();
-  const { studentRating, streakCount, getRatingInfo } = useLearningStore();
+  const { streakCount, getRatingInfo } = useLearningStore();
   const ratingInfo = getRatingInfo();
 
   if (!isPlaying) return null;

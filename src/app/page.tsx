@@ -47,11 +47,6 @@ export default function Home() {
     };
   }, []);
 
-  // Show summary when game over
-  const handleGameOver = () => {
-    setShowSummary(true);
-  };
-
   const handlePlayAgain = () => {
     setShowSummary(false);
     resetSession();

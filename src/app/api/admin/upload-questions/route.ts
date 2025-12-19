@@ -106,7 +106,7 @@ export async function POST(request: NextRequest) {
  * Get upload status / question count
  * GET /api/admin/upload-questions
  */
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const db = getFirestore();
     const snapshot = await db.collection("questions").count().get();
