@@ -3148,5 +3148,4395 @@
     "hasImage": false,
     "timesAnswered": 0,
     "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-01",
+    "text": "Which number must be added to 0.62 to make a total of 1?",
+    "options": [
+      "0.38",
+      "0.48",
+      "0.28"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 - 0.62 = 0.38",
+    "topic": "number",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam18-p1-02",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Write the missing numbers: [ ] + 0.3 = 1 and 1 - [ ] = 0.6",
+    "options": [
+      "0.7 and 0.4",
+      "0.7 and 0.3",
+      "0.6 and 0.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "1-0.3=0.7; 1-0.6=0.4",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-03",
+    "text": "Which of these numbers is the largest?",
+    "options": [
+      "15 060",
+      "15 007",
+      "15 000"
+    ],
+    "correctIndex": 0,
+    "explanation": "15 060 > 15 007",
+    "topic": "number",
+    "subtopic": "comparing numbers"
+  },
+  {
+    "id": "cam18-p1-04",
+    "text": "In the number 659.13, what is the value of the digit 3 in words?",
+    "options": [
+      "Three hundredths",
+      "Three tenths",
+      "Three units"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 3 is in the hundredths place.",
+    "topic": "number",
+    "subtopic": "place value"
+  },
+  {
+    "id": "cam18-p1-05",
+    "text": "Six children have $4.03 each. How much do they have altogether?",
+    "options": [
+      "$24.18",
+      "$24.08",
+      "$24.30"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 * 4.03 = 24.18",
+    "topic": "calculation",
+    "subtopic": "multiplication"
+  },
+  {
+    "id": "cam18-p1-06",
+    "text": "Jamila's desk is 1 metre 8.5 centimetres long. What is this length in metres?",
+    "options": [
+      "1.085 m",
+      "1.85 m",
+      "1.805 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 m + 8.5/100 m = 1.085 m",
+    "topic": "measure",
+    "subtopic": "length conversion"
+  },
+  {
+    "id": "cam18-p1-07",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Using a number line for 231 + 467, the jumps are +400, +60, and +7. What are the intermediate values?",
+    "options": [
+      "631 and 691",
+      "631 and 697",
+      "531 and 631"
+    ],
+    "correctIndex": 0,
+    "explanation": "231+400=631; 631+60=691",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-09b",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 750,
+    "text": "A regular pentagon has sides of 4.5 cm. Find the perimeter.",
+    "options": [
+      "22.5",
+      "18.0",
+      "25.0"
+    ],
+    "correctIndex": 0,
+    "explanation": "4.5 cm x 5 sides = 22.5 cm",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-10",
+    "text": "Write the missing number in the box: 100 × 100 = [ ] × 10",
+    "options": [
+      "1000",
+      "100",
+      "10000"
+    ],
+    "correctIndex": 0,
+    "explanation": "10000 ÷ 10 = 1000",
+    "topic": "calculation",
+    "subtopic": "multiplication"
+  },
+  {
+    "id": "cam18-p1-12",
+    "text": "Write in the missing number: 560 + [ ] = 830",
+    "options": [
+      "270",
+      "370",
+      "230"
+    ],
+    "correctIndex": 0,
+    "explanation": "830 - 560 = 270",
+    "topic": "calculation",
+    "subtopic": "addition"
+  },
+  {
+    "id": "cam18-p1-13",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "A triangle has sides of 6 cm, 11 cm and 7 cm. What type of triangle is it?",
+    "options": [
+      "scalene",
+      "isosceles",
+      "equilateral"
+    ],
+    "correctIndex": 0,
+    "explanation": "All sides are different lengths.",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-14",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Three numbers total 173. Two are 69 and 56. What is the third number?",
+    "options": [
+      "48",
+      "58",
+      "47"
+    ],
+    "correctIndex": 0,
+    "explanation": "173 - 69 - 56 = 48",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-15",
+    "text": "Complete the calculations: 30 × 50 and 500 × 40.",
+    "options": [
+      "1500 and 20000",
+      "150 and 2000",
+      "1500 and 2000"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 × 5 = 15; 5 × 4 = 20. Add zeros.",
+    "topic": "calculation",
+    "subtopic": "multiplication"
+  },
+  {
+    "id": "cam18-p1-16",
+    "text": "Find 40% of $35.",
+    "options": [
+      "$14",
+      "$12.50",
+      "$15"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.4 × 35 = 14",
+    "topic": "number",
+    "subtopic": "percentages"
+  },
+  {
+    "id": "cam18-p1-17",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Complete the statement: 347 = (3 x __) + (__ x 10) + (7 x __)",
+    "options": [
+      "100, 4, 1",
+      "10, 4, 1",
+      "100, 3, 7"
+    ],
+    "correctIndex": 0,
+    "explanation": "300 + 40 + 7 = 347",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-18",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 800,
+    "text": "Aiko is thinking of a 3-digit even number. It is bigger than 800 and a multiple of 25. What could it be?",
+    "options": [
+      "850",
+      "825",
+      "875"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiples of 25 > 800 are 825, 850, 875... 850 is even.",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-20",
+    "text": "What is the next number in the sequence? 180, 105, ... (Rule: subtract 75)",
+    "options": [
+      "30",
+      "35",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "105 - 75 = 30",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam18-p1-21",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Order these numbers starting with the smallest: 0.6, 1/2, 65/100, 0.55",
+    "options": [
+      "1/2, 0.55, 0.6, 65/100",
+      "0.55, 1/2, 0.6, 65/100",
+      "1/2, 0.6, 0.55, 65/100"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/2=0.5, 65/100=0.65. Order: 0.5, 0.55, 0.6, 0.65.",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-22",
+    "text": "Find the missing digits to make this correct: 3_8 + _05 = _63",
+    "options": [
+      "5, 1, 4",
+      "4, 1, 5",
+      "5, 2, 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "358 + 105 = 463",
+    "topic": "calculation",
+    "subtopic": "addition"
+  },
+  {
+    "id": "cam18-p1-24",
+    "text": "If 26 × 15 = 390, what is 26 × 14?",
+    "options": [
+      "364",
+      "374",
+      "380"
+    ],
+    "correctIndex": 0,
+    "explanation": "390 - 26 = 364",
+    "topic": "calculation",
+    "subtopic": "multiplication strategies"
+  },
+  {
+    "id": "cam18-p1-25",
+    "text": "Order from smallest to largest: 0.65, 2/3, 0.57, 3/5.",
+    "options": [
+      "0.57, 3/5, 0.65, 2/3",
+      "0.57, 0.65, 3/5, 2/3",
+      "3/5, 0.57, 0.65, 2/3"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/5=0.6, 2/3≈0.67. 0.57<0.6<0.65<0.67",
+    "topic": "number",
+    "subtopic": "ordering decimals"
+  },
+  {
+    "id": "cam18-p1-27a",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 800,
+    "text": "Jamila says: My shape has exactly 3 pairs of parallel lines. Name the shape.",
+    "options": [
+      "Regular hexagon",
+      "Square",
+      "Regular octagon"
+    ],
+    "correctIndex": 0,
+    "explanation": "A regular hexagon has 3 pairs of parallel sides.",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-27b",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 850,
+    "text": "Carlos says, 'My shape has exactly 4 pairs of perpendicular lines.' Name the shape Carlos is thinking of.",
+    "options": [
+      "Square",
+      "Triangle",
+      "Pentagon"
+    ],
+    "correctIndex": 0,
+    "explanation": "A square has 4 pairs of perpendicular sides.",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p1-30",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "A lighthouse flashes every 20 seconds. How many times will it flash in one hour?",
+    "options": [
+      "180",
+      "120",
+      "200"
+    ],
+    "correctIndex": 0,
+    "explanation": "3600 seconds / 20 = 180",
+    "source": "Cambridge 2018 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-02",
+    "topic": "data",
+    "subtopic": "averages",
+    "difficulty": 900,
+    "text": "Write these numbers in order from smallest to largest: 3.41, 3.14, 3.25, 3.09, 3.90",
+    "options": [
+      "3.09, 3.14, 3.25, 3.41, 3.90",
+      "3.09, 3.25, 3.14, 3.41, 3.90",
+      "3.90, 3.41, 3.25, 3.14, 3.09"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compare tenths then hundredths.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-06",
+    "text": "Using digit cards 3, 4, 5, and 6 once each, which equation is correct?",
+    "options": [
+      "6.4 - 2.9 = 3.5",
+      "5.4 - 2.9 = 2.5",
+      "6.3 - 2.9 = 3.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "6.4 - 2.9 = 3.5 uses all cards once.",
+    "topic": "calculation",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam18-p2-07",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Safia's book has 136 pages. She has read 1/8 of it. How many pages has she read?",
+    "options": [
+      "17",
+      "18",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "136 divided by 8 equals 17.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-08",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Which two calculations have a total of 750? (35x12, 13x35, 25x15, 22x15, 45x41)",
+    "options": [
+      "35 x 12 and 22 x 15",
+      "25 x 15 and 22 x 15",
+      "13 x 35 and 25 x 15"
+    ],
+    "correctIndex": 0,
+    "explanation": "420 + 330 = 750",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-10",
+    "text": "A book measures 12 inches. What is 12 inches to the nearest centimetre?",
+    "options": [
+      "30",
+      "24",
+      "36"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 inch is about 2.54 cm. 12*2.54 = 30.5",
+    "topic": "measure",
+    "subtopic": "conversions"
+  },
+  {
+    "id": "cam18-p2-13",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Arrange in descending order: 60136, 306016, 631600, 100663.",
+    "options": [
+      "631600, 306016, 100663, 60136",
+      "631600, 100663, 306016, 60136",
+      "306016, 631600, 100663, 60136"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compare the value of each number place.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-14",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which pair of decimals rounds to the same whole number?",
+    "options": [
+      "4.5 and 5.4",
+      "2.3 and 3.2",
+      "3.4 and 4.3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both 4.5 and 5.4 round to 5.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-16",
+    "text": "Which of these pairs of fractions are equivalent?",
+    "options": [
+      "8/20 and 2/5",
+      "6/12 and 1/3",
+      "9/12 and 1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "8/20 = 2/5 (divide by 4)",
+    "topic": "number",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam18-p2-17",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "If 354 x 4 = 1416, how can you calculate 354 x 12?",
+    "options": [
+      "Multiply 1416 by 3",
+      "Multiply 1416 by 12",
+      "Add 12 to 1416"
+    ],
+    "correctIndex": 0,
+    "explanation": "Since 12 is 4 x 3, multiply the result by 3.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-19",
+    "text": "Which symbol makes this statement true? 42.6 × 7 [ ] 1493 ÷ 5",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "correctIndex": 0,
+    "explanation": "298.2 is less than 298.6",
+    "topic": "calculation",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam18-p2-20",
+    "text": "Find the range of these test scores: 2, 3, 3, ..., 19, 20, 20, 20.",
+    "options": [
+      "18",
+      "20",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "Range = Max (20) - Min (2) = 18",
+    "topic": "data",
+    "subtopic": "range"
+  },
+  {
+    "id": "cam18-p2-24",
+    "text": "Ahmed has a 2m roll of tape and cuts 35cm pieces. How many full pieces can he cut?",
+    "options": [
+      "5",
+      "6",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "200cm ÷ 35cm = 5 pieces (rem 25cm)",
+    "topic": "measure",
+    "subtopic": "length"
+  },
+  {
+    "id": "cam18-p2-26",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Points A, B, C are on a line. BC = 3 * AB. If BC = 45 cm, what is the distance from A to C?",
+    "options": [
+      "60 cm",
+      "15 cm",
+      "30 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "AB = 45/3 = 15. AC = 15 + 45 = 60.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-27",
+    "text": "A relay team's best time is 43.7s. Three runners took 9.87s, 12.05s, and 11.3s. What time must the 4th runner get?",
+    "options": [
+      "10.48s",
+      "10.58s",
+      "11.48s"
+    ],
+    "correctIndex": 0,
+    "explanation": "43.7 - (9.87 + 12.05 + 11.3) = 10.48",
+    "topic": "calculation",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam18-p2-28",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "A 5m square pond is dug in a 12m square of grass. Calculate the area of grass that is left.",
+    "options": [
+      "119 m2",
+      "144 m2",
+      "95 m2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Area = 12*12 - 5*5 = 144 - 25 = 119.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-29",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 800,
+    "text": "Oliver thinks of a square number between 40 and 100. He adds 4 and gets a multiple of 5. What was his number?",
+    "options": [
+      "81",
+      "64",
+      "49"
+    ],
+    "correctIndex": 0,
+    "explanation": "81 + 4 = 85, which is a multiple of 5.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-30",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 800,
+    "text": "Tree A produces 20kg of plums. Tree B produces 10% more than Tree A. What is the total production?",
+    "options": [
+      "42 kg",
+      "22 kg",
+      "40 kg"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tree B = 22kg. Total = 20 + 22 = 42kg.",
+    "source": "Cambridge 2018 Paper 2",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p1-01",
+    "text": "What is the place value of the digit 6 in the number 18.436?",
+    "options": [
+      "thousandths",
+      "hundredths",
+      "tenths"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 is in the third decimal place.",
+    "topic": "number",
+    "subtopic": "place value"
+  },
+  {
+    "id": "cam20-p1-02",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "A clock shows 06:57:20. Write the time five minutes later.",
+    "options": [
+      "07:02:20",
+      "07:07:20",
+      "06:02:20"
+    ],
+    "correctIndex": 0,
+    "explanation": "06:57:20 + 5 minutes = 07:02:20",
+    "source": "Cambridge 2020 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p1-03",
+    "text": "2 out of 20 children travel by bicycle. What percentage of children is this?",
+    "options": [
+      "10%",
+      "2%",
+      "20%"
+    ],
+    "correctIndex": 0,
+    "explanation": "(2 / 20) * 100 = 10%.",
+    "topic": "data",
+    "subtopic": "percentages"
+  },
+  {
+    "id": "cam20-p1-07",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Calculate 207 * 27.",
+    "options": [
+      "5589",
+      "5489",
+      "5689"
+    ],
+    "correctIndex": 0,
+    "explanation": "207 * 27 = 5589",
+    "source": "Cambridge 2020 Paper 1",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p1-00",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Points A(3, 7) and C(7, 3) are on a line. Which coordinate for B is on this line?",
+    "options": [
+      "(6, 4)",
+      "(10, 10)",
+      "(6, 2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The coordinates sum to 10: 6 + 4 = 10.",
+    "source": "Cambridge 2020 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p1-10",
+    "text": "Calculate 16.239 + 101.51",
+    "options": [
+      "117.749",
+      "117.74",
+      "118.749"
+    ],
+    "correctIndex": 0,
+    "explanation": "Align decimals and add.",
+    "topic": "calculation",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam20-p1-12",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Which of these statements is true for both a square and a regular pentagon?",
+    "options": [
+      "Both are polygons",
+      "Both have right angles",
+      "Both have parallel sides"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both are closed shapes with straight sides.",
+    "source": "Cambridge 2020 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p1-13",
+    "text": "Calculate 5 + 2 × 7",
+    "options": [
+      "19",
+      "49",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiply before adding (BODMAS).",
+    "topic": "calculation",
+    "subtopic": "order of operations"
+  },
+  {
+    "id": "cam20-p1-20",
+    "text": "A rope 120.36m long is cut into 4 equal pieces. How long is each piece?",
+    "options": [
+      "30.09m",
+      "30.9m",
+      "30.06m"
+    ],
+    "correctIndex": 0,
+    "explanation": "120.36 divided by 4 is 30.09.",
+    "topic": "calculation",
+    "subtopic": "division"
+  },
+  {
+    "id": "cam20-p1-21",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Oliver thinks of two whole numbers. One is 1/3 of the other. Their sum is 16. What are the numbers?",
+    "options": [
+      "4 and 12",
+      "3 and 9",
+      "4 and 16"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 + 12 = 16 and 4 is 1/3 of 12.",
+    "source": "Cambridge 2020 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p1-22",
+    "text": "Find two numbers with 1 decimal place using only odd digits that round to 79.",
+    "options": [
+      "79.1 and 79.3",
+      "78.9 and 79.1",
+      "79.3 and 79.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "7, 9, 1, 3 are odd; both round to 79.",
+    "topic": "number",
+    "subtopic": "rounding"
+  },
+  {
+    "id": "cam20-p1-24",
+    "text": "The median of 4 scores is 6. Which set shows a 6 is not required?",
+    "options": [
+      "5, 5, 7, 7",
+      "4, 6, 6, 8",
+      "5, 6, 7, 8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Median of 5, 5, 7, 7 is (5+7)/2 = 6.",
+    "topic": "data",
+    "subtopic": "statistics"
+  },
+  {
+    "id": "cam20-p1-26",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 850,
+    "text": "A teacher has $497.50. She buys 10 bats at $42.50 each and 1 ball for $7.75. How much money is left?",
+    "options": [
+      "$64.75",
+      "$72.50",
+      "$65.00"
+    ],
+    "correctIndex": 0,
+    "explanation": "$497.50 - ($425 + $7.75) = $64.75",
+    "source": "Cambridge 2020 Paper 1",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p1-33",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which number is closest in value to -1?",
+    "options": [
+      "-1.01",
+      "-0.91",
+      "-1.1"
+    ],
+    "correctIndex": 0,
+    "explanation": "-1.01 has the smallest difference of 0.01.",
+    "source": "Cambridge 2020 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p2-01",
+    "text": "Calculate the area of a right-angled triangle with sides 6cm, 8cm and 10cm.",
+    "options": [
+      "24 cm²",
+      "48 cm²",
+      "40 cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Area = 0.5 x 6 x 8 = 24.",
+    "topic": "measure",
+    "subtopic": "area"
+  },
+  {
+    "id": "cam20-p2-02",
+    "text": "Lily has 3/4 of a cake. She cuts it into 6 equal pieces. What fraction of the cake is each piece?",
+    "options": [
+      "1/8",
+      "1/6",
+      "1/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/4 ÷ 6 = 3/24 = 1/8.",
+    "topic": "calculation",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam20-p2-15",
+    "text": "Why are 'rolling < 4' and 'rolling an odd number' on a dice not mutually exclusive?",
+    "options": [
+      "They share outcomes 1 and 3",
+      "All odd numbers are less than 4",
+      "All numbers less than 4 are odd"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both sets include outcomes 1 and 3.",
+    "topic": "data",
+    "subtopic": "probability"
+  },
+  {
+    "id": "cam20-p2-17",
+    "text": "Hassan uses 3 eggs for 15 people. How many people can he serve with 1 egg?",
+    "options": [
+      "5 people",
+      "3 people",
+      "10 people"
+    ],
+    "correctIndex": 0,
+    "explanation": "15 divided by 3 is 5.",
+    "topic": "calculation",
+    "subtopic": "ratio"
+  },
+  {
+    "id": "cam20-p2-18",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Which number are all these values divisible by: 150, 625, 400, 175, 225?",
+    "options": [
+      "25",
+      "10",
+      "50"
+    ],
+    "correctIndex": 0,
+    "explanation": "All numbers end in 00, 25, 50, or 75.",
+    "source": "Cambridge 2020 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p2-09",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Hassan has digit cards 0-8. He picks one. Which of these outcomes is the least likely?",
+    "options": [
+      "Picking the number 9",
+      "Picking an odd number",
+      "Picking a number < 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "9 is not in the set, so probability is zero.",
+    "source": "Cambridge 2020 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p2-10b",
+    "topic": "data",
+    "subtopic": "graphs",
+    "difficulty": 800,
+    "text": "Why should dots on a graph showing methods of travel not be connected by lines?",
+    "options": [
+      "The data is discrete",
+      "The data is continuous",
+      "It shows a trend over time"
+    ],
+    "correctIndex": 0,
+    "explanation": "Categories like 'bus' or 'car' are separate.",
+    "source": "Cambridge 2020 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam20-p2-27",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 850,
+    "text": "A square tile is 1/4 shaded. Yuri joins 3 tiles to make a rectangle. What percentage of the rectangle is shaded?",
+    "options": [
+      "25%",
+      "75%",
+      "33%"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/4 of the total area remains shaded.",
+    "source": "Cambridge 2020 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-03a",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Gabriella scores 6, 5 and 4 goals in her matches. What was her team's highest score?",
+    "options": [
+      "6",
+      "5",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 is the highest value in the set {6, 5, 4}.",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-03b",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Gabriella scores 6, 5 and 4 goals in her matches. How many times did her team score no goals?",
+    "options": [
+      "0",
+      "1",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "The score 0 does not appear in the results.",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-03",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Naomi counts back in sevens: 27, 20, 13... What are the next three numbers in her sequence?",
+    "options": [
+      "6, -1, -8",
+      "6, -1, -7",
+      "7, 0, -7"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 7 each time.",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-05",
+    "text": "In a triangle, two angles are 39° and 57°. Work out the value of the third angle a.",
+    "options": [
+      "84°",
+      "94°",
+      "74°"
+    ],
+    "correctIndex": 0,
+    "explanation": "180 - 39 - 57 = 84",
+    "topic": "geometry",
+    "subtopic": "angles"
+  },
+  {
+    "id": "cam22-p2-06",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Rajiv says if a sum is even, both numbers must be even. Which addition proves him wrong?",
+    "options": [
+      "3 + 5 = 8",
+      "2 + 4 = 6",
+      "1 + 2 = 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 and 5 are odd, but their sum 8 is even.",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-08",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "What number is five-tenths more than 4.79?",
+    "options": [
+      "5.29",
+      "4.84",
+      "4.74"
+    ],
+    "correctIndex": 0,
+    "explanation": "4.79 + 0.5 = 5.29",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-12",
+    "text": "How many hundredths are there in the number 3.67?",
+    "options": [
+      "367",
+      "67",
+      "3.67"
+    ],
+    "correctIndex": 0,
+    "explanation": "3.67 equals 367 hundredths.",
+    "topic": "number",
+    "subtopic": "fractions and decimals"
+  },
+  {
+    "id": "cam22-p2-14",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which measurement is NOT correctly rounded to the nearest centimetre?",
+    "options": [
+      "2.6 cm rounded to 2 cm",
+      "2.3 cm rounded to 2 cm",
+      "1.8 cm rounded to 2 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "2.6 cm rounds to 3 cm.",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-17",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "How many small squares of side 1 cm will fill the inside of a big square with side 7 cm?",
+    "options": [
+      "49",
+      "14",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "Area = 7 x 7 = 49",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-19",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "Angelique runs 3/4 km then a further 5/8 km. How far does she run altogether?",
+    "options": [
+      "1 3/8 km",
+      "1 1/8 km",
+      "1 1/4 km"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/4 + 5/8 = 6/8 + 5/8 = 11/8 = 1 3/8",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p2-21",
+    "text": "4 kids have a mean of 8 beads. Rajiv joins and the mean for 5 is 9. How many beads did Rajiv bring?",
+    "options": [
+      "13",
+      "10",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total 5*9=45, 4*8=32. 45-32=13.",
+    "topic": "data",
+    "subtopic": "mean"
+  },
+  {
+    "id": "cam22-p2-24",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Steps use 1, 3, 6 bricks for 1st, 2nd, 3rd steps. How many bricks for the 6th step?",
+    "options": [
+      "21",
+      "15",
+      "28"
+    ],
+    "correctIndex": 0,
+    "explanation": "Triangular numbers: 1, 3, 6, 10, 15, 21.",
+    "source": "Cambridge 2022 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-01",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Find the next number in the sequence: 19, 10, 1, ...",
+    "options": [
+      "-8",
+      "-9",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sequence decreases by 9 each time: 1 - 9 = -8",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-29",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Find the median of these run times: 32, 31, 28, 25, 30, 31.",
+    "options": [
+      "30.5",
+      "31",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sorted: 25, 28, 30, 31, 31, 32. Median is 30.5.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-05",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Calculate 94 divided by 7. Give the remainder as a fraction.",
+    "options": [
+      "3/7",
+      "4/7",
+      "1/7"
+    ],
+    "correctIndex": 0,
+    "explanation": "94 = 13 * 7 + 3. The remainder is 3/7.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-09",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which pair of results is correct for: 6 + 5 × 2 and 10 + 10 ÷ 2?",
+    "options": [
+      "16 and 15",
+      "22 and 15",
+      "16 and 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiply and divide before adding.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-13",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 850,
+    "text": "Write a multiple of 3 that is also a factor of 30.",
+    "options": [
+      "6",
+      "9",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 is 3×2 and 30÷5=6.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-14",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "A square touches a straight line. One side makes a 25° angle with the line. Calculate the other angle x.",
+    "options": [
+      "65°",
+      "55°",
+      "155°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Angles on a line: 180-90-25=65.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-15",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Which survey question is most useful for Ahmed to decide what fruit to sell at his stall?",
+    "options": [
+      "What type of fruit would you buy?",
+      "What type of fruit do you like?",
+      "How many pieces of fruit do you eat?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Buying intent is best for business planning.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-17",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 850,
+    "text": "Chen shares 1/2 a tub of ice cream equally into 4 bowls. What fraction of the whole tub is in each bowl?",
+    "options": [
+      "1/8",
+      "1/4",
+      "1/6"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/2 divided by 4 equals 1/8.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-20",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Which of these calculations can be solved using commutative properties?",
+    "options": [
+      "6 × 3 × 5 and 45 + 16 + 15",
+      "30 ÷ 6 and 84 – 17",
+      "6 × 3 × 5 and 30 ÷ 6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Commutativity applies to addition/multiplication.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-23",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Which of these regrouped expressions sum to 32.23?",
+    "options": [
+      "30 + 2.1 + 0.13 and 20 + 12.1 + 0.13",
+      "30 + 2.1 + 0.13 and 20 + 2.1 + 1.13",
+      "30 + 12.1 + 1.13 and 20 + 12.1 + 0.13"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both expressions sum exactly to 32.23.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-25",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate 4.3 × 5.",
+    "options": [
+      "21.5",
+      "21.05",
+      "20.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "4.3 × 5 = 21.5",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p1-30",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 900,
+    "text": "Find the value that makes the statement correct: 7/10 of $... = 2/3 of $210.",
+    "options": [
+      "200",
+      "140",
+      "210"
+    ],
+    "correctIndex": 0,
+    "explanation": "2/3 of 210 = 140. 140 / (7/10) = 200.",
+    "source": "Cambridge 2023 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-01",
+    "topic": "number",
+    "subtopic": "decimals",
+    "difficulty": 800,
+    "text": "Write a decimal number between 2 and 3 which has exactly 3 tenths and 5 hundredths.",
+    "options": [
+      "2.35",
+      "2.53",
+      "3.35"
+    ],
+    "correctIndex": 0,
+    "explanation": "2 + 0.3 + 0.05 = 2.35",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-03",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Write the numbers in order from smallest to largest: 7.8, 8.6, 6.8, 7.6, 8.7",
+    "options": [
+      "6.8, 7.6, 7.8, 8.6, 8.7",
+      "6.8, 7.8, 7.6, 8.6, 8.7",
+      "8.7, 8.6, 7.8, 7.6, 6.8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compare the ones then the tenths.",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-07",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Rajiv shares 3 bags of food equally between 10 donkeys. What fraction of a bag does each donkey get?",
+    "options": [
+      "3/10",
+      "10/3",
+      "1/3"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 bags / 10 donkeys = 3/10",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-09",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Anastasia draws two lines inside an octagon to make two triangles and a third shape. What is the name of the third shape?",
+    "options": [
+      "Hexagon",
+      "Pentagon",
+      "Heptagon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Octagon with 2 triangles removed leaves a hexagon.",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-16",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "What is 24.5 rounded to the nearest whole number?",
+    "options": [
+      "25",
+      "24",
+      "24.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.5 rounds up to the next whole number.",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-19",
+    "topic": "number",
+    "subtopic": "primes",
+    "difficulty": 900,
+    "text": "Identify all the prime numbers between 25 and 40.",
+    "options": [
+      "29, 31, 37",
+      "29, 33, 37",
+      "31, 37, 39"
+    ],
+    "correctIndex": 0,
+    "explanation": "29, 31, 37 are the only primes in this range.",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-20",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 750,
+    "text": "Gabriella adds 11 tiles to a square to make a new, larger square. How many tiles does the new square have?",
+    "options": [
+      "36",
+      "25",
+      "49"
+    ],
+    "correctIndex": 0,
+    "explanation": "A 6x6 square (36) is 11 more than a 5x5 square.",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-22",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Is Chen correct that rounding 40 075 to the nearest 100, 1000, and 10 000 gives the same result?",
+    "options": [
+      "No",
+      "Yes",
+      "Sometimes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Nearest 100 is 40 100; others are 40 000.",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-23",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 900,
+    "text": "Convert 2.5 minutes to seconds, 1.5 days to hours, and 0.75 hours to minutes.",
+    "options": [
+      "150s, 36h, 45m",
+      "150s, 24h, 45m",
+      "120s, 36h, 45m"
+    ],
+    "correctIndex": 0,
+    "explanation": "2.5*60=150s, 1.5*24=36h, 0.75*60=45m.",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam23-p2-31",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Naomi has 100 square tiles. She uses all of her tiles to make two squares. How many tiles are in each of her squares?",
+    "options": [
+      "64 and 36",
+      "50 and 50",
+      "70 and 30"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 squared is 36 and 8 squared is 64. 36+64=100.",
+    "source": "Cambridge 2023 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-01",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Calculate 237 + 654 and 1508 - 316.",
+    "options": [
+      "891 and 1192",
+      "881 and 1192",
+      "891 and 1292"
+    ],
+    "correctIndex": 0,
+    "explanation": "237+654=891; 1508-316=1192",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-02",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Which of these sets of numbers are all divisible by 4?",
+    "options": [
+      "224, 240, 304",
+      "224, 434, 422",
+      "240, 304, 422"
+    ],
+    "correctIndex": 0,
+    "explanation": "224, 240, and 304 are multiples of 4.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-04",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Complete: 0.45 = 0.4 + [ ] and 0.45 = 0.3 + [ ].",
+    "options": [
+      "0.05 and 0.15",
+      "0.5 and 0.15",
+      "0.05 and 0.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.45-0.4=0.05; 0.45-0.3=0.15",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Order from earliest to latest: 13:50, 20 minutes to 2 pm, 1.45 pm.",
+    "options": [
+      "20 mins to 2 pm, 1.45 pm, 13:50",
+      "13:50, 1.45 pm, 20 mins to 2 pm",
+      "1.45 pm, 13:50, 20 mins to 2 pm"
+    ],
+    "correctIndex": 0,
+    "explanation": "1:40 pm < 1:45 pm < 1:50 pm",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-11",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Which question helps Samira find if more people like cheese flavor chips than plain chips?",
+    "options": [
+      "What is your favourite flavour of chips?",
+      "Do you like chips?",
+      "Do you like cheese flavour?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Favorite flavor identifies preference.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-15",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "What is the result of the calculation 3 x 5 x 7?",
+    "options": [
+      "105",
+      "15",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 x 5 = 15; 15 x 7 = 105.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-16",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Chen shares 1/6 kg of flour into 3 equal piles. What fraction of a kg is in each pile?",
+    "options": [
+      "1/18",
+      "1/2",
+      "3/6"
+    ],
+    "correctIndex": 0,
+    "explanation": "(1/6) / 3 = 1/(6*3) = 1/18.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-17",
+    "topic": "calculation",
+    "subtopic": "subtraction",
+    "difficulty": 750,
+    "text": "What is the smallest number that can be subtracted from 316 to give a 2-digit answer?",
+    "options": [
+      "217",
+      "216",
+      "99"
+    ],
+    "correctIndex": 0,
+    "explanation": "316 - 217 = 99, the largest 2-digit number.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-19",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "In the sequence 13, 6, -1..., what is the next number?",
+    "options": [
+      "-8",
+      "-7",
+      "-9"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sequence decreases by 7 each time: -1 - 7 = -8.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-20",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Which number is equal to 3 ones, 4 tenths and 5 hundredths?",
+    "options": [
+      "3.45",
+      "30.45",
+      "34.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 + 0.4 + 0.05 = 3.45.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-21",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "If it takes Yuri 0.5 seconds to blink, what is the maximum number of times he could blink in one minute?",
+    "options": [
+      "120",
+      "30",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "60 seconds / 0.5 seconds per blink = 120.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-26",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "A farmer sells eggs in trays of 24. Gabriella buys 16 trays. How many eggs does she buy?",
+    "options": [
+      "384",
+      "364",
+      "404"
+    ],
+    "correctIndex": 0,
+    "explanation": "24 x 16 = 384",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-27",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Pierre is standing northeast of Rajiv. In which direction is Rajiv standing from Pierre?",
+    "options": [
+      "Southwest",
+      "Northwest",
+      "Southeast"
+    ],
+    "correctIndex": 0,
+    "explanation": "Southwest is the opposite of Northeast.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-28",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 900,
+    "text": "Rule: Add 2 then multiply by 7. If the 1st term is 4.9, what is the 3rd term?",
+    "options": [
+      "352.1",
+      "48.3",
+      "342.1"
+    ],
+    "correctIndex": 0,
+    "explanation": "(4.9+2)*7=48.3; (48.3+2)*7=352.1",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-29",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate the difference between 1.5 days and 1.5 hours in hours and minutes.",
+    "options": [
+      "34 hours 30 minutes",
+      "35 hours 30 minutes",
+      "34 hours 50 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "36h - 1.5h = 34.5h = 34h 30m",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-31",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Find the missing number: [ ] x 1000 = 1,000,000",
+    "options": [
+      "1000",
+      "100",
+      "10000"
+    ],
+    "correctIndex": 0,
+    "explanation": "1,000,000 / 1000 = 1000",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-32",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Anastasia chooses a 4-digit number with different odd digits. It rounds to 1500 to the nearest 100. What is the largest number she could choose?",
+    "options": [
+      "1539",
+      "1537",
+      "1579"
+    ],
+    "correctIndex": 0,
+    "explanation": "Must be 15xx, tens < 5. Largest odd digits: 1539.",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p1-34",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Youssef throws 16.37m. Mike throws 2.64m further. Oliver throws 4.36m less than Mike. Calculate Oliver's throw distance.",
+    "options": [
+      "14.65m",
+      "14.75m",
+      "19.01m"
+    ],
+    "correctIndex": 0,
+    "explanation": "16.37 + 2.64 - 4.36 = 14.65m",
+    "source": "Cambridge 2024 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-04",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "A digital clock shows 15:52. What time will it show 10 minutes later?",
+    "options": [
+      "16:02",
+      "16:12",
+      "15:62"
+    ],
+    "correctIndex": 0,
+    "explanation": "15:52 plus 10 minutes is 16:02.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-06",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "Two angles join to make a straight line. One angle is 35 degrees. Calculate the other angle.",
+    "options": [
+      "145",
+      "135",
+      "155"
+    ],
+    "correctIndex": 0,
+    "explanation": "Angles on a straight line sum to 180 degrees.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-09",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "A number with 1 decimal place rounds to 7 when rounded to the nearest whole number. Which of these could be the number?",
+    "options": [
+      "7.2",
+      "7.5",
+      "6.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Numbers from 6.5 to 7.4 round to 7.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-10",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Order these types of angles from smallest to largest: right, reflex, obtuse, acute.",
+    "options": [
+      "acute, right, obtuse, reflex",
+      "acute, obtuse, right, reflex",
+      "right, acute, obtuse, reflex"
+    ],
+    "correctIndex": 0,
+    "explanation": "Acute < 90°, Right = 90°, Obtuse < 180°, Reflex > 180°.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-11",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "A shape with an area of 20 cm² is made of four triangles. These triangles are rearranged to make a new shape. What is the area of the new shape?",
+    "options": [
+      "20 cm²",
+      "40 cm²",
+      "10 cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rearranging parts does not change the total area.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-13",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 700,
+    "text": "Rajiv records data using tally marks for groups of hops. How could he improve the way he records his data?",
+    "options": [
+      "Add a frequency column",
+      "Use wider groups",
+      "Change the color of the tallies"
+    ],
+    "correctIndex": 0,
+    "explanation": "A frequency column makes the totals easy to read.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-14",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Pierre counts back in 3s starting at 20. Which two numbers between 0 and -9 will Pierre count?",
+    "options": [
+      "-1 and -4",
+      "-2 and -5",
+      "-3 and -6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sequence: 2, -1, -4, -7.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-15",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "8 + 3.5 x [box] = 50. What number makes the statement correct?",
+    "options": [
+      "12",
+      "14",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "42 / 3.5 = 12",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-18a",
+    "topic": "number",
+    "subtopic": "primes",
+    "difficulty": 900,
+    "text": "What are three different prime numbers with a total of 25?",
+    "options": [
+      "3, 5 and 17",
+      "3, 11 and 11",
+      "2, 11 and 12"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 + 5 + 17 = 25. All are prime.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-18b",
+    "topic": "number",
+    "subtopic": "primes",
+    "difficulty": 900,
+    "text": "What are two different prime numbers with a total of 25?",
+    "options": [
+      "2 and 23",
+      "3 and 22",
+      "5 and 20"
+    ],
+    "correctIndex": 0,
+    "explanation": "2 + 23 = 25. Both are prime.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-22",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Ahmed has 45 pencils, more than Yuri. Yuri has an even number. Together they have more than 60. How many pencils could Yuri have?",
+    "options": [
+      "16",
+      "15",
+      "14"
+    ],
+    "correctIndex": 0,
+    "explanation": "Yuri must be even and > 15. 16 is possible.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-27",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Two square tiles with whole number sides have a total area of 52 cm2. What is the perimeter of the shape they form?",
+    "options": [
+      "32 cm",
+      "40 cm",
+      "26 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tiles are 4x4 and 6x6. Perimeter is 32 cm.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam24-p2-33",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "A number plus 7 is > 30, and the number minus 7 is < 20. Write all the possible values for the number.",
+    "options": [
+      "24, 25, 26",
+      "23, 24, 25",
+      "25, 26, 27"
+    ],
+    "correctIndex": 0,
+    "explanation": "The number must be between 23 and 27.",
+    "source": "Cambridge 2024 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-02",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Write a number in the box to make the statement correct: 1694 ÷ 100 =",
+    "options": [
+      "16.94",
+      "169.4",
+      "1.694"
+    ],
+    "correctIndex": 0,
+    "explanation": "Move the decimal point two places to the left.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-03",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "What are the first three triangular numbers?",
+    "options": [
+      "1, 3, 6",
+      "1, 2, 3",
+      "1, 4, 9"
+    ],
+    "correctIndex": 0,
+    "explanation": "They are formed by adding 1, then 2, then 3.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-04",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 800,
+    "text": "Explain how you know that 34 is not a multiple of 4.",
+    "options": [
+      "It leaves a remainder of 2",
+      "It is an odd number",
+      "4 multiplied by 8 is 34"
+    ],
+    "correctIndex": 0,
+    "explanation": "34 divided by 4 is 8 with a remainder of 2.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-05",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Identify a 3-digit number that is divisible by 2.",
+    "options": [
+      "100",
+      "101",
+      "103"
+    ],
+    "correctIndex": 0,
+    "explanation": "Even numbers are divisible by 2.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-06",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 850,
+    "text": "Manila time is 18:40. Sydney is 3 hours ahead. Work out the time in Sydney.",
+    "options": [
+      "21:40",
+      "15:40",
+      "20:40"
+    ],
+    "correctIndex": 0,
+    "explanation": "18:40 + 3 hours = 21:40",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-13",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Which of these mathematical statements is true?",
+    "options": [
+      "6 + 3 + 4 = 4 + 6 + 3",
+      "5 - 3 = 3 - 5",
+      "36 x 5 = 4 x 8 x 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Addition is commutative; order does not matter.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-18",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "How many lines of symmetry does a right-angled isosceles triangle have?",
+    "options": [
+      "1",
+      "0",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Right-angled isosceles triangles have 1 line.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-19",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Mike buys 8 planks of wood. Each plank has a length of 1.3 metres. Work out the total length of the 8 planks.",
+    "options": [
+      "10.4 m",
+      "9.6 m",
+      "11.2 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 x 1.3 = 10.4",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-21",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "A bag contains 12 pencils. A box contains 156 bags of pencils. Work out the number of pencils in a box.",
+    "options": [
+      "1872",
+      "1560",
+      "1672"
+    ],
+    "correctIndex": 0,
+    "explanation": "156 x 12 = 1872",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-22",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 700,
+    "text": "Work out how many hours are in 2.5 days.",
+    "options": [
+      "60",
+      "48",
+      "72"
+    ],
+    "correctIndex": 0,
+    "explanation": "2.5 x 24 = 60",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-23",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "A bag contains 2 red beads and 3 blue beads. Complete the statement: _ in every _ beads in the bag are blue.",
+    "options": [
+      "3 in every 5",
+      "2 in every 5",
+      "3 in every 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total is 5 beads; 3 are blue.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-24",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "In the number 14.26, write in words the value represented by the digit 6.",
+    "options": [
+      "Six hundredths",
+      "Six tenths",
+      "Six units"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 6 is in the hundredths place.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-25",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Lily has 636 beads. Each necklace uses 6 beads. Work out the number of necklaces Lily can make.",
+    "options": [
+      "106",
+      "116",
+      "101"
+    ],
+    "correctIndex": 0,
+    "explanation": "636 / 6 = 106",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-26",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out: 7.41 – 2.36 + 1.43",
+    "options": [
+      "6.48",
+      "5.05",
+      "8.84"
+    ],
+    "correctIndex": 0,
+    "explanation": "7.41 - 2.36 + 1.43 = 6.48",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-28",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Find the missing number: 14.07 × 100 ÷ 10 = □ ÷ 100",
+    "options": [
+      "14070",
+      "1407",
+      "140.7"
+    ],
+    "correctIndex": 0,
+    "explanation": "140.7 = 14070 ÷ 100",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-29",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which three angles could make a straight line (180°)?",
+    "options": [
+      "30°, 40°, 110°",
+      "10°, 20°, 90°",
+      "40°, 90°, 100°"
+    ],
+    "correctIndex": 0,
+    "explanation": "30 + 40 + 110 = 180",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-30",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Angelique’s watch is 12 mins slower than Jamila’s. Angelique shows 14:52. What time is Jamila’s?",
+    "options": [
+      "15:04",
+      "14:40",
+      "15:02"
+    ],
+    "correctIndex": 0,
+    "explanation": "14:52 + 12 minutes = 15:04",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p1-34",
+    "topic": "number",
+    "subtopic": "negative-numbers",
+    "difficulty": 950,
+    "text": "Naomi counts back from 105 by 8. Samira counts on from 15 by 7. What number do they both say?",
+    "options": [
+      "57",
+      "63",
+      "50"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both sequences reach 57.",
+    "source": "Cambridge 2025 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-01",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Write the fraction that represents 4 ÷ 5",
+    "options": [
+      "4/5",
+      "5/4",
+      "1/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 divided by 5 is written as the fraction 4/5.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-02",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Identify the shortest time interval: 2 seconds, 1.5 seconds, 2 minutes, 1.5 minutes",
+    "options": [
+      "1.5 seconds",
+      "2 seconds",
+      "1.5 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "1.5 seconds is smaller than 2 seconds.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-04",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Order these numbers from smallest to largest: 3.2, 0.8, 2.6, 6.1, 2.3",
+    "options": [
+      "0.8, 2.3, 2.6, 3.2, 6.1",
+      "0.8, 2.6, 2.3, 3.2, 6.1",
+      "6.1, 3.2, 2.6, 2.3, 0.8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ordered by comparing the units and then tenths.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-05",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Write a whole number of weeks to make the statement correct: 9 days < [ ] weeks < 1 month",
+    "options": [
+      "2",
+      "1",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "2 weeks is 14 days, which is between 9 and 30.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-09",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Round 106.3 to the nearest whole number.",
+    "options": [
+      "106",
+      "107",
+      "110"
+    ],
+    "correctIndex": 0,
+    "explanation": "The first decimal is 3, so round down.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-11",
+    "topic": "number",
+    "subtopic": "decimals",
+    "difficulty": 900,
+    "text": "Write 4/10 as a percentage and 60% as a decimal.",
+    "options": [
+      "40% and 0.6",
+      "4% and 0.6",
+      "40% and 6.0"
+    ],
+    "correctIndex": 0,
+    "explanation": "4/10 = 40% and 60/100 = 0.6",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-13",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which point is closer to the x-axis than (5, 3)?",
+    "options": [
+      "(5, 2)",
+      "(4, 3)",
+      "(2, 4)"
+    ],
+    "correctIndex": 0,
+    "explanation": "The y-coordinate 2 is less than 3.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-18",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 800,
+    "text": "If 3 bars of chocolate cost $36, what is the cost of 4 bars?",
+    "options": [
+      "$48",
+      "$44",
+      "$42"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 bar is $12 ($36/3). 4 bars = 4 * $12 = $48.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-19",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Hassan reads for 45 minutes and finishes at 3:35 pm. What time did he start?",
+    "options": [
+      "2:50 pm",
+      "2:45 pm",
+      "3:10 pm"
+    ],
+    "correctIndex": 0,
+    "explanation": "3:35 pm minus 45 minutes is 2:50 pm.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-20",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Find the missing number: 4 + 56 ÷ [ ] = 12",
+    "options": [
+      "7",
+      "8",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "12 - 4 = 8. 56 ÷ 7 = 8.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-22",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "What type of angle is 230 degrees?",
+    "options": [
+      "Reflex angle",
+      "Obtuse angle",
+      "Acute angle"
+    ],
+    "correctIndex": 0,
+    "explanation": "Angles between 180 and 360 degrees are reflex.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-23",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Eva shares 1/2 litre of juice equally into 5 glasses. How much is in each glass?",
+    "options": [
+      "1/10 litre",
+      "1/7 litre",
+      "1/5 litre"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/2 divided by 5 is 1/10.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-24",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 750,
+    "text": "A 3D shape has exactly three faces, and two of them are circles. Name the shape.",
+    "options": [
+      "Cylinder",
+      "Cone",
+      "Sphere"
+    ],
+    "correctIndex": 0,
+    "explanation": "A cylinder has 2 circular faces and 1 curved side.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-27",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "A sequence starts 18, ..., ..., ..., ..., 53 with steps of constant size. What is the next number in the sequence?",
+    "options": [
+      "60",
+      "59",
+      "61"
+    ],
+    "correctIndex": 0,
+    "explanation": "Step is (53-18)/5 = 7. 53 + 7 = 60.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-29",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Write a whole number in the box to make the statement correct: 0.5 > [ ] % > 2/5",
+    "options": [
+      "45",
+      "35",
+      "55"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.5 is 50% and 2/5 is 40%. 45 is in between.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-30",
+    "topic": "number",
+    "subtopic": "place-value",
+    "difficulty": 750,
+    "text": "A 4-digit number has different digits > 0 summing to 12. 3 is the thousands digit. What is the number?",
+    "options": [
+      "3126",
+      "3450",
+      "3045"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 is thousands. 1+2+6=9. 3+1+2+6=12.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-32",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Gabriella says, '120 cm is 3/4 of the length of my ribbon.' What is the total length of the ribbon?",
+    "options": [
+      "160 cm",
+      "150 cm",
+      "180 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "120 divided by 3/4 is 160.",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam25-p2-33",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Rajiv counts in steps of 8 starting at 103. What is the first 4-digit number he says?",
+    "options": [
+      "1007",
+      "1000",
+      "1015"
+    ],
+    "correctIndex": 0,
+    "explanation": "103 + (113 * 8) = 1007",
+    "source": "Cambridge 2025 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-01",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Which of these decimal numbers is the largest: 1.8, 5.2, 4.4, 3.1 or 2.9?",
+    "options": [
+      "5.2",
+      "4.4",
+      "3.1"
+    ],
+    "correctIndex": 0,
+    "explanation": "5.2 has the highest ones place value.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-02",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "What is 3.6 multiplied by 2?",
+    "options": [
+      "7.2",
+      "6.2",
+      "7.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "3.6 * 2 = 7.2",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-12",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which statement is equivalent to 30.83?",
+    "options": [
+      "30 + 0 + 0.8 + 0.03",
+      "30 + 0 + 0.8 + 0.3",
+      "3 + 0 + 0.8 + 0.03"
+    ],
+    "correctIndex": 0,
+    "explanation": "30.83 is 3 tens, 8 tenths and 3 hundredths.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-14",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which calculation results in the largest answer?",
+    "options": [
+      "76 / 5",
+      "76 / 7",
+      "41 / 7"
+    ],
+    "correctIndex": 0,
+    "explanation": "76 / 5 = 15.2, which is the largest value.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-17",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "How many lines of symmetry does a scalene triangle have?",
+    "options": [
+      "0",
+      "1",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "A scalene triangle has no lines of symmetry.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-18",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Brisbane is 8 hours ahead of Cape Town. If it is 09:00 in Cape Town, what time is it in Brisbane?",
+    "options": [
+      "17:00",
+      "01:00",
+      "15:00"
+    ],
+    "correctIndex": 0,
+    "explanation": "09:00 + 8 hours = 17:00.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-19",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Complete the calculation: 2 x 9 x 5 = 2 x [ ] x 9",
+    "options": [
+      "5",
+      "10",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "The missing number in the calculation is 5.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-21",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "What is the smallest 3-digit number in the sequence 20, 27, 34, ...?",
+    "options": [
+      "104",
+      "101",
+      "107"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sequence increases by 7. 97 + 7 = 104.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-22",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "How many different rectangles with whole-number side lengths have an area of 12 cm²?",
+    "options": [
+      "3",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "The factor pairs are (1,12), (2,6), and (3,4).",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-26b",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "What is 207 ÷ 3?",
+    "options": [
+      "69",
+      "71",
+      "67"
+    ],
+    "correctIndex": 0,
+    "explanation": "207 / 3 = 69",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-28",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "3 months is always less than how many weeks?",
+    "options": [
+      "14",
+      "13",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 months is max 92 days. 14 weeks is 98 days.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-30",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 850,
+    "text": "A shape has 100 squares. Jamila shades 1/4 of it and Mia shades 10 more. What is the total percentage of the shape that is shaded?",
+    "options": [
+      "35%",
+      "25%",
+      "15%"
+    ],
+    "correctIndex": 0,
+    "explanation": "25 (1/4) + 10 = 35. 35/100 is 35%.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-32",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "One third of the length of a piece of wood is 60 cm. What is the total length of the piece of wood?",
+    "options": [
+      "180 cm",
+      "120 cm",
+      "20 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "60 multiplied by 3 is 180.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p1-34",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "A bag has 10 balls. For every black ball, there are 2 white balls. There is 1 pink ball. How many white balls are there?",
+    "options": [
+      "6",
+      "3",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "10-1=9. 9 split in 1:2 ratio is 3 and 6.",
+    "source": "Cambridge 2026 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-01",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "1/4 is equivalent to 1 divided by which number?",
+    "options": [
+      "4",
+      "2",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/4 means 1 divided by 4.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-03",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "What is the likely time span to clap your hands once?",
+    "options": [
+      "0.5 seconds",
+      "5 seconds",
+      "5 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "Clapping is a very quick action.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-04",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "In which number does the digit 3 represent 3 tenths?",
+    "options": [
+      "12.34",
+      "234.5",
+      "123.45"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tenths is the first decimal place.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-08",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "What is 0.4 written as a percentage?",
+    "options": [
+      "40%",
+      "4%",
+      "0.4%"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.4 x 100 = 40%",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-10",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate 2/3 of 60.",
+    "options": [
+      "40",
+      "20",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "2/3 * 60 = 40.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-15",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Small square side 2cm. Compound area 40cm2. Calculate side of large square.",
+    "options": [
+      "6",
+      "8",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "40 - 2² = 36; √36 = 6.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-17",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Round 3.6 centimetres to the nearest centimetre.",
+    "options": [
+      "4",
+      "3",
+      "3.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "3.6 is closer to 4 than 3.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-19",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Which fraction completes the statement: 2/15 < [ ] < 1/3?",
+    "options": [
+      "4/15",
+      "1/15",
+      "6/15"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/3 is 5/15, so 4/15 fits between 2/15 and 5/15.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-22",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Complete the statement: 37 x 100 / 10 x [ ] = 3700",
+    "options": [
+      "10",
+      "1",
+      "100"
+    ],
+    "correctIndex": 0,
+    "explanation": "3700 / 10 = 370. 370 x 10 = 3700.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-23",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which of these numbers rounds to 1,500,000 when rounded to the nearest 100,000?",
+    "options": [
+      "1,450,000",
+      "1,405,000",
+      "1,550,000"
+    ],
+    "correctIndex": 0,
+    "explanation": "Numbers from 1,450,000 to 1,549,999 round to 1.5M.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-24",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Five identical angles are joined together to make a straight line. Calculate the size of each angle.",
+    "options": [
+      "36",
+      "30",
+      "45"
+    ],
+    "correctIndex": 0,
+    "explanation": "180 degrees / 5 = 36 degrees.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-28",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "True or False: Some pairs of identical right-angled triangles can be joined to make a square.",
+    "options": [
+      "True",
+      "False",
+      "Only if isosceles"
+    ],
+    "correctIndex": 0,
+    "explanation": "Two identical isosceles right triangles make a square.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-29",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Yuri uses 20 counters to show two square numbers. Which two square numbers does he use?",
+    "options": [
+      "4 and 16",
+      "9 and 11",
+      "5 and 15"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 and 16 are square numbers that sum to 20.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-32",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Point A is (1, 5) and B is (1, 2). Point C is the same distance from A as B. What is a possible coordinate for C?",
+    "options": [
+      "(1, 8)",
+      "(1, 1)",
+      "(2, 5)"
+    ],
+    "correctIndex": 0,
+    "explanation": "AB distance is 3. (1, 8) is 3 units from A.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam26-p2-35",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 800,
+    "text": "Mike says seeing a giraffe is almost certain. Oliver says it is almost impossible. How could both be correct?",
+    "options": [
+      "They are in different locations",
+      "They are both at home",
+      "They are both at school"
+    ],
+    "correctIndex": 0,
+    "explanation": "Probability depends on location and context.",
+    "source": "Cambridge 2026 Paper 2",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-02",
+    "text": "Write 1/4 as a decimal.",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 divided by 4 is 0.25.",
+    "topic": "number",
+    "subtopic": "fractions-decimals",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-03",
+    "text": "Mia cleans her teeth for 3 minutes. Clock shows 08:02:20 when finished. Start time?",
+    "options": [
+      "07:59:20",
+      "08:05:20",
+      "07:57:20"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 3 minutes from 08:02:20.",
+    "topic": "measure",
+    "subtopic": "time",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-05",
+    "text": "Compare -5 + 30 and 5 - 30 using <, =, or >",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "correctIndex": 0,
+    "explanation": "25 is greater than -25.",
+    "topic": "number",
+    "subtopic": "integers",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-07",
+    "text": "Complete: 36.43 = 36.4 + ?",
+    "options": [
+      "0.03",
+      "0.3",
+      "0.003"
+    ],
+    "correctIndex": 0,
+    "explanation": "36.43 - 36.4 = 0.03.",
+    "topic": "number",
+    "subtopic": "decimals",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-08",
+    "text": "2.5 minutes = ? seconds",
+    "options": [
+      "150",
+      "120",
+      "1500"
+    ],
+    "correctIndex": 0,
+    "explanation": "2.5 × 60 = 150.",
+    "topic": "measure",
+    "subtopic": "time",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-09",
+    "text": "Counter landed white. Safia says next must be black. Is she correct?",
+    "options": [
+      "No, outcome is random",
+      "Yes, it must alternate",
+      "No, must be white"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each toss is independent and random.",
+    "topic": "data",
+    "subtopic": "probability",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-10",
+    "text": "Find multiples of 7 between 30 and 50",
+    "options": [
+      "35, 42, 49",
+      "28, 35, 42",
+      "35, 42, 48"
+    ],
+    "correctIndex": 0,
+    "explanation": "7×5=35, 7×6=42, 7×7=49.",
+    "topic": "calculation",
+    "subtopic": "multiples",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-13",
+    "text": "Sequence: 0, 25, 50, 75, 100. Next two numbers?",
+    "options": [
+      "125, 150",
+      "110, 120",
+      "150, 175"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pattern: +25 each time.",
+    "topic": "number",
+    "subtopic": "sequences",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-14",
+    "text": "Why is 64 a square number?",
+    "options": [
+      "8 x 8 = 64",
+      "It is an even number",
+      "It is a multiple of 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "64 is the product of 8 multiplied by 8.",
+    "topic": "number",
+    "subtopic": "square numbers"
+  },
+  {
+    "id": "cam22-p1-15",
+    "text": "Chen has C cars. Mike has M cars. Mike has twice as many cars as Chen. Which equation represents M?",
+    "options": [
+      "M = 2C",
+      "M = C / 2",
+      "M = C + 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Twice means multiplying by 2.",
+    "topic": "calculation",
+    "subtopic": "expressions"
+  },
+  {
+    "id": "cam22-p1-20",
+    "text": "Compare: 4 × 3/4 [ ] 4, 2 1/4 ÷ 4 [ ] 1/2, and 4 × 3/3 [ ] 4. Which symbols are correct?",
+    "options": [
+      "<, >, =",
+      ">, <, =",
+      "<, <, ="
+    ],
+    "correctIndex": 0,
+    "explanation": "3 < 4; 9/16 > 1/2; 4 = 4.",
+    "topic": "number",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam22-p1-21",
+    "text": "From 5, 8, 145, 225, 358 find two with product multiple of 100",
+    "options": [
+      "8 and 225",
+      "5 and 145",
+      "8 and 358"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 × 225 = 1800.",
+    "topic": "calculation",
+    "subtopic": "multiples",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-24",
+    "text": "32 children in Class 6. 75% like apples. 75% of those also like oranges. How many like both?",
+    "options": [
+      "18",
+      "24",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.75 × 32 = 24; 0.75 × 24 = 18",
+    "topic": "number",
+    "subtopic": "percentages"
+  },
+  {
+    "id": "cam22-p1-25",
+    "text": "Which two total 5? 2.68, 3.32, 3.68, 1.32, 2.42",
+    "options": [
+      "3.68 and 1.32",
+      "2.68 and 3.32",
+      "2.68 and 2.42"
+    ],
+    "correctIndex": 0,
+    "explanation": "3.68 + 1.32 = 5.00.",
+    "topic": "calculation",
+    "subtopic": "decimals",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam22-p1-31a",
+    "text": "Marks 17, 16, 12, 18, 14, 20, 15. What is median?",
+    "options": [
+      "16",
+      "15",
+      "17"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sorted: 12,14,15,16,17,18,20. Middle=16.",
+    "topic": "data",
+    "subtopic": "statistics",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0
+  },
+  {
+    "id": "cam18-p2-01",
+    "text": "Find a number greater than 50 that is in both sequences: 6, 12, 18, 24... and 5, 10, 15, 20...",
+    "options": [
+      "60",
+      "90",
+      "55"
+    ],
+    "correctIndex": 0,
+    "explanation": "LCM of 5 and 6 is 30. 30 * 2 = 60.",
+    "topic": "number",
+    "subtopic": "multiples"
+  },
+  {
+    "id": "cam18-p2-03",
+    "text": "All these numbers are divisible by 1, 5 and which other number? 175, 325, 4000, 225, 2950, 550, 1075",
+    "options": [
+      "25",
+      "10",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "All numbers end in 00, 25, 50, or 75.",
+    "topic": "number",
+    "subtopic": "divisibility"
+  },
+  {
+    "id": "cam18-p2-04",
+    "text": "What is 20% written as a fraction in its simplest form?",
+    "options": [
+      "1/5",
+      "1/4",
+      "3/10"
+    ],
+    "correctIndex": 0,
+    "explanation": "20% = 20/100 = 1/5",
+    "topic": "number",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam18-p2-05",
+    "text": "Is the fraction 4/7 less than or greater than 0.6?",
+    "options": [
+      "Less than 0.6",
+      "Greater than 0.6",
+      "Equal to 0.6"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 / 7 is approximately 0.57",
+    "topic": "number",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam18-p2-15",
+    "text": "What is the missing divisor: 68 ÷ [ ] = 7 remainder 5?",
+    "options": [
+      "9",
+      "8",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "68 = (9 × 7) + 5",
+    "topic": "calculation",
+    "subtopic": "division"
+  },
+  {
+    "id": "cam18-p2-25",
+    "text": "A number has factors 1, 3, 5 and itself. What is the number?",
+    "options": [
+      "15",
+      "8",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "The factors of 15 are 1, 3, 5, and 15.",
+    "topic": "number",
+    "subtopic": "factors"
+  },
+  {
+    "id": "cam18-p1-08",
+    "text": "Race times: Angelique 15.23s, Gabriella 14.05s, Aiko 15.3s, Manjit 14.5s, Blessy 14.65s. Who came second?",
+    "options": [
+      "Manjit",
+      "Gabriella",
+      "Blessy"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sorted: 14.05, 14.5, 14.65, 15.23, 15.3",
+    "topic": "data",
+    "subtopic": "ordering decimals"
+  },
+  {
+    "id": "cam18-p1-11",
+    "text": "Rio is 5 hours behind Athens. It is 1 pm in Athens. What time is it in Rio de Janeiro?",
+    "options": [
+      "8 am",
+      "6 pm",
+      "7 am"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 pm minus 5 hours is 8 am",
+    "topic": "measure",
+    "subtopic": "time"
+  },
+  {
+    "id": "cam18-p1-23",
+    "text": "Calculate: (a) 745.03 × 10 and (b) 60,319 × 100",
+    "options": [
+      "7450.3 and 6,031,900",
+      "74.503 and 603,190",
+      "7450.3 and 60,319"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shift decimal or add zeros.",
+    "topic": "calculation",
+    "subtopic": "powers of 10"
+  },
+  {
+    "id": "cam18-p1-26",
+    "text": "Write three numbers with a mode of 6 and a mean of 7.",
+    "options": [
+      "6, 6, 9",
+      "6, 7, 8",
+      "6, 6, 6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sum is 21. 6+6+9=21 and mode is 6.",
+    "topic": "data",
+    "subtopic": "statistics"
+  },
+  {
+    "id": "cam18-p1-27",
+    "text": "Yuri says 6/8 is larger than 3/4. Is Yuri correct?",
+    "options": [
+      "No, they are equal",
+      "Yes, 6/8 is larger",
+      "No, 3/4 is larger"
+    ],
+    "correctIndex": 0,
+    "explanation": "6/8 simplifies to 3/4.",
+    "topic": "number",
+    "subtopic": "equivalent fractions"
+  },
+  {
+    "id": "cam18-p1-28",
+    "text": "Pierre counts in steps of 0.3 starting at 1. What is the 10th number?",
+    "options": [
+      "3.7",
+      "3.4",
+      "4.0"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 + (9 x 0.3) = 1 + 2.7 = 3.7",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam18-p1-29",
+    "text": "Five children share 8 pizzas equally. How much will they each get?",
+    "options": [
+      "1 3/5",
+      "1 1/5",
+      "1 2/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 ÷ 5 = 1 remainder 3, so 1 3/5.",
+    "topic": "calculation",
+    "subtopic": "division"
+  },
+  {
+    "id": "cam20-p2-03",
+    "text": "Which number is the same as 3 tens and 67 thousandths?",
+    "options": [
+      "30.067",
+      "30.67",
+      "3.067"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 tens = 30; 67 thousandths = 0.067.",
+    "topic": "number",
+    "subtopic": "place value"
+  },
+  {
+    "id": "cam20-p2-07",
+    "text": "Use two cards from {10, 100, 1000} to complete: 6.043 * [ ] / [ ] = 604.3",
+    "options": [
+      "1000 and 10",
+      "100 and 10",
+      "1000 and 100"
+    ],
+    "correctIndex": 0,
+    "explanation": "6.043 * 1000 / 10 = 604.3",
+    "topic": "number",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam20-p2-08",
+    "text": "What is the name for the perimeter of a circle?",
+    "options": [
+      "circumference",
+      "radius",
+      "diameter"
+    ],
+    "correctIndex": 0,
+    "explanation": "The circumference is the distance around.",
+    "topic": "geometry",
+    "subtopic": "circles"
+  },
+  {
+    "id": "cam20-p2-10",
+    "text": "Complete the statement: 4 : 10 is equivalent to [ ] : 30",
+    "options": [
+      "12",
+      "15",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "4/10 = 12/30",
+    "topic": "calculation",
+    "subtopic": "ratio"
+  },
+  {
+    "id": "cam20-p2-12",
+    "text": "Which statement about capacity is true?",
+    "options": [
+      "A 1L bottle can hold 1L.",
+      "A 0.5L bottle can hold 1L.",
+      "A 1L bottle can hold 2L."
+    ],
+    "correctIndex": 0,
+    "explanation": "Capacity is the maximum volume.",
+    "topic": "measure",
+    "subtopic": "capacity"
+  },
+  {
+    "id": "cam20-p2-19",
+    "text": "What is the mode of these goals scored: 4, 0, 4, 2, 1, 4, 4, 1?",
+    "options": [
+      "4",
+      "1",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 appears most often (4 times).",
+    "topic": "data",
+    "subtopic": "statistics"
+  },
+  {
+    "id": "cam20-p2-20",
+    "text": "An equilateral triangle has a perimeter of 21 cm. What is the length of one side?",
+    "options": [
+      "7 cm",
+      "3 cm",
+      "14 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "21 cm divided by 3 is 7 cm.",
+    "topic": "geometry",
+    "subtopic": "perimeter"
+  },
+  {
+    "id": "cam20-p2-25",
+    "text": "Pierre thinks of a square number. He multiplies it by 4 to get a cube number. What is the square number?",
+    "options": [
+      "16",
+      "4",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "16 * 4 = 64, which is 4 cubed.",
+    "topic": "number",
+    "subtopic": "square and cube numbers"
+  },
+  {
+    "id": "cam20-p2-26",
+    "text": "The surface area of a cube is 486 cm2. What is the length of one edge of the cube?",
+    "options": [
+      "9",
+      "81",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "486/6=81; square root of 81 is 9.",
+    "topic": "geometry",
+    "subtopic": "surface area"
+  },
+  {
+    "id": "cam20-p1-04",
+    "text": "Calculate the number of minutes in 1.4 hours.",
+    "options": [
+      "84",
+      "70",
+      "140"
+    ],
+    "correctIndex": 0,
+    "explanation": "1.4 hours * 60 minutes = 84 minutes.",
+    "topic": "measure",
+    "subtopic": "time"
+  },
+  {
+    "id": "cam20-p1-05",
+    "text": "Which symbol correctly completes the statement: 47 ÷ 6 [ ] 47 ÷ 7?",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "correctIndex": 0,
+    "explanation": "Dividing by a smaller number is larger.",
+    "topic": "calculation",
+    "subtopic": "comparison"
+  },
+  {
+    "id": "cam20-p1-11",
+    "text": "The temperature is -8°C and falls by 5 degrees. What is the new temperature?",
+    "options": [
+      "-13°C",
+      "-3°C",
+      "13°C"
+    ],
+    "correctIndex": 0,
+    "explanation": "-8 - 5 = -13",
+    "topic": "number",
+    "subtopic": "integers"
+  },
+  {
+    "id": "cam20-p1-17",
+    "text": "Order these numbers from smallest to largest: 4.06, 3.37, 4.6, 3.7, 4.37",
+    "options": [
+      "3.37, 3.7, 4.06, 4.37, 4.6",
+      "3.37, 4.06, 3.7, 4.37, 4.6",
+      "3.7, 3.37, 4.06, 4.37, 4.6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compare the tenths and hundredths.",
+    "topic": "number",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam22-p2-04",
+    "text": "Which of these lists contains only prime numbers?",
+    "options": [
+      "23, 31, 41, 43",
+      "21, 23, 31, 33",
+      "23, 31, 33, 43"
+    ],
+    "correctIndex": 0,
+    "explanation": "21 and 33 are not prime numbers.",
+    "topic": "number",
+    "subtopic": "primes"
+  },
+  {
+    "id": "cam22-p2-07",
+    "text": "In a Carroll diagram for multiples of 3 and 6, which section (Multiple of 6, Not a multiple of 3) is always empty?",
+    "options": [
+      "Section B",
+      "Section A",
+      "Section D"
+    ],
+    "correctIndex": 0,
+    "explanation": "All multiples of 6 are multiples of 3.",
+    "topic": "data",
+    "subtopic": "Carroll diagram"
+  },
+  {
+    "id": "cam22-p2-09",
+    "text": "What is the 5th triangular number in the sequence 1, 3, 6, 10, ...?",
+    "options": [
+      "15",
+      "16",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "5th term is 1+2+3+4+5 = 15.",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam22-p2-11",
+    "text": "The sequence 2, 8, 18, ... doubles the square numbers. What is the next term?",
+    "options": [
+      "32",
+      "25",
+      "36"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 4th term is 2 * 16 = 32.",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam22-p2-18",
+    "text": "A recipe uses 3 cups of butter for every 2 cups of sugar. Mike uses 6 cups of sugar. How many cups of butter?",
+    "options": [
+      "9",
+      "4",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "3:2 ratio means 3 * (6/2) = 9.",
+    "topic": "calculation",
+    "subtopic": "ratio"
+  },
+  {
+    "id": "cam22-p2-22",
+    "text": "Drums beat every 2, 3, and 5 seconds. If they start together, after how many seconds will they beat together again?",
+    "options": [
+      "30",
+      "15",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "LCM(2, 3, 5) = 30.",
+    "topic": "number",
+    "subtopic": "multiples"
+  },
+  {
+    "id": "cam22-p1-01",
+    "text": "Find the next number in the sequence: 0.5, 0.7, 0.9, ...",
+    "options": [
+      "1.1",
+      "1.0",
+      "1.2"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sequence adds 0.2 each time.",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam22-p1-04",
+    "text": "Round 17.37 to the nearest tenth.",
+    "options": [
+      "17.4",
+      "17.3",
+      "17.7"
+    ],
+    "correctIndex": 0,
+    "explanation": "7 is greater than 5, so round up.",
+    "topic": "number",
+    "subtopic": "rounding"
+  },
+  {
+    "id": "cam22-p1-12",
+    "text": "Which time is equivalent to 4.4 minutes?",
+    "options": [
+      "264 seconds",
+      "4 minutes 40 seconds",
+      "440 seconds"
+    ],
+    "correctIndex": 0,
+    "explanation": "4.4 x 60 = 264 seconds",
+    "topic": "measure",
+    "subtopic": "time"
+  },
+  {
+    "id": "cam22-p1-16",
+    "text": "Compare: circumference vs diameter; diameter vs radius. Which symbols are correct?",
+    "options": [
+      ">, >",
+      ">, =",
+      "<, >"
+    ],
+    "correctIndex": 0,
+    "explanation": "C = πd (π > 3) and d = 2r.",
+    "topic": "geometry",
+    "subtopic": "circles"
+  },
+  {
+    "id": "cam22-p1-17",
+    "text": "Which pair of two different 2-digit numbers has a product of 360?",
+    "options": [
+      "12 and 30",
+      "9 and 40",
+      "15 and 20"
+    ],
+    "correctIndex": 0,
+    "explanation": "12 × 30 = 360; both are 2-digit.",
+    "topic": "calculation",
+    "subtopic": "multiplication"
+  },
+  {
+    "id": "cam22-p1-23",
+    "text": "Find the number for the box: 17 + 25 × □ × 2 = 367",
+    "options": [
+      "7",
+      "14",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "367-17=350; 350÷50=7",
+    "topic": "calculation",
+    "subtopic": "order of operations"
+  },
+  {
+    "id": "cam22-p1-26",
+    "text": "Which number is divisible by 8, 6 and 9?",
+    "options": [
+      "9504",
+      "9414",
+      "9594"
+    ],
+    "correctIndex": 0,
+    "explanation": "LCM(8,6,9)=72. 9504 ÷ 72 = 132.",
+    "topic": "number",
+    "subtopic": "divisibility"
   }
 ]

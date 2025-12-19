@@ -40,7 +40,7 @@ async function loadJsonFile(filePath: string): Promise<Question[]> {
 }
 
 async function uploadQuestions(questions: Question[], collectionName = "questions"): Promise<number> {
-  const batch = db.batch();
+  let batch = db.batch();
   let batchCount = 0;
   let totalUploaded = 0;
 
@@ -54,6 +54,7 @@ async function uploadQuestions(questions: Question[], collectionName = "question
     if (batchCount >= 400) {
       await batch.commit();
       console.log(`Committed batch of ${batchCount} questions...`);
+      batch = db.batch(); // Create new batch
       batchCount = 0;
     }
   }
@@ -69,30 +70,28 @@ async function uploadQuestions(questions: Question[], collectionName = "question
 
 async function main() {
   const basePath = path.dirname(__dirname);
-  const existingQuestionsPath = path.join(basePath, "src/data/questions.json");
-  const cambridgeQuestionsPath = path.join(basePath, "src/data/cambridge-2014-questions.json");
 
-  // Load questions
-  let existingQuestions: Question[] = [];
-  let cambridgeQuestions: Question[] = [];
+  // Question file paths
+  const questionFiles = [
+    "src/data/questions.json",
+    "src/data/cambridge-2014-questions.json",
+    "src/data/cambridge-new-mc-questions.json",  // 2018-2026 papers
+    "src/data/cambridge-2022-p1-questions.json", // 2022 Paper 1 (OCR)
+    "src/data/cambridge-2018-2022-extra-questions.json", // Extra papers batch
+  ];
 
-  if (fs.existsSync(existingQuestionsPath)) {
-    existingQuestions = await loadJsonFile(existingQuestionsPath);
-    console.log(`Loaded ${existingQuestions.length} existing questions`);
-  }
-
-  if (fs.existsSync(cambridgeQuestionsPath)) {
-    cambridgeQuestions = await loadJsonFile(cambridgeQuestionsPath);
-    console.log(`Loaded ${cambridgeQuestions.length} Cambridge 2014 questions`);
-  }
-
-  // Merge (avoid duplicates by ID)
+  // Load all questions
   const questionMap = new Map<string, Question>();
-  for (const q of existingQuestions) {
-    questionMap.set(q.id, q);
-  }
-  for (const q of cambridgeQuestions) {
-    questionMap.set(q.id, q);
+
+  for (const file of questionFiles) {
+    const filePath = path.join(basePath, file);
+    if (fs.existsSync(filePath)) {
+      const questions = await loadJsonFile(filePath);
+      console.log(`Loaded ${questions.length} questions from ${file}`);
+      for (const q of questions) {
+        questionMap.set(q.id, q);
+      }
+    }
   }
 
   const allQuestions = Array.from(questionMap.values());

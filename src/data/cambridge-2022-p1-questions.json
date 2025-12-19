@@ -1,0 +1,287 @@
+[
+  {
+    "id": "cam22-p1-02",
+    "text": "Write 1/4 as a decimal.",
+    "options": [
+      "0.25",
+      "0.5",
+      "0.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 divided by 4 is 0.25.",
+    "topic": "number",
+    "subtopic": "fractions-decimals",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-03",
+    "text": "Mia cleans her teeth for 3 minutes. Clock shows 08:02:20 when finished. Start time?",
+    "options": [
+      "07:59:20",
+      "08:05:20",
+      "07:57:20"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 3 minutes from 08:02:20.",
+    "topic": "measure",
+    "subtopic": "time",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-05",
+    "text": "Compare -5 + 30 and 5 - 30 using <, =, or >",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "correctIndex": 0,
+    "explanation": "25 is greater than -25.",
+    "topic": "number",
+    "subtopic": "integers",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-07",
+    "text": "Complete: 36.43 = 36.4 + ?",
+    "options": [
+      "0.03",
+      "0.3",
+      "0.003"
+    ],
+    "correctIndex": 0,
+    "explanation": "36.43 - 36.4 = 0.03.",
+    "topic": "number",
+    "subtopic": "decimals",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-08",
+    "text": "2.5 minutes = ? seconds",
+    "options": [
+      "150",
+      "120",
+      "1500"
+    ],
+    "correctIndex": 0,
+    "explanation": "2.5 × 60 = 150.",
+    "topic": "measure",
+    "subtopic": "time",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-09",
+    "text": "Counter landed white. Safia says next must be black. Is she correct?",
+    "options": [
+      "No, outcome is random",
+      "Yes, it must alternate",
+      "No, must be white"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each toss is independent and random.",
+    "topic": "data",
+    "subtopic": "probability",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-10",
+    "text": "Find multiples of 7 between 30 and 50",
+    "options": [
+      "35, 42, 49",
+      "28, 35, 42",
+      "35, 42, 48"
+    ],
+    "correctIndex": 0,
+    "explanation": "7×5=35, 7×6=42, 7×7=49.",
+    "topic": "calculation",
+    "subtopic": "multiples",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-13",
+    "text": "Sequence: 0, 25, 50, 75, 100. Next two numbers?",
+    "options": [
+      "125, 150",
+      "110, 120",
+      "150, 175"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pattern: +25 each time.",
+    "topic": "number",
+    "subtopic": "sequences",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-14",
+    "text": "10 paperclips have mass of 4g. One paperclip = ? grams",
+    "options": [
+      "0.4",
+      "40",
+      "0.04"
+    ],
+    "correctIndex": 0,
+    "explanation": "4g ÷ 10 = 0.4g.",
+    "topic": "measure",
+    "subtopic": "mass",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-15",
+    "text": "Calculate 7.7 × 7",
+    "options": [
+      "53.9",
+      "54.9",
+      "49.9"
+    ],
+    "correctIndex": 0,
+    "explanation": "7.7 × 7 = 53.9.",
+    "topic": "calculation",
+    "subtopic": "decimals",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-20",
+    "text": "Which value × 7 is less than 406? (57, 60, 67, 70, 77)",
+    "options": [
+      "57",
+      "60",
+      "67"
+    ],
+    "correctIndex": 0,
+    "explanation": "57 × 7 = 399 < 406.",
+    "topic": "calculation",
+    "subtopic": "multiplication",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-21",
+    "text": "From 5, 8, 145, 225, 358 find two with product multiple of 100",
+    "options": [
+      "8 and 225",
+      "5 and 145",
+      "8 and 358"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 × 225 = 1800.",
+    "topic": "calculation",
+    "subtopic": "multiples",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-24",
+    "text": "Plane leaves London 13:00, journey 10hrs. Vancouver 8hrs behind. Arrival time Vancouver?",
+    "options": [
+      "15:00",
+      "11:00",
+      "23:00"
+    ],
+    "correctIndex": 0,
+    "explanation": "13:00 + 10h = 23:00 London; -8h = 15:00 Vancouver.",
+    "topic": "measure",
+    "subtopic": "time",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-25",
+    "text": "Which two total 5? 2.68, 3.32, 3.68, 1.32, 2.42",
+    "options": [
+      "3.68 and 1.32",
+      "2.68 and 3.32",
+      "2.68 and 2.42"
+    ],
+    "correctIndex": 0,
+    "explanation": "3.68 + 1.32 = 5.00.",
+    "topic": "calculation",
+    "subtopic": "decimals",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "cam22-p1-31a",
+    "text": "Marks 17, 16, 12, 18, 14, 20, 15. What is median?",
+    "options": [
+      "16",
+      "15",
+      "17"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sorted: 12,14,15,16,17,18,20. Middle=16.",
+    "topic": "data",
+    "subtopic": "statistics",
+    "source": "Cambridge 2022 Paper 1",
+    "marks": 1,
+    "hasImage": false,
+    "difficulty": 800,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  }
+]

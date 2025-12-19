@@ -1,0 +1,1029 @@
+[
+  {
+    "id": "cam18-p2-01",
+    "text": "Find a number greater than 50 that is in both sequences: 6, 12, 18, 24... and 5, 10, 15, 20...",
+    "options": [
+      "60",
+      "90",
+      "55"
+    ],
+    "correctIndex": 0,
+    "explanation": "LCM of 5 and 6 is 30. 30 * 2 = 60.",
+    "topic": "number",
+    "subtopic": "multiples"
+  },
+  {
+    "id": "cam18-p2-10",
+    "text": "A book measures 12 inches. What is 12 inches to the nearest centimetre?",
+    "options": [
+      "30",
+      "24",
+      "36"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 inch is about 2.54 cm. 12*2.54 = 30.5",
+    "topic": "measure",
+    "subtopic": "conversions"
+  },
+  {
+    "id": "cam18-p2-03",
+    "text": "All these numbers are divisible by 1, 5 and which other number? 175, 325, 4000, 225, 2950, 550, 1075",
+    "options": [
+      "25",
+      "10",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "All numbers end in 00, 25, 50, or 75.",
+    "topic": "number",
+    "subtopic": "divisibility"
+  },
+  {
+    "id": "cam18-p2-04",
+    "text": "What is 20% written as a fraction in its simplest form?",
+    "options": [
+      "1/5",
+      "1/4",
+      "3/10"
+    ],
+    "correctIndex": 0,
+    "explanation": "20% = 20/100 = 1/5",
+    "topic": "number",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam18-p2-05",
+    "text": "Complete the calculation: 43 268 = 40 000 + [ ? ] + 268",
+    "options": [
+      "3000",
+      "300",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "43 268 - 40 000 - 268 = 3 000",
+    "topic": "number",
+    "subtopic": "place value"
+  },
+  {
+    "id": "cam18-p2-05",
+    "text": "Is the fraction 4/7 less than or greater than 0.6?",
+    "options": [
+      "Less than 0.6",
+      "Greater than 0.6",
+      "Equal to 0.6"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 / 7 is approximately 0.57",
+    "topic": "number",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam18-p2-06",
+    "text": "Using digit cards 3, 4, 5, and 6 once each, which equation is correct?",
+    "options": [
+      "6.4 - 2.9 = 3.5",
+      "5.4 - 2.9 = 2.5",
+      "6.3 - 2.9 = 3.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "6.4 - 2.9 = 3.5 uses all cards once.",
+    "topic": "calculation",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam18-p2-15",
+    "text": "What is the missing divisor: 68 \u00f7 [ ] = 7 remainder 5?",
+    "options": [
+      "9",
+      "8",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "68 = (9 \u00d7 7) + 5",
+    "topic": "calculation",
+    "subtopic": "division"
+  },
+  {
+    "id": "cam18-p2-16",
+    "text": "Which of these pairs of fractions are equivalent?",
+    "options": [
+      "8/20 and 2/5",
+      "6/12 and 1/3",
+      "9/12 and 1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "8/20 = 2/5 (divide by 4)",
+    "topic": "number",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam18-p2-19",
+    "text": "Which symbol makes this statement true? 42.6 \u00d7 7 [ ] 1493 \u00f7 5",
+    "options": [
+      "<",
+      ">",
+      "="
+    ],
+    "correctIndex": 0,
+    "explanation": "298.2 is less than 298.6",
+    "topic": "calculation",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam18-p2-20",
+    "text": "Find the range of these test scores: 2, 3, 3, ..., 19, 20, 20, 20.",
+    "options": [
+      "18",
+      "20",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "Range = Max (20) - Min (2) = 18",
+    "topic": "data",
+    "subtopic": "range"
+  },
+  {
+    "id": "cam18-p2-24",
+    "text": "Ahmed has a 2m roll of tape and cuts 35cm pieces. How many full pieces can he cut?",
+    "options": [
+      "5",
+      "6",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "200cm \u00f7 35cm = 5 pieces (rem 25cm)",
+    "topic": "measure",
+    "subtopic": "length"
+  },
+  {
+    "id": "cam18-p2-25",
+    "text": "A number has factors 1, 3, 5 and itself. What is the number?",
+    "options": [
+      "15",
+      "8",
+      "30"
+    ],
+    "correctIndex": 0,
+    "explanation": "The factors of 15 are 1, 3, 5, and 15.",
+    "topic": "number",
+    "subtopic": "factors"
+  },
+  {
+    "id": "cam18-p2-27",
+    "text": "A relay team's best time is 43.7s. Three runners took 9.87s, 12.05s, and 11.3s. What time must the 4th runner get?",
+    "options": [
+      "10.48s",
+      "10.58s",
+      "11.48s"
+    ],
+    "correctIndex": 0,
+    "explanation": "43.7 - (9.87 + 12.05 + 11.3) = 10.48",
+    "topic": "calculation",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam18-p1-01",
+    "text": "Which number must be added to 0.62 to make a total of 1?",
+    "options": [
+      "0.38",
+      "0.48",
+      "0.28"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 - 0.62 = 0.38",
+    "topic": "number",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam18-p1-03",
+    "text": "Which of these numbers is the largest?",
+    "options": [
+      "15 060",
+      "15 007",
+      "15 000"
+    ],
+    "correctIndex": 0,
+    "explanation": "15 060 > 15 007",
+    "topic": "number",
+    "subtopic": "comparing numbers"
+  },
+  {
+    "id": "cam18-p1-04",
+    "text": "In the number 659.13, what is the value of the digit 3 in words?",
+    "options": [
+      "Three hundredths",
+      "Three tenths",
+      "Three units"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 3 is in the hundredths place.",
+    "topic": "number",
+    "subtopic": "place value"
+  },
+  {
+    "id": "cam18-p1-05",
+    "text": "Six children have $4.03 each. How much do they have altogether?",
+    "options": [
+      "$24.18",
+      "$24.08",
+      "$24.30"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 * 4.03 = 24.18",
+    "topic": "calculation",
+    "subtopic": "multiplication"
+  },
+  {
+    "id": "cam18-p1-06",
+    "text": "Jamila's desk is 1 metre 8.5 centimetres long. What is this length in metres?",
+    "options": [
+      "1.085 m",
+      "1.85 m",
+      "1.805 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 m + 8.5/100 m = 1.085 m",
+    "topic": "measure",
+    "subtopic": "length conversion"
+  },
+  {
+    "id": "cam18-p1-08",
+    "text": "Race times: Angelique 15.23s, Gabriella 14.05s, Aiko 15.3s, Manjit 14.5s, Blessy 14.65s. Who came second?",
+    "options": [
+      "Manjit",
+      "Gabriella",
+      "Blessy"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sorted: 14.05, 14.5, 14.65, 15.23, 15.3",
+    "topic": "data",
+    "subtopic": "ordering decimals"
+  },
+  {
+    "id": "cam18-p1-10",
+    "text": "Write the missing number in the box: 100 \u00d7 100 = [ ] \u00d7 10",
+    "options": [
+      "1000",
+      "100",
+      "10000"
+    ],
+    "correctIndex": 0,
+    "explanation": "10000 \u00f7 10 = 1000",
+    "topic": "calculation",
+    "subtopic": "multiplication"
+  },
+  {
+    "id": "cam18-p1-11",
+    "text": "Rio is 5 hours behind Athens. It is 1 pm in Athens. What time is it in Rio de Janeiro?",
+    "options": [
+      "8 am",
+      "6 pm",
+      "7 am"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 pm minus 5 hours is 8 am",
+    "topic": "measure",
+    "subtopic": "time"
+  },
+  {
+    "id": "cam18-p1-12",
+    "text": "Write in the missing number: 560 + [ ] = 830",
+    "options": [
+      "270",
+      "370",
+      "230"
+    ],
+    "correctIndex": 0,
+    "explanation": "830 - 560 = 270",
+    "topic": "calculation",
+    "subtopic": "addition"
+  },
+  {
+    "id": "cam18-p1-15",
+    "text": "Complete the calculations: 30 \u00d7 50 and 500 \u00d7 40.",
+    "options": [
+      "1500 and 20000",
+      "150 and 2000",
+      "1500 and 2000"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 \u00d7 5 = 15; 5 \u00d7 4 = 20. Add zeros.",
+    "topic": "calculation",
+    "subtopic": "multiplication"
+  },
+  {
+    "id": "cam18-p1-16",
+    "text": "Find 40% of $35.",
+    "options": [
+      "$14",
+      "$12.50",
+      "$15"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.4 \u00d7 35 = 14",
+    "topic": "number",
+    "subtopic": "percentages"
+  },
+  {
+    "id": "cam18-p1-20",
+    "text": "What is the next number in the sequence? 180, 105, ... (Rule: subtract 75)",
+    "options": [
+      "30",
+      "35",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "105 - 75 = 30",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam18-p1-22",
+    "text": "Find the missing digits to make this correct: 3_8 + _05 = _63",
+    "options": [
+      "5, 1, 4",
+      "4, 1, 5",
+      "5, 2, 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "358 + 105 = 463",
+    "topic": "calculation",
+    "subtopic": "addition"
+  },
+  {
+    "id": "cam18-p1-23",
+    "text": "Calculate: (a) 745.03 \u00d7 10 and (b) 60,319 \u00d7 100",
+    "options": [
+      "7450.3 and 6,031,900",
+      "74.503 and 603,190",
+      "7450.3 and 60,319"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shift decimal or add zeros.",
+    "topic": "calculation",
+    "subtopic": "powers of 10"
+  },
+  {
+    "id": "cam18-p1-24",
+    "text": "If 26 \u00d7 15 = 390, what is 26 \u00d7 14?",
+    "options": [
+      "364",
+      "374",
+      "380"
+    ],
+    "correctIndex": 0,
+    "explanation": "390 - 26 = 364",
+    "topic": "calculation",
+    "subtopic": "multiplication strategies"
+  },
+  {
+    "id": "cam18-p1-25",
+    "text": "Order from smallest to largest: 0.65, 2/3, 0.57, 3/5.",
+    "options": [
+      "0.57, 3/5, 0.65, 2/3",
+      "0.57, 0.65, 3/5, 2/3",
+      "3/5, 0.57, 0.65, 2/3"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/5=0.6, 2/3\u22480.67. 0.57<0.6<0.65<0.67",
+    "topic": "number",
+    "subtopic": "ordering decimals"
+  },
+  {
+    "id": "cam18-p1-26",
+    "text": "Write three numbers with a mode of 6 and a mean of 7.",
+    "options": [
+      "6, 6, 9",
+      "6, 7, 8",
+      "6, 6, 6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sum is 21. 6+6+9=21 and mode is 6.",
+    "topic": "data",
+    "subtopic": "statistics"
+  },
+  {
+    "id": "cam18-p1-27",
+    "text": "Yuri says 6/8 is larger than 3/4. Is Yuri correct?",
+    "options": [
+      "No, they are equal",
+      "Yes, 6/8 is larger",
+      "No, 3/4 is larger"
+    ],
+    "correctIndex": 0,
+    "explanation": "6/8 simplifies to 3/4.",
+    "topic": "number",
+    "subtopic": "equivalent fractions"
+  },
+  {
+    "id": "cam18-p1-28",
+    "text": "Pierre counts in steps of 0.3 starting at 1. What is the 10th number?",
+    "options": [
+      "3.7",
+      "3.4",
+      "4.0"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 + (9 x 0.3) = 1 + 2.7 = 3.7",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam18-p1-29",
+    "text": "Five children share 8 pizzas equally. How much will they each get?",
+    "options": [
+      "1 3/5",
+      "1 1/5",
+      "1 2/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 \u00f7 5 = 1 remainder 3, so 1 3/5.",
+    "topic": "calculation",
+    "subtopic": "division"
+  },
+  {
+    "id": "cam20-p2-01",
+    "text": "Calculate the area of a right-angled triangle with sides 6cm, 8cm and 10cm.",
+    "options": [
+      "24 cm\u00b2",
+      "48 cm\u00b2",
+      "40 cm\u00b2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Area = 0.5 x 6 x 8 = 24.",
+    "topic": "measure",
+    "subtopic": "area"
+  },
+  {
+    "id": "cam20-p2-02",
+    "text": "Lily has 3/4 of a cake. She cuts it into 6 equal pieces. What fraction of the cake is each piece?",
+    "options": [
+      "1/8",
+      "1/6",
+      "1/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "3/4 \u00f7 6 = 3/24 = 1/8.",
+    "topic": "calculation",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam20-p2-03",
+    "text": "Which number is the same as 3 tens and 67 thousandths?",
+    "options": [
+      "30.067",
+      "30.67",
+      "3.067"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 tens = 30; 67 thousandths = 0.067.",
+    "topic": "number",
+    "subtopic": "place value"
+  },
+  {
+    "id": "cam20-p2-07",
+    "text": "Use two cards from {10, 100, 1000} to complete: 6.043 * [ ] / [ ] = 604.3",
+    "options": [
+      "1000 and 10",
+      "100 and 10",
+      "1000 and 100"
+    ],
+    "correctIndex": 0,
+    "explanation": "6.043 * 1000 / 10 = 604.3",
+    "topic": "number",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam20-p2-08",
+    "text": "What is the name for the perimeter of a circle?",
+    "options": [
+      "circumference",
+      "radius",
+      "diameter"
+    ],
+    "correctIndex": 0,
+    "explanation": "The circumference is the distance around.",
+    "topic": "geometry",
+    "subtopic": "circles"
+  },
+  {
+    "id": "cam20-p2-10",
+    "text": "Complete the statement: 4 : 10 is equivalent to [ ] : 30",
+    "options": [
+      "12",
+      "15",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "4/10 = 12/30",
+    "topic": "calculation",
+    "subtopic": "ratio"
+  },
+  {
+    "id": "cam20-p2-12",
+    "text": "Which statement about capacity is true?",
+    "options": [
+      "A 1L bottle can hold 1L.",
+      "A 0.5L bottle can hold 1L.",
+      "A 1L bottle can hold 2L."
+    ],
+    "correctIndex": 0,
+    "explanation": "Capacity is the maximum volume.",
+    "topic": "measure",
+    "subtopic": "capacity"
+  },
+  {
+    "id": "cam20-p2-15",
+    "text": "Why are 'rolling < 4' and 'rolling an odd number' on a dice not mutually exclusive?",
+    "options": [
+      "They share outcomes 1 and 3",
+      "All odd numbers are less than 4",
+      "All numbers less than 4 are odd"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both sets include outcomes 1 and 3.",
+    "topic": "data",
+    "subtopic": "probability"
+  },
+  {
+    "id": "cam20-p2-17",
+    "text": "Hassan uses 3 eggs for 15 people. How many people can he serve with 1 egg?",
+    "options": [
+      "5 people",
+      "3 people",
+      "10 people"
+    ],
+    "correctIndex": 0,
+    "explanation": "15 divided by 3 is 5.",
+    "topic": "calculation",
+    "subtopic": "ratio"
+  },
+  {
+    "id": "cam20-p2-19",
+    "text": "What is the mode of these goals scored: 4, 0, 4, 2, 1, 4, 4, 1?",
+    "options": [
+      "4",
+      "1",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 appears most often (4 times).",
+    "topic": "data",
+    "subtopic": "statistics"
+  },
+  {
+    "id": "cam20-p2-20",
+    "text": "An equilateral triangle has a perimeter of 21 cm. What is the length of one side?",
+    "options": [
+      "7 cm",
+      "3 cm",
+      "14 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "21 cm divided by 3 is 7 cm.",
+    "topic": "geometry",
+    "subtopic": "perimeter"
+  },
+  {
+    "id": "cam20-p2-25",
+    "text": "Pierre thinks of a square number. He multiplies it by 4 to get a cube number. What is the square number?",
+    "options": [
+      "16",
+      "4",
+      "9"
+    ],
+    "correctIndex": 0,
+    "explanation": "16 * 4 = 64, which is 4 cubed.",
+    "topic": "number",
+    "subtopic": "square and cube numbers"
+  },
+  {
+    "id": "cam20-p2-26",
+    "text": "The surface area of a cube is 486 cm2. What is the length of one edge of the cube?",
+    "options": [
+      "9",
+      "81",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "486/6=81; square root of 81 is 9.",
+    "topic": "geometry",
+    "subtopic": "surface area"
+  },
+  {
+    "id": "cam20-p1-01",
+    "text": "What is the place value of the digit 6 in the number 18.436?",
+    "options": [
+      "thousandths",
+      "hundredths",
+      "tenths"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 is in the third decimal place.",
+    "topic": "number",
+    "subtopic": "place value"
+  },
+  {
+    "id": "cam20-p1-03",
+    "text": "A sequence starts 5, 8, 11... which of these numbers will be in the sequence?",
+    "options": [
+      "20",
+      "21",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sequence follows the rule 3n + 2.",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam20-p1-04",
+    "text": "Calculate the number of minutes in 1.4 hours.",
+    "options": [
+      "84",
+      "70",
+      "140"
+    ],
+    "correctIndex": 0,
+    "explanation": "1.4 hours * 60 minutes = 84 minutes.",
+    "topic": "measure",
+    "subtopic": "time"
+  },
+  {
+    "id": "cam20-p1-05",
+    "text": "Which symbol correctly completes the statement: 47 \u00f7 6 [ ] 47 \u00f7 7?",
+    "options": [
+      ">",
+      "<",
+      "="
+    ],
+    "correctIndex": 0,
+    "explanation": "Dividing by a smaller number is larger.",
+    "topic": "calculation",
+    "subtopic": "comparison"
+  },
+  {
+    "id": "cam20-p1-03",
+    "text": "2 out of 20 children travel by bicycle. What percentage of children is this?",
+    "options": [
+      "10%",
+      "2%",
+      "20%"
+    ],
+    "correctIndex": 0,
+    "explanation": "(2 / 20) * 100 = 10%.",
+    "topic": "data",
+    "subtopic": "percentages"
+  },
+  {
+    "id": "cam20-p1-10",
+    "text": "Calculate 16.239 + 101.51",
+    "options": [
+      "117.749",
+      "117.74",
+      "118.749"
+    ],
+    "correctIndex": 0,
+    "explanation": "Align decimals and add.",
+    "topic": "calculation",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam20-p1-11",
+    "text": "The temperature is -8\u00b0C and falls by 5 degrees. What is the new temperature?",
+    "options": [
+      "-13\u00b0C",
+      "-3\u00b0C",
+      "13\u00b0C"
+    ],
+    "correctIndex": 0,
+    "explanation": "-8 - 5 = -13",
+    "topic": "number",
+    "subtopic": "integers"
+  },
+  {
+    "id": "cam20-p1-13",
+    "text": "Calculate 5 + 2 \u00d7 7",
+    "options": [
+      "19",
+      "49",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiply before adding (BODMAS).",
+    "topic": "calculation",
+    "subtopic": "order of operations"
+  },
+  {
+    "id": "cam20-p1-17",
+    "text": "Order these numbers from smallest to largest: 4.06, 3.37, 4.6, 3.7, 4.37",
+    "options": [
+      "3.37, 3.7, 4.06, 4.37, 4.6",
+      "3.37, 4.06, 3.7, 4.37, 4.6",
+      "3.7, 3.37, 4.06, 4.37, 4.6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Compare the tenths and hundredths.",
+    "topic": "number",
+    "subtopic": "decimals"
+  },
+  {
+    "id": "cam20-p1-20",
+    "text": "A rope 120.36m long is cut into 4 equal pieces. How long is each piece?",
+    "options": [
+      "30.09m",
+      "30.9m",
+      "30.06m"
+    ],
+    "correctIndex": 0,
+    "explanation": "120.36 divided by 4 is 30.09.",
+    "topic": "calculation",
+    "subtopic": "division"
+  },
+  {
+    "id": "cam20-p1-22",
+    "text": "Find two numbers with 1 decimal place using only odd digits that round to 79.",
+    "options": [
+      "79.1 and 79.3",
+      "78.9 and 79.1",
+      "79.3 and 79.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "7, 9, 1, 3 are odd; both round to 79.",
+    "topic": "number",
+    "subtopic": "rounding"
+  },
+  {
+    "id": "cam20-p1-24",
+    "text": "The median of 4 scores is 6. Which set shows a 6 is not required?",
+    "options": [
+      "5, 5, 7, 7",
+      "4, 6, 6, 8",
+      "5, 6, 7, 8"
+    ],
+    "correctIndex": 0,
+    "explanation": "Median of 5, 5, 7, 7 is (5+7)/2 = 6.",
+    "topic": "data",
+    "subtopic": "statistics"
+  },
+  {
+    "id": "cam22-p2-04",
+    "text": "Which of these lists contains only prime numbers?",
+    "options": [
+      "23, 31, 41, 43",
+      "21, 23, 31, 33",
+      "23, 31, 33, 43"
+    ],
+    "correctIndex": 0,
+    "explanation": "21 and 33 are not prime numbers.",
+    "topic": "number",
+    "subtopic": "primes"
+  },
+  {
+    "id": "cam22-p2-05",
+    "text": "In a triangle, two angles are 39\u00b0 and 57\u00b0. Work out the value of the third angle a.",
+    "options": [
+      "84\u00b0",
+      "94\u00b0",
+      "74\u00b0"
+    ],
+    "correctIndex": 0,
+    "explanation": "180 - 39 - 57 = 84",
+    "topic": "geometry",
+    "subtopic": "angles"
+  },
+  {
+    "id": "cam22-p2-07",
+    "text": "In a Carroll diagram for multiples of 3 and 6, which section (Multiple of 6, Not a multiple of 3) is always empty?",
+    "options": [
+      "Section B",
+      "Section A",
+      "Section D"
+    ],
+    "correctIndex": 0,
+    "explanation": "All multiples of 6 are multiples of 3.",
+    "topic": "data",
+    "subtopic": "Carroll diagram"
+  },
+  {
+    "id": "cam22-p2-09",
+    "text": "What is the 5th triangular number in the sequence 1, 3, 6, 10, ...?",
+    "options": [
+      "15",
+      "16",
+      "21"
+    ],
+    "correctIndex": 0,
+    "explanation": "5th term is 1+2+3+4+5 = 15.",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam22-p2-11",
+    "text": "The sequence 2, 8, 18, ... doubles the square numbers. What is the next term?",
+    "options": [
+      "32",
+      "25",
+      "36"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 4th term is 2 * 16 = 32.",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam22-p2-12",
+    "text": "How many hundredths are there in the number 3.67?",
+    "options": [
+      "367",
+      "67",
+      "3.67"
+    ],
+    "correctIndex": 0,
+    "explanation": "3.67 equals 367 hundredths.",
+    "topic": "number",
+    "subtopic": "fractions and decimals"
+  },
+  {
+    "id": "cam22-p2-18",
+    "text": "A recipe uses 3 cups of butter for every 2 cups of sugar. Mike uses 6 cups of sugar. How many cups of butter?",
+    "options": [
+      "9",
+      "4",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "3:2 ratio means 3 * (6/2) = 9.",
+    "topic": "calculation",
+    "subtopic": "ratio"
+  },
+  {
+    "id": "cam22-p2-21",
+    "text": "4 kids have a mean of 8 beads. Rajiv joins and the mean for 5 is 9. How many beads did Rajiv bring?",
+    "options": [
+      "13",
+      "10",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total 5*9=45, 4*8=32. 45-32=13.",
+    "topic": "data",
+    "subtopic": "mean"
+  },
+  {
+    "id": "cam22-p2-22",
+    "text": "Drums beat every 2, 3, and 5 seconds. If they start together, after how many seconds will they beat together again?",
+    "options": [
+      "30",
+      "15",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "LCM(2, 3, 5) = 30.",
+    "topic": "number",
+    "subtopic": "multiples"
+  },
+  {
+    "id": "cam22-p1-01",
+    "text": "Find the next number in the sequence: 0.5, 0.7, 0.9, ...",
+    "options": [
+      "1.1",
+      "1.0",
+      "1.2"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sequence adds 0.2 each time.",
+    "topic": "number",
+    "subtopic": "sequences"
+  },
+  {
+    "id": "cam22-p1-04",
+    "text": "Round 17.37 to the nearest tenth.",
+    "options": [
+      "17.4",
+      "17.3",
+      "17.7"
+    ],
+    "correctIndex": 0,
+    "explanation": "7 is greater than 5, so round up.",
+    "topic": "number",
+    "subtopic": "rounding"
+  },
+  {
+    "id": "cam22-p1-12",
+    "text": "Which time is equivalent to 4.4 minutes?",
+    "options": [
+      "264 seconds",
+      "4 minutes 40 seconds",
+      "440 seconds"
+    ],
+    "correctIndex": 0,
+    "explanation": "4.4 x 60 = 264 seconds",
+    "topic": "measure",
+    "subtopic": "time"
+  },
+  {
+    "id": "cam22-p1-14",
+    "text": "Why is 64 a square number?",
+    "options": [
+      "8 x 8 = 64",
+      "It is an even number",
+      "It is a multiple of 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "64 is the product of 8 multiplied by 8.",
+    "topic": "number",
+    "subtopic": "square numbers"
+  },
+  {
+    "id": "cam22-p1-15",
+    "text": "Chen has C cars. Mike has M cars. Mike has twice as many cars as Chen. Which equation represents M?",
+    "options": [
+      "M = 2C",
+      "M = C / 2",
+      "M = C + 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Twice means multiplying by 2.",
+    "topic": "calculation",
+    "subtopic": "expressions"
+  },
+  {
+    "id": "cam22-p1-16",
+    "text": "Compare: circumference vs diameter; diameter vs radius. Which symbols are correct?",
+    "options": [
+      ">, >",
+      ">, =",
+      "<, >"
+    ],
+    "correctIndex": 0,
+    "explanation": "C = \u03c0d (\u03c0 > 3) and d = 2r.",
+    "topic": "geometry",
+    "subtopic": "circles"
+  },
+  {
+    "id": "cam22-p1-17",
+    "text": "Which pair of two different 2-digit numbers has a product of 360?",
+    "options": [
+      "12 and 30",
+      "9 and 40",
+      "15 and 20"
+    ],
+    "correctIndex": 0,
+    "explanation": "12 \u00d7 30 = 360; both are 2-digit.",
+    "topic": "calculation",
+    "subtopic": "multiplication"
+  },
+  {
+    "id": "cam22-p1-20",
+    "text": "Compare: 4 \u00d7 3/4 [ ] 4, 2 1/4 \u00f7 4 [ ] 1/2, and 4 \u00d7 3/3 [ ] 4. Which symbols are correct?",
+    "options": [
+      "<, >, =",
+      ">, <, =",
+      "<, <, ="
+    ],
+    "correctIndex": 0,
+    "explanation": "3 < 4; 9/16 > 1/2; 4 = 4.",
+    "topic": "number",
+    "subtopic": "fractions"
+  },
+  {
+    "id": "cam22-p1-23",
+    "text": "Find the number for the box: 17 + 25 \u00d7 \u25a1 \u00d7 2 = 367",
+    "options": [
+      "7",
+      "14",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "367-17=350; 350\u00f750=7",
+    "topic": "calculation",
+    "subtopic": "order of operations"
+  },
+  {
+    "id": "cam22-p1-24",
+    "text": "32 children in Class 6. 75% like apples. 75% of those also like oranges. How many like both?",
+    "options": [
+      "18",
+      "24",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.75 \u00d7 32 = 24; 0.75 \u00d7 24 = 18",
+    "topic": "number",
+    "subtopic": "percentages"
+  },
+  {
+    "id": "cam22-p1-26",
+    "text": "Which number is divisible by 8, 6 and 9?",
+    "options": [
+      "9504",
+      "9414",
+      "9594"
+    ],
+    "correctIndex": 0,
+    "explanation": "LCM(8,6,9)=72. 9504 \u00f7 72 = 132.",
+    "topic": "number",
+    "subtopic": "divisibility"
+  }
+]
