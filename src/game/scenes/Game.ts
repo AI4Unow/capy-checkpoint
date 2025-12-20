@@ -59,6 +59,7 @@ export class Game extends Phaser.Scene {
   private answerRecorder: AnswerRecorder | null = null;
   private questionStartTime = 0;
   private studentRating = 800; // Updated from React via setter
+  private bestScore = 0; // Best score from React store
 
   constructor() {
     super("Game");
@@ -88,6 +89,13 @@ export class Game extends Phaser.Scene {
    */
   setStudentRating(rating: number): void {
     this.studentRating = rating;
+  }
+
+  /**
+   * Set the best score from React store
+   */
+  setBestScore(score: number): void {
+    this.bestScore = score;
   }
 
   /**
@@ -580,7 +588,7 @@ export class Game extends Phaser.Scene {
     gameOverText.setOrigin(0.5);
     gameOverText.setDepth(50);
 
-    const scoreText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2, `Score: ${this.score}`, {
+    const scoreText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 - 20, `Score: ${this.score}`, {
       fontFamily: "Fredoka, Arial, sans-serif",
       fontSize: "44px",
       color: "#FFFFFF",
@@ -588,12 +596,28 @@ export class Game extends Phaser.Scene {
     scoreText.setOrigin(0.5);
     scoreText.setDepth(50);
 
+    // Best score (show new best or current best)
+    const isNewBest = this.score > this.bestScore;
+    const displayBest = isNewBest ? this.score : this.bestScore;
+    const bestText = this.add.text(
+      GAME_WIDTH / 2,
+      GAME_HEIGHT / 2 + 30,
+      isNewBest ? `🏆 NEW BEST: ${displayBest}!` : `🏆 Best: ${displayBest}`,
+      {
+        fontFamily: "Fredoka, Arial, sans-serif",
+        fontSize: isNewBest ? "32px" : "28px",
+        color: isNewBest ? "#FFD700" : "#CCCCCC",
+      }
+    );
+    bestText.setOrigin(0.5);
+    bestText.setDepth(50);
+
     // Retry button
-    const retryBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 90, 280, 70, 0xdde5b6);
+    const retryBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 100, 280, 70, 0xdde5b6);
     retryBtn.setStrokeStyle(4, 0x5e503f);
     retryBtn.setInteractive({ useHandCursor: true });
     retryBtn.setDepth(50);
-    const retryText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 90, "Try Again", {
+    const retryText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 100, "Try Again", {
       fontFamily: "Fredoka, Arial, sans-serif",
       fontSize: "40px",
       fontStyle: "bold",
@@ -613,11 +637,11 @@ export class Game extends Phaser.Scene {
     retryBtn.on("pointerdown", () => this.scene.restart());
 
     // Menu button
-    const menuBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 180, 280, 70, 0xffd6e0);
+    const menuBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 190, 280, 70, 0xffd6e0);
     menuBtn.setStrokeStyle(4, 0x5e503f);
     menuBtn.setInteractive({ useHandCursor: true });
     menuBtn.setDepth(50);
-    const menuText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 180, "Menu", {
+    const menuText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 190, "Menu", {
       fontFamily: "Fredoka, Arial, sans-serif",
       fontSize: "40px",
       fontStyle: "bold",

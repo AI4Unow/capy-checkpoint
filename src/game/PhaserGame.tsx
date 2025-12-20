@@ -27,6 +27,7 @@ export default function PhaserGame() {
     setCurrentQuestion,
     recordAnswer,
     updateBestScore,
+    bestScore,
   } = useGameStore();
 
   // Learning store
@@ -137,6 +138,13 @@ export default function PhaserGame() {
       gameSceneRef.current.setAnswerRecorder(answerRecorder);
     }
   }, [questionSelector, answerRecorder]);
+
+  // Update best score in scene when it changes
+  useEffect(() => {
+    if (gameSceneRef.current) {
+      gameSceneRef.current.setBestScore(bestScore);
+    }
+  }, [bestScore]);
 
   return (
     <div id="game-container" ref={containerRef} className="w-full h-full" />
