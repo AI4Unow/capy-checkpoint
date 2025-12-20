@@ -3,12 +3,14 @@
 import { useState, useEffect } from "react";
 import { useLearningStore } from "@/stores/learningStore";
 import { useDailyChallengeStore } from "@/stores/dailyChallengeStore";
+import { useGameStore } from "@/stores/gameStore";
 import { DailyChallenge } from "./DailyChallenge";
 import { EventBus, GameEvents } from "@/game/EventBus";
 
 export function MenuOverlay() {
   const { getDueReviewCount, totalResponses, onboardingComplete } = useLearningStore();
   const { isAvailable, currentStreak } = useDailyChallengeStore();
+  const { bestScore } = useGameStore();
   const [isOnMenu, setIsOnMenu] = useState(true);
   const [showDailyChallenge, setShowDailyChallenge] = useState(false);
 
@@ -45,6 +47,15 @@ export function MenuOverlay() {
   return (
     <>
       <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2">
+        {/* Best Score */}
+        {bestScore > 0 && (
+          <div className="bg-yellow/90 px-6 py-2 rounded-full border-4 border-amber-500 shadow-lg">
+            <span className="font-[family-name:var(--font-fredoka)] text-text text-lg">
+              🏆 Best: {bestScore}
+            </span>
+          </div>
+        )}
+
         {/* Daily Challenge button */}
         <button
           onClick={() => setShowDailyChallenge(true)}

@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Capy-Checkpoint 🌿🥥
 
-## Getting Started
+An adaptive, educational math game designed for **Cambridge Primary Checkpoint (Grade 5)** preparation. Help your Capybara fly through math gates, collect Yuzu coins, and master the curriculum!
 
-First, run the development server:
+## 🚀 Quick Start
 
 ```bash
+cd capy-checkpoint-next
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) to start playing.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎮 Game Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Adaptive Learning:** Powered by Elo rating and SM-2 spaced repetition.
+- **Flappy Mechanics:** Phaser 3 physics-based gameplay.
+- **Engagement:** Daily challenges, streaks, badges, and a boutique for capybara accessories.
+- **Curriculum-Aligned:** Questions extracted from Cambridge past papers.
 
-## Learn More
+## 🏗️ Architecture
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework:** Next.js 16 (App Router)
+- **Game Engine:** Phaser 3.90
+- **UI:** React 19 + Tailwind CSS 4
+- **State:** Zustand
+- **Backend:** Firebase (Firestore + Auth)
+- **Logic:** Custom Adaptive Engine (Elo, SM-2, Mastery tracking)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app`: Next.js pages and layouts.
+- `src/game`: Phaser game scenes, config, and EventBus.
+- `src/engine`: Adaptive learning logic (Elo, SM-2, Mastery).
+- `src/stores`: Zustand state stores (Game, User, Mood, etc.).
+- `src/components`: React UI components.
+- `src/lib`: Shared utilities and Firebase config.
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend:** TypeScript, React, Next.js, Phaser
+- **Styling:** Tailwind CSS, PostCSS
+- **State Management:** Zustand
+- **Database/Auth:** Firebase
+- **Testing:** Vitest
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📖 Documentation
+
+For more details, check the `./docs` directory:
+- [Project Overview & PDR](./docs/project-overview-pdr.md)
+- [System Architecture](./docs/system-architecture.md)
+- [Code Standards](./docs/code-standards.md)
+- [Codebase Summary](./docs/codebase-summary.md)
+- [Project Roadmap](./docs/project-roadmap.md)

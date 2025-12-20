@@ -26,6 +26,7 @@ export default function PhaserGame() {
     addCoins,
     setCurrentQuestion,
     recordAnswer,
+    updateBestScore,
   } = useGameStore();
 
   // Learning store
@@ -78,9 +79,10 @@ export default function PhaserGame() {
       setIsGameOver(false);
     };
 
-    const handleGameOver = () => {
+    const handleGameOver = (score: unknown) => {
       setIsPlaying(false);
       setIsGameOver(true);
+      updateBestScore(score as number);
     };
 
     const handleShowHint = (question: unknown) => {
@@ -123,6 +125,7 @@ export default function PhaserGame() {
     addCoins,
     setCurrentQuestion,
     recordAnswer,
+    updateBestScore,
     questionSelector,
     answerRecorder,
   ]);
