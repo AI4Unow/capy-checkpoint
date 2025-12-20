@@ -153,9 +153,9 @@ export class Game extends Phaser.Scene {
     }
     this.capybara.play("flap");
 
-    // Ground collision
+    // Ground collision - lose a life but continue if lives remain
     this.physics.add.collider(this.capybara, this.ground, () => {
-      if (!this.isGameOver) this.gameOver();
+      if (!this.isGameOver && !this.isPaused) this.handleGroundHit();
     });
 
     // Input - flap controls (space or tap anywhere)
@@ -449,6 +449,98 @@ export class Game extends Phaser.Scene {
     }
   }
 
+  /**
+   * Handle ground hit - lose a life, show continue if lives remain
+   */
+  private handleGroundHit(): void {
+    this.lives--;
+    EventBus.emit(GameEvents.LIVES_UPDATE, this.lives);
+    synthSounds.playWrong();
+
+    // Emit capy reaction
+    EventBus.emit(GameEvents.CAPY_REACT, { type: "sad" });
+
+    if (this.lives <= 0) {
+      this.gameOver();
+      return;
+    }
+
+    // Pause game and show continue overlay
+    this.isPaused = true;
+    this.physics.pause();
+    this.time.paused = true;
+
+    const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
+    capyBody.velocity.y = 0;
+
+    // Visual feedback
+    this.cameras.main.shake(200, 0.015);
+    this.cameras.main.flash(200, 255, 77, 109, false);
+
+    // Create continue overlay
+    const overlay = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, 0x000000, 0.4);
+    overlay.setDepth(40);
+
+    // "Oops!" text
+    const oopsText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 - 60, "Oops!", {
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "56px",
+      color: "#FFFFFF",
+    });
+    oopsText.setOrigin(0.5);
+    oopsText.setDepth(50);
+
+    // Lives remaining text
+    const livesText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2, `${this.lives} ❤️ remaining`, {
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "36px",
+      color: "#FFFFFF",
+    });
+    livesText.setOrigin(0.5);
+    livesText.setDepth(50);
+
+    // Continue button
+    const continueBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 80, 280, 70, 0xdde5b6);
+    continueBtn.setStrokeStyle(4, 0x5e503f);
+    continueBtn.setInteractive({ useHandCursor: true });
+    continueBtn.setDepth(50);
+    const continueText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 80, "Continue", {
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "40px",
+      fontStyle: "bold",
+      color: "#5E503F",
+    });
+    continueText.setOrigin(0.5);
+    continueText.setDepth(50);
+
+    continueBtn.on("pointerover", () => {
+      continueBtn.setFillStyle(0xe8f0c0);
+      continueBtn.setScale(1.05);
+    });
+    continueBtn.on("pointerout", () => {
+      continueBtn.setFillStyle(0xdde5b6);
+      continueBtn.setScale(1);
+    });
+    continueBtn.on("pointerdown", () => {
+      // Remove overlay elements
+      overlay.destroy();
+      oopsText.destroy();
+      livesText.destroy();
+      continueBtn.destroy();
+      continueText.destroy();
+
+      // Reset capy position and resume
+      this.capybara.y = GAME_HEIGHT / 2;
+      capyBody.velocity.y = 0;
+      capyBody.allowGravity = false; // Disable until next flap
+
+      // Resume game
+      this.isPaused = false;
+      this.physics.resume();
+      this.time.paused = false;
+    });
+  }
+
   private gameOver(): void {
     this.isGameOver = true;
     this.gateTimer.destroy();
@@ -465,47 +557,67 @@ export class Game extends Phaser.Scene {
 
     // Game over text
     const gameOverText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 - 80, "Game Over!", {
-      fontFamily: "Fredoka",
-      fontSize: "64px",
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "72px",
       color: "#FFFFFF",
     });
     gameOverText.setOrigin(0.5);
     gameOverText.setDepth(50);
 
     const scoreText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2, `Score: ${this.score}`, {
-      fontFamily: "Nunito",
-      fontSize: "36px",
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "44px",
       color: "#FFFFFF",
     });
     scoreText.setOrigin(0.5);
     scoreText.setDepth(50);
 
     // Retry button
-    const retryBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 80, 220, 60, 0xdde5b6);
+    const retryBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 90, 280, 70, 0xdde5b6);
     retryBtn.setStrokeStyle(4, 0x5e503f);
     retryBtn.setInteractive({ useHandCursor: true });
     retryBtn.setDepth(50);
-    const retryText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 80, "Try Again", {
-      fontFamily: "Baloo 2",
-      fontSize: "28px",
+    const retryText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 90, "Try Again", {
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "40px",
+      fontStyle: "bold",
       color: "#5E503F",
     });
     retryText.setOrigin(0.5);
     retryText.setDepth(50);
+
+    retryBtn.on("pointerover", () => {
+      retryBtn.setFillStyle(0xe8f0c0);
+      retryBtn.setScale(1.05);
+    });
+    retryBtn.on("pointerout", () => {
+      retryBtn.setFillStyle(0xdde5b6);
+      retryBtn.setScale(1);
+    });
     retryBtn.on("pointerdown", () => this.scene.restart());
 
     // Menu button
-    const menuBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 160, 220, 60, 0xffd6e0);
+    const menuBtn = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 180, 280, 70, 0xffd6e0);
     menuBtn.setStrokeStyle(4, 0x5e503f);
     menuBtn.setInteractive({ useHandCursor: true });
     menuBtn.setDepth(50);
-    const menuText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 160, "Menu", {
-      fontFamily: "Baloo 2",
-      fontSize: "28px",
+    const menuText = this.add.text(GAME_WIDTH / 2, GAME_HEIGHT / 2 + 180, "Menu", {
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "40px",
+      fontStyle: "bold",
       color: "#5E503F",
     });
     menuText.setOrigin(0.5);
     menuText.setDepth(50);
+
+    menuBtn.on("pointerover", () => {
+      menuBtn.setFillStyle(0xffe4ec);
+      menuBtn.setScale(1.05);
+    });
+    menuBtn.on("pointerout", () => {
+      menuBtn.setFillStyle(0xffd6e0);
+      menuBtn.setScale(1);
+    });
     menuBtn.on("pointerdown", () => this.scene.start("Menu"));
   }
 }

@@ -34,15 +34,16 @@ export class Menu extends Phaser.Scene {
 
     // Title
     const title = this.add.text(GAME_WIDTH / 2, 150, "Mathie", {
-      fontFamily: "Fredoka",
-      fontSize: "72px",
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "80px",
+      fontStyle: "bold",
       color: "#5E503F",
     });
     title.setOrigin(0.5);
 
     const subtitle = this.add.text(GAME_WIDTH / 2, 230, "Math Adventure!", {
-      fontFamily: "Nunito",
-      fontSize: "32px",
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "36px",
       color: "#5E503F",
     });
     subtitle.setOrigin(0.5);
@@ -60,21 +61,22 @@ export class Menu extends Phaser.Scene {
     });
 
     // Play button
-    const playBtn = this.add.rectangle(GAME_WIDTH / 2, 560, 240, 70, 0xffd6e0);
+    const playBtn = this.add.rectangle(GAME_WIDTH / 2, 560, 300, 80, 0xffd6e0);
     playBtn.setStrokeStyle(4, 0x5e503f);
     playBtn.setInteractive({ useHandCursor: true });
 
     const playText = this.add.text(GAME_WIDTH / 2, 560, "PLAY", {
-      fontFamily: "Baloo 2",
-      fontSize: "40px",
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "52px",
+      fontStyle: "bold",
       color: "#5E503F",
     });
     playText.setOrigin(0.5);
 
     // Instructions
-    const instructions = this.add.text(GAME_WIDTH / 2, 650, "Press SPACE or TAP to flap • Guide Capy to the correct answer!", {
-      fontFamily: "Nunito",
-      fontSize: "20px",
+    const instructions = this.add.text(GAME_WIDTH / 2, 660, "Press SPACE or TAP to flap • Guide Capy to the correct answer!", {
+      fontFamily: "Fredoka, Arial, sans-serif",
+      fontSize: "22px",
       color: "#5E503F",
     });
     instructions.setOrigin(0.5);
