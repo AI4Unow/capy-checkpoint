@@ -7,7 +7,7 @@ import type { QuestionSelection } from "@/engine/questionSelector";
 import { getDifficultyLabel } from "@/engine/questionSelector";
 
 const FLAP_VELOCITY = -320;
-const SCROLL_SPEED = 80;
+const SCROLL_SPEED = 85; // ~15 seconds to answer each question
 const GATE_SPAWN_INTERVAL = 30000;
 const GROUND_Y = 650;
 const PATH_HEIGHT = 150; // Height of each answer path
