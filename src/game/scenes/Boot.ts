@@ -25,48 +25,91 @@ export class Boot extends Phaser.Scene {
   }
 
   private createCapybaraGraphics(): void {
+    // Create spritesheet with 3 frames for wing animation
+    const frameWidth = 100;
+    const frameHeight = 80;
     const g = this.make.graphics({ x: 0, y: 0 });
 
-    // Wings (behind body) - soft pink/peach feathered wings
-    g.fillStyle(0xffd6e0); // Light pink
-    // Left wing (upper)
-    g.fillTriangle(5, 35, 25, 15, 35, 40);
-    g.fillTriangle(10, 40, 30, 20, 40, 45);
-    g.fillTriangle(15, 45, 35, 25, 45, 50);
-    // Wing feather details
-    g.fillStyle(0xffb3c6); // Darker pink for depth
-    g.fillTriangle(8, 38, 22, 22, 32, 42);
-    g.fillTriangle(12, 43, 28, 28, 38, 48);
+    // Draw 3 frames side by side (wings up, middle, down)
+    for (let frame = 0; frame < 3; frame++) {
+      const offsetX = frame * frameWidth;
 
-    // Body
-    g.fillStyle(0xa67c52);
-    g.fillRoundedRect(0, 20, 80, 50, 20);
+      // Wing positions for each frame
+      const wingOffsets = [
+        { y: -8, spread: 1.2 },  // Frame 0: wings up
+        { y: 0, spread: 1.0 },   // Frame 1: wings middle
+        { y: 6, spread: 0.8 },   // Frame 2: wings down
+      ];
+      const wing = wingOffsets[frame];
 
-    // Head
-    g.fillStyle(0xb8926a);
-    g.fillCircle(70, 25, 25);
+      // Wings (behind body) - soft pink feathered wings
+      g.fillStyle(0xffd6e0);
+      g.fillTriangle(
+        offsetX + 5, 35 + wing.y,
+        offsetX + 25, 15 + wing.y * wing.spread,
+        offsetX + 35, 40 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 10, 40 + wing.y,
+        offsetX + 30, 20 + wing.y * wing.spread,
+        offsetX + 40, 45 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 15, 45 + wing.y,
+        offsetX + 35, 25 + wing.y * wing.spread,
+        offsetX + 45, 50 + wing.y
+      );
+      // Wing feather details
+      g.fillStyle(0xffb3c6);
+      g.fillTriangle(
+        offsetX + 8, 38 + wing.y,
+        offsetX + 22, 22 + wing.y * wing.spread,
+        offsetX + 32, 42 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 12, 43 + wing.y,
+        offsetX + 28, 28 + wing.y * wing.spread,
+        offsetX + 38, 48 + wing.y
+      );
 
-    // Eye
-    g.fillStyle(0x5e503f);
-    g.fillCircle(78, 20, 5);
-    g.fillStyle(0xffffff);
-    g.fillCircle(80, 18, 2);
+      // Body
+      g.fillStyle(0xa67c52);
+      g.fillRoundedRect(offsetX + 0, 20, 80, 50, 20);
 
-    // Nose
-    g.fillStyle(0x5e503f);
-    g.fillCircle(88, 28, 4);
+      // Head
+      g.fillStyle(0xb8926a);
+      g.fillCircle(offsetX + 70, 25, 25);
 
-    // Ear
-    g.fillStyle(0xa67c52);
-    g.fillCircle(55, 5, 8);
+      // Eye
+      g.fillStyle(0x5e503f);
+      g.fillCircle(offsetX + 78, 20, 5);
+      g.fillStyle(0xffffff);
+      g.fillCircle(offsetX + 80, 18, 2);
 
-    // Yuzu hat
-    g.fillStyle(0xffd60a);
-    g.fillCircle(65, 0, 15);
-    g.fillStyle(0x4caf50);
-    g.fillTriangle(55, -10, 65, -15, 60, 0);
+      // Nose
+      g.fillStyle(0x5e503f);
+      g.fillCircle(offsetX + 88, 28, 4);
 
-    g.generateTexture("capybara", 100, 80);
+      // Ear
+      g.fillStyle(0xa67c52);
+      g.fillCircle(offsetX + 55, 5, 8);
+
+      // Yuzu hat
+      g.fillStyle(0xffd60a);
+      g.fillCircle(offsetX + 65, 0, 15);
+      g.fillStyle(0x4caf50);
+      g.fillTriangle(offsetX + 55, -10, offsetX + 65, -15, offsetX + 60, 0);
+    }
+
+    // Generate spritesheet texture
+    g.generateTexture("capybara", frameWidth * 3, frameHeight);
+
+    // Add individual frames to the texture for animation
+    const texture = this.textures.get("capybara");
+    for (let i = 0; i < 3; i++) {
+      texture.add(i, 0, i * frameWidth, 0, frameWidth, frameHeight);
+    }
+
     g.destroy();
   }
 

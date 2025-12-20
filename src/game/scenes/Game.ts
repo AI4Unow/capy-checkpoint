@@ -141,6 +141,18 @@ export class Game extends Phaser.Scene {
     capyBody.setSize(60, 50);
     capyBody.allowGravity = false; // Disable gravity until first flap
 
+    // Create wing flap animation
+    if (!this.anims.exists("flap")) {
+      this.anims.create({
+        key: "flap",
+        frames: this.anims.generateFrameNumbers("capybara", { start: 0, end: 2 }),
+        frameRate: 12,
+        repeat: -1,
+        yoyo: true,
+      });
+    }
+    this.capybara.play("flap");
+
     // Ground collision
     this.physics.add.collider(this.capybara, this.ground, () => {
       if (!this.isGameOver) this.gameOver();
