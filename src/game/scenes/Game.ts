@@ -140,7 +140,8 @@ export class Game extends Phaser.Scene {
     this.capybara.setDepth(10);
     const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
     capyBody.setSize(60, 50);
-    capyBody.allowGravity = false; // Disable gravity until first flap
+    // Gravity enabled from start - capy will fall immediately
+    // Player must flap to stay airborne
 
     // Create wing flap animation
     if (!this.anims.exists("flap")) {
@@ -159,8 +160,13 @@ export class Game extends Phaser.Scene {
       if (!this.isGameOver && !this.isPaused) this.handleGroundHit();
     });
 
-    // Input - flap controls (space or tap anywhere)
-    this.input.on("pointerdown", () => this.flap());
+    // Input - flap controls (space or tap on LEFT side of screen only)
+    this.input.on("pointerdown", (pointer: Phaser.Input.Pointer) => {
+      // Only register flap if tap is on left half of screen (near capy)
+      if (pointer.x < GAME_WIDTH / 2) {
+        this.flap();
+      }
+    });
     this.input.keyboard?.on("keydown-SPACE", () => this.flap());
 
     // ESC key to pause/resume
@@ -249,12 +255,6 @@ export class Game extends Phaser.Scene {
     if (this.isGameOver || this.isPaused) return;
 
     const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
-
-    // Enable gravity on first flap
-    if (!capyBody.allowGravity) {
-      capyBody.allowGravity = true;
-    }
-
     capyBody.velocity.y = FLAP_VELOCITY;
     synthSounds.playFlap();
   }
@@ -533,7 +533,6 @@ export class Game extends Phaser.Scene {
       // Reset capy position and resume
       this.capybara.y = GAME_HEIGHT / 2;
       capyBody.velocity.y = 0;
-      capyBody.allowGravity = false; // Disable until next flap
 
       // Resume game
       this.isPaused = false;
