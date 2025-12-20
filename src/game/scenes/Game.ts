@@ -166,6 +166,12 @@ export class Game extends Phaser.Scene {
       if (this.isPaused) this.resumeGame();
     });
 
+    // Listen for touch control answer selection
+    EventBus.on(GameEvents.SELECT_ANSWER, (...args: unknown[]) => {
+      const data = args[0] as { pathIndex: number };
+      this.selectAnswerPath(data.pathIndex);
+    });
+
     // Question text (positioned below HUD area)
     this.questionText = this.add.text(GAME_WIDTH / 2, 110, "", {
       fontFamily: "Fredoka",

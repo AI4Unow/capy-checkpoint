@@ -16,6 +16,7 @@ import { PauseOverlay } from "@/components/PauseOverlay";
 import { BadgeCollection } from "@/components/BadgeCollection";
 import { BadgeUnlock } from "@/components/BadgeUnlock";
 import { BadgeChecker } from "@/components/BadgeChecker";
+import { TouchControls } from "@/components/TouchControls";
 import { useGameStore } from "@/stores/gameStore";
 import { useLearningStore } from "@/stores/learningStore";
 import { useSettingsStore } from "@/stores/settingsStore";
@@ -86,6 +87,7 @@ export default function Home() {
         <StreakDisplay />
         <MenuOverlay />
         <CalibrationIndicator />
+        <TouchControls />
         <PhaserGame />
 
         {/* Boutique and Badges buttons (visible when not playing) */}

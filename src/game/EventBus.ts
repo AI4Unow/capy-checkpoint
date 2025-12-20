@@ -71,6 +71,8 @@ export const GameEvents = {
   SOUND_TOGGLE: "sound-toggle",
   VOLUME_CHANGE: "volume-change",
   MUSIC_TOGGLE: "music-toggle",
+  // Touch controls
+  SELECT_ANSWER: "select-answer",
 } as const;
 
 // Type definitions for event payloads
