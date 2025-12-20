@@ -21,11 +21,11 @@ export function GameHUD() {
   return (
     <div className="absolute top-4 left-4 right-4 flex justify-between items-center z-10 pointer-events-none">
       {/* Lives */}
-      <div className="flex gap-2">
-        {[...Array(3)].map((_, i) => (
+      <div className="flex gap-1">
+        {[...Array(6)].map((_, i) => (
           <svg
             key={i}
-            className={`w-10 h-10 drop-shadow-md transition-opacity ${
+            className={`w-8 h-8 drop-shadow-md transition-opacity ${
               i < lives ? "opacity-100" : "opacity-30"
             }`}
             viewBox="0 0 32 32"
