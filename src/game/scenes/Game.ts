@@ -330,16 +330,16 @@ export class Game extends Phaser.Scene {
     question.options.forEach((option, index) => {
       const y = pathYPositions[index];
 
-      // Answer box (wider for longer text)
-      const box = this.add.rectangle(0, y, 220, PATH_HEIGHT - 20, colors[index]);
+      // Answer box (wider for bigger text)
+      const box = this.add.rectangle(0, y, 280, PATH_HEIGHT - 10, colors[index]);
       box.setStrokeStyle(4, 0x5e503f);
 
-      // Answer text (bigger font, with word wrap for long answers)
+      // Answer text (large font for easy reading)
       const text = this.add.text(0, y, option, {
         fontFamily: "Baloo 2",
-        fontSize: "36px",
+        fontSize: "48px",
         color: "#5E503F",
-        wordWrap: { width: 200 },
+        wordWrap: { width: 260 },
         align: "center",
       });
       text.setOrigin(0.5);
