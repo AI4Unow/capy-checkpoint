@@ -52,7 +52,7 @@ export function DifficultyIndicator() {
 
   return (
     <div
-      className={`absolute top-4 right-4 z-30 px-3 py-1.5 rounded-full border-2 border-text/30 ${config.color} shadow-lg transition-all duration-300 animate-bounce-in`}
+      className={`absolute top-16 left-4 z-30 px-3 py-1.5 rounded-full border-2 border-text/30 ${config.color} shadow-lg transition-all duration-300 animate-bounce-in`}
     >
       <span className="font-[family-name:var(--font-fredoka)] text-white text-sm drop-shadow-sm">
         {config.emoji} {config.label}
