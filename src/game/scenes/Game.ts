@@ -334,10 +334,11 @@ export class Game extends Phaser.Scene {
       const box = this.add.rectangle(0, y, 280, PATH_HEIGHT - 10, colors[index]);
       box.setStrokeStyle(4, 0x5e503f);
 
-      // Answer text (large font for easy reading)
+      // Answer text (very large font for easy reading)
       const text = this.add.text(0, y, option, {
-        fontFamily: "Baloo 2",
-        fontSize: "48px",
+        fontFamily: "Fredoka, Arial, sans-serif",
+        fontSize: "64px",
+        fontStyle: "bold",
         color: "#5E503F",
         wordWrap: { width: 260 },
         align: "center",
