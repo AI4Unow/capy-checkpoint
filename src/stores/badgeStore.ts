@@ -1,7 +1,8 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import { BADGES, getBadgeById } from "@/data/badges";
-import type { Badge, BadgeCheckContext, UnlockedBadge } from "@/types/badge";
+import { useMysteryBoxStore } from "@/stores/mysteryBoxStore";
+import type { Badge, BadgeCheckContext, UnlockedBadge, BadgeTier } from "@/types/badge";
 
 interface BadgeState {
   unlockedBadges: UnlockedBadge[];
@@ -66,6 +67,22 @@ function checkRequirement(badge: Badge, context: BadgeCheckContext): boolean {
 
     default:
       return false;
+  }
+}
+
+/**
+ * Map badge tier to mystery box tier
+ */
+function tierToBoxTier(tier: BadgeTier): "common" | "rare" | "epic" | "legendary" {
+  switch (tier) {
+    case "bronze":
+      return "common";
+    case "silver":
+      return "rare";
+    case "gold":
+      return "epic";
+    default:
+      return "common";
   }
 }
 
@@ -144,6 +161,13 @@ export const useBadgeStore = create<BadgeState & BadgeActions>()(
             // Show the first new badge as pending unlock
             pendingUnlock: newlyUnlocked[0],
           });
+
+          // Award mystery boxes for each unlocked badge
+          const { addBox } = useMysteryBoxStore.getState();
+          for (const badge of newlyUnlocked) {
+            const boxTier = tierToBoxTier(badge.tier);
+            addBox(boxTier, `Badge: ${badge.name}`);
+          }
         }
 
         return newlyUnlocked;

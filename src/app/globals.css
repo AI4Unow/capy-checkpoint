@@ -137,6 +137,37 @@ body {
   animation: fade-in 0.3s ease-out;
 }
 
+@keyframes float-up {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px) scale(1.2);
+  }
+}
+
+.animate-float-up {
+  animation: float-up 1.2s ease-out forwards;
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  10%, 30%, 50%, 70%, 90% {
+    transform: translateX(-4px);
+  }
+  20%, 40%, 60%, 80% {
+    transform: translateX(4px);
+  }
+}
+
+.animate-shake {
+  animation: shake 0.5s ease-in-out;
+}
+
 /* Reduced Motion - System Preference */
 @media (prefers-reduced-motion: reduce) {
   .animate-confetti,
@@ -144,7 +175,9 @@ body {
   .animate-pulse-glow,
   .animate-fade-in-out,
   .animate-streak-pulse,
-  .animate-fade-in {
+  .animate-fade-in,
+  .animate-float-up,
+  .animate-shake {
     animation: none !important;
   }
 
@@ -159,7 +192,9 @@ body {
 [data-reduced-motion="true"] .animate-pulse-glow,
 [data-reduced-motion="true"] .animate-fade-in-out,
 [data-reduced-motion="true"] .animate-streak-pulse,
-[data-reduced-motion="true"] .animate-fade-in {
+[data-reduced-motion="true"] .animate-fade-in,
+[data-reduced-motion="true"] .animate-float-up,
+[data-reduced-motion="true"] .animate-shake {
   animation: none !important;
 }
 

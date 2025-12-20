@@ -73,8 +73,18 @@ export const GameEvents = {
   MUSIC_TOGGLE: "music-toggle",
   // Touch controls
   SELECT_ANSWER: "select-answer",
+  // Engagement features
+  CAPY_REACT: "capy-react",
+  BOX_EARNED: "box-earned",
 } as const;
 
 // Type definitions for event payloads
 export type DifficultyLevel = "warmup" | "practice" | "challenge" | "boss";
 export type QuestionReason = "review" | "weak" | "world" | "random";
+export type CapyReactionType =
+  | "happy"
+  | "sad"
+  | "excited"
+  | "love"
+  | "sleepy"
+  | "hungry";

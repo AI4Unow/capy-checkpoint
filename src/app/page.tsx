@@ -17,7 +17,14 @@ import { BadgeCollection } from "@/components/BadgeCollection";
 import { BadgeUnlock } from "@/components/BadgeUnlock";
 import { BadgeChecker } from "@/components/BadgeChecker";
 import { TouchControls } from "@/components/TouchControls";
+import { SpinWheel } from "@/components/SpinWheel";
+import { CapyReactions } from "@/components/CapyReactions";
+import { CapyMood } from "@/components/CapyMood";
+import { WelcomeBack } from "@/components/WelcomeBack";
+import { MysteryBox } from "@/components/MysteryBox";
 import { useGameStore } from "@/stores/gameStore";
+import { useSpinStore } from "@/stores/spinStore";
+import { useMysteryBoxStore } from "@/stores/mysteryBoxStore";
 import { useLearningStore } from "@/stores/learningStore";
 import { useSettingsStore } from "@/stores/settingsStore";
 import { EventBus, GameEvents } from "@/game/EventBus";
@@ -37,6 +44,8 @@ export default function Home() {
   const [showBoutique, setShowBoutique] = useState(false);
   const [showSummary, setShowSummary] = useState(false);
   const [showBadges, setShowBadges] = useState(false);
+  const [showSpinWheel, setShowSpinWheel] = useState(false);
+  const [showMysteryBox, setShowMysteryBox] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState<{
     question: Question;
     studentAnswerIndex: number;
@@ -44,6 +53,8 @@ export default function Home() {
   const { isGameOver, isPlaying } = useGameStore();
   const { resetSession } = useLearningStore();
   const { reducedMotion } = useSettingsStore();
+  const { canFreeSpin } = useSpinStore();
+  const { getTotalBoxes } = useMysteryBoxStore();
 
   // Listen for wrong answers to show AI hint
   useEffect(() => {
@@ -88,11 +99,34 @@ export default function Home() {
         <MenuOverlay />
         <CalibrationIndicator />
         <TouchControls />
+        <CapyReactions />
         <PhaserGame />
 
-        {/* Boutique and Badges buttons (visible when not playing) */}
+        {/* Boutique, Badges, Boxes, and Spin buttons (visible when not playing) */}
         {!isPlaying && !showSummary && (
           <div className="absolute bottom-4 right-4 z-20 flex gap-2">
+            <button
+              onClick={() => setShowSpinWheel(true)}
+              className="bg-yellow px-4 py-2 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-text hover:scale-105 transition-transform relative"
+            >
+              🎰 Spin!
+              {canFreeSpin() && (
+                <span className="absolute -top-2 -right-2 bg-sage px-2 py-0.5 rounded-full text-xs border-2 border-text">
+                  FREE
+                </span>
+              )}
+            </button>
+            <button
+              onClick={() => setShowMysteryBox(true)}
+              className="bg-purple-300 px-4 py-2 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-text hover:scale-105 transition-transform relative"
+            >
+              📦 Boxes
+              {getTotalBoxes() > 0 && (
+                <span className="absolute -top-2 -right-2 bg-red px-2 py-0.5 rounded-full text-xs border-2 border-text text-white">
+                  {getTotalBoxes()}
+                </span>
+              )}
+            </button>
             <button
               onClick={() => setShowBadges(true)}
               className="bg-purple-400 px-4 py-2 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-text hover:scale-105 transition-transform"
@@ -111,6 +145,14 @@ export default function Home() {
 
       {/* Boutique modal */}
       {showBoutique && <Boutique onClose={() => setShowBoutique(false)} />}
+
+      {/* Spin wheel modal */}
+      {showSpinWheel && <SpinWheel onClose={() => setShowSpinWheel(false)} />}
+
+      {/* Mystery box modal */}
+      {showMysteryBox && (
+        <MysteryBox onClose={() => setShowMysteryBox(false)} />
+      )}
 
       {/* Session summary (shows on game over) */}
       {isGameOver && showSummary && (
@@ -147,6 +189,12 @@ export default function Home() {
 
       {/* Badge checker (listens to game events) */}
       <BadgeChecker />
+
+      {/* Capy mood indicator (visible when not playing) */}
+      {!isPlaying && <CapyMood />}
+
+      {/* Welcome back modal */}
+      <WelcomeBack />
     </div>
   );
 }

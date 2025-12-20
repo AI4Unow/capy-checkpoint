@@ -78,6 +78,74 @@ export class SynthSounds {
   }
 
   /**
+   * Play tick sound for spin wheel
+   */
+  playSpin(): void {
+    if (!this.enabled || !this.audioContext) return;
+    this.playTone(800, 0.02, "sine", 0.2);
+  }
+
+  /**
+   * Play jackpot fanfare for big wins
+   */
+  playJackpot(): void {
+    if (!this.enabled || !this.audioContext) return;
+    const notes = [523, 659, 784, 880, 1047]; // C5, E5, G5, A5, C6
+    notes.forEach((freq, i) => {
+      setTimeout(() => this.playTone(freq, 0.15, "triangle", 0.6), i * 100);
+    });
+    // Add shimmer effect
+    setTimeout(() => {
+      this.playTone(1319, 0.3, "sine", 0.4); // E6
+    }, 500);
+  }
+
+  /**
+   * Cute happy squeak for correct answers
+   */
+  playHappyCapy(): void {
+    if (!this.enabled || !this.audioContext) return;
+    // High-pitched "squee": 600Hz→800Hz sweep
+    this.playTone(600, 0.08, "sine", 0.4);
+    setTimeout(() => this.playTone(800, 0.1, "sine", 0.4), 80);
+  }
+
+  /**
+   * Soft sad whimper for wrong answers
+   */
+  playSadCapy(): void {
+    if (!this.enabled || !this.audioContext) return;
+    // Descending tone: 400Hz→250Hz
+    this.playTone(400, 0.15, "sine", 0.3);
+    setTimeout(() => this.playTone(300, 0.15, "sine", 0.2), 150);
+    setTimeout(() => this.playTone(250, 0.2, "sine", 0.15), 300);
+  }
+
+  /**
+   * Excited chirp for streaks and love reactions
+   */
+  playExcitedCapy(): void {
+    if (!this.enabled || !this.audioContext) return;
+    // Quick ascending chirps
+    const notes = [500, 600, 700, 800];
+    notes.forEach((freq, i) => {
+      setTimeout(() => this.playTone(freq, 0.06, "sine", 0.4), i * 50);
+    });
+  }
+
+  /**
+   * Box opening build-up sound
+   */
+  playBoxOpen(): void {
+    if (!this.enabled || !this.audioContext) return;
+    // Rising tension: ascending tones
+    const notes = [200, 300, 400, 500, 600];
+    notes.forEach((freq, i) => {
+      setTimeout(() => this.playTone(freq, 0.12, "triangle", 0.35), i * 200);
+    });
+  }
+
+  /**
    * Play a single tone
    */
   private playTone(
