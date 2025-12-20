@@ -6,8 +6,8 @@ import type { Question } from "@/types/question";
 import type { QuestionSelection } from "@/engine/questionSelector";
 import { getDifficultyLabel } from "@/engine/questionSelector";
 
-const FLAP_VELOCITY = -250;
-const SCROLL_SPEED = 40;
+const FLAP_VELOCITY = -320;
+const SCROLL_SPEED = 80;
 const GATE_SPAWN_INTERVAL = 30000;
 const GROUND_Y = 650;
 const PATH_HEIGHT = 150; // Height of each answer path
@@ -336,6 +336,10 @@ export class Game extends Phaser.Scene {
   private spawnAnswerGate(): void {
     if (this.isGameOver || !this.currentQuestion) return;
 
+    // Don't spawn if there's already an unanswered gate on screen
+    const hasActiveGate = this.activeGates.some(gate => !gate.answered);
+    if (hasActiveGate) return;
+
     const question = this.currentQuestion;
     const container = this.add.container(GAME_WIDTH + 100, 0);
     container.setDepth(5);
@@ -424,6 +428,11 @@ export class Game extends Phaser.Scene {
       responseTimeMs,
     });
     this.selectNextQuestion();
+
+    // Spawn new gate after a short delay for the answered gate to clear
+    this.time.delayedCall(500, () => {
+      this.spawnAnswerGate();
+    });
   }
 
   private handleCorrect(): void {
