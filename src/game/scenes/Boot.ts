@@ -26,79 +26,94 @@ export class Boot extends Phaser.Scene {
 
   private createCapybaraGraphics(): void {
     // Create spritesheet with 3 frames for wing animation
-    const frameWidth = 100;
-    const frameHeight = 80;
+    // Increased width to accommodate bigger wings
+    const frameWidth = 120;
+    const frameHeight = 90;
     const g = this.make.graphics({ x: 0, y: 0 });
 
     // Draw 3 frames side by side (wings up, middle, down)
     for (let frame = 0; frame < 3; frame++) {
       const offsetX = frame * frameWidth;
 
-      // Wing positions for each frame
+      // Wing positions for each frame - bigger movement range
       const wingOffsets = [
-        { y: -8, spread: 1.2 },  // Frame 0: wings up
-        { y: 0, spread: 1.0 },   // Frame 1: wings middle
-        { y: 6, spread: 0.8 },   // Frame 2: wings down
+        { y: -15, spread: 1.4 },  // Frame 0: wings up high
+        { y: 0, spread: 1.0 },    // Frame 1: wings middle
+        { y: 12, spread: 0.6 },   // Frame 2: wings down low
       ];
       const wing = wingOffsets[frame];
 
-      // Wings (behind body) - soft pink feathered wings
+      // BIG Wings (behind body) - soft pink feathered wings
+      // Main wing shape - much larger triangles
       g.fillStyle(0xffd6e0);
+      // Large outer feathers
       g.fillTriangle(
-        offsetX + 5, 35 + wing.y,
-        offsetX + 25, 15 + wing.y * wing.spread,
-        offsetX + 35, 40 + wing.y
+        offsetX + 0, 45 + wing.y,
+        offsetX + 15, 5 + wing.y * wing.spread,
+        offsetX + 40, 50 + wing.y
       );
       g.fillTriangle(
-        offsetX + 10, 40 + wing.y,
-        offsetX + 30, 20 + wing.y * wing.spread,
-        offsetX + 40, 45 + wing.y
+        offsetX + 5, 50 + wing.y,
+        offsetX + 25, 10 + wing.y * wing.spread,
+        offsetX + 50, 55 + wing.y
       );
       g.fillTriangle(
-        offsetX + 15, 45 + wing.y,
-        offsetX + 35, 25 + wing.y * wing.spread,
-        offsetX + 45, 50 + wing.y
+        offsetX + 10, 55 + wing.y,
+        offsetX + 35, 15 + wing.y * wing.spread,
+        offsetX + 55, 60 + wing.y
       );
-      // Wing feather details
-      g.fillStyle(0xffb3c6);
+      // Additional feather layer
       g.fillTriangle(
-        offsetX + 8, 38 + wing.y,
-        offsetX + 22, 22 + wing.y * wing.spread,
-        offsetX + 32, 42 + wing.y
-      );
-      g.fillTriangle(
-        offsetX + 12, 43 + wing.y,
-        offsetX + 28, 28 + wing.y * wing.spread,
-        offsetX + 38, 48 + wing.y
+        offsetX + 15, 60 + wing.y,
+        offsetX + 40, 25 + wing.y * wing.spread,
+        offsetX + 60, 65 + wing.y
       );
 
-      // Body
+      // Wing feather details - darker pink highlights
+      g.fillStyle(0xffb3c6);
+      g.fillTriangle(
+        offsetX + 3, 48 + wing.y,
+        offsetX + 18, 12 + wing.y * wing.spread,
+        offsetX + 38, 52 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 8, 53 + wing.y,
+        offsetX + 28, 18 + wing.y * wing.spread,
+        offsetX + 48, 57 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 13, 58 + wing.y,
+        offsetX + 33, 23 + wing.y * wing.spread,
+        offsetX + 53, 62 + wing.y
+      );
+
+      // Body (shifted right to make room for wings)
       g.fillStyle(0xa67c52);
-      g.fillRoundedRect(offsetX + 0, 20, 80, 50, 20);
+      g.fillRoundedRect(offsetX + 20, 30, 80, 50, 20);
 
       // Head
       g.fillStyle(0xb8926a);
-      g.fillCircle(offsetX + 70, 25, 25);
+      g.fillCircle(offsetX + 90, 35, 25);
 
       // Eye
       g.fillStyle(0x5e503f);
-      g.fillCircle(offsetX + 78, 20, 5);
+      g.fillCircle(offsetX + 98, 30, 5);
       g.fillStyle(0xffffff);
-      g.fillCircle(offsetX + 80, 18, 2);
+      g.fillCircle(offsetX + 100, 28, 2);
 
       // Nose
       g.fillStyle(0x5e503f);
-      g.fillCircle(offsetX + 88, 28, 4);
+      g.fillCircle(offsetX + 108, 38, 4);
 
       // Ear
       g.fillStyle(0xa67c52);
-      g.fillCircle(offsetX + 55, 5, 8);
+      g.fillCircle(offsetX + 75, 15, 8);
 
       // Yuzu hat
       g.fillStyle(0xffd60a);
-      g.fillCircle(offsetX + 65, 0, 15);
+      g.fillCircle(offsetX + 85, 10, 15);
       g.fillStyle(0x4caf50);
-      g.fillTriangle(offsetX + 55, -10, offsetX + 65, -15, offsetX + 60, 0);
+      g.fillTriangle(offsetX + 75, 0, offsetX + 85, -5, offsetX + 80, 10);
     }
 
     // Generate spritesheet texture
