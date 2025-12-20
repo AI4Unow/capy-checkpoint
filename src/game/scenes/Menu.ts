@@ -72,7 +72,7 @@ export class Menu extends Phaser.Scene {
     playText.setOrigin(0.5);
 
     // Instructions
-    const instructions = this.add.text(GAME_WIDTH / 2, 650, "Press SPACE to flap • Press 1, 2, 3 to select answers", {
+    const instructions = this.add.text(GAME_WIDTH / 2, 650, "Press SPACE or TAP to flap • Guide Capy to the correct answer!", {
       fontFamily: "Nunito",
       fontSize: "20px",
       color: "#5E503F",
