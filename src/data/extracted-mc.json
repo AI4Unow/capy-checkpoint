@@ -1,0 +1,2542 @@
+[
+  {
+    "id": "mat-39008-01",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Anastasia's sequence: 1st term is 2, 2nd is 4, 3rd is 6. What is the 8th term?",
+    "options": [
+      "16",
+      "14",
+      "18"
+    ],
+    "correctIndex": 0,
+    "explanation": "Term = 2 * n. 2 * 8 = 16",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-02",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which chart is most appropriate to show if the number of ice cream sales changes with the temperature?",
+    "options": [
+      "scatter graph",
+      "pie chart",
+      "Venn diagram"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scatter graphs show correlation between variables.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-04",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 800,
+    "text": "Which three amounts are equivalent?",
+    "options": [
+      "83%, 0.83, 83/100",
+      "80%, 8.03, 8.3%",
+      "3.8, 0.83, 38/100"
+    ],
+    "correctIndex": 0,
+    "explanation": "83% equals 0.83 and 83/100.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-05",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "The ratio of pots to seeds is 1:4. If there are 6 pots, how many seeds are there?",
+    "options": [
+      "24",
+      "10",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 pots * 4 seeds/pot = 24 seeds.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-10",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "What is the next number in the sequence: 11/10, 9/10, 7/10, 5/10?",
+    "options": [
+      "3/10",
+      "1/10",
+      "4/10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 2/10 from the previous term.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-08",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Eva wants to see if older children play more sport. She asks for Name and Sport Hours. What else must she ask?",
+    "options": [
+      "What is your age?",
+      "What is your favorite sport?",
+      "What time of day do you do sport?"
+    ],
+    "correctIndex": 0,
+    "explanation": "Age is needed to correlate with time spent.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-10",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "What is the next number in the sequence: 11/10, 9/10, 7/10, 5/10?",
+    "options": [
+      "3/10",
+      "1/10",
+      "4/10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 2/10 from the previous term.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-11",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 800,
+    "text": "Carlos says he is less likely to roll a 6 than other numbers on a fair six-sided dice. Why is he wrong?",
+    "options": [
+      "All numbers have equal probability",
+      "6 is the highest number",
+      "The dice is unfair"
+    ],
+    "correctIndex": 0,
+    "explanation": "A fair die has equal odds for all faces.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-13",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "A circle is inside a square. Which part of the circle has the same length as the side of the square?",
+    "options": [
+      "diameter",
+      "radius",
+      "centre"
+    ],
+    "correctIndex": 0,
+    "explanation": "The diameter spans the width of the square.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-15",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 900,
+    "text": "In the sequence of square numbers (1, 4, 9...), what is the 4th term and which term equals 81?",
+    "options": [
+      "16 and 9th",
+      "16 and 8th",
+      "12 and 9th"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 squared is 16 and 9 squared is 81.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-16",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Which pair of values satisfies: 1/5 < X < 4/5 and 0.4 > Y > 1/4?",
+    "options": [
+      "X=0.5, Y=0.3",
+      "X=0.1, Y=0.5",
+      "X=0.9, Y=0.1"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.2 < 0.5 < 0.8 and 0.4 > 0.3 > 0.25.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-18",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "For the distances 8, 35, 15, 50, 10, 2 (km), what are the range and the mean?",
+    "options": [
+      "Range 48, Mean 20",
+      "Range 50, Mean 20",
+      "Range 48, Mean 24"
+    ],
+    "correctIndex": 0,
+    "explanation": "Range: 50-2=48. Mean: 120/6=20.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-19",
+    "topic": "data",
+    "subtopic": "tables",
+    "difficulty": 750,
+    "text": "Using Ottawa's temp table, which two months have the same difference between high and low temperatures?",
+    "options": [
+      "January and March",
+      "February and March",
+      "January and April"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both months have a 9 degree difference.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Mia has a 5kg bag of potatoes. She uses 1kg. What percentage of the bag of potatoes is left?",
+    "options": [
+      "80%",
+      "20%",
+      "75%"
+    ],
+    "correctIndex": 0,
+    "explanation": "4kg left out of 5kg: (4/5) * 100 = 80%",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-21",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Jamila uses 1 1/4 pieces of wood, each 5 metres long. What is the total length of wood used?",
+    "options": [
+      "6.25 metres",
+      "5.25 metres",
+      "6.75 metres"
+    ],
+    "correctIndex": 0,
+    "explanation": "1.25 * 5 = 6.25 metres.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-22",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "A cube has a surface area of 96 cm2. What is the area of one face of the cube?",
+    "options": [
+      "16 cm2",
+      "24 cm2",
+      "12 cm2"
+    ],
+    "correctIndex": 0,
+    "explanation": "96 divided by 6 faces is 16 cm2.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-23",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 800,
+    "text": "What number between 1270 and 1280 has a remainder of 4 when divided by 8?",
+    "options": [
+      "1276",
+      "1274",
+      "1272"
+    ],
+    "correctIndex": 0,
+    "explanation": "1276 / 8 = 159 remainder 4.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-24",
+    "topic": "calculation",
+    "subtopic": "estimation",
+    "difficulty": 800,
+    "text": "To estimate the mass of 24 books (542g each) in 3 boxes, Mike uses 25 * 3 * [ ]. What number is missing?",
+    "options": [
+      "500",
+      "540",
+      "600"
+    ],
+    "correctIndex": 0,
+    "explanation": "542 grams rounds to 500 for estimation.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-25",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Which calculation finds the 10th term of the sequence 4, 7, 10, 13... without counting on?",
+    "options": [
+      "4 + (9 * 3)",
+      "4 + (10 * 3)",
+      "4 * 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Start at 4 and add 9 steps of 3.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-26",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "A jug has markings up to 500ml. Why can Safia not pour 1000ml of water into it?",
+    "options": [
+      "The volume exceeds the jug's capacity",
+      "The jug is too heavy",
+      "The capacity is 1000ml"
+    ],
+    "correctIndex": 0,
+    "explanation": "The jug's capacity is only 500ml.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-27",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 850,
+    "text": "Two numbers (not 9 or 1458) have a common factor of 9 and LCM of 1458. What are they?",
+    "options": [
+      "18 and 729",
+      "81 and 162",
+      "27 and 486"
+    ],
+    "correctIndex": 0,
+    "explanation": "18 and 729 have HCF 9 and LCM 1458.",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Mia has a 5kg bag of potatoes. She uses 1kg. What percentage of the bag of potatoes is left?",
+    "options": [
+      "80%",
+      "20%",
+      "75%"
+    ],
+    "correctIndex": 0,
+    "explanation": "4kg left out of 5kg: (4/5) * 100 = 80%",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-01",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out: 5342 x 2",
+    "options": [
+      "10684",
+      "10682",
+      "10784"
+    ],
+    "correctIndex": 0,
+    "explanation": "5342 * 2 = 10684",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-02",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Write down the number that is one thousand times bigger than 10.42.",
+    "options": [
+      "10420",
+      "1042",
+      "104.2"
+    ],
+    "correctIndex": 0,
+    "explanation": "10.42 multiplied by 1000 is 10420.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-03",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Write the calculation 7 ÷ 8 as a fraction.",
+    "options": [
+      "7/8",
+      "8/7",
+      "1 1/8"
+    ],
+    "correctIndex": 0,
+    "explanation": "7 ÷ 8 is written as 7/8",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-04",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "A 9cm by 4cm rectangle is made of two triangles. Work out the area of one triangle.",
+    "options": [
+      "18 cm²",
+      "36 cm²",
+      "9 cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "(9 * 4) / 2 = 18.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-05",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Eva was faster than Mia (2.1s) but slower than Jamila (1.7s). Write a possible time for Eva.",
+    "options": [
+      "1.9 seconds",
+      "1.6 seconds",
+      "2.2 seconds"
+    ],
+    "correctIndex": 0,
+    "explanation": "Time must be between 1.7 and 2.1 seconds.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-06",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out 256 ÷ 8.",
+    "options": [
+      "32",
+      "34",
+      "28"
+    ],
+    "correctIndex": 0,
+    "explanation": "256 / 8 = 32.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-07",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Order shortest to longest: 0.25h, 17 min, 1/3h, 600s.",
+    "options": [
+      "600s, 0.25h, 17 min, 1/3h",
+      "600s, 17 min, 0.25h, 1/3h",
+      "0.25h, 600s, 17 min, 1/3h"
+    ],
+    "correctIndex": 0,
+    "explanation": "600s=10m, 0.25h=15m, 17m, 1/3h=20m.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-08",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "A cereal box has a mass of 1.85 kg. A hotel uses 8 boxes weekly. What is the total mass?",
+    "options": [
+      "14.8 kg",
+      "14.4 kg",
+      "15.2 kg"
+    ],
+    "correctIndex": 0,
+    "explanation": "1.85 * 8 = 14.8.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-09",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 800,
+    "text": "Lily joins 9 square tiles. Each tile is 3/4 metre long. Calculate the total length.",
+    "options": [
+      "6 3/4 m",
+      "6 1/4 m",
+      "7 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "9 × 3/4 = 27/4 = 6 3/4",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-14",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Find the missing digit: 5.4 – 1.117 = 6.6 – 2.3_7",
+    "options": [
+      "1",
+      "2",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "4.283 = 6.6 - 2.317.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-04",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "A 9cm by 4cm rectangle is made of two triangles. Work out the area of one triangle.",
+    "options": [
+      "18 cm²",
+      "36 cm²",
+      "9 cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "(9 * 4) / 2 = 18.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-16",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Which four numbers have a total of –3.142?",
+    "options": [
+      "–3, –0.1, –0.04, –0.002",
+      "–3, –0.1, –0.04, –0.001",
+      "–3, –0.2, –0.04, –0.002"
+    ],
+    "correctIndex": 0,
+    "explanation": "–3 + (–0.1) + (–0.04) + (–0.002) = –3.142",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-03",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Write the calculation 7 ÷ 8 as a fraction.",
+    "options": [
+      "7/8",
+      "8/7",
+      "1 1/8"
+    ],
+    "correctIndex": 0,
+    "explanation": "7 ÷ 8 is written as 7/8",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-19",
+    "topic": "number",
+    "subtopic": "negative-numbers",
+    "difficulty": 850,
+    "text": "Which of these calculations results in a positive answer?",
+    "options": [
+      "–16 + 35",
+      "–35 – 16",
+      "16 – 35"
+    ],
+    "correctIndex": 0,
+    "explanation": "–16 + 35 = 19, which is positive",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-09",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 800,
+    "text": "Lily joins 9 square tiles. Each tile is 3/4 metre long. Calculate the total length.",
+    "options": [
+      "6 3/4 m",
+      "6 1/4 m",
+      "7 m"
+    ],
+    "correctIndex": 0,
+    "explanation": "9 × 3/4 = 27/4 = 6 3/4",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-22",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Which digits complete 3_.49, 3_.08, and 3_.53 so they all round to 35?",
+    "options": [
+      "5, 5, 4",
+      "4, 4, 5",
+      "5, 4, 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "35.49, 35.08, and 34.53 all round to 35.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-23",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Hassan has bags with 25, 33, 64, and 100 unit cubes. Which bag's cubes can be used to make one larger cube?",
+    "options": [
+      "64",
+      "25",
+      "100"
+    ],
+    "correctIndex": 0,
+    "explanation": "64 is a cube number (4 x 4 x 4).",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-25",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Which methods correctly calculate 531 x 6? Mike: 500x6 + 31x6; Oliver: 531x2x3; Ahmed: 500x6 + 30x6 + 1.",
+    "options": [
+      "Mike and Oliver",
+      "Ahmed and Mike",
+      "Ahmed and Oliver"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mike uses distribution; Oliver uses factors.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-28",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "Two shorter blocks (b and c) fit exactly on top of the longest block (a). Which statement is correct?",
+    "options": [
+      "a = b + c",
+      "a + c = b",
+      "b = c - a"
+    ],
+    "correctIndex": 0,
+    "explanation": "The length of a is the sum of lengths b and c.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-02",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Write down the number that is one thousand times bigger than 10.42.",
+    "options": [
+      "10420",
+      "1042",
+      "104.2"
+    ],
+    "correctIndex": 0,
+    "explanation": "10.42 multiplied by 1000 is 10420.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-31",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "A 16m garden fence is 80cm in a model. If a tree is 6m tall in the garden, what is its height in the model in cm?",
+    "options": [
+      "30",
+      "12",
+      "60"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scale is 1:20. 600cm / 20 = 30cm.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-32",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "A horizontal line passes through (2, 3). Which coordinate is also on this line?",
+    "options": [
+      "(5, 3)",
+      "(2, 5)",
+      "(3, 2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Horizontal lines have constant y-coordinates.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-33",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 950,
+    "text": "In a fruit drink, 2/5 is orange juice and 3/8 is apple juice. What fraction of the drink is the remaining lemon juice?",
+    "options": [
+      "9/40",
+      "7/40",
+      "11/40"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 - (16/40 + 15/40) = 9/40.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-22",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Which digits complete 3_.49, 3_.08, and 3_.53 so they all round to 35?",
+    "options": [
+      "5, 5, 4",
+      "4, 4, 5",
+      "5, 4, 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "35.49, 35.08, and 34.53 all round to 35.",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "What is the next number in the sequence 8, 15, 22, 29, ...?",
+    "options": [
+      "36",
+      "35",
+      "37"
+    ],
+    "correctIndex": 0,
+    "explanation": "The common difference is 7. 29 + 7 = 36.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-05",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "How many circles are needed to make the 9th square number pattern?",
+    "options": [
+      "81",
+      "18",
+      "90"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 9th square number is 9 squared (81).",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-06",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Which same number fits in the boxes to make the sentence correct: [] x [] x [] = 27?",
+    "options": [
+      "3",
+      "9",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 x 3 x 3 = 27.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-11",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 850,
+    "text": "Which of these letters have rotational symmetry: S, T, O, X, E, L?",
+    "options": [
+      "S, O, X",
+      "T, E, L",
+      "S, T, O"
+    ],
+    "correctIndex": 0,
+    "explanation": "S, O, and X look the same when rotated.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 3,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-13",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Where should brackets be placed to make this correct: 20 – 2 ÷ 2 + 4 = 13?",
+    "options": [
+      "(20 – 2) ÷ 2 + 4",
+      "20 – (2 ÷ 2) + 4",
+      "20 – 2 ÷ (2 + 4)"
+    ],
+    "correctIndex": 0,
+    "explanation": "18 ÷ 2 = 9, and 9 + 4 = 13.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-16",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Which of these values is equal to 1/2?",
+    "options": [
+      "6/12",
+      "4/12",
+      "75%"
+    ],
+    "correctIndex": 0,
+    "explanation": "6/12 simplifies to 1/2.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-18",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which of these numbers rounds down to the nearest whole number?",
+    "options": [
+      "8.2",
+      "10.5",
+      "8.9"
+    ],
+    "correctIndex": 0,
+    "explanation": "8.2 is closer to 8 than to 9.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "What is the next number in the sequence 8, 15, 22, 29, ...?",
+    "options": [
+      "36",
+      "35",
+      "37"
+    ],
+    "correctIndex": 0,
+    "explanation": "The common difference is 7. 29 + 7 = 36.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-36",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Is the number 350 in the sequence 8, 15, 22, 29...?",
+    "options": [
+      "No",
+      "Yes",
+      "Depends on n"
+    ],
+    "correctIndex": 0,
+    "explanation": "350-1=349 is not divisible by 7.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-24",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Safia has yellow, green, and white balls. There is a 50% chance of picking white. Yellow and green are equal. What is the chance of picking yellow?",
+    "options": [
+      "25%",
+      "50%",
+      "12.5%"
+    ],
+    "correctIndex": 0,
+    "explanation": "50% left for Y+G. Half of 50% is 25%.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-25",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Mike, Oliver, and Carlos make 720 cookies (240 each). Eggs: Mike 1:5, Oliver 1:10, Carlos 1:6. How many eggs do they use in total?",
+    "options": [
+      "112",
+      "120",
+      "108"
+    ],
+    "correctIndex": 0,
+    "explanation": "48 + 24 + 40 = 112 eggs used.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-26",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 700,
+    "text": "Lily's journey takes 2 hours and 12 minutes. Mia's journey takes 0.6 hours longer. How long does Mia's journey take?",
+    "options": [
+      "2 hours 48 minutes",
+      "2 hours 36 minutes",
+      "3 hours"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.6h = 36m. 12m + 36m = 48m.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-28",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "A house is 6m high and its model is 50cm high. If the house door is 2.4m high, how high is the door on the model?",
+    "options": [
+      "20 cm",
+      "12 cm",
+      "24 cm"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scale is 1:12. 2.4m / 12 = 20cm.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "What is the next number in the sequence 8, 15, 22, 29, ...?",
+    "options": [
+      "36",
+      "35",
+      "37"
+    ],
+    "correctIndex": 0,
+    "explanation": "The common difference is 7. 29 + 7 = 36.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-30",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Yuri rolls a fair dice. Which pair of events is mutually exclusive?",
+    "options": [
+      "Roll a 1 and roll a 6",
+      "Roll a 1 and roll less than 3",
+      "Roll even and roll less than 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "You cannot roll both a 1 and a 6 at once.",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-01",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out 2.8 × 4.",
+    "options": [
+      "11.2",
+      "10.8",
+      "11.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "2.8 * 4 = 11.2",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-02",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 700,
+    "text": "Write 2.25 hours in hours and minutes.",
+    "options": [
+      "2 hours 15 minutes",
+      "2 hours 25 minutes",
+      "2 hours 45 minutes"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.25 * 60 = 15 minutes",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-03",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out 64.23 ÷ 3.",
+    "options": [
+      "21.41",
+      "21.31",
+      "22.41"
+    ],
+    "correctIndex": 0,
+    "explanation": "64.23 / 3 = 21.41",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-04",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "A rectangle measures 3 cm by 5 cm and is made from two triangles. Work out the area of one triangle.",
+    "options": [
+      "7.5 cm²",
+      "15 cm²",
+      "8 cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Area = (3 * 5) / 2 = 7.5",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Which number equals 5 when rounded to the nearest whole number?",
+    "options": [
+      "4.8",
+      "4.4",
+      "5.6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Numbers 4.5 to 5.4 round to 5.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-08",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Two angles in a triangle are 43° and 33°. Work out the size of the third angle.",
+    "options": [
+      "104°",
+      "114°",
+      "94°"
+    ],
+    "correctIndex": 0,
+    "explanation": "180 - 43 - 33 = 104",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-09",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "London is 5°C and Moscow is -7°C. How many degrees warmer is London than Moscow?",
+    "options": [
+      "12°C",
+      "2°C",
+      "7°C"
+    ],
+    "correctIndex": 0,
+    "explanation": "5 - (-7) = 12",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-10",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Mike counts back from 1.7 in steps of 0.4. If the sequence is 1.7, 1.3, 0.9, what are the next two numbers?",
+    "options": [
+      "0.5 and 0.1",
+      "0.5 and 0.4",
+      "0.6 and 0.2"
+    ],
+    "correctIndex": 0,
+    "explanation": "Subtract 0.4 from 0.9, then again from 0.5.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-11",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which of these calculations results in a square number?",
+    "options": [
+      "10 × 10 and 3 × 3",
+      "5 × 2 and 3 × 7",
+      "3 × 3 and 1 × 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "100 and 9 are square numbers.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-12",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "How many equal sides in isosceles, different angles in scalene, and symmetry lines in equilateral triangles?",
+    "options": [
+      "2, 3, 3",
+      "2, 0, 3",
+      "3, 3, 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Isosceles=2, Scalene=3, Equilateral=3.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-13",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which of these are prime numbers?",
+    "options": [
+      "23, 29, 31",
+      "21, 25, 27",
+      "23, 27, 31"
+    ],
+    "correctIndex": 0,
+    "explanation": "Only divisible by 1 and themselves.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-14",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out: 5 + 5 × 47 × 2",
+    "options": [
+      "475",
+      "470",
+      "1000"
+    ],
+    "correctIndex": 0,
+    "explanation": "5 + (5 × 47 × 2) = 5 + 470 = 475.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-15",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "100g of flour needs 2 eggs. If Carlos uses 1kg of flour, how many eggs does he need?",
+    "options": [
+      "20",
+      "10",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "1kg is 1000g. 10 × 2 = 20 eggs.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-16",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "What is the largest number that is a factor of 16, 32, and 40?",
+    "options": [
+      "8",
+      "4",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 is the highest common factor of all three.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-17",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "There are 5 green sweets in a bag. If there is a 1 in 4 chance of picking green, how many total sweets are there?",
+    "options": [
+      "20",
+      "15",
+      "25"
+    ],
+    "correctIndex": 0,
+    "explanation": "5 is 1/4 of 20.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-19",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Calculate (a) 2468 × 35 and (b) 455 ÷ 13.",
+    "options": [
+      "86,380 and 35",
+      "85,380 and 35",
+      "86,380 and 45"
+    ],
+    "correctIndex": 0,
+    "explanation": "2468×35=86380; 455÷13=35.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-21",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 900,
+    "text": "Safia paints the faces of a 3x3x3 cube red. How many small unit cubes have exactly three faces painted red?",
+    "options": [
+      "8",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 8 corner cubes have 3 faces painted.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-16",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "What is the largest number that is a factor of 16, 32, and 40?",
+    "options": [
+      "8",
+      "4",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 is the highest common factor of all three.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-23",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 850,
+    "text": "Which of these numbers is divisible by both 6 and 9?",
+    "options": [
+      "738",
+      "333",
+      "354"
+    ],
+    "correctIndex": 0,
+    "explanation": "738 is even and its digits sum to 18.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 4,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-25",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 900,
+    "text": "A car price is $1000 in Dec. Jan is 10% less. Feb is 20% more than Jan. What is the Feb price?",
+    "options": [
+      "1080",
+      "1100",
+      "1000"
+    ],
+    "correctIndex": 0,
+    "explanation": "$900 * 1.2 = $1080.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-27",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Rajiv says all decimals ending in 5 round up to the nearest whole. Which is a counterexample?",
+    "options": [
+      "0.05",
+      "0.5",
+      "1.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.05 ends in 5 but rounds down to 0.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Which number equals 5 when rounded to the nearest whole number?",
+    "options": [
+      "4.8",
+      "4.4",
+      "5.6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Numbers 4.5 to 5.4 round to 5.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-16",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "What is the largest number that is a factor of 16, 32, and 40?",
+    "options": [
+      "8",
+      "4",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 is the highest common factor of all three.",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-01",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which number rounds to 6.6 when rounded to the nearest tenth?",
+    "options": [
+      "6.56",
+      "6.54",
+      "6.65"
+    ],
+    "correctIndex": 0,
+    "explanation": "6.56 rounds up to 6.6.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-02",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "The line from the centre of a circle to its circumference is called the:",
+    "options": [
+      "radius",
+      "diameter",
+      "circumference"
+    ],
+    "correctIndex": 0,
+    "explanation": "The radius starts at the centre and ends at edge.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-03",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Which data is least useful for investigating the relationship between a child's size and age?",
+    "options": [
+      "hair colour",
+      "height",
+      "foot size"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hair colour does not relate to physical growth.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-05",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "The number 3.142 has 3 ones, 1 tenth, 4 hundredths and 2 _______.",
+    "options": [
+      "thousandths",
+      "thousands",
+      "hundreds"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 4th digit (2) is in the thousandths place.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Which number makes the statement correct: 1/8 < [ ]/8 < 7/8?",
+    "options": [
+      "3",
+      "1",
+      "7"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 is between 1 and 7, so 1/8 < 3/8 < 7/8.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-07",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "In the sequence (1,3), (2,6), (3,9), what is the term for position 4?",
+    "options": [
+      "12",
+      "11",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "The term is 3 times the position (4 * 3 = 12).",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-08",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "A recipe for 12 cupcakes uses 200g flour. How much flour is needed for 6 cupcakes?",
+    "options": [
+      "100g",
+      "150g",
+      "400g"
+    ],
+    "correctIndex": 0,
+    "explanation": "6 is half of 12, so 200g / 2 = 100g.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-09",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "Which box in a Carroll diagram for divisibility by 4 and 8 will always be empty?",
+    "options": [
+      "Divisible by 8 and not divisible by 4",
+      "Divisible by 4 and not divisible by 8",
+      "Not divisible by 4 or 8"
+    ],
+    "correctIndex": 0,
+    "explanation": "All multiples of 8 are also multiples of 4.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-10",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Complete the statement: 0.3 = [ ] / [ ]",
+    "options": [
+      "3/10",
+      "1/3",
+      "3/100"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.3 is 3 tenths, so 3/10.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-12",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "What are the square and cube of the number 7?",
+    "options": [
+      "49 and 343",
+      "14 and 21",
+      "49 and 21"
+    ],
+    "correctIndex": 0,
+    "explanation": "7 squared is 49; 7 cubed is 343.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-13",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which of these shapes has rotational symmetry of order 3?",
+    "options": [
+      "Equilateral triangle",
+      "Square",
+      "Circle"
+    ],
+    "correctIndex": 0,
+    "explanation": "An equilateral triangle has order 3 symmetry.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-14",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 850,
+    "text": "The ratio of blue to yellow paint is 30:15. If 600 ml of blue is used, how much yellow is needed?",
+    "options": [
+      "300 ml",
+      "1200 ml",
+      "150 ml"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ratio 30:15 is 2:1. 600 / 2 = 300 ml.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-16",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Yuri sorts angles into Group 1 (obtuse, acute, right) and Group 2 (reflex). What is the rule?",
+    "options": [
+      "Group 1 angles are 180° or less",
+      "Group 1 angles are over 180°",
+      "Group 1 angles are all 90°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reflex angles are greater than 180°.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-50",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Which pair of events is mutually exclusive when scoring on a target with values 25, 50, and 100?",
+    "options": [
+      "Scoring 25 and getting an even score",
+      "Scoring 100 and getting an even score",
+      "Scoring 50 and getting an even score"
+    ],
+    "correctIndex": 0,
+    "explanation": "25 is odd, so it cannot be an even score.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-18",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Lily makes a cuboid using 4 identical cubes. What could be the dimensions of her cuboid?",
+    "options": [
+      "4 x 1 x 1",
+      "2 x 2 x 2",
+      "3 x 1 x 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "The total volume must be 4 cubic units.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-21",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Darius scores 40% and Chen scores 4/10 of the marks on a test. Who scored more?",
+    "options": [
+      "They scored the same",
+      "Darius scored more",
+      "Chen scored more"
+    ],
+    "correctIndex": 0,
+    "explanation": "4/10 is equivalent to 40%.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-22",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Which division calculation is equivalent to the fraction 5/4?",
+    "options": [
+      "5 ÷ 4",
+      "3 ÷ 4",
+      "4 ÷ 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "The fraction 5/4 means 5 divided by 4.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-23",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Calculate the mean cost of lunch: $2.30, $3.50, $2.80, $4.05, $2.40, $2.30, $3.10, $9.55",
+    "options": [
+      "$3.75",
+      "$3.50",
+      "$3.80"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total $30.00 divided by 8 days is $3.75.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-24",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "What is the next number in the sequence: 1, 4, 9, 16, ...?",
+    "options": [
+      "25",
+      "20",
+      "24"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sequence is square numbers: 5 x 5 = 25.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-25",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 900,
+    "text": "What is the 28th number in the sequence 1, 4, 9, 16, ...?",
+    "options": [
+      "784",
+      "756",
+      "841"
+    ],
+    "correctIndex": 0,
+    "explanation": "The 28th number is 28 squared (28 x 28 = 784).",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 3,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-26",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "What is the name of the shape that connects all points exactly 6 cm from a single dot?",
+    "options": [
+      "Circle",
+      "Square",
+      "Hexagon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Points equidistant from a center form a circle.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-28",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Pierre flies from France to Canada (9 hours), leaving at 13:00. Why is 22:00 not the local arrival time?",
+    "options": [
+      "Time zone difference",
+      "Flight delay",
+      "Calculation error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Canada and France are in different time zones.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-31",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "A cuboid has faces A, B, and C. Area A = 8 cm², Area B = 6 cm². Total surface area is 52 cm². Calculate the area of face C.",
+    "options": [
+      "12",
+      "14",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "2(8 + 6 + C) = 52 implies 14 + C = 26, so C = 12.",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-01",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Complete the number sequence: 3.9, 3.2, 2.5, 1.8, 1.1, ...",
+    "options": [
+      "0.4",
+      "0.3",
+      "0.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "The sequence decreases by 0.7 each time.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-02",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Sugar starts at 19 °C and reaches 105 °C. By how many degrees does the temperature increase?",
+    "options": [
+      "86",
+      "96",
+      "76"
+    ],
+    "correctIndex": 0,
+    "explanation": "105 - 19 = 86.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-03",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate: 123.99 ÷ 3",
+    "options": [
+      "41.33",
+      "41.30",
+      "42.33"
+    ],
+    "correctIndex": 0,
+    "explanation": "123.99 divided by 3 is 41.33.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-04",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate: 24.9 × 4",
+    "options": [
+      "99.6",
+      "96.6",
+      "99.2"
+    ],
+    "correctIndex": 0,
+    "explanation": "24.9 multiplied by 4 is 99.6.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Calculate 90.7 ÷ 100.",
+    "options": [
+      "0.907",
+      "9.07",
+      "0.0907"
+    ],
+    "correctIndex": 0,
+    "explanation": "Move decimal point two places left.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-08",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Write 8/16 in its simplest form.",
+    "options": [
+      "1/2",
+      "1/4",
+      "2/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "8/16 = 1/2",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-09",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "What is 3/4 of 8?",
+    "options": [
+      "6",
+      "2",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 divided by 4 is 2; 2 times 3 is 6.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-10",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 700,
+    "text": "Mike walks for 7.1 minutes. How many seconds is 0.1 minutes?",
+    "options": [
+      "6",
+      "10",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.1 * 60 = 6",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-11",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 850,
+    "text": "257 ÷ 25 = 10 remainder ...",
+    "options": [
+      "7",
+      "5",
+      "17"
+    ],
+    "correctIndex": 0,
+    "explanation": "257 - 250 = 7",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-12",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Calculate 93.54 - 8.41.",
+    "options": [
+      "85.13",
+      "85.03",
+      "95.13"
+    ],
+    "correctIndex": 0,
+    "explanation": "93.54 - 8.41 = 85.13",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-09",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "What is 3/4 of 8?",
+    "options": [
+      "6",
+      "2",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 divided by 4 is 2; 2 times 3 is 6.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-19",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Is 945 in the sequence 35, 42, 49, 56, 63...?",
+    "options": [
+      "Yes",
+      "No",
+      "Only if it is even"
+    ],
+    "correctIndex": 0,
+    "explanation": "945 is divisible by 7 (7 x 135).",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-21",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which calculation has a different answer from the others?",
+    "options": [
+      "150 ÷ 4",
+      "250 ÷ 5",
+      "350 ÷ 7"
+    ],
+    "correctIndex": 0,
+    "explanation": "150 ÷ 4 is 37.5; the others are 50.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-22",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate: 8 × 210 ÷ 21 + 9",
+    "options": [
+      "89",
+      "81",
+      "169"
+    ],
+    "correctIndex": 0,
+    "explanation": "8 × 10 + 9 = 80 + 9 = 89.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-23",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "An 8cm x 3cm rectangle is made of 4 identical triangles. Find the area of one triangle.",
+    "options": [
+      "6 cm²",
+      "12 cm²",
+      "24 cm²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total area 24 cm² divided by 4 is 6 cm².",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-25",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 850,
+    "text": "A factory makes 1000 biscuits. 954 are whole and 46 are broken. What is the probability the next biscuit is whole?",
+    "options": [
+      "0.954",
+      "0.046",
+      "0.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "954/1000 = 0.954",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-28",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Which numbers are divisible by 3 but not divisible by 9? Numbers: 105, 106, 309, 405, 702.",
+    "options": [
+      "105 and 309",
+      "405 and 702",
+      "106 and 309"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sum of digits divisible by 3 but not 9.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Calculate 90.7 ÷ 100.",
+    "options": [
+      "0.907",
+      "9.07",
+      "0.0907"
+    ],
+    "correctIndex": 0,
+    "explanation": "Move decimal point two places left.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-30",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "A $1200 television is reduced by 15%. Calculate the new price.",
+    "options": [
+      "$1020",
+      "$1080",
+      "$1185"
+    ],
+    "correctIndex": 0,
+    "explanation": "1200 - (0.15 * 1200) = 1020.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-31",
+    "topic": "calculation",
+    "subtopic": "estimation",
+    "difficulty": 800,
+    "text": "Which estimate is closest to the answer of 36 × 99?",
+    "options": [
+      "3550",
+      "3600",
+      "3500"
+    ],
+    "correctIndex": 0,
+    "explanation": "36 × 99 = 3564, closest to 3550.",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": false,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  }
+]

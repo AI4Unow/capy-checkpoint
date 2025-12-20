@@ -1,0 +1,4442 @@
+[
+  {
+    "id": "mat-39008-01",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Anastasia writes a sequence. \n \n \n \nThe 1st term in Anastasia’s sequence is 2 \n \nThe 2nd term is 4 \n \nThe 3rd term is 6 \n \n \nWrite the 8th term in Anastasia’s sequence.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-02",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "A shopkeeper thinks the number of ice creams she sells changes with the \ntemperature each day. \n \nShe records the number of ice creams she sells and the temperature each day for \none month. \n \n \nDraw a ring around the most appropriate chart she could use to show her data. \n \n \nVenn diagram          waffle diagram          scatter graph          pie chart",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-03",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here is a triangle with an angle marked a. \n \na\n \n \n \n \nMeasure the size of angle a. \n \nUse a protractor. \n \n degrees   \n \n \n\n3 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-04",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 800,
+    "text": "Tick () three amounts that are equivalent. \n \n83%\n80%\n8.03\n3.8\n0.83\n8.3%\n83\n100\n38\n100",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-05",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Yuri has some pots and some seeds. \n \nThe ratio of pots to seeds is   1 : 4 \n \nHe has 6 pots. \n \n \nWrite the number of seeds Yuri has. \n \n \n \n seeds",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-06",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Here is part of a sequence. \n \n11\n10  \n \n9\n10  \n \n7\n10  \n \n5",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-10",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "The sequence continues in the same way. \n \n \nWrite the next number in the sequence. \n \n \n\n4 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-07",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 850,
+    "text": "Draw a line to match the name of each 3D shape to the correct sketch of its net. \n \ncuboid\nprism\ncube\npyramid\nNot drawn to scale",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-08",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Eva wants to find out if older children spend more time doing sport than younger \nchildren. \n \nShe writes this questionnaire. \n \nWhat is your name?     \n \nHow many hours do you spend doing sport each week? \n \n \n \nTick () one other question that Eva must ask. \n \nWhat is your favourite sport? \n \nWhat is your age? \n \nHow many brothers and sisters do you have? \n \nWhat time of day do you do sport? \n \n \n \n \n \n \n \n\n5 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-09",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here is a triangle drawn on a grid of squares. \n \n \nMirror line\n \n \n \nDraw the reflection of the triangle in the mirror line.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-10",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Draw a line to match each number to the correct statement. \n \n \n71.153 \n \nThe 3 represents 3 thousands \n \n \n \n \n \n322.784 \n \nThe 3 represents 3 thousandths \n \n \n \n \n \n1352.4 \n \nThe 3 represents 3 hundreds \n \n \n \n \n \n 41.031 \n \nThe 3 represents 3 hundredths \n \n \n \n\n6 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-11",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 800,
+    "text": "Carlos rolls a fair six-sided dice. \n \n \nCarlos says,  \n \n \n‘I am less likely to roll a 6 than any of the other numbers on the dice.’ \n \n \nExplain why Carlos is wrong.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-12",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "An arrow is drawn on a grid of squares. \n \nThe arrow is rotated 90 degrees clockwise around the point marked with a dot. \n \n \n \n \nDraw the new position of the arrow after the rotation. \n \n \n \n\n7 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-13",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Here is a circle drawn inside a square. \n \n \n \n \n \nHere are some words. \n \ncentre               radius               diameter \n \n \nUse two of the words to complete these sentences. \n \nThe  \n of the circle is the same length as the side of the square. \nThe  \n of the square and the circle are the same. \n \n \n \n\n8 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-14",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Here is a coordinate grid. \n \nPoints A, B and C are marked on the grid. \n \ny\nx\n– 1\n0\n1\n2\n3\n4\n5\n– 2\n– 3\n– 4\n– 5\n– 1\n1\n2\n3\n4\n5\n– 2\n– 3\n– 4\n– 5\nC\nB\nA\n \n \n \nPoints A, B, C and D are the vertices of a square. \n \n \nWrite the coordinates of point D. \n \nD = ( \n , \n )   \n \n \n\n9 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-15",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 900,
+    "text": "The table shows information about the sequence of square numbers. \n \nTerm\n1st\n12\n22\n32\n1\n4\n9\n1 × 1\n2 × 2\n3 × 3\n2nd\n3rd\n4th\nModel\nExpression Calculation\nSquare\nnumber\n \n \n \n \n(a) Complete the table for the 4th term. \n \n \n \n \n(b) Complete the sentence. \nThe model with exactly 81 dots will be the \n th term.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-16",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Complete each box to make the statements correct. \n \n1\n5\n \n< \n \n< \n4\n5  \n \n \n \n \n \n0.4 \n> \n \n> \n1\n4  \n \n \n \n \n \n \n \n \n\n10 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-17",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Rajiv has a bag containing 10 beads. \n \n \nHe picks one bead at random and records the colour. \n \nHe returns the bead to the bag. \n \n \nHe does this 100 times. \n \nHere are his results. \n \nColour of bead\nFrequency\nColour\nof beads\n0\n5\n10\n15\n20\n25\n30\n35\n40\nblack\nwhite\nred\nyellow\n \n \n \n \nHere is a table showing the colours of the beads in four bags. \n \nBlack\nBag A\nBag B\nBag C\nBag D\nWhite\nRed\nYellow\n \n \n \n \nWrite the letter of the bag that is most likely to be Rajiv's bag of beads. \n \n \n \n \n \n \n \n   \n \n \n\n11 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-18",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Youssef wants to know the distance each of his teachers travel to school. \n \nHere is the data he collects. \n \nDistance travelled \nin kilometres \n \n8 \n \n35 \n \n15 \n \n50 \n \n10 \n \n2 \n \n \n(a) Calculate the range of his data. \n \n \n \n \n \n \n kilometres   \n \n \n(b) Calculate the mean of his data.  \n \n \n \n \n \n \n kilometres   \n \n \n\n12 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-19",
+    "topic": "data",
+    "subtopic": "tables",
+    "difficulty": 750,
+    "text": "The table shows information about the highest and lowest temperatures recorded \nin Ottawa in 2021. \n \nMonth \nHighest temperature Lowest temperature \nJanuary \n         –5° \n \n –14° \n \nFebruary \n         –3° \n \n –10° \n \nMarch \n           2° \n \n –7° \n \nApril \n         11° \n \n   1° \n \nMay \n         19° \n \n   8° \n \nJune \n         24° \n \n 12° \n \n \n \nWrite the names of the two months which have the same difference between their \nhighest and lowest temperatures. \n \n and",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-20",
+    "topic": "number",
+    "subtopic": "percentages",
+    "difficulty": 850,
+    "text": "Mia has a 5 kilogram bag of potatoes.  \n \nShe uses 1 kilogram of the potatoes. \n \n \nWrite the percentage of the bag of potatoes that is left. \n \n \n \n \n %",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-21",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Jamila builds a fence using some pieces of wood. \n \nThe length of each piece of wood is 5 metres. \n \n5 metres\n \n \n \nJamila uses 1\n14  pieces of wood to build her fence. \n \n \nCalculate the total length of wood she uses to build her fence. \n \n \n \n metres   \n\n13 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-22",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "A cube has a surface area of 96 cm2. \n \n \n \n \n \nWrite the area of one face of the cube. \n \n \n \n \n cm2",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-23",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 800,
+    "text": "Angelique writes a number between 1270 and 1280 \n \nWhen her number is divided by 8, there is a remainder of 4 \n \n \nWrite Angelique's number.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-24",
+    "topic": "calculation",
+    "subtopic": "estimation",
+    "difficulty": 800,
+    "text": "Mike packs some books into 3 boxes. \n \nEach book has a mass of 542 grams. \n \nHe packs 24 books in each box. \n \n \n \n \n \nMike estimates the total mass of his books. \n \n \nWrite a number in the box to complete the calculation Mike could use to  \n \nestimate the total mass of his books. \n \n25 × 3 ×  \n \n \n\n14 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-25",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Naomi writes part of a sequence. \n \n4,    7,    10,    13,    … \n \n \nThe sequence continues in the same way. \n \n \nNaomi says, \n \n‘I can only find the 10th term in the sequence by counting on in 3s.’  \n \n \nNaomi is wrong. \n \n \nWrite a calculation to show Naomi how to find the 10th term without counting on \n \nin 3s.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-26",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Here is a jug. \n \nml\n100\n0\n200\n300\n400\n500\n \n \n \n \nSafia wants to pour 1000 ml of water into the jug. \n \n \nExplain why this is not possible. \n \nUse the words volume and capacity in your answer. \n \n \n   \n \n \n\n15 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-27",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 850,
+    "text": "Hassan chooses two different numbers. \n \n \nHassan says, \n \n9 is a common factor of both my numbers\nand\n1458 is a common multiple of both my numbers.\nMy numbers are not 9 or 1458\n \n \n \nWrite two numbers that Hassan could choose. \n and",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-28",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Here is a picture of a spinner. \n \n \n \n \nPierre spins the spinner once. \n \n \nTick () to show if the pairs of events about the spinner are mutually exclusive or \nnot mutually exclusive. \n \nPairs of events about the spinner \nMutually \nexclusive \nNot mutually \nexclusive \nIt lands on a black shape and it lands on a white \nshape. \n \n \nIt lands on a black shape and it lands on a \nsquare. \n \n \nIt lands on a black shape and it lands on a \nheart. \n \n \nIt lands on a black shape and it lands on a grey \nshape. \n \n \n \n \n\n16 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-29",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 850,
+    "text": "Ahmed counts the types of vehicles that pass his school on one day.  \n \nHe records the data on a waffle diagram. \n \nVehicles\nKey\nType of\nvehicle\ncar\nvan\nbus\nbicycle\nlorry\n \n \n \n \n(a) Draw a ring around the pie chart that shows the same information as the waffle \n \n \ndiagram. \n \n \n \n \n \n \n \n(b) Ahmed says, \n \n‘If we count for half an hour, instead of one day, the waffle diagram \nwill be the same.’ \n \n \n \nExplain why Ahmed could be wrong. \n \n   \n \n \n\n17 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-30",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Here is a right-angled triangle. \n \naº\nNot drawn to scale\n \n \n \n \nThe triangle is cut into two smaller right-angled triangles. \n \naº\n15º\nNot drawn to scale\n \n \n \n \nCalculate the size of angle a. \n \nShow your working. \n \n \n \n \n \n \n \n \n °   \n \n \n \n \n\n18 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-31",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Here are five cards. \n \n \n \n \n \n \n     \n    and    \n     each represent a different number on the cards. \n \n \nThe sum of all five numbers on the cards is 14 \n \n \nWrite a pair of possible values for    \n     and     \n       \n \n \n \n \n    \n  = \n and  \n  = \n   \n \n \n\n19 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-32",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "A square is touching a straight line. \n \na\nb\n \n \n \nWrite a pair of possible values for a and b. \n \n \na =  \n ° \nb =  \n °",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every \nreasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the \npublisher will be pleased to make amends at the earliest possible opportunity. \n \nTo avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge \nAssessment International Education Copyright Acknowledgements",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39008-33",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 900,
+    "text": "An isosceles triangle with vertices A, B and C is drawn on a coordinate grid. \n \ny\nx\n– 1\n0\n1\n2\n3\n4\n5\n– 2\n– 3\n– 4\n– 5\n– 1\n1\n2\n3\n4\n5\n– 2\n– 3\n– 4\n– 5\nC\nB\nA\n \n \n \n \nThe triangle is translated. \n \nThe coordinates of point B after the translation are \n1\n1\n, 0\n2\n\n\n\n\n\n\n. \n \n \nWrite a complete description of the translation.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "source": "39008_qp_Gamatrain.com_5uwXvj.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-01",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out. \n \n5342 × 2 =",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-02",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Write down the number that is one thousand times bigger than 10.42",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-03",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Write the calculation   7 ÷ 8   as a fraction.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-04",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here is a rectangle made with two triangles. \n \n9 cm\n4 cm\nNot drawn to scale \n \n \n \nWork out the area of one of the triangles. \n \n \n \n \n \n cm2   \n \n\n3 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-05",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Five children measure the time it takes each of them to walk across the classroom. \n \nHere are some of the results. \n \nJamila\n1.7 seconds\nSafia\n2.4 seconds\nNaomi\n2.5 seconds\nMia\n2.1 seconds\nEva\n \n \n \n \nEva says, \n \nI was faster than Mia but\nslower than Jamila.\n \n \n \n \nWrite a possible time for Eva to walk across the classroom. \n \n \n \n seconds   \n \n \n\n4 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-06",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out. \n \n \n \n \n  256 ÷ 8",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-07",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Write the lengths of time in order from the shortest to the longest. \n \n0.25 hour             17 minutes             1\n3  hour             600 seconds \n \n \n \n \n \n \n \nshortest \n \n \n \n \n \n \nlongest",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-08",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "A box of cereal has a mass of 1.85 kilograms. \n \nA hotel uses 8 boxes of cereal each week. \n \n \nWrite the total mass of cereal the hotel uses each week. \n \n \n \n \n \n kilograms   \n \n \n\n5 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-09",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Lily joins 9 square tiles to make a path. \n \nThe length of each tile is 3\n4  metre. \n \nNot drawn to scale\nLength\n3\n4 m\n \n \n \n \nCalculate the length of the path. \n \n \n \n \n \n \n \n \n metres   \n \n \n \n \n\n6 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-10",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 900,
+    "text": "Point A is shown on a coordinate grid. \n \n– 6\n– 5\n– 4\n– 3\n– 2\n– 1\n1\n2\n3\n4\n5\n6\n– 1\n1\n0\n2\n3\n4\n5\n6\n– 2\n– 3\n– 4\n– 5\n– 6\ny\nx\nA\n \n \n \n \n(a) Write the coordinates of point A. \n( \n , \n )   \n \n \n \n(b) Point B has the coordinates (2, – 4). \n \n \n \nPlot point B on the coordinate grid. \n \n \n \n\n7 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-11",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Jamila has some identical rectangles. \n \n \n \n \n \nShe joins two rectangles to make these new shapes. \n \n \n \n \nTick () to show if each statement about Jamila’s new shapes is always true, \n \nsometimes true or never true. \n \nStatement  \nAlways \ntrue \nSometimes \ntrue \nNever \ntrue  \nThe perimeter of each new shape is \ndouble the perimeter of one rectangle. \n \n \n \nThe area of each new shape is double \nthe area of one rectangle. \n \n \n \n \n \n \n \n12 (a) Calculate. \n \n \n \n \n2 × (4 + 1) \n \n   \n \n \n \n(b) Write one pair of brackets to make this calculation correct. \n \n2   +   4   ×   3   =   18",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 3,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-13",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 850,
+    "text": "Pierre wants to compare the amount of time he spends on some activities during \n \nthe week and at the weekend. \n \nHe collects data for one day in the week and one day at the weekend. \n \nHere are his results. \n \nWhat Pierre does on one day\nin the week\nsleeping\nplaying with\nfriends\nreading\nother\nactivities\nother\nactivities\nother\nactivities\nwatching\ntelevision\nwatching\ntelevision\nwatching\ntelevision\nsleeping\nreading\nwatching\ntelevision\nplaying\nwith friends\nplaying\nwith friends\nplaying\nwith friends\nWhat Pierre does on one day\nat the weekend\nother\nactivities\nother\nactivities\nother\nactivities",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-14",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Write a digit in the box to make the statement correct. \n \n5.4 – 1.117 = 6.6 – 2.3 \n \n7",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-15",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Angelique makes a number with four digit cards. \n \nShe wants the number to be divisible by 3 but not divisible by 6 \n \n2\n5",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-04",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Write two different digits she could use to complete her number. \n \n \n \n \n or",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-16",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Tick () four numbers with a total of –3.142 \n \n– 0.005\n– 0.05\n– 0.5\n– 5\n5\n0.5\n0.05\n0.005\n– 0.004\n– 0.04\n– 0.4\n– 4\n4\n0.4\n0.04\n0.004\n– 0.003\n– 0.03\n– 0.3\n– 3\n3\n0.3\n0.03\n0.003\n– 0.002\n– 0.02\n– 0.2\n– 2\n2\n0.2\n0.02\n0.002\n– 0.001\n– 0.01\n– 0.1\n– 1\n1\n0.1\n0.01\n0.001\n \n \n \n \n\n10 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-17",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 800,
+    "text": "Carlos has a fair dice and a spinner divided into eight equal parts. \n \n1\n6\n2\n5\n7\n8\n4",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-03",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Carlos says, \n \nIt is equally likely that I will get\nan even number on the dice,\nas on the spinner.\n \n \n \n \nTick () to show if Carlos is correct. \n \nYes \n \n           No \n \n \n \nExplain how you know. \n \n \n \n \n \n \n \n\n11 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-18",
+    "topic": "number",
+    "subtopic": "ordering",
+    "difficulty": 750,
+    "text": "Here are some shapes drawn on a grid of squares. \n \n \n \n \nTick () two shapes with the same order of rotational symmetry.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-19",
+    "topic": "number",
+    "subtopic": "negative-numbers",
+    "difficulty": 850,
+    "text": "Draw a line to match each calculation to the correct label. \n \n –35 – 16 \n \n \n \n \n \n –16 + 35 \n \npositive answer \n \n \n \n \n16 – 35 \n \nnegative answer \n \n \n \n –35 + 16 \n \n \n \n \n \n \n \n\n12 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-20",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Here is a set of digit cards. \n \n \n1 \n \n2 \n \n3 \n \n4 \n \n5 \n \n6 \n \n7 \n \n8",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-09",
+    "topic": "number",
+    "subtopic": "multiples",
+    "difficulty": 800,
+    "text": "Ahmed picks one digit card at random. \n \n \nDraw a line to match each event to the correct probability. \n \nEvent \n \nProbability \n \n \n \nAhmed picks the number 4 \n \n1 in 9 chance \n \n \n \nAhmed picks an even number \n \n1 in 3 chance \n \n \n \nAhmed picks a multiple of 3 \n \n4 in 9 chance",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-21",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 750,
+    "text": "Samira chooses a number property. \n \nShe shades all the numbers on the chart that have her number property. \n \n1 \n2 \n3 \n4 \n5 \n6 \n7 \n8 \n9 \n10 \n11 \n12 \n13 \n14 \n15 \n16 \n17 \n18 \n19 \n20 \n21 \n22 \n23 \n24 \n25 \n26 \n27 \n28 \n29 \n30 \n31 \n32 \n33 \n34 \n35 \n36 \n37 \n38 \n39 \n40 \n41 \n42 \n43 \n44 \n45 \n46 \n47 \n48 \n49",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-50",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Write Samira’s number property. \n   \n \n \n\n13 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-22",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Youssef starts to write three numbers. \n \n3 \n \n⋅49 \n \n \n \n3 \n \n⋅08 \n \n \n \n3 \n \n⋅53 \n \n \nThe numbers all round to 35 when rounded to the nearest whole number. \n \n \nWrite a digit in each box to complete Youssef’s numbers.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-23",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Hassan has some bags of unit cubes. \n \nThe labels show the number of unit cubes in each bag. \n \n25\n33\n64\n100\n \n \n \n \nHassan chooses one bag. \n \nHe uses all the cubes in the bag to make a larger cube. \n \n \nTick () the bag Hassan chooses. \n \n \n\n14 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-24",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 850,
+    "text": "Chen takes part in a reading competition at his school. \n \nHe records the number of pages of a book he reads each day. \n \nHe groups the data using equal intervals. \n \nHe draws a bar chart to show his data. \n \n.................\n60 – 79\n40 – 59\n20 – 39\n0 –19\nNumber\nof days\nNumber of pages\nPages Chen reads\n9\n8\n7\n6\n5\n4\n3\n2\n1\n0\n.................\n \n \n \n \n(a) Complete the labels on the x-axis of the bar chart. \n \n \n \n \n(b) Complete the sentence with the correct number. \n \nChen records the number of pages of a book he reads for \n \ndays.  \n \n \n\n15 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-25",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Four children calculate   531 × 6 \n \n \nHere are their methods. \n \nAhmed \n500 × 6 + 30 × 6 + 1 \n \n \nRajiv \n531 + 531 + 531 + 531 + 531 + 531 + 531 \n \n \nMike \n500 × 6 + 31 × 6 \n \n \nOliver \n531 × 2 × 3 \n \n \n \n \nTick () all the methods that will give the correct answer. \n \n \n\n16 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-26",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Safia asks 10 people in her class how they travel to school on Monday.  \n \nHere are her results. \n \nHow people travel to \nschool \n \nFrequency \nTaxi",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-02",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 800,
+    "text": "Bicycle \n4 \n \n \n(a) Safia wants to show the information in a waffle diagram. \n \n \nHere is her empty waffle diagram. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nWrite the number of squares Safia must shade to show how many people \ntravel to school by bicycle on Monday. \n \n   \n \n \n \n(b) Safia looks at her results and writes two conclusions. \n \nTick () to show if each of Safia’s conclusions are definitely true, maybe true \nor definite",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-27",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 900,
+    "text": "Mia uses four cubes to make a model. \n \nHere is a sketch of her model. \n \n \n \n \n \nSketch two different ways to join the four cubes to make a model. \n \nDraw your sketches on the isometric grids. \n \n \n \n  \n \n \n \n \n\n18 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-28",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "Gabriella has three blocks. \n \nThe two shorter blocks fit exactly on top of the longest block. \n \nHere is a diagram of the blocks. \n \na \nb \nc \n \n \na, b and c represent the lengths of each of the blocks in centimetres.  \n \n \nTick () the correct statement about the diagram. \n \na = b + c \n \n \na – b = c \n \n \na + c = b \n \n \nb = c – a",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-29",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Here is a list of fractions. \n \n \n7\n4              19\n8              12\n4              22\n8              5",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-02",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Draw a ring around the fraction that is equivalent to \n3\n2 4  \n \n \n \n \n \n \n \n\n19 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-30",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "Here are two circles. \n \nThe small circle touches the large circle.  \n \nThe centre of each circle is marked with a dot. \n \nNot drawn to scale\n \n \n \n \nThe length of the diameter of the large circle is 20 centimetres. \n \n \nWrite down the length of the radius of the small circle. \n \n \n \n \n \n centimetres",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-31",
+    "topic": "measure",
+    "subtopic": "length",
+    "difficulty": 700,
+    "text": "Yuri is making a model of his garden. \n \n \nThe fence in his garden is 16 metres long.  \n \nThe fence in his model is 80 centimetres long. \n \nThe height of the tallest tree in his garden is 6 metres. \n \n \nWrite the height of the tallest tree in his model. \n \n \n \n \n centimetres   \n \n \n\n20 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-32",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "A horizontal line is drawn on a coordinate grid. \n \nA point with coordinates (2, 3) is on the line. \n \ny\nx\n \n \n \n \nWrite three different coordinates to complete the table. \n \n \nCoordinates \nAbove the horizontal line \n( .............   ,   .............) \nOn the horizontal line \n( .............   ,   .............) \nBelow the horizontal line \n( .............   ,   .............) \n \n \n \n\n21 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-33",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 950,
+    "text": "Anastasia makes a jug of mixed fruit drink. \n \n \n2\n5  of the drink is orange juice. \n \n3\n8  of the drink is apple juice. \n \n \n \nThe remaining part of the drink is lemon juice. \n \n \nWork out the fraction of the drink that is lemon juice.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39007-22",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every \nreasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the \npublisher will be pleased to make amends at the earliest possible opportunity. \n \nTo avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge \nAssessment International Education Copyright Acknowledgements",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39007_qp_Gamatrain.com_bnElxg.pdf",
+    "source": "39007_qp_Gamatrain.com_bnElxg.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-01",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Here are the first 5 terms of a sequence. \n \n4 \n \n8 \n \n12 \n \n16",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-20",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 900,
+    "text": "The sequence continues the same way. \n \n \n(a) Write the next term in the sequence. \n \n   \n \n \n(b) Write the 11th term in the sequence. \n \n   \n \n \n2 \n(a) Complete the sentence. \n \nThe perimeter of a circle is called the  \n \n. \n \n \n \n(b) Use a pair of compasses to draw a circle of radius 4 cm. \n \n  \n\n3 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 4,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-03",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here are points A, B and C plotted on a coordinate grid. \n \nC\nB\nA\ny\nx\n0\n5\n–5\n–4\n–3\n–2\n–1\n–1\n–5\n–4\n4\n3\n2\n1\n1\n2\n3\n4\n5\n–2\n–3\n \n \nABCD is a rectangle. \n \nWrite the coordinates of D. \n( \n , \n )   \n \n \n\n4 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-04",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here is a triangle. \n \na\n \n \n \nMeasure angle a. \n \nUse a protractor. \n \n \n °",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-05",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Here is part of a sequence of square number patterns. \n \nPattern 1\nPattern 2\nPattern 3\nPattern 4\n \n \n \nWrite the number of circles needed to make the 9th square number pattern.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-06",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Write the same number in each box to make the sentence correct. \n \n \n×  \n×  \n= \n27 \n \n  \n\n5 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-07",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Some teams play in a football league. \nThe total number of goals each team scores in January and the total number of \ngoals each team scores in February are shown in a scatter graph. \n \n0\n0\n1\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n2\n3\n4\n5\n6\n7\n8\n9",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-10",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 850,
+    "text": "Goals\nscored in\nFebruary \nGoals scored in January \nGoals scored in football league\n \n \n \n(a) Berlin United score 6 goals in January and 3 goals in February. \n \n \n \nDraw a ring around the point on the scatter graph that represents  \n \n \nBerlin United. \n \n \n \n \n(b) London United score 9 goals in January and 4 goals in February. \n \n Plot a point for London United on the scatter graph. \n \n \n \n \n \n\n6 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-08",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "A shape is drawn on a grid of squares.  \n \n \nRotate the shape 90° clockwise about point A. \n \nA",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-09",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Calculate. \n \n1\n1\n3\n8\n+\n \n \n \n \n \n \n \n1\n3\n5\n20\n−\n \n \n \n\n \n \n\n7 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-10",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "A teacher draws a waffle diagram to show the number of students receiving \ndifferent grades in a test. \n \nGrade\nA\nB\nC\nD\nE\n \n \n \n \nWrite the grade that exactly one fifth of the students receive.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-11",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 850,
+    "text": "Draw a ring around all the letters which have rotational symmetry. \n \n \nS \nT \nO \nX \nE \nL \n \n \n \n\n8 \nM/S6/02 \n \n12 (a) Write the correct word to complete the statement. \n \n9.034 = 9 ones and 3  \nand 4 thousandths \n \n \n \n(b) Here is a number written in words.  \n \n2 tens and 27 thousandths \n \n \n \nWrite the number as a decimal.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 3,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-13",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Write one pair of brackets to make the calculation correct. \n \n \n20 – 2 ÷ 2 + 4 = 13 \n \n \n \n\n9 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-14",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "Here is a coordinate grid. \n \ny\nx\n0\n5\n–5\n–4\n–3\n–2\n–1\n–1\n–4\n–5\n4\n3\n2\n1\n2\n3\n4\n5\n–2\n–3",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-01",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "Plot the point with coordinates (–2.5, 4) \n \n \n \n \n\n10 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-15",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 850,
+    "text": "Here is the net of a cube.  \n \nA\nB\nF\nE\nC\nD\n \n  \n \nHere is a picture of a cube. \n \n \n \n \nTick (✓) to show whether this cube can be made from the net shown. \n \nYes \n \nNo \n \n \n \n \n \nExplain how you know. \n \n \n \n \n \n \n\n11 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-16",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Draw a line to join each number to the correct box. \n \nOne has been done for you. \n \n4\n12\n \n \n \n \n \n< 1\n2\n \n1.3 \n \n \n \n \n= 1\n2\n \n6\n12\n \n \n \n \n \n> 1\n2\n \n75% \n \n \n \n \n \n \n \n\n12 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-17",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here are two rectangles drawn on a coordinate grid. \n \ny\nx\n0\n5\n–5\n–4\n–3\n–2\n–1\n–1\n–2\n–3\n–4\n–5\n4",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-02",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 900,
+    "text": "P\n1\n1\n2\n3\n4\n5\n \n \n(a) Rectangle A is translated 3 squares up and 1 square left. \n \nDraw the new position of Rectangle A. \n \n \n \n \n(b) Rectangle B is translated 3 squares to the right. \n \nWrite the new coordinates of the vertex marked P. \n \n \n \n( \n , \n )   \n \n \n\n13 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-18",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Draw a line to match each number to the correct statement. \n \n10.5 \n \n \n \n \nrounds up \nwhen rounded to the nearest whole number \n8.2 \n \n \n \n \nrounds down  \nwhen rounded to the nearest whole number \n8.9",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-19",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here is a line with point A marked. \n \n \n \n \n \n \n \n \n \n \n \n \nA\n \n \n \n \n \n \n \n \n \n \n \n \nDraw and label an angle of 65° at point A. \nUse a ruler and a protractor. \n \n \n\n14 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-20",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Here is part of a sequence of numbers.  \n \n8 \n15 \n22 \n29",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-36",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "The sequence continues the same way. \n \n \nTick (🗸) to show whether the number 350 will be in the sequence. \n \nYes \n \nNo \n \n \n \nExplain how you know.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-21",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "Here is part of a Venn Diagram. \n \n42\n33\n18\n30\n20\n5",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-04",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 950,
+    "text": "Factors of\nMultiples of\n \n \nWrite a number in each of the three boxes to complete the \nVenn diagram. \n \nThe numbers must all be greater than 1 \n  \n\n15 \nM/S6/02 \n22 (a) Here is a spinner with six equal sections. \n \nA\nA\nC\nA\nB\nB\n \n \n \n \n \n \nWrite the chance of spinning an A. \n \n \n out of \n   \n \n(b) Here is a different spinner with 12 equal sections.  \n \n \n \nShade the spinner so that there is a 25% chance of spinning an unshaded \nsection. \n \n\n16 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 4,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-23",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Pierre counts the number of cars in a car park every day for eight days. \n \n \n \nHere is his data. \n \n35 \n7 \n8 \n16 \n6 \n16 \n12",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-20",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "He calculates some information about his data. \n \n \nComplete the table to show this information. \n \nMean",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-15",
+    "topic": "data",
+    "subtopic": "averages",
+    "difficulty": 950,
+    "text": "Mode \n \nMedian \n \nRange",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-24",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Safia has some balls in a bag. \n \nThe balls in the bag are either yellow or green or white.  \n \nShe has the same number of yellow balls as green balls. \n \n \nSafia says, \nI have a 50% chance \nof picking a white ball.\n \n \n \nWrite the chance that Safia picks a yellow ball. \n \n \n \n \n \n \n \n %   \n\n17 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-25",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Mike, Oliver and Carlos make cookies.  \n \n \n \nMike uses 1 egg for every 5 cookies he makes. \n \nOliver uses 1 egg for every 10 cookies he makes. \n \nCarlos uses 1 egg for every 6 cookies he makes. \n \n(a) Mike, Oliver and Carlos all want to make the same number of cookies as each  \nother. \nEach child must use a whole number of eggs. \n \nCalculate the smallest number of cookies each child could make. \n \n \n \n \n \n \n   \n \n(b) Mike, Oliver and Carlos make a total of 720 cookies for the school fair. \nThey each make the same number of cookies. \n \nCalculate the total number of eggs they use.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-26",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 700,
+    "text": "Lily travels to London.  \n \nLily’s journey takes 2 hours and 12 minutes. \n \n \nMia also travels to London. \n \nMia’s journey takes 0.6 hours longer than Lily’s journey. \n \n \nWrite how long Mia’s journey takes in hours and minutes. \n \n \n \n \n \n hours \n minutes   \n\n18 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-27",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Tick (✓) all the patterns which have exactly one line of symmetry. \n \n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5 5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-28",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Naomi makes a model of her house. \n \n \n6 m\nNot drawn to scale\n50 cm\nNaomi's model\nNaomi's house\n \n \n \n \n \nThe height of the door of her house is 2.4 m. \n \n \nCalculate the height of the door on her model. \n \n \n \n \n \n \n \n \n cm   \n\n19 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-29",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Here is a shape drawn on a grid of squares. \n \nmirror line\n \n \n \nThe shape is reflected in the mirror line. \n \n \nDraw the reflection of the shape.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every \nreasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the \npublisher will be pleased to make amends at the earliest possible opportunity. \n \nTo avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge \nAssessment International Education Copyright Acknowledgements",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39006-30",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Yuri rolls a fair dice. \n \n \n \n \nHere is a list of events. \n \nEvent \nDescription of event \nA \nHe rolls a 1 \nB \nHe rolls a 6 \nC \nHe rolls an even number. \nD \nHe rolls a number less than 3 \n \n Tick () to show if these pairs of events are mutually exclusive or not mutually \nexclusive. \n \nPair of events \nMutually exclusive \nNot mutually exclusive \nA and B \n \n \nA and D \n \n \nC and D",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39006_qp_Gamatrain.com_TO52KW.pdf",
+    "source": "39006_qp_Gamatrain.com_TO52KW.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-01",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out. \n \n \n \n \n 2.8 × 4",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-02",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 700,
+    "text": "Write 2.25 hours in hours and minutes. \n \n \n \n hours \n minutes",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-03",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out. \n \n \n \n \n 64.23 ÷ 3",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-04",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here is a rectangle made from two triangles. \n \n3 cm\n5 cm\n \n \n \nWork out the area of one of the triangles. \n \n \n \n \n \n cm2   \n\n3 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-05",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "Oliver finds the mass of four apples. \n \nHere are his results in grams. \n \n50 \n80 \n70",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-80",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "Find the mean mass of the apples. \n \n \n \n \n \n \n \n grams",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-06",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Draw a ring around the number which equals 5 when rounded to the nearest \nwhole number. \n \n5.55 \n5.19 \n4.49 \n4.34",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-07",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Draw a line to match each fraction on the left to its simplest form. \n \n \n \n1\n4  \n5\n20  \n \n \n \n \n1\n2  \n2\n10  \n \n \n \n \n1\n5  \n \n \n \n \n \n\n4 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-08",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here is a triangle. \n \n43°\n33°\nNot drawn to scale   \n \n \n \nThe size of two of the angles are marked. \n \n \nWork out the size of the third angle. \n \n \n \n \n°",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-09",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "The temperature in London is 5°C. \n \nThe temperature in Moscow is −7°C. \n \n(a) Write a number in the box to make this sentence correct. \n \nLondon is \n \n°C warmer than Moscow. \n \n \n \n \n(b) The temperature in London falls by 8°C. \n \n \n \nWrite the new temperature in London. \n \n \n \n \n \n °C  \n \n \n\n5 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-10",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Mike starts to write a sequence of numbers. \n \n \nHe starts at 1.7 \n \nHe counts back in steps of 0.4 \n \n \nHere are the first 3 numbers in his sequence. \n \n1.7 \n \n1.3 \n \n0.9 \n \n \n \n \n \n \nComplete the boxes to show the next 2 numbers in the sequence.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-11",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Draw a ring around each calculation where the answer is a square number. \n \n5 × 2   \n10 × 10 \n3 × 3 \n3 × 7 \n1 × 2",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-12",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Write a number in each box to complete the sentences. \n \nAll isosceles triangles have \n \nequal sides. \n \n \n \nAll scalene triangles have \n \ndifferent angles. \n \n \n \nAll equilateral triangles have \n \nlines of symmetry.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-13",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Draw a ring around each prime number. \n \n21   \n23 \n25 \n27 \n29 \n31 \n \n \n \n \n \n\n6 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-14",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Work out. \n \n \n \n \n 5 + 5 × 47 × 2",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-15",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Carlos bakes some cakes.  \n \n \nFor every 100 g of flour he uses, he needs 2 eggs. \n \nHe uses 1 kg of flour. \n \n \nWrite the number of eggs he needs.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-16",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Write a number in each box to make the statement correct. \n \n \n1.5 + \n \n+ \n \n= 6.6",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-17",
+    "topic": "calculation",
+    "subtopic": "addition",
+    "difficulty": 700,
+    "text": "Hassan has a bag of sweets. \n \n \nHe has 5 green sweets and all the other sweets are yellow. \n \nHe picks one sweet from the bag at random.  \n \nThere is a 1 out of 4 chance of Hassan picking a green sweet. \n \n \nWrite the total number of sweets in the bag. \n \n \n \n \n   \n \n \n\n7 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-18",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 800,
+    "text": "Chen draws a quadrilateral on a grid of squares. \n \n \n \n \nYuri draws another quadrilateral using whole squares. \n \nThe perimeter of Yuri's quadrilateral is the same as the perimeter of Chen's  \n \nquadrilateral. \n \nThe area of Yuri’s quadrilateral is as small as possible. \n  \n \nDraw Yuri’s quadrilateral on the grid. \n \n \n \n  \n\n8 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-19",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Write a number in each box to complete the calculations. \n \n(a)  \n2468 × 35 =  \n \n \n \n \n \n \n \n \n \n \n(b)  \n  455 ÷ 13 =  \n \n \n \n \n \n \n \n \n \n\n9 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-20",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Gabriella counts the number of students in the class for each of her different \nsubjects at school. \n \nHere are her results. \n \nSubject \nNumber of students \nin the class \n \nSubject \nNumber of students \nin the class \nPhysics",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-18",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 850,
+    "text": "Drama \n24 \n \n(a) Complete the tally chart to show her results. \n \nNumber of students in the class \nTally \n17 – 18 \n \n19 – 20 \n \n21 – 22 \n \n23 – 24 \n \n \n \n \n \n(b) Angelique groups the same data using three equal intervals. \nShe starts to write the intervals in a table. \n \nNumber of students in the class \n \n17 – \n \n \n \n \n– \n \n \n \n \n– 25 \n \n \nComplete the table. \n \n \n \n\n10 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-21",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 900,
+    "text": "Safia uses 27 small white unit cubes to build a larger solid cube. \n \n \n \n \nSafia paints all the faces of the larger cube red. \n \n(a) Write the number of small unit cubes that have three faces painted red. \n \n \n \n \n \n   \n \n(b) Write the number of small unit cubes that have no faces painted red.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-22",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Here are three numbers. \n \n \n32 \n \n40",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-16",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 850,
+    "text": "Write the largest number that is a factor of all these numbers. \n \n \n \n \n \n \n \n   \n\n11 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-23",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 850,
+    "text": "Here are some numbers. \n \n333 \n543 \n738 \n354 \n \n \nWrite each number in the correct place on the Venn diagram. \n \nDivisible by 6\nDivisible by 9\n \n \n \n \n \n \n\n12 \nM/S6/01 \n \n24 (a) Pierre has some red balls and some white balls in a bag. \n \n \n \nR represents the number of red balls. \n \n \nW represents the number of white balls. \n \n \nWrite the value of W when   R + W = 16   and   R = 5 \n \n \n \n   \n \n \n(b) Carlos has some green balls, some blue balls and some yellow balls in a \ndifferent bag. \n \nG represents the number of green balls. \nB represents the number of blue balls. \nY represents the number of",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 4,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-25",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 900,
+    "text": "The price of a car in December is $1000 \n \n \nThe price of the car in January is 10% less than the price in December. \n \nThe price of the car in February is 20% more than the price in January. \n \n \nWork out the price of the car in February. \n \nShow your working. \n \n \n \n \n \n \n \n \n$ \n   \n\n13 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-26",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 800,
+    "text": "Here are three shapes drawn on a grid of squares. \n  \n \n \n \nThese shapes can be combined to make a parallelogram. \n  \n \n \nThere are two other different quadrilaterals that could be created using the same \nthree shapes. \n \n(a) Draw one of these shapes on the grid. \n \n \n \n \n \n \n(b) Write the name of the other possible shape. \n \n \n   \n\n14 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-27",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Rajiv says, \n \nAll decimal numbers\nending in a 5 round up\nwhen rounded to the\nnearest whole number.\n \n \n \nGive an example to show that Rajiv is wrong.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-28",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Here are some quantities. \n \n5\n8  \n0.4 \n80% \n5",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-06",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Write a quantity in each box to make these statements correct. \n \nUse each quantity once. \n \n \n= \n4\n5  \n \n \n \n5\n9  \n> \n \n \n \n \n \n< \n \n \n \n \n \n\n15 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-29",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 750,
+    "text": "Six children take tests in maths and English. \n \nThe results for each child are shown in bar charts.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Eva\nJamila\nLily\nSamira\nMia\nNaomi\n7\n8\n9\n10\n11\n12\n13\n14\n15",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-20",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Eva\nJamila\nLily\nSamira\nMia\nNaomi\n22\n24\n26\n28\n30\n32",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-34",
+    "topic": "data",
+    "subtopic": "averages",
+    "difficulty": 850,
+    "text": "English score\n \n \n \nEva says,  \n‘I scored twice as many marks in English than I did in maths. \nThis means I must be better at English than I am at maths.’ \n \n \nTick () the box to show whether Eva is correct. \n \nYes \n \nNo \n \n \n \nExplain how you know.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-16",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every \nreasonable effort has been made by the publisher (UCLES) to trace copyright holders, but if any items requiring clearance have unwittingly been included, the \npublisher will be pleased to make amends at the earliest possible opportunity. \n \nTo avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in the Cambridge \nAssessment International Education Copyright Acknowledgements",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-39005-30",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Here are some number cards. \n \n1  2  4  6 \n \n \nUse each card once to make the calculation correct. \n \n3 × \n \n=",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "source": "39005_qp_Gamatrain.com_mH6uXM.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-01",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Draw a ring around the number which rounds to 6.6 when rounded to the  \n \nnearest tenth. \n \n \n6.54 \n6.56 \n6.65 \n6.69 \n6.76",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-02",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Here are some words. \n \nradius \n \ncircumference \n \ndiameter \n \n \nUse two of these words to complete the sentence. \n \nThe   \n of a circle is a straight line which starts at the \n \ncentre and ends at the  \n.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-03",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Anastasia investigates the relationship between the size and age of children in her \nclass. \n \n \nShe makes a list of data she can collect. \n \n \nTick () the data that is least useful. \n \nheight of the child \n \n \nage of the child \n \n \nhair colour of the child \n \n \nfoot size of the child \n \n \n \n \n \n \n\n3 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-04",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "Here is a coordinate grid. \n \nx\ny\n– 5\n– 4\n–3\n–2\n–1\n– 1\n– 2\n–3\n– 4\n– 5\n 5\n4\n3\n2\n1\n0\n1\n2\n3\n4",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-05",
+    "topic": "geometry",
+    "subtopic": "coordinates",
+    "difficulty": 800,
+    "text": "Plot the point with coordinates (4, –3).",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-05",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Write a word in the space to complete the sentence. \n \n \nThe number 3.142 has  \n3 ones, 1 tenth, 4 hundredths and 2  \n. \n \n \n \n \n\n4 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Write a number in each box to make the statement correct. \n \n \n1 \n< \n \n \n< \n7 \n8 \n \n \n8",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-07",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Here is a table that shows the positions of some terms in a sequence. \n \n \nposition \nterm \n  1 \n3 \n  2 \n6 \n  3 \n9",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-11",
+    "topic": "data",
+    "subtopic": "tables",
+    "difficulty": 750,
+    "text": "Complete the table. \n \n \n \n\n5 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-08",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Here is a recipe for 12 cupcakes. \n \ncupcake recipe\nmakes 12\nflour 200g\nsugar 200g\neggs 4\nbutter 200g\n \n \n \nAngelique makes 6 cupcakes. \n \n \nWrite how much flour she needs. \n \n \n \n \n \n \n g",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-09",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "Mia sorts some numbers. \n \n \nHere is the Carroll diagram she uses. \n \n \ndivisible by 8 \nnot divisible by 8 \ndivisible by 4 \n \n \nnot divisible by 4 \n \n \n \n \nPut a tick in the box on the Carroll diagram that will never contain a number. \n \n \n \n \n\n6 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-10",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Write a whole number in each box to complete the sentence. \n \n \n0.3 =",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-11",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 800,
+    "text": "Here is a drawing of a quadrilateral. \n \n \n \n \nWrite the mathematical name of the quadrilateral.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-12",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Complete the table. \n \nnumber \nsquare of number \ncube of number \n1 \n \n \n2 \n \n \n3 \n \n \n \n \n \n \n\n7 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-13",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Here are four shapes.  \n \n \n \nsquare\nscalene\ntriangle\ncircle\nequilateral\ntriangle\n \n \n \n \n \nDraw a ring around the shape which has rotational symmetry of order 3",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-14",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 850,
+    "text": "Eva mixes blue paint and yellow paint. \n \n \nThe ratio of blue paint to yellow paint is 30:15 \n \n \n(a) Draw a ring around the ratio that is equivalent to 30:15 \n \n \n2:1 \n1:2 \n3:5 \n5:3 \n \n \n \n \n \n \n(b) Eva uses 600 ml of blue paint in her mixture. \n \n \n \nWrite the volume of yellow paint she uses. \n \n \n \n \n \n \n \n ml   \n \n \n\n8 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-15",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 850,
+    "text": "Here is a Venn diagram. \n \nmultiples of ................\nfactors of ................\n9\n5\n11",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-12",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Complete the labels.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-16",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Yuri sorts different types of angles into two groups. \n \ngroup 1 \nobtuse \nacute \nright \n \ngroup 2 \nreflex \n \n \nDescribe the rule Yuri uses to sort these types of angles. \n \n \n \n \n \n \n \n\n9 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-17",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Here is a target. \n \n \nEach ring on the target shows a score. \n \n25\n100",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-50",
+    "topic": "number",
+    "subtopic": "odd-even",
+    "difficulty": 700,
+    "text": "Rajiv throws a dart at the target. \n \nThe table shows some pairs of events. \n \nfirst event \nsecond event \n \nmutually \nexclusive \nnot mutually \nexclusive \nhe scores 100 \nhis score is even \n \n \n \nhe scores 25 \nhis score is even \n \n \n \nhe scores 50 \nhis score is even \n \n \n \n \nTick (🗸) the box to show whether each pair of events is mutually exclusive or not \nmutually exclusive. \n \n \n \n \n\n10 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-18",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Lily uses four identical cubes to make a solid cuboid. \n \n \nSketch a cuboid she could make. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\n11 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-19",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 850,
+    "text": "Carlos buys 8 boxes of sweets. \n \nEach box contains a mixture of jellies and chocolates. \n \nThe numbers of jellies and chocolates in each box are shown on a scatter graph. \n \n \n0\n2\n4\n6\n8\nnumber of jellies\nnumber of\nchocolates\n10\n12\n14\n16\n2\n4\n6\n8\n10\n12\n14\n16\nnumber of jellies and chocolates in a box\n \n \n \n \n(a) Draw a ring around the point representing the box with an equal number of \njellies and chocolates. \n \n \n \n \n \n(b) Write the total number of sweets in the box containing 14 chocolates. \n \n \n   \n \n \n\n12 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-20",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Here is an isosceles triangle. \n \n75°\n4 cm\n4 cm\nnot to scale\na\n \n \n \nCalculate the size of angle a. \n \n \n \n \n \n \n °",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-21",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Darius and Chen take the same test. \n \n \nDarius scores 40% of the marks on the test. \n \nChen scores 4\n10  of the marks on the test. \n \n \nDarius says, \n \n‘I scored more marks than Chen.’ \n \n \nDarius is not correct. \n \n \nExplain how you know. \n \n \n \n \n\n13 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-22",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Draw a line to match each fraction to the equivalent division calculation. \n \n5\n4  \n \n \n \n \n3 ÷ 4 \n3\n4  \n \n \n \n \n5 ÷ 4 \n1\n14",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-23",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Samira records the cost of her lunch every day for 8 days. \n \n \nHere is her data. \n \n$2.30 \n$3.50 \n$2.80 \n$4.05 \n$2.40 \n$2.30 \n$3.10 \n$9.55 \n \n(a) Calculate the mean cost of her lunch. \n \n \n \n \n \n \n \n \n$ \n   \n \n \n(b) Calculate the range of the cost of her lunch. \n \n \n \n \n \n \n \n \n$ \n   \n \n\n14 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-24",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Here is a sequence of numbers. \n \n1 \n4 \n9 \n16",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-25",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 900,
+    "text": "The sequence continues in the same way. \n \n \nWrite the 28th number in the sequence. \n \n \n \n   \n \n \n25 (a) Draw a ring around the shape which does not fold to form a closed cube. \n \n \n \n \n \n \n \n \n \n(b) Here is part of the net for a closed cuboid. \n \n \n \n \n \nComplete the net. \n \n \n \n\n15 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 3,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-26",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Jamila draws a dot on a piece of paper.  \n \n \nShe then draws the shape that connects all the points that are 6 cm from her dot. \n \n \nWrite the name of the shape Jamila draws.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-27",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Mike chooses a fraction. \n \n \nMike says, \n \nIf I divide my fraction\nby 4 the answer is\n4",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-20",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Write a fraction that Mike could choose. \n \n \n \n   \n \n \n\n16 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-28",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 750,
+    "text": "Pierre flies from France to Canada. \n \nHis flight leaves France at 13:00 \n \nHis flight takes 9 hours. \n \n \nPierre says,  \n \n‘When I arrive, the time in Canada will be 22:00’ \n \n \nPierre is not correct. \n \n \nExplain how you know. \n \n \n \n \n \n \n\n17 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-29",
+    "topic": "measure",
+    "subtopic": "money",
+    "difficulty": 850,
+    "text": "Oliver goes to the shop. \n \n \nrepresents the cost of a tin of beans in $. \n \nrepresents the cost of an apple in $. \n \n \nHe knows that \n \n+\n+\n=\nand\n<\n$3.00\n \n \nWrite a possible pair of values for the cost of a tin of beans and the cost of  \nan apple. \n \n \n \n \n \n \n \n \n \n \n \n= $ \n \nand \n \n= $ \n \n   \n \n \n \n \n \n\n18 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-30",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Here is a shape drawn on a grid of squares. \n \nmirror line\n \n \n \nThe shape is reflected in the mirror line. \n \n \nDraw the reflection of the shape. \n \n \n \n\n19 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/02",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-31",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "Here is a picture of a cuboid. \n \nThe faces are marked A, B and C. \n \n \n \n \nFace A has an area of 8 cm2.  \n \nFace B has an area of 6 cm2.  \n \n \nThe total surface area of the cuboid is 52 cm2.  \n \n \nCalculate the area of face C. \n \nShow your working. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n cm2   \n \n \nC\nA\nB",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every \nreasonable effort has been made by the publisher (Cambridge University Press & Assessment) to trace copyright holders, but if any items requiring clearance \nhave unwittingly been included, the publisher will be pleased to make amends at the earliest possible opportunity. \n \nTo avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in our Copyright \nAcknowledgements Booklet. T",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43285-32",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 800,
+    "text": "Here are two shapes drawn on a grid of squares. \n \nA\nB\n \n \n \nComplete the sentence. \n \nShape A is translated 5 squares to the   \n and \n \n \n squares up to make shape B.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "source": "43285_qp_Gamatrain.com_ZOIM0P.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-01",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Here is a number sequence. \n \nThe sequence continues in the same way. \n \n \n \n \nWrite a number in the box to complete the sequence.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-02",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Ahmed heats some sugar to make a caramel. \n \nThe sugar starts at a temperature of 19 °C. \n \nThe sugar reaches a temperature of 105 °C. \n \n \nWrite a number to complete the sentence. \n \nThe temperature of the sugar increases by  \n°C",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-03",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate. \n \n123.99 ÷ 3",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-04",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate. \n \n24.9 × 4 \n \n \n \n \n \n \n   \n \n \n3.9\n3.2\n2.5\n1.8\n1.1\n–0.7\n\n3 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-05",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Here are some numbers. \n \n \n24 \n48 \n64 \n88",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-96",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Draw a ring around the number that is a multiple of 11",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-06",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate. \n \n90.7 ÷ 100",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-07",
+    "topic": "data",
+    "subtopic": "probability",
+    "difficulty": 950,
+    "text": "Chen has a spinner. \n \nEach section of the spinner is the same size. \n \n \n \n \nChen spins the spinner. \n \n \nWrite numbers to complete the sentences. \n \nThere is a  \n% chance of the spinner landing on a \nstriped section. \n \nThere is a  \n out of 6 chance of the spinner landing on a \nspotted section. \n \n \n \n\n4 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-08",
+    "topic": "number",
+    "subtopic": "fractions",
+    "difficulty": 850,
+    "text": "Write this fraction in its simplest form. \n \n \n \n8 \n= \n \n \n \n16",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-09",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 750,
+    "text": "Draw a line to match the calculation to the correct answer. \n \n \n \n \n2 \n \n \n \n \n \n4 \n3\n4  of 8 \n \n \n \n \n6 \n \n \n \n \n \n8 \n \n \n \n \n\n5 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-10",
+    "topic": "measure",
+    "subtopic": "time",
+    "difficulty": 700,
+    "text": "Mike walks for 7.1 minutes. \n \n \nWrite a number to complete the sentence. \n \nMike walks for 7 minutes and  \n seconds.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-11",
+    "topic": "calculation",
+    "subtopic": "division",
+    "difficulty": 850,
+    "text": "Write a number in the box to complete the calculation. \n \n \n257 ÷ 25 \n= \n10 remainder",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-12",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Here is a calculation. \n \n \n93.54 – 8.41 \n \n \nDraw a ring around the correct answer. \n \n \n9.44 \n11.44 \n85.13 \n95.13 \n \n \n \n \n \n\n6 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-13",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 850,
+    "text": "Mia shades a shape in different ways. \n \n \n \n \n \n \nMia chooses the picture that has 3\n4  of the shape shaded. \n \n \nDraw a ring around the picture Mia chooses. \n \n \n \n14 (a) Calculate. \n \n1 + 10 × (3 + 4) \n \n \n \n   \n \n \n \n(b) Write one pair of brackets to make this calculation correct. \n \n1 + 10 × 3 + 4 = 37 \n \n \n \n\n7 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 3,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-15",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 850,
+    "text": "Here is a bar chart showing information about the test scores of children in  \n \na school. \n \nless than\n100\n100–109\n150 or\nmore\n140–149\n130–139\n120–129\n110–119\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\nnumber\nof children\ntest scores of children\ntest score\n \n \n \n(a) There are 11 children with scores between 130 and 139 \n \n \n \nShow this information on the bar chart. \n \n \n \n \n(b) Write the number of children with scores of less than 110 \n \n \n \n   \n \n \n\n8 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-16",
+    "topic": "geometry",
+    "subtopic": "angles",
+    "difficulty": 800,
+    "text": "Here is part of a circle. \n \n \na\n \n \n \n \nMeasure angle a. \n \n \n °   \n \n \n\n9 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-17",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 800,
+    "text": "A shape has 4 sides. \n \nTwo of the sides are parallel to each other. \n \nThe other two sides are not parallel to each other. \n \n \nThe drawing shows 2 sides of the shape. \n \n \n \n \nDraw two more sides to complete the shape. \n \nUse a ruler. \n \n \n \n \n\n10 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-18",
+    "topic": "measure",
+    "subtopic": "mass",
+    "difficulty": 750,
+    "text": "Samira asks some children what clubs they attend. \n \n \nThe Venn diagram shows her results. \n \nmusic\nfootball\nart\n16\n8\n5\n1\n6\n7",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-09",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Complete the sentences. \n \nThe number of children who attend only music club is  \n. \n \nThe number of children who attend art club and football club but not music \nclub is  \n. \n \n \n \n \n\n11 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-19",
+    "topic": "number",
+    "subtopic": "sequences",
+    "difficulty": 800,
+    "text": "Here is part of a sequence of numbers. \n \nThe sequence continues in the same way. \n \n35 \n42 \n49 \n56 \n63 \n… \n \n \nYoussef says, \n \n \n \n \n‘The number 945 will be in the sequence.’ \n \n \nTick () the box to show if Youssef is correct. \n \nyes  \nno  \n \n \nExplain how you know.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-20",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "A shape is drawn on a grid of squares. \n \nA\n \n \n \nRotate the shape 90° clockwise about point A. \n \n \nDraw the rotated shape on the grid of squares. \n \n\n12 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-21",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Here are some calculations. \n \n \n250 ÷ 5 \n100 ÷ 2 \n150 ÷ 4 \n350 ÷ 7 \n \n \n \nThree of the calculations have the same answer. \n \n \nDraw a ring around the calculation that has a different answer to the others.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-22",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate. \n \n8 × 210 ÷ 21 + 9",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-23",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Here is a rectangle made from 4 identical triangles. \n \n8 cm\n3 cm\nnot to scale\n \n \n \nCalculate the area of the shaded triangle. \n \n \n \n \n \n \n \n cm2   \n \n \n\n13 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-24",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "Here are two shapes drawn on a grid of squares. \n \n \nA\nB\n \n \n \n \nShape A is reflected in a mirror line to create shape B. \n \n \nDraw the mirror line. \n \nUse a ruler.",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-25",
+    "topic": "number",
+    "subtopic": "factors",
+    "difficulty": 850,
+    "text": "A factory makes 1000 biscuits. \n \n954 biscuits are whole and 46 are broken. \n \n \nThe factory manager says,  \n \n‘The next biscuit we make is likely to be whole.’ \n \n \nThe factory manager is correct. \n \n \nExplain how you know. \n \n \n \n \n \n\n14 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-26",
+    "topic": "data",
+    "subtopic": "bar-charts",
+    "difficulty": 750,
+    "text": "Gabriella, Safia and Naomi count the number of cars of different colours they see \non their way to school. \n \n \nHere are their results. \n \ncolour of car \nnumber of cars each person sees \nGabriella \nSafia \nNaomi \nred \n  4 \n12 \n15 \ngreen \n  8 \n16 \n  6 \nblue \n  6 \n12 \n14 \nblack \n10 \n16 \n  7 \n \n \nThey each draw a pie chart to show their results. \n \n \nDraw lines to connect each name to the correct pie chart. \n \nGabriella\nblack\nblue\ngreen\nred\nblack\nblue\ngreen\nred\nblack\nblue\ngreen\nred\nSafia\nNaomi\n \n \n \n\n15 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-27",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Tick () to show if these statements are true or false. \n \n \n \ntrue \nfalse \n3\n1\n8\n2\n<\n \n \n \n \n \n0.55 = 50% \n \n \n \n \n3\n1\n6\n2\n>",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-28",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Here are some numbers. \n \n \n105 \n106 \n309 \n405 \n702 \n \n \n \nDraw a ring around all the numbers which are divisible by 3 but not divisible by 9",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-29",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 800,
+    "text": "Calculate. \n \n31\n12  – 5",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-06",
+    "topic": "number",
+    "subtopic": "general",
+    "difficulty": 850,
+    "text": "Give your answer as a mixed number in its simplest form. \n \nShow your working. \n \n \n \n \n \n \n \n \n \n \n   \n \n\n16 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-30",
+    "topic": "calculation",
+    "subtopic": "multi-step",
+    "difficulty": 900,
+    "text": "The price of a television is $1200 \n \nThe price is reduced by 15% \n \n \nCalculate the new price of the television. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n$",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 2,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-31",
+    "topic": "calculation",
+    "subtopic": "estimation",
+    "difficulty": 800,
+    "text": "Here is a calculation. \n \n \n36 × 99 \n \n \nAnastasia uses different methods to estimate the answer to the calculation. \n \n \nHere are her estimates. \n \n3500 \n3550 \n3600 \n3650 \n3700 \n \n \nWrite the estimate that is closest to the correct answer. \n \n \n \n \n \n   \n\n17 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-32",
+    "topic": "geometry",
+    "subtopic": "shapes-2d",
+    "difficulty": 700,
+    "text": "The points A, B and C are drawn on a coordinate grid. \n \n– 5\n– 4\n– 3\n– 2\n– 1\n1\n2\n3\n4\n5\n– 1\n1\n0\n2\n3\n4\n5\n– 2\n– 3\n– 4\n– 5\nB\nC\nA\n \n \n \nABCD is a square. \n \n \nWrite the coordinates of point D. \n \n \n \n( \n \n, \n )   \n \n \n \n\n18 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-33",
+    "topic": "number",
+    "subtopic": "rounding",
+    "difficulty": 750,
+    "text": "Here is a picture of a triangular based pyramid. \n \n \n \n \nDraw a ring around the net which folds to make this triangular based pyramid. \n \n \n \n \n \n\n19 \n \n© Cambridge University Press & Assessment 2026 \nM/S6/01",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": true,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-34",
+    "topic": "data",
+    "subtopic": "graphs",
+    "difficulty": 800,
+    "text": "Jamila collects data about the height and ages of her football team.  \n \n \nShe plots this data on a scatter graph. \n \n110\n7\n8\n9\n10\nage in years\nfootball team data\nheight\nin cm\n11\n12\n120\n130\n140\n150\n160\n170\n \n \n \nWrite the median height of all the players who are 10 or more years old. \n \n \n \n \n \n \n \n \n \n cm",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  },
+  {
+    "id": "mat-43284-20",
+    "topic": "geometry",
+    "subtopic": "shapes-3d",
+    "difficulty": 800,
+    "text": "Permission to reproduce items where third-party owned material protected by copyright is included has been sought and cleared where possible. Every \nreasonable effort has been made by the publisher (Cambridge University Press & Assessment) to trace copyright holders, but if any items requiring clearance \nhave unwittingly been included, the publisher will be pleased to make amends at the earliest possible opportunity. \n \nTo avoid the issue of disclosure of answer-related information to candidates, all copyright acknowledgements are reproduced online in our Copyright \nAcknowledgements Booklet. T",
+    "options": [
+      "Option A",
+      "Option B",
+      "Option C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Source: 43284_qp_Gamatrain.com_84H4nx.pdf",
+    "source": "43284_qp_Gamatrain.com_84H4nx.pdf",
+    "marks": 1,
+    "hasImage": false,
+    "needsReview": true,
+    "timesAnswered": 0,
+    "correctRate": 0.0
+  }
+]

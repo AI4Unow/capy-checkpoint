@@ -71,8 +71,6 @@ export const GameEvents = {
   SOUND_TOGGLE: "sound-toggle",
   VOLUME_CHANGE: "volume-change",
   MUSIC_TOGGLE: "music-toggle",
-  // Touch controls
-  SELECT_ANSWER: "select-answer",
   // Engagement features
   CAPY_REACT: "capy-react",
   BOX_EARNED: "box-earned",

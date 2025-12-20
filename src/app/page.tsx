@@ -16,7 +16,6 @@ import { PauseOverlay } from "@/components/PauseOverlay";
 import { BadgeCollection } from "@/components/BadgeCollection";
 import { BadgeUnlock } from "@/components/BadgeUnlock";
 import { BadgeChecker } from "@/components/BadgeChecker";
-import { TouchControls } from "@/components/TouchControls";
 import { SpinWheel } from "@/components/SpinWheel";
 import { CapyReactions } from "@/components/CapyReactions";
 import { CapyMood } from "@/components/CapyMood";
@@ -98,7 +97,6 @@ export default function Home() {
         <StreakDisplay />
         <MenuOverlay />
         <CalibrationIndicator />
-        <TouchControls />
         <CapyReactions />
         <PhaserGame />
 

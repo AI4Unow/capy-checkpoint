@@ -158,14 +158,9 @@ export class Game extends Phaser.Scene {
       if (!this.isGameOver) this.gameOver();
     });
 
-    // Input - flap controls
+    // Input - flap controls (space or tap anywhere)
     this.input.on("pointerdown", () => this.flap());
     this.input.keyboard?.on("keydown-SPACE", () => this.flap());
-
-    // Keyboard controls for answer selection (1, 2, 3)
-    this.input.keyboard?.on("keydown-ONE", () => this.selectAnswerPath(0));
-    this.input.keyboard?.on("keydown-TWO", () => this.selectAnswerPath(1));
-    this.input.keyboard?.on("keydown-THREE", () => this.selectAnswerPath(2));
 
     // ESC key to pause/resume
     this.input.keyboard?.on("keydown-ESC", () => this.togglePause());
@@ -176,12 +171,6 @@ export class Game extends Phaser.Scene {
     });
     EventBus.on(GameEvents.RESUME, () => {
       if (this.isPaused) this.resumeGame();
-    });
-
-    // Listen for touch control answer selection
-    EventBus.on(GameEvents.SELECT_ANSWER, (...args: unknown[]) => {
-      const data = args[0] as { pathIndex: number };
-      this.selectAnswerPath(data.pathIndex);
     });
 
     // Question text (positioned below HUD area)
@@ -267,34 +256,6 @@ export class Game extends Phaser.Scene {
 
     capyBody.velocity.y = FLAP_VELOCITY;
     synthSounds.playFlap();
-  }
-
-  /**
-   * Select answer path by pressing 1, 2, or 3 keys
-   */
-  private selectAnswerPath(pathIndex: number): void {
-    if (this.isGameOver || !this.currentQuestion) return;
-
-    // Enable gravity if not already enabled
-    const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
-    if (!capyBody.allowGravity) {
-      capyBody.allowGravity = true;
-    }
-
-    // Move capybara to selected path Y position
-    const pathYPositions = [220, 380, 540];
-    const targetY = pathYPositions[pathIndex];
-
-    // Animate capybara to target position
-    this.tweens.add({
-      targets: this.capybara,
-      y: targetY,
-      duration: 200,
-      ease: "Power2",
-    });
-
-    // Briefly stop gravity during movement
-    capyBody.velocity.y = 0;
   }
 
   private selectNextQuestion(): void {
