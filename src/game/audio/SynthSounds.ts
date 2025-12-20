@@ -29,11 +29,51 @@ export class SynthSounds {
   }
 
   /**
-   * Play a quick "pop" for flap
+   * Play a soft wing flap "whoosh" sound
    */
   playFlap(): void {
     if (!this.enabled || !this.audioContext) return;
-    this.playTone(400, 0.05, "sine", 0.3);
+    // Create noise-based whoosh for wing flap
+    this.playNoise(0.08, 0.25); // Short burst of filtered noise
+    // Add a soft pitch sweep for fluttery feel
+    this.playTone(600, 0.03, "sine", 0.15);
+    setTimeout(() => this.playTone(450, 0.03, "sine", 0.1), 20);
+  }
+
+  /**
+   * Play filtered white noise burst (for whoosh effects)
+   */
+  private playNoise(duration: number, volume: number): void {
+    if (!this.audioContext) return;
+
+    const bufferSize = this.audioContext.sampleRate * duration;
+    const buffer = this.audioContext.createBuffer(1, bufferSize, this.audioContext.sampleRate);
+    const data = buffer.getChannelData(0);
+
+    // Generate white noise
+    for (let i = 0; i < bufferSize; i++) {
+      data[i] = (Math.random() * 2 - 1) * 0.5;
+    }
+
+    const source = this.audioContext.createBufferSource();
+    source.buffer = buffer;
+
+    // Low-pass filter for softer sound
+    const filter = this.audioContext.createBiquadFilter();
+    filter.type = "lowpass";
+    filter.frequency.value = 2000;
+
+    // Envelope for quick fade
+    const gainNode = this.audioContext.createGain();
+    gainNode.gain.setValueAtTime(volume * this.volume, this.audioContext.currentTime);
+    gainNode.gain.exponentialRampToValueAtTime(0.01, this.audioContext.currentTime + duration);
+
+    source.connect(filter);
+    filter.connect(gainNode);
+    gainNode.connect(this.audioContext.destination);
+
+    source.start();
+    source.stop(this.audioContext.currentTime + duration);
   }
 
   /**
