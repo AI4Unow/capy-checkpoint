@@ -7,10 +7,11 @@ import type { QuestionSelection } from "@/engine/questionSelector";
 import { getDifficultyLabel } from "@/engine/questionSelector";
 
 const FLAP_VELOCITY = -400; // Faster upward flap
-const SCROLL_SPEED = 120; // ~10 seconds to answer each question
+const SCROLL_SPEED = 120; // pixels per second (multiplied by delta ~0.016)
 const GATE_SPAWN_INTERVAL = 30000;
 const GROUND_Y = 650;
 const PATH_HEIGHT = 150; // Height of each answer path
+const GATE_SPAWN_X = 3750; // Spawn far right for ~30s answer time at 120 speed
 
 // Game dimensions
 const GAME_WIDTH = 1280;
@@ -320,7 +321,7 @@ export class Game extends Phaser.Scene {
     if (hasActiveGate) return;
 
     const question = this.currentQuestion;
-    const container = this.add.container(GAME_WIDTH + 100, 0);
+    const container = this.add.container(GATE_SPAWN_X, 0);
     container.setDepth(5);
 
     // 3 answer paths (top, middle, bottom) - adjusted for 720p height
