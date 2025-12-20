@@ -27,6 +27,17 @@ export class Boot extends Phaser.Scene {
   private createCapybaraGraphics(): void {
     const g = this.make.graphics({ x: 0, y: 0 });
 
+    // Wings (behind body) - soft pink/peach feathered wings
+    g.fillStyle(0xffd6e0); // Light pink
+    // Left wing (upper)
+    g.fillTriangle(5, 35, 25, 15, 35, 40);
+    g.fillTriangle(10, 40, 30, 20, 40, 45);
+    g.fillTriangle(15, 45, 35, 25, 45, 50);
+    // Wing feather details
+    g.fillStyle(0xffb3c6); // Darker pink for depth
+    g.fillTriangle(8, 38, 22, 22, 32, 42);
+    g.fillTriangle(12, 43, 28, 28, 38, 48);
+
     // Body
     g.fillStyle(0xa67c52);
     g.fillRoundedRect(0, 20, 80, 50, 20);
