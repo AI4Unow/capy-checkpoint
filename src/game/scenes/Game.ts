@@ -38,7 +38,7 @@ export class Game extends Phaser.Scene {
   private background!: Phaser.GameObjects.TileSprite;
   private ground!: Phaser.GameObjects.Rectangle;
   private score = 0;
-  private lives = 3;
+  private lives = 6;
   private isGameOver = false;
   private isPaused = false;
   private gateTimer!: Phaser.Time.TimerEvent;
@@ -121,7 +121,7 @@ export class Game extends Phaser.Scene {
 
   create(): void {
     this.score = 0;
-    this.lives = 3;
+    this.lives = 6;
     this.isGameOver = false;
     this.activeGates = [];
     this.answeredIds.clear();
@@ -326,35 +326,25 @@ export class Game extends Phaser.Scene {
     // 3 answer paths (top, middle, bottom) - adjusted for 720p height
     const pathYPositions = [220, 380, 540];
     const colors = [0xffd6e0, 0xdde5b6, 0xa2d2ff]; // pink, sage, sky
-    const keyLabels = ["1", "2", "3"]; // Keyboard shortcut labels
 
     question.options.forEach((option, index) => {
       const y = pathYPositions[index];
 
       // Answer box (wider for longer text)
-      const box = this.add.rectangle(0, y, 200, PATH_HEIGHT - 20, colors[index]);
+      const box = this.add.rectangle(0, y, 220, PATH_HEIGHT - 20, colors[index]);
       box.setStrokeStyle(4, 0x5e503f);
 
-      // Key indicator circle
-      const keyCircle = this.add.circle(-120, y, 24, 0x5e503f);
-      const keyText = this.add.text(-120, y, keyLabels[index], {
-        fontFamily: "Fredoka",
-        fontSize: "28px",
-        color: "#FFFFFF",
-      });
-      keyText.setOrigin(0.5);
-
-      // Answer text (with word wrap for long answers)
+      // Answer text (bigger font, with word wrap for long answers)
       const text = this.add.text(0, y, option, {
         fontFamily: "Baloo 2",
-        fontSize: "28px",
+        fontSize: "36px",
         color: "#5E503F",
-        wordWrap: { width: 180 },
+        wordWrap: { width: 200 },
         align: "center",
       });
       text.setOrigin(0.5);
 
-      container.add([box, keyCircle, keyText, text]);
+      container.add([box, text]);
     });
 
     // Store gate info
