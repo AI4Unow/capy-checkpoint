@@ -7,11 +7,16 @@ import type { QuestionSelection } from "@/engine/questionSelector";
 import { getDifficultyLabel } from "@/engine/questionSelector";
 
 const FLAP_VELOCITY = -400; // Faster upward flap
-const SCROLL_SPEED = 120; // pixels per second (multiplied by delta ~0.016)
-const GATE_SPAWN_INTERVAL = 30000;
 const GROUND_Y = 650;
 const PATH_HEIGHT = 150; // Height of each answer path
-const GATE_SPAWN_X = 3750; // Spawn far right for ~30s answer time at 120 speed
+const GATE_SPAWN_INTERVAL = 20000; // Fallback timer (gates usually spawn after answers)
+
+// Two-phase speed system:
+// Phase 1 (question reading): Fast scroll while gate is off-screen (5 seconds)
+// Phase 2 (answer reading): Slow scroll while gate is visible (10 seconds)
+const GATE_SPAWN_X = 2780; // Spawn position (off-screen right)
+const SPEED_FAST = 300; // pixels/sec for question phase (2780-1280=1500px in 5s)
+const SPEED_SLOW = 113; // pixels/sec for answer phase (1280-150=1130px in 10s)
 
 // Game dimensions
 const GAME_WIDTH = 1280;
@@ -218,13 +223,24 @@ export class Game extends Phaser.Scene {
   update(): void {
     if (this.isGameOver || this.isPaused) return;
 
+    // Determine scroll speed based on gate position (two-phase system)
+    let currentSpeed = SPEED_SLOW;
+    const activeGate = this.activeGates.find(g => !g.answered);
+    if (activeGate && activeGate.container.x > GAME_WIDTH) {
+      // Phase 1: Gate is off-screen, fast scroll for question reading
+      currentSpeed = SPEED_FAST;
+    } else {
+      // Phase 2: Gate is visible, slow scroll for answer reading
+      currentSpeed = SPEED_SLOW;
+    }
+
     // Scroll background
-    this.background.tilePositionX += SCROLL_SPEED * 0.016;
+    this.background.tilePositionX += currentSpeed * 0.016;
 
     // Move gates and check collisions
     for (let i = this.activeGates.length - 1; i >= 0; i--) {
       const gate = this.activeGates[i];
-      gate.container.x -= SCROLL_SPEED * 0.016;
+      gate.container.x -= currentSpeed * 0.016;
 
       // Check if capybara passed through gate
       if (!gate.answered && gate.container.x < this.capybara.x) {
