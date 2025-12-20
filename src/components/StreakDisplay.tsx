@@ -40,7 +40,7 @@ export function StreakDisplay() {
 
   return (
     <div
-      className={`absolute top-4 left-4 z-30 flex items-center gap-2 px-3 py-1.5 rounded-full bg-orange-500/90 border-2 border-orange-600 shadow-lg ${isPulsing ? "animate-streak-pulse" : ""}`}
+      className={`absolute top-28 left-4 z-30 flex items-center gap-2 px-3 py-1.5 rounded-full bg-orange-500/90 border-2 border-orange-600 shadow-lg ${isPulsing ? "animate-streak-pulse" : ""}`}
     >
       <span className="text-lg">{getFireEmoji()}</span>
       <span className="font-[family-name:var(--font-baloo)] text-white text-lg">
