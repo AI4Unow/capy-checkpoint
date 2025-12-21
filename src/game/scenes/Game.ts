@@ -61,13 +61,21 @@ export class Game extends Phaser.Scene {
   private studentRating = 800; // Updated from React via setter
   private bestScore = 0; // Best score from React store
 
+  // Auto-play mode for testing
+  private autoPlay = false;
+  private autoPlayTargetY = 380; // Default to middle path
+
   constructor() {
     super("Game");
   }
 
-  init(): void {
+  init(data?: { autoPlay?: boolean }): void {
     // Load questions
     this.questions = questionsData as Question[];
+    // Enable auto-play if passed from Menu
+    if (data?.autoPlay) {
+      this.autoPlay = true;
+    }
   }
 
   /**
@@ -231,6 +239,11 @@ export class Game extends Phaser.Scene {
   update(): void {
     if (this.isGameOver || this.isPaused) return;
 
+    // Auto-play mode: automatically navigate to target
+    if (this.autoPlay) {
+      this.handleAutoPlay();
+    }
+
     // Determine scroll speed based on gate position (two-phase system)
     let currentSpeed = SPEED_SLOW;
     const activeGate = this.activeGates.find(g => !g.answered);
@@ -281,6 +294,20 @@ export class Game extends Phaser.Scene {
     const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
     capyBody.velocity.y = FLAP_VELOCITY;
     synthSounds.playFlap();
+  }
+
+  /**
+   * Handle auto-play logic - flap to reach target Y position
+   */
+  private handleAutoPlay(): void {
+    const capyY = this.capybara.y;
+    const targetY = this.autoPlayTargetY;
+
+    // Flap if capy is below target (need to go up)
+    // Add some randomness to make it look more natural
+    if (capyY > targetY + 40 && Math.random() > 0.7) {
+      this.flap();
+    }
   }
 
   private selectNextQuestion(): void {
@@ -372,6 +399,12 @@ export class Game extends Phaser.Scene {
 
       container.add([box, text]);
     });
+
+    // Auto-play: pick random target path
+    if (this.autoPlay) {
+      const randomIndex = Math.floor(Math.random() * 3);
+      this.autoPlayTargetY = pathYPositions[randomIndex];
+    }
 
     // Store gate info
     this.activeGates.push({
@@ -574,6 +607,14 @@ export class Game extends Phaser.Scene {
     capyBody.allowGravity = false;
 
     EventBus.emit(GameEvents.GAME_OVER, this.score);
+
+    // Auto-play: auto-restart after delay
+    if (this.autoPlay) {
+      this.time.delayedCall(2000, () => {
+        this.scene.restart({ autoPlay: true });
+      });
+      return; // Skip game over UI
+    }
 
     // Dark overlay (centered for new dimensions)
     const overlay = this.add.rectangle(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, 0x000000, 0.5);

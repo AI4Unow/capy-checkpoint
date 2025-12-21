@@ -17,6 +17,18 @@ export class Menu extends Phaser.Scene {
   }
 
   create(): void {
+    // Check for autoplay URL parameter
+    if (typeof window !== "undefined") {
+      const urlParams = new URLSearchParams(window.location.search);
+      const autoPlay = urlParams.get("autoplay") === "true";
+      if (autoPlay) {
+        // Skip menu, start game directly with autoPlay
+        synthSounds.init();
+        this.scene.start("Game", { autoPlay: true });
+        return;
+      }
+    }
+
     // Unlock audio on first interaction (Web Audio requires user gesture)
     this.input.once("pointerdown", () => this.unlockAudio());
     this.input.keyboard?.once("keydown", () => this.unlockAudio());
