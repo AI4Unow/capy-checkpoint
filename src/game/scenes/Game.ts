@@ -201,6 +201,13 @@ export class Game extends Phaser.Scene {
       if (this.isPaused) this.resumeGame();
     });
 
+    // Listen for "Got it" click on wrong answer hint
+    EventBus.on(GameEvents.WRONG_ANSWER_CONTINUE, () => {
+      if (this.isPaused && !this.isGameOver) {
+        this.resumeGame();
+      }
+    });
+
     // Question text (positioned below HUD area)
     this.questionText = this.add.text(GAME_WIDTH / 2, 110, "", {
       fontFamily: "Fredoka",
@@ -504,7 +511,13 @@ export class Game extends Phaser.Scene {
 
     if (this.lives <= 0) {
       this.gameOver();
+      return;
     }
+
+    // Pause game until player clicks "Got it" on hint
+    this.isPaused = true;
+    this.physics.pause();
+    this.time.paused = true;
   }
 
   /**

@@ -11,6 +11,7 @@ interface AIHintProps {
 
 /**
  * AI-powered hint popup when student answers incorrectly
+ * Game is paused until player clicks "Got it"
  */
 export function AIHint({ question, studentAnswerIndex, onClose }: AIHintProps) {
   const [hint, setHint] = useState<string>("");
@@ -46,14 +47,6 @@ export function AIHint({ question, studentAnswerIndex, onClose }: AIHintProps) {
 
     fetchHint();
   }, [question, studentAnswerIndex]);
-
-  // Auto-close after 5 seconds
-  useEffect(() => {
-    if (!loading) {
-      const timer = setTimeout(onClose, 5000);
-      return () => clearTimeout(timer);
-    }
-  }, [loading, onClose]);
 
   return (
     <div className="absolute inset-0 z-50 flex items-center justify-center bg-black/40">

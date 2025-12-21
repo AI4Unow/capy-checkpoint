@@ -53,6 +53,7 @@ export const GameEvents = {
   GATE_PASSED: "gate-passed",
   ANSWER: "answer",
   WRONG_ANSWER: "wrong-answer",
+  WRONG_ANSWER_CONTINUE: "wrong-answer-continue",
   SHOW_HINT: "show-hint",
   READY: "ready",
   RESTART: "restart",

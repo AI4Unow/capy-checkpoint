@@ -71,6 +71,12 @@ export default function Home() {
     };
   }, []);
 
+  const handleHintClose = () => {
+    setWrongAnswer(null);
+    // Resume the game after player clicks "Got it"
+    EventBus.emit(GameEvents.WRONG_ANSWER_CONTINUE);
+  };
+
   const handlePlayAgain = () => {
     setShowSummary(false);
     resetSession();
@@ -169,7 +175,7 @@ export default function Home() {
         <AIHint
           question={wrongAnswer.question}
           studentAnswerIndex={wrongAnswer.studentAnswerIndex}
-          onClose={() => setWrongAnswer(null)}
+          onClose={handleHintClose}
         />
       )}
 
