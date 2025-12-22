@@ -64,12 +64,27 @@ Add a Stats Dashboard modal accessible from MenuOverlay showing comprehensive pl
 - Progress bars: sage fill, h-2 rounded-full
 
 ## Acceptance Criteria
-- [ ] Stats button visible on Menu screen
-- [ ] Modal shows all 3 stat categories
-- [ ] Topic mastery shows 5 Cambridge strands
-- [ ] Elo displays with level emoji and progress
-- [ ] Modal closes on button click
-- [ ] Mobile responsive (max-w-md, scrollable)
+- [x] Stats button visible on Menu screen
+- [x] Modal shows all 3 stat categories
+- [x] Topic mastery shows 5 Cambridge strands
+- [x] Elo displays with level emoji and progress
+- [x] Modal closes on button click
+- [x] Mobile responsive (max-w-md, scrollable)
+
+## Implementation Status
+**Phase 02 (UI):** ✅ Complete - StatsModal.tsx implemented (250 lines)
+**Phase 03 (Menu Integration):** ✅ Complete - MenuOverlay.tsx modified (+15 lines)
+**Build Status:** ✅ Passing
+**Review:** See `plans/reports/code-reviewer-251222-stats-dashboard-review.md`
+
+## Known Issues
+1. **Critical:** Missing keyboard accessibility (Escape key, focus trap, ARIA attributes)
+2. **Medium:** Consider extracting StatCard color mapping if reused in 3+ components
+
+## Next Steps
+1. Fix keyboard accessibility before merge
+2. Optional: Add unit tests for formatSubtopic helper
+3. Optional: Strengthen TopicProgressBar type safety with Topic enum
 
 ## Estimated LOC
 - StatsModal.tsx: ~200 lines

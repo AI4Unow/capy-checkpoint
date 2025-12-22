@@ -5,6 +5,7 @@ import { useLearningStore } from "@/stores/learningStore";
 import { useDailyChallengeStore } from "@/stores/dailyChallengeStore";
 import { useGameStore } from "@/stores/gameStore";
 import { DailyChallenge } from "./DailyChallenge";
+import { StatsModal } from "./StatsModal";
 import { EventBus, GameEvents } from "@/game/EventBus";
 
 export function MenuOverlay() {
@@ -13,6 +14,7 @@ export function MenuOverlay() {
   const { bestScore } = useGameStore();
   const [isOnMenu, setIsOnMenu] = useState(true);
   const [showDailyChallenge, setShowDailyChallenge] = useState(false);
+  const [showStats, setShowStats] = useState(false);
 
   useEffect(() => {
     const handleSceneChange = (...args: unknown[]) => {
@@ -71,6 +73,14 @@ export function MenuOverlay() {
           )}
         </button>
 
+        {/* Stats button */}
+        <button
+          onClick={() => setShowStats(true)}
+          className="px-6 py-3 rounded-full border-4 border-text font-[family-name:var(--font-baloo)] text-lg text-text shadow-lg transition-transform hover:scale-105 bg-sky"
+        >
+          📊 Stats
+        </button>
+
         {/* Due reviews badge */}
         {dueCount > 0 && (
           <div className="bg-purple-500/90 px-4 py-2 rounded-full border-2 border-purple-600 shadow-lg animate-bounce-in">
@@ -105,6 +115,9 @@ export function MenuOverlay() {
       {showDailyChallenge && (
         <DailyChallenge onClose={() => setShowDailyChallenge(false)} />
       )}
+
+      {/* Stats modal */}
+      {showStats && <StatsModal onClose={() => setShowStats(false)} />}
     </>
   );
 }
