@@ -181,11 +181,31 @@ export class Game extends Phaser.Scene {
       if (!this.isGameOver && !this.isPaused) this.handleGroundHit();
     });
 
-    // Input - flap controls (space or tap on LEFT side of screen only)
+    // Input - tap controls
+    // Left side: always flap
+    // Right side: select answer path if gate visible, otherwise flap
     this.input.on("pointerdown", (pointer: Phaser.Input.Pointer) => {
-      // Only register flap if tap is on left half of screen (near capy)
+      if (this.isGameOver || this.isPaused) return;
+
       if (pointer.x < GAME_WIDTH / 2) {
+        // Left half: flap
         this.flap();
+      } else {
+        // Right half: check if answer gate is visible on screen
+        const visibleGate = this.activeGates.find(
+          (g) => !g.answered && g.container.x <= GAME_WIDTH
+        );
+
+        if (visibleGate) {
+          // Gate visible: select answer path by moving capy to that Y position
+          const targetY = this.getTapTargetY(pointer.y);
+          if (targetY !== null) {
+            this.moveCapyToPath(targetY);
+          }
+        } else {
+          // No gate visible: flap instead
+          this.flap();
+        }
       }
     });
     this.input.keyboard?.on("keydown-SPACE", () => this.flap());
@@ -300,6 +320,46 @@ export class Game extends Phaser.Scene {
 
     const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
     capyBody.velocity.y = FLAP_VELOCITY;
+    synthSounds.playFlap();
+  }
+
+  /**
+   * Get target Y position based on tap location
+   * Maps tap to one of the 3 answer paths (220, 380, 540)
+   */
+  private getTapTargetY(pointerY: number): number | null {
+    // Path Y positions from spawnAnswerGate
+    const pathYPositions = [220, 380, 540];
+    const pathBoundaries = [300, 460]; // Dividers between paths
+
+    if (pointerY < pathBoundaries[0]) {
+      return pathYPositions[0]; // Top path
+    } else if (pointerY < pathBoundaries[1]) {
+      return pathYPositions[1]; // Middle path
+    } else {
+      return pathYPositions[2]; // Bottom path
+    }
+  }
+
+  /**
+   * Smoothly move capybara to target Y position for answer selection
+   */
+  private moveCapyToPath(targetY: number): void {
+    if (this.isGameOver || this.isPaused) return;
+
+    const capyBody = this.capybara.body as Phaser.Physics.Arcade.Body;
+    const currentY = this.capybara.y;
+
+    // Calculate velocity needed to reach target
+    // Use a strong impulse to quickly reach the target
+    if (targetY < currentY) {
+      // Need to go up
+      capyBody.velocity.y = -600;
+    } else if (targetY > currentY) {
+      // Need to go down (let gravity help, but add some downward velocity)
+      capyBody.velocity.y = 400;
+    }
+
     synthSounds.playFlap();
   }
 
