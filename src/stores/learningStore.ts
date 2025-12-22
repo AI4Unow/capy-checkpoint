@@ -29,6 +29,9 @@ interface LearningState {
   totalResponses: number;
   currentWorld: number;
 
+  // Elo history for trend tracking (last 20 entries)
+  eloHistory: { rating: number; timestamp: number }[];
+
   // Tracking maps (serialized as arrays for persistence)
   masteryEntries: SubtopicMastery[];
   sm2Entries: { subtopic: string; state: SM2State }[];
@@ -67,6 +70,12 @@ interface LearningActions {
   getRatingInfo: () => { name: string; emoji: string; progress: number };
   getDueReviewCount: () => number;
 
+  // Stats getters
+  getEloTrend: () => number;
+  getAllTopicProgress: () => { topic: Topic; progress: number }[];
+  getWeakTopics: () => string[];
+  getQuestionsToNextLevel: () => number;
+
   // World progression
   setWorld: (world: number) => void;
   canUnlockWorld: (world: number) => boolean;
@@ -95,6 +104,7 @@ export const useLearningStore = create<LearningState & LearningActions>()(
       studentRating: INITIAL_RATING,
       totalResponses: 0,
       currentWorld: 1,
+      eloHistory: [],
       masteryEntries: [],
       sm2Entries: [],
       recentQuestionIds: [],
@@ -207,9 +217,16 @@ export const useLearningStore = create<LearningState & LearningActions>()(
           })
         );
 
+        // Update Elo history (keep last 20 entries)
+        const eloHistory = [
+          ...state.eloHistory,
+          { rating: newRating, timestamp: Date.now() },
+        ].slice(-20);
+
         set({
           studentRating: newRating,
           totalResponses: newTotalResponses,
+          eloHistory,
           masteryEntries,
           sm2Entries,
           recentQuestionIds: recentIds,
@@ -304,6 +321,54 @@ export const useLearningStore = create<LearningState & LearningActions>()(
       },
 
       /**
+       * Get Elo trend (positive = improving, negative = declining)
+       */
+      getEloTrend: () => {
+        const { eloHistory } = get();
+        if (eloHistory.length < 2) return 0;
+        const recent = eloHistory[eloHistory.length - 1].rating;
+        const previous = eloHistory[eloHistory.length - 2].rating;
+        return recent - previous;
+      },
+
+      /**
+       * Get all topic progress for stats display
+       */
+      getAllTopicProgress: () => {
+        const topics: Topic[] = ["number", "calculation", "geometry", "measure", "data"];
+        const masteryMap = get().getMasteryMap();
+        return topics.map((topic) => ({
+          topic,
+          progress: Math.round(getTopicMastery(masteryMap, topic) * 100),
+        }));
+      },
+
+      /**
+       * Get weak topics (subtopics with low mastery that need practice)
+       */
+      getWeakTopics: () => {
+        const { masteryEntries } = get();
+        return masteryEntries
+          .filter((m) => m.status !== "mastered" && m.attempts > 0)
+          .sort((a, b) => a.score - b.score)
+          .slice(0, 3)
+          .map((m) => m.subtopic);
+      },
+
+      /**
+       * Estimate questions needed to reach next Elo level
+       */
+      getQuestionsToNextLevel: () => {
+        const { studentRating } = get();
+        const levels = [700, 850, 1000, 1150, 1300];
+        const nextLevel = levels.find((l) => l > studentRating);
+        if (!nextLevel) return 0; // At max level
+        const diff = nextLevel - studentRating;
+        // Rough estimate: ~2 points per correct answer on average
+        return Math.ceil(diff / 2);
+      },
+
+      /**
        * Set current world
        */
       setWorld: (world) => {
@@ -351,6 +416,7 @@ export const useLearningStore = create<LearningState & LearningActions>()(
           studentRating: INITIAL_RATING,
           totalResponses: 0,
           currentWorld: 1,
+          eloHistory: [],
           masteryEntries: [],
           sm2Entries: [],
           recentQuestionIds: [],
@@ -373,6 +439,7 @@ export const useLearningStore = create<LearningState & LearningActions>()(
         studentRating: state.studentRating,
         totalResponses: state.totalResponses,
         currentWorld: state.currentWorld,
+        eloHistory: state.eloHistory,
         masteryEntries: state.masteryEntries,
         sm2Entries: state.sm2Entries,
         recentQuestionIds: state.recentQuestionIds,
