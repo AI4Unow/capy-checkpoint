@@ -228,8 +228,8 @@ export class Game extends Phaser.Scene {
       }
     });
 
-    // Question text (positioned below HUD area)
-    this.questionText = this.add.text(GAME_WIDTH / 2, 110, "", {
+    // Question text (positioned below HUD overlays at ~120px max)
+    this.questionText = this.add.text(GAME_WIDTH / 2, 150, "", {
       fontFamily: "Fredoka",
       fontSize: "32px",
       color: "#5E503F",
