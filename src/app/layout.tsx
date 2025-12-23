@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Fredoka, Nunito, Baloo_2 } from "next/font/google";
 import { AuthProvider } from "@/components/AuthProvider";
+import { ServiceWorkerRegistration } from "@/components/ServiceWorkerRegistration";
 import "./globals.css";
 
 const fredoka = Fredoka({
@@ -46,6 +47,7 @@ export default function RootLayout({
         className={`${fredoka.variable} ${nunito.variable} ${baloo.variable} antialiased`}
       >
         <AuthProvider>{children}</AuthProvider>
+        <ServiceWorkerRegistration />
       </body>
     </html>
   );

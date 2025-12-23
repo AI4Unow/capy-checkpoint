@@ -23,6 +23,10 @@ const eslintConfig = defineConfig([
     "build/**",
     "coverage/**",
     "next-env.d.ts",
+    // Generated service worker files
+    "public/sw.js",
+    "public/sw.js.map",
+    "public/workbox-*.js",
   ]),
 ]);
 
