@@ -15,6 +15,7 @@ declare const self: ServiceWorkerGlobalScope;
  * - Precaches app shell and static assets
  * - CacheFirst for questions and hints (rarely change)
  * - Uses defaultCache for Next.js App Router compatibility
+ * - Handles Background Sync for offline operations
  */
 const serwist = new Serwist({
   precacheEntries: self.__SW_MANIFEST,
@@ -50,3 +51,49 @@ const serwist = new Serwist({
 });
 
 serwist.addEventListeners();
+
+// ============================================================================
+// Background Sync Handler
+// ============================================================================
+
+/**
+ * Handle Background Sync events (Chrome/Edge only)
+ * Broadcasts a message to all clients to trigger sync processing.
+ * The SyncManager component in the client handles the actual sync.
+ */
+self.addEventListener("sync", (event: ExtendableEvent) => {
+  const syncEvent = event as ExtendableEvent & { tag: string };
+
+  if (syncEvent.tag === "firebase-sync") {
+    console.log("[SW] Background sync triggered");
+
+    event.waitUntil(
+      (async () => {
+        // Broadcast to all clients to process the queue
+        const clients = await self.clients.matchAll({ type: "window" });
+
+        for (const client of clients) {
+          client.postMessage({
+            type: "SYNC_QUEUE",
+            timestamp: Date.now(),
+          });
+        }
+
+        console.log(`[SW] Notified ${clients.length} clients to sync`);
+      })()
+    );
+  }
+});
+
+// ============================================================================
+// Message Handler
+// ============================================================================
+
+/**
+ * Handle messages from clients
+ */
+self.addEventListener("message", (event) => {
+  if (event.data?.type === "SKIP_WAITING") {
+    self.skipWaiting();
+  }
+});
