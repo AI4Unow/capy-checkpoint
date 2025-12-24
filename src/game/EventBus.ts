@@ -79,7 +79,7 @@ export const GameEvents = {
 
 // Type definitions for event payloads
 export type DifficultyLevel = "warmup" | "practice" | "challenge" | "boss";
-export type QuestionReason = "review" | "weak" | "world" | "random";
+export type QuestionReason = "review" | "weak" | "world" | "random" | "onboarding";
 export type CapyReactionType =
   | "happy"
   | "sad"

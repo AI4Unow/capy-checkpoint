@@ -62,6 +62,7 @@ interface SelectionContext {
   sm2Map: Map<string, SM2State>;
   recentQuestionIds: string[];
   sessionMode?: SessionMode;
+  totalResponses?: number; // For onboarding - first 10 questions get easier ones
 }
 
 /**
@@ -79,15 +80,8 @@ export function selectNextQuestion(
     sm2Map,
     recentQuestionIds,
     sessionMode = "adventure",
+    totalResponses = 0,
   } = context;
-
-  // Get weights based on session mode
-  const weights = SELECTION_WEIGHTS_BY_MODE[sessionMode];
-
-  // Challenge mode applies +100 difficulty offset
-  const ratingForMatching = sessionMode === "challenge"
-    ? studentRating + 100
-    : studentRating;
 
   // Filter out recently answered questions (last 5)
   const available = questions.filter(
@@ -100,6 +94,27 @@ export function selectNextQuestion(
       reason: "random",
     };
   }
+
+  // ONBOARDING: First 10 questions use progressive difficulty (easy → harder)
+  // Q0-2: 650, Q3-5: 700, Q6-8: 750, Q9+: 800 (then normal selection)
+  if (totalResponses < 10) {
+    const targetDifficulty = 650 + Math.floor(totalResponses / 3) * 50;
+    const onboardingQuestion = selectByTargetDifficulty(available, targetDifficulty);
+    if (onboardingQuestion) {
+      return {
+        question: onboardingQuestion,
+        reason: "onboarding",
+      };
+    }
+  }
+
+  // Get weights based on session mode
+  const weights = SELECTION_WEIGHTS_BY_MODE[sessionMode];
+
+  // Challenge mode applies +100 difficulty offset
+  const ratingForMatching = sessionMode === "challenge"
+    ? studentRating + 100
+    : studentRating;
 
   // Roll weighted random
   const roll = Math.random();
@@ -230,6 +245,27 @@ function isInRatingRange(
  */
 function pickRandomFromArray<T>(arr: T[]): T {
   return arr[Math.floor(Math.random() * arr.length)];
+}
+
+/**
+ * Select question closest to target difficulty for onboarding
+ * Returns question from top 3 closest matches for variety
+ */
+function selectByTargetDifficulty(
+  questions: Question[],
+  targetDifficulty: number
+): Question | null {
+  if (questions.length === 0) return null;
+
+  const sorted = [...questions].sort(
+    (a, b) =>
+      Math.abs(a.difficulty - targetDifficulty) -
+      Math.abs(b.difficulty - targetDifficulty)
+  );
+
+  // Pick from top 3 closest for variety
+  const topMatches = sorted.slice(0, Math.min(3, sorted.length));
+  return topMatches[Math.floor(Math.random() * topMatches.length)];
 }
 
 /**

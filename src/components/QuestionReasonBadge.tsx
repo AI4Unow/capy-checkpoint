@@ -11,6 +11,7 @@ const REASON_CONFIG: Record<
   weak: { label: "Needs work", emoji: "💪", color: "bg-orange-400" },
   world: { label: "World topic", emoji: "🌍", color: "bg-green-400" },
   random: { label: "Surprise!", emoji: "🎲", color: "bg-sky" },
+  onboarding: { label: "Warm-up!", emoji: "🌱", color: "bg-teal-400" },
 };
 
 export function QuestionReasonBadge() {

@@ -88,7 +88,7 @@ interface LearningActions {
   resetAll: () => void;
 }
 
-const INITIAL_RATING = 800;
+const INITIAL_RATING = 600; // Start low so new students get easier questions first
 const WORLDS_UNLOCK_RATING: Record<number, number> = {
   1: 0, // Forest - always unlocked
   2: 750, // Garden
@@ -253,6 +253,7 @@ export const useLearningStore = create<LearningState & LearningActions>()(
           sm2Map: get().getSM2Map(),
           recentQuestionIds: state.recentQuestionIds,
           sessionMode: state.sessionMode,
+          totalResponses: state.totalResponses, // For onboarding logic
         });
       },
 
