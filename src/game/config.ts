@@ -21,7 +21,7 @@ export const createGameConfig = (
   physics: {
     default: "arcade",
     arcade: {
-      gravity: { x: 0, y: 1000 },
+      gravity: { x: 0, y: 400 },
       debug: false,
     },
   },
