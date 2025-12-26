@@ -21,6 +21,7 @@ import { CapyReactions } from "@/components/CapyReactions";
 import { CapyMood } from "@/components/CapyMood";
 import { WelcomeBack } from "@/components/WelcomeBack";
 import { MysteryBox } from "@/components/MysteryBox";
+import { OnscreenCalculator } from "@/components/OnscreenCalculator";
 import { useGameStore } from "@/stores/gameStore";
 import { useSpinStore } from "@/stores/spinStore";
 import { useMysteryBoxStore } from "@/stores/mysteryBoxStore";
@@ -45,6 +46,7 @@ export default function Home() {
   const [showBadges, setShowBadges] = useState(false);
   const [showSpinWheel, setShowSpinWheel] = useState(false);
   const [showMysteryBox, setShowMysteryBox] = useState(false);
+  const [showCalculator, setShowCalculator] = useState(false);
   const [wrongAnswer, setWrongAnswer] = useState<{
     question: Question;
     studentAnswerIndex: number;
@@ -105,6 +107,24 @@ export default function Home() {
         <CalibrationIndicator />
         <CapyReactions />
         <PhaserGame />
+
+        {/* Calculator toggle button (visible during gameplay) */}
+        {isPlaying && (
+          <button
+            onClick={() => setShowCalculator(!showCalculator)}
+            className={`absolute bottom-4 left-4 z-20 w-12 h-12 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-2xl text-text hover:scale-110 transition-transform ${showCalculator ? "bg-sky" : "bg-cream"}`}
+            aria-label={showCalculator ? "Close calculator" : "Open calculator"}
+            title="Calculator"
+          >
+            🧮
+          </button>
+        )}
+
+        {/* Onscreen Calculator */}
+        <OnscreenCalculator
+          isOpen={showCalculator}
+          onClose={() => setShowCalculator(false)}
+        />
 
         {/* Boutique, Badges, Boxes, and Spin buttons (visible when not playing) */}
         {!isPlaying && !showSummary && (
