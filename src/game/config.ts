@@ -21,7 +21,7 @@ export const createGameConfig = (
   physics: {
     default: "arcade",
     arcade: {
-      gravity: { x: 0, y: 400 },
+      gravity: { x: 0, y: 280 }, // Reduced for floatier feel, less tapping
       debug: false,
     },
   },

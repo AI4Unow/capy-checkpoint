@@ -6,7 +6,7 @@ import type { Question } from "@/types/question";
 import type { QuestionSelection } from "@/engine/questionSelector";
 import { getDifficultyLabel } from "@/engine/questionSelector";
 
-const FLAP_VELOCITY = -280; // Gentler upward flap (reduced gravity = less force needed)
+const FLAP_VELOCITY = -200; // Gentler flap for reduced gravity (280)
 const GROUND_Y = 650;
 const PATH_HEIGHT = 150; // Height of each answer path
 const GATE_SPAWN_INTERVAL = 20000; // Fallback timer (gates usually spawn after answers)
