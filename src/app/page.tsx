@@ -112,7 +112,7 @@ export default function Home() {
         {isPlaying && (
           <button
             onClick={() => setShowCalculator(!showCalculator)}
-            className={`absolute bottom-4 left-4 z-20 w-12 h-12 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-2xl text-text hover:scale-110 transition-transform ${showCalculator ? "bg-sky" : "bg-cream"}`}
+            className={`absolute top-4 right-4 z-20 w-12 h-12 rounded-full border-4 border-text font-[family-name:var(--font-fredoka)] text-2xl text-text hover:scale-110 transition-transform ${showCalculator ? "bg-sky" : "bg-cream"}`}
             aria-label={showCalculator ? "Close calculator" : "Open calculator"}
             title="Calculator"
           >

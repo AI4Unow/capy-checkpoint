@@ -43,8 +43,7 @@ export class Boot extends Phaser.Scene {
       ];
       const wing = wingOffsets[frame];
 
-      // BIG Wings (behind body) - soft pink feathered wings
-      // Main wing shape - much larger triangles
+      // LEFT Wings (behind body) - soft pink feathered wings
       g.fillStyle(0xffd6e0);
       // Large outer feathers
       g.fillTriangle(
@@ -62,14 +61,13 @@ export class Boot extends Phaser.Scene {
         offsetX + 35, 15 + wing.y * wing.spread,
         offsetX + 55, 60 + wing.y
       );
-      // Additional feather layer
       g.fillTriangle(
         offsetX + 15, 60 + wing.y,
         offsetX + 40, 25 + wing.y * wing.spread,
         offsetX + 60, 65 + wing.y
       );
 
-      // Wing feather details - darker pink highlights
+      // Left wing feather details - darker pink
       g.fillStyle(0xffb3c6);
       g.fillTriangle(
         offsetX + 3, 48 + wing.y,
@@ -85,6 +83,48 @@ export class Boot extends Phaser.Scene {
         offsetX + 13, 58 + wing.y,
         offsetX + 33, 23 + wing.y * wing.spread,
         offsetX + 53, 62 + wing.y
+      );
+
+      // RIGHT Wings (mirrored, behind body) - smaller since facing away
+      // Body center is around x=60, so mirror around that axis
+      g.fillStyle(0xffd6e0);
+      g.fillTriangle(
+        offsetX + 120, 45 + wing.y,
+        offsetX + 105, 5 + wing.y * wing.spread,
+        offsetX + 80, 50 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 115, 50 + wing.y,
+        offsetX + 95, 10 + wing.y * wing.spread,
+        offsetX + 70, 55 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 110, 55 + wing.y,
+        offsetX + 85, 15 + wing.y * wing.spread,
+        offsetX + 65, 60 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 105, 60 + wing.y,
+        offsetX + 80, 25 + wing.y * wing.spread,
+        offsetX + 60, 65 + wing.y
+      );
+
+      // Right wing feather details - darker pink
+      g.fillStyle(0xffb3c6);
+      g.fillTriangle(
+        offsetX + 117, 48 + wing.y,
+        offsetX + 102, 12 + wing.y * wing.spread,
+        offsetX + 82, 52 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 112, 53 + wing.y,
+        offsetX + 92, 18 + wing.y * wing.spread,
+        offsetX + 72, 57 + wing.y
+      );
+      g.fillTriangle(
+        offsetX + 107, 58 + wing.y,
+        offsetX + 87, 23 + wing.y * wing.spread,
+        offsetX + 67, 62 + wing.y
       );
 
       // Body (shifted right to make room for wings)

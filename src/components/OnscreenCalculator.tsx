@@ -174,7 +174,7 @@ export function OnscreenCalculator({ isOpen, onClose }: OnscreenCalculatorProps)
 
   return (
     <div
-      className="absolute z-30 bottom-20 left-4"
+      className="absolute z-30 top-16 right-4"
       role="dialog"
       aria-label="Calculator"
     >
