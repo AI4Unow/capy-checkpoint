@@ -46,9 +46,22 @@ export function MenuOverlay() {
   const dueCount = getDueReviewCount();
   const challengeAvailable = isAvailable();
 
+  const handleStartGame = () => {
+    EventBus.emit(GameEvents.START_GAME);
+  };
+
   return (
     <>
-      <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2">
+        {/* Play Button */}
+        <button
+          onClick={handleStartGame}
+          className="px-12 py-6 rounded-full border-[6px] border-text font-[family-name:var(--font-baloo)] text-4xl text-text shadow-xl transition-all hover:scale-110 active:scale-95 bg-pink mb-4 group relative overflow-hidden animate-bounce-in"
+        >
+          <span className="relative z-10">PLAY</span>
+          <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform" />
+        </button>
+
         {/* Best Score */}
         {bestScore > 0 && (
           <div className="bg-yellow/90 px-6 py-2 rounded-full border-4 border-amber-500 shadow-lg">

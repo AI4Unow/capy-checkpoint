@@ -41,6 +41,13 @@ export class Menu extends Phaser.Scene {
       synthSounds.setVolume(args[0] as number);
     });
 
+    // Listen for start-game from React MenuOverlay
+    EventBus.on(GameEvents.START_GAME, () => {
+      this.unlockAudio();
+      this.cameras.main.fadeOut(300);
+      this.time.delayedCall(300, () => this.scene.start("Game"));
+    });
+
     // Background (tiled for new dimensions)
     this.add.tileSprite(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, "background");
 
@@ -72,44 +79,14 @@ export class Menu extends Phaser.Scene {
       ease: "Sine.easeInOut",
     });
 
-    // Play button
-    const playBtn = this.add.rectangle(GAME_WIDTH / 2, 560, 300, 80, 0xffd6e0);
-    playBtn.setStrokeStyle(4, 0x5e503f);
-    playBtn.setInteractive({ useHandCursor: true });
-
-    const playText = this.add.text(GAME_WIDTH / 2, 560, "PLAY", {
-      fontFamily: "Fredoka, Arial, sans-serif",
-      fontSize: "52px",
-      fontStyle: "bold",
-      color: "#5E503F",
-    });
-    playText.setOrigin(0.5);
-
     // Instructions
-    const instructions = this.add.text(GAME_WIDTH / 2, 660, "Press SPACE or TAP to flap • Guide Capy to the correct answer!", {
+    const instructions = this.add.text(GAME_WIDTH / 2, 680, "Press SPACE or TAP to flap • Guide Capy to the correct answer!", {
       fontFamily: "Fredoka, Arial, sans-serif",
       fontSize: "22px",
       color: "#5E503F",
     });
     instructions.setOrigin(0.5);
     instructions.setAlpha(0.8);
-
-    playBtn.on("pointerover", () => {
-      playBtn.setFillStyle(0xffe4ec);
-      playBtn.setScale(1.05);
-      playText.setScale(1.05);
-    });
-
-    playBtn.on("pointerout", () => {
-      playBtn.setFillStyle(0xffd6e0);
-      playBtn.setScale(1);
-      playText.setScale(1);
-    });
-
-    playBtn.on("pointerdown", () => {
-      this.cameras.main.fadeOut(300);
-      this.time.delayedCall(300, () => this.scene.start("Game"));
-    });
 
     this.cameras.main.fadeIn(500);
   }

@@ -75,6 +75,7 @@ export const GameEvents = {
   // Engagement features
   CAPY_REACT: "capy-react",
   BOX_EARNED: "box-earned",
+  START_GAME: "start-game",
 } as const;
 
 // Type definitions for event payloads
