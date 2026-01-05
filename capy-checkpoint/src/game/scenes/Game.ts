@@ -63,8 +63,8 @@ export class Game extends Phaser.Scene {
       this.capybara,
       this.gates,
       (_capy, gate) => {
-        if (gate && 'x' in gate) {
-          this.handleGatePass(gate as Phaser.Physics.Arcade.Sprite);
+        if (gate instanceof Phaser.Physics.Arcade.Sprite) {
+          this.handleGatePass(gate);
         }
       },
       undefined,
