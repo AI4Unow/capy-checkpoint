@@ -8,3 +8,6 @@ firebase_service_account.json
 
 # Local artifacts
 materials/
+
+# Removed folders (prevent recreation)
+capy-checkpoint/

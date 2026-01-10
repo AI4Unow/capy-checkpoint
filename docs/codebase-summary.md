@@ -102,8 +102,7 @@ capy-checkpoint-next/src/
 │   ├── question.ts             # Question types
 │   ├── badge.ts                # Badge types
 │   └── dailyChallenge.ts       # Daily challenge types
-├── hooks/
-│   └── useQuestionBank.ts      # Question loading hook
+├── hooks/                      # Custom React hooks (empty)
 └── test/
     └── setup.ts                # Vitest setup
 ```
@@ -135,8 +134,8 @@ capy-checkpoint-next/src/
 
 | Store | Persisted | Purpose |
 |-------|-----------|---------|
-| learningStore | ✅ | Elo, mastery, SM2, eloHistory, bestStreak |
-| gameStore | ❌ | Session score, coins, hearts |
+| learningStore | ✅ | Elo, mastery, SM2, eloHistory, bestStreak, session stats |
+| gameStore | ❌ | Score, coins, hearts, currentQuestion |
 | badgeStore | ✅ | 21 unlocked badges |
 | dailyChallengeStore | ✅ | Daily streaks, history |
 | boutiqueStore | ✅ | Purchased/equipped items |

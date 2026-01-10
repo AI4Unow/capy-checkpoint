@@ -9,16 +9,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Architecture
 
 ```
-├── level1-forest.html    # Static mockups (design phase)
-├── level2-garden.html
-├── level3-sky.html
+├── capy-checkpoint-next/     # Active Next.js application
+│   └── src/                  # Source code
 ├── docs/
-│   └── design-guidelines.md   # Visual identity, colors, typography
+│   └── design-guidelines.md  # Visual identity, colors, typography
 ├── plans/
-│   ├── 20251218-capy-checkpoint-design/
-│   │   └── plan.md            # Active implementation plan
 │   └── reports/
-│       └── brainstorm-*.md    # Research and decisions
+│       └── brainstorm-*.md   # Research and decisions
 ```
 
 ## Design System
@@ -34,11 +31,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - Pink: #FFD6E0 | Sage: #DDE5B6 | Cream: #FEFAE0
 - Sky: #A2D2FF | Text: #5E503F (soft brown)
 
-## Tech Stack (Planned)
+## Tech Stack
 
-- **Frontend:** React + Vite
-- **Game Engine:** Phaser 3
-- **Backend:** Supabase (auth + database)
+- **Framework:** Next.js 16 (App Router)
+- **Game Engine:** Phaser 3.90
+- **UI:** React 19, Tailwind CSS 4
+- **State:** Zustand (11 modular stores)
+- **Backend:** Firebase (Firestore + Auth)
+- **AI:** Gemini API (hints)
+- **PWA:** Serwist 9.3
 - **Hosting:** Vercel
 
 ## Game Mechanics

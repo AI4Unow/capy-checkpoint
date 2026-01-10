@@ -25,9 +25,15 @@ Educational math game for **Cambridge Primary Checkpoint (Grade 5)** preparation
 ### Gameplay
 - Flappy Bird-style mechanics with Capybara character
 - 3-path answer gates
-- Keyboard (1/2/3) and touch controls
+- Keyboard (1/2/3) and touch controls (tap left to flap, right to select)
 - 447 Cambridge Primary Checkpoint questions (2014-2026)
 - AI hints via Gemini on wrong answers
+
+### Stats Dashboard
+Access from menu → Stats button:
+- Session stats (questions, best score, streak)
+- Learning progress (Elo trend, topic mastery bars)
+- Gamification (badges, daily streak, coins)
 
 ## Tech Stack
 
