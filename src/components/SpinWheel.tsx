@@ -174,9 +174,13 @@ export function SpinWheel({ onClose }: SpinWheelProps) {
         <div className="p-6 flex flex-col items-center">
           {/* Wheel */}
           <div className="relative mb-6">
-            {/* Pointer */}
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-2 z-10 text-3xl">
-              ▼
+            {/* Pointer (Capy Arrow) */}
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-4 z-20 pointer-events-none drop-shadow-md">
+              <img
+                src="/assets/capy-arrow.svg"
+                alt="Pointer"
+                className="w-16 h-16 object-contain"
+              />
             </div>
 
             {/* Wheel container */}
