@@ -22,6 +22,7 @@ import {
 } from "@/lib/firebaseSync";
 import { useLearningStore } from "./learningStore";
 import { useGameStore } from "./gameStore";
+import { useBoutiqueStore } from "./boutiqueStore";
 
 interface AuthState {
   user: User | null;
@@ -188,6 +189,7 @@ export const useAuthStore = create<AuthState & AuthActions>()(
 
         const learningState = useLearningStore.getState();
         const gameState = useGameStore.getState();
+        const boutiqueState = useBoutiqueStore.getState();
 
         const data: Omit<LearningData, "lastUpdated"> = {
           studentRating: learningState.studentRating,
@@ -197,7 +199,8 @@ export const useAuthStore = create<AuthState & AuthActions>()(
           sm2Entries: learningState.sm2Entries,
           bestStreak: learningState.bestStreak,
           totalCoins: gameState.coins,
-          unlockedItems: [], // TODO: Add boutique items
+          unlockedItems: boutiqueState.ownedItems,
+          equippedItems: boutiqueState.equipped,
         };
 
         await saveLearningData(user.uid, data);
@@ -236,6 +239,14 @@ export const useAuthStore = create<AuthState & AuthActions>()(
               coins: Math.max(cloudData.totalCoins, useGameStore.getState().coins),
             });
           }
+
+          // Sync boutique items
+          useBoutiqueStore.setState((state) => ({
+            ownedItems: [
+              ...new Set([...state.ownedItems, ...cloudData.unlockedItems]),
+            ],
+            equipped: cloudData.equippedItems || state.equipped,
+          }));
         }
       },
 

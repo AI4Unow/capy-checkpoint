@@ -38,6 +38,12 @@ export interface LearningData {
   bestStreak: number;
   totalCoins: number;
   unlockedItems: string[];
+  equippedItems?: {
+    hat: string;
+    accessory: string | null;
+    trail: string | null;
+    background: string;
+  };
   lastUpdated: Date;
 }
 
@@ -340,6 +346,8 @@ export function mergeLearningData(
     unlockedItems: [
       ...new Set([...local.unlockedItems, ...remote.unlockedItems]),
     ],
+    // Last-write-wins for equipped items
+    equippedItems: newerIsLocal ? local.equippedItems : remote.equippedItems,
     lastUpdated: new Date(),
   };
 }
