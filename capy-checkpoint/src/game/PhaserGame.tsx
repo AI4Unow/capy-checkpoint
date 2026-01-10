@@ -25,12 +25,14 @@ export function PhaserGame({ className }: PhaserGameProps) {
     gameRef.current = new Phaser.Game(config);
 
     // Event listeners
-    const handleScoreUpdate = (score: number) => {
+    const handleScoreUpdate = (score: unknown) => {
+      if (typeof score !== 'number') return;
       setScore(score);
       addCoins(10); // Base coins per gate
     };
 
-    const handleLivesUpdate = (lives: number) => {
+    const handleLivesUpdate = (lives: unknown) => {
+      if (typeof lives !== 'number') return;
       setLives(lives);
     };
 
