@@ -1,7 +1,7 @@
-# Product Guide: Capy-Checkpoint
+# Product Guide: Mathie
 
 ## Initial Concept
-Capy-Checkpoint is an educational math game for Cambridge Primary Checkpoint (Grade 5) preparation. It features Flappy Bird-style gameplay with a Capybara character flying through math question gates.
+Mathie is an educational math game for Cambridge Primary Checkpoint (Grade 5) preparation. It features Flappy Bird-style gameplay with a Capybara character flying through math question gates.
 
 ## Target Audience
 The primary users are Grade 5 students preparing for the Cambridge Primary Checkpoint exams.

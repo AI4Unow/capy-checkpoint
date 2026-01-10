@@ -1,0 +1,10 @@
+# Root ignores (repo-wide)
+
+# Secrets
+firebase_service_account.json
+
+# OS junk
+.DS_Store
+
+# Local artifacts
+materials/

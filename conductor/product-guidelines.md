@@ -1,4 +1,4 @@
-# Product Guidelines: Capy-Checkpoint
+# Product Guidelines: Mathie
 
 ## Brand Personality
 *   **Voice & Tone:** **Playful & Energetic.** The game speaks like an enthusiastic study buddy. It uses exclamation points, encouraging "cheerleader" language, and keeps the energy high to maintain engagement.

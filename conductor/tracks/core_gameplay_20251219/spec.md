@@ -1,7 +1,7 @@
 # Track Spec: Core Gameplay Loop with Firebase Integration
 
 ## Overview
-This track implements the primary "Flappy Bird" style gameplay loop for Capy-Checkpoint, integrating it with the existing question bank in Firebase.
+This track implements the primary "Flappy Bird" style gameplay loop for Mathie, integrating it with the existing question bank in Firebase.
 
 ## Objectives
 - Connect the Phaser game client to Firebase Firestore.

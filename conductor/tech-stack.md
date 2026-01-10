@@ -1,4 +1,4 @@
-# Technology Stack: Capy-Checkpoint
+# Technology Stack: Mathie
 
 ## Core Technologies
 *   **Language:** [TypeScript](https://www.typescriptlang.org/) (Primary for all development)
