@@ -27,7 +27,7 @@ interface GameState {
 const initialState = {
   score: 0,
   lives: 3,
-  coins: 0,
+  coins: 1000,
   isPlaying: false,
   isGameOver: false,
   currentQuestion: null,
@@ -69,6 +69,24 @@ export const useGameStore = create<GameState>()(
     {
       name: "mathie-game-store",
       partialize: (state) => ({ bestScore: state.bestScore, coins: state.coins }),
+      merge: (persistedState, currentState) => {
+        // Ignore stale persisted runtime flags (e.g. isPlaying) from older store shapes.
+        const persisted = persistedState as Partial<GameState>;
+        const persistedCoins =
+          typeof persisted.coins === "number"
+            ? persisted.coins
+            : currentState.coins;
+        const persistedBestScore =
+          typeof persisted.bestScore === "number"
+            ? persisted.bestScore
+            : currentState.bestScore;
+
+        return {
+          ...currentState,
+          bestScore: persistedBestScore,
+          coins: Math.max(1000, persistedCoins),
+        };
+      },
     }
   )
 );

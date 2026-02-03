@@ -10,7 +10,7 @@ describe('gameStore', () => {
     const state = useGameStore.getState();
     expect(state.score).toBe(0);
     expect(state.lives).toBe(3);
-    expect(state.coins).toBe(0);
+    expect(state.coins).toBe(1000);
     expect(state.isPlaying).toBe(false);
     expect(state.isGameOver).toBe(false);
     expect(state.currentQuestion).toBeNull();
@@ -23,9 +23,9 @@ describe('gameStore', () => {
 
   it('should add coins', () => {
     useGameStore.getState().addCoins(50);
-    expect(useGameStore.getState().coins).toBe(50);
+    expect(useGameStore.getState().coins).toBe(1050);
     useGameStore.getState().addCoins(25);
-    expect(useGameStore.getState().coins).toBe(75);
+    expect(useGameStore.getState().coins).toBe(1075);
   });
 
   it('should record correct answer', () => {
