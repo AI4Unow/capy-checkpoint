@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { useMysteryBoxStore } from "@/stores/mysteryBoxStore";
 import { useGameStore } from "@/stores/gameStore";
+import { useBoutiqueStore } from "@/stores/boutiqueStore";
 import { MYSTERY_BOX_TIERS, type BoxTier } from "@/data/mysteryBoxTiers";
 import { synthSounds } from "@/game/audio/SynthSounds";
 
@@ -17,6 +18,7 @@ export function MysteryBox({ onClose }: MysteryBoxProps) {
   const { boxes, getBoxCount, openBox, pendingReward, dismissReward } =
     useMysteryBoxStore();
   const { addCoins } = useGameStore();
+  const { unlockItem, equipItem } = useBoutiqueStore();
   const [openingTier, setOpeningTier] = useState<BoxTier | null>(null);
   const [showReveal, setShowReveal] = useState(false);
 
@@ -32,8 +34,14 @@ export function MysteryBox({ onClose }: MysteryBoxProps) {
       if (loot) {
         if (loot.type === "coins") {
           addCoins(loot.value as number);
+        } else if (loot.type === "item") {
+          const itemId = loot.value as string;
+          const unlocked = unlockItem(itemId);
+          // Auto-equip new rewards so players immediately see the cosmetic effect.
+          if (unlocked) {
+            equipItem(itemId);
+          }
         }
-        // Item unlocking would happen here for boutique items
         synthSounds.playCorrect();
         setShowReveal(true);
       }

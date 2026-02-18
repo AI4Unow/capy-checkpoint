@@ -23,6 +23,7 @@ interface BoutiqueState {
 
 interface BoutiqueActions {
   purchaseItem: (itemId: string) => boolean;
+  unlockItem: (itemId: string) => boolean;
   equipItem: (itemId: string) => void;
   unequipItem: (category: BoutiqueItem["category"]) => void;
   isOwned: (itemId: string) => boolean;
@@ -68,6 +69,20 @@ export const useBoutiqueStore = create<BoutiqueState & BoutiqueActions>()(
         // Add to owned
         set({ ownedItems: [...get().ownedItems, itemId] });
 
+        return true;
+      },
+
+      /**
+       * Unlock an item directly (e.g. mystery box rewards)
+       */
+      unlockItem: (itemId) => {
+        const item = getItemById(itemId);
+        if (!item) return false;
+
+        // Already owned
+        if (get().ownedItems.includes(itemId)) return false;
+
+        set({ ownedItems: [...get().ownedItems, itemId] });
         return true;
       },
 

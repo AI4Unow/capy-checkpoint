@@ -6,6 +6,7 @@ import { useLearningStore } from "@/stores/learningStore";
 import { useBoutiqueStore } from "@/stores/boutiqueStore";
 import {
   BoutiqueItem,
+  getItemById,
   getItemsByCategory,
   getRarityColor,
   isItemUnlocked,
@@ -37,6 +38,16 @@ export function Boutique({ onClose }: BoutiqueProps) {
 
   const masteredCount = getMasteredCount();
   const items = getItemsByCategory(activeCategory);
+  const equippedSlots: Array<{
+    category: BoutiqueItem["category"];
+    label: string;
+    itemId: string | null;
+  }> = [
+    { category: "hat", label: "Hat", itemId: equipped.hat },
+    { category: "accessory", label: "Accessory", itemId: equipped.accessory },
+    { category: "trail", label: "Trail", itemId: equipped.trail },
+    { category: "background", label: "World", itemId: equipped.background },
+  ];
 
   const handlePurchase = (itemId: string) => {
     const success = purchaseItem(itemId);
@@ -87,6 +98,29 @@ export function Boutique({ onClose }: BoutiqueProps) {
           ))}
         </div>
 
+        {/* Equipped preview */}
+        <div className="p-3 bg-sky/15 border-b-2 border-text/15 grid grid-cols-2 gap-2">
+          {equippedSlots.map((slot) => {
+            const item = slot.itemId ? getItemById(slot.itemId) : null;
+            return (
+              <div
+                key={slot.category}
+                className="bg-white rounded-lg border-2 border-text/20 px-2 py-1.5"
+              >
+                <div className="text-[10px] uppercase tracking-wide text-text/60 font-[family-name:var(--font-nunito)]">
+                  {slot.label}
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-2xl leading-none">{item?.emoji ?? "—"}</span>
+                  <span className="text-xs text-text font-[family-name:var(--font-fredoka)] truncate">
+                    {item?.name ?? "None"}
+                  </span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
         {/* Items grid */}
         <div className="flex-1 overflow-y-auto p-4 grid grid-cols-2 gap-3">
           {items.map((item) => {
@@ -105,17 +139,25 @@ export function Boutique({ onClose }: BoutiqueProps) {
                 key={item.id}
                 className={`bg-white rounded-xl border-2 p-3 relative ${
                   unlocked ? "border-text/30" : "border-text/10 opacity-60"
-                } ${isEquipped ? "ring-2 ring-sage ring-offset-2" : ""}`}
+                } ${isEquipped ? "ring-2 ring-sage ring-offset-2 border-sage" : ""}`}
               >
+                {isEquipped && (
+                  <div className="absolute -top-2 left-2 bg-sage px-2 py-0.5 rounded-full border border-text/30 text-[10px] uppercase tracking-wide font-[family-name:var(--font-nunito)] text-text z-10">
+                    Equipped
+                  </div>
+                )}
+
                 {/* Rarity indicator */}
                 <div
-                  className="absolute -top-1 -right-1 w-4 h-4 rounded-full border-2 border-white"
+                  className="absolute -top-1 -right-1 w-5 h-5 rounded-full border-2 border-white shadow-sm"
                   style={{ backgroundColor: getRarityColor(item.rarity) }}
                 />
 
                 {/* Item display */}
                 <div className="text-center mb-2">
-                  <span className="text-4xl">{item.emoji}</span>
+                  <span className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-cream border border-text/15 text-5xl">
+                    {item.emoji}
+                  </span>
                 </div>
                 <h3 className="font-[family-name:var(--font-fredoka)] text-sm text-text text-center">
                   {item.name}

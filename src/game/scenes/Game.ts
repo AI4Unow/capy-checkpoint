@@ -2,9 +2,17 @@ import Phaser from "phaser";
 import { EventBus, GameEvents, type QuestionReason } from "../EventBus";
 import { synthSounds } from "../audio/SynthSounds";
 import questionsData from "@/data/all-questions.json";
+import { useBoutiqueStore } from "@/stores/boutiqueStore";
 import type { Question } from "@/types/question";
 import type { QuestionSelection } from "@/engine/questionSelector";
 import { getDifficultyLabel } from "@/engine/questionSelector";
+import {
+  type EquippedCosmetics,
+  getAccessoryEmoji,
+  getBackgroundCosmetic,
+  getHatEmoji,
+  getTrailCosmetic,
+} from "../cosmetics";
 
 const FLAP_VELOCITY = -200; // Gentler flap for reduced gravity (280)
 const GROUND_Y = 650;
@@ -43,6 +51,11 @@ export class Game extends Phaser.Scene {
   private capybara!: Phaser.Physics.Arcade.Sprite;
   private background!: Phaser.GameObjects.TileSprite;
   private ground!: Phaser.GameObjects.Rectangle;
+  private hatLabel: Phaser.GameObjects.Text | null = null;
+  private accessoryLabel: Phaser.GameObjects.Text | null = null;
+  private backgroundEffectTimer: Phaser.Time.TimerEvent | null = null;
+  private nextTrailSpawnAt = 0;
+  private equipped: EquippedCosmetics = useBoutiqueStore.getState().equipped;
   private score = 0;
   private lives = 6;
   private isGameOver = false;
@@ -148,8 +161,17 @@ export class Game extends Phaser.Scene {
     this.activeGates = [];
     this.answeredIds.clear();
 
+    this.equipped = useBoutiqueStore.getState().equipped;
+
     // Background (centered for new dimensions)
-    this.background = this.add.tileSprite(GAME_WIDTH / 2, GAME_HEIGHT / 2, GAME_WIDTH, GAME_HEIGHT, "background");
+    this.background = this.add.tileSprite(
+      GAME_WIDTH / 2,
+      GAME_HEIGHT / 2,
+      GAME_WIDTH,
+      GAME_HEIGHT,
+      "background"
+    );
+    this.applyBackgroundCosmetics();
 
     // Ground
     this.ground = this.add.rectangle(GAME_WIDTH / 2, GROUND_Y + 40, GAME_WIDTH, 80, 0xdde5b6);
@@ -175,6 +197,7 @@ export class Game extends Phaser.Scene {
       });
     }
     this.capybara.play("flap");
+    this.applyAvatarCosmetics();
 
     // Ground collision - lose a life but continue if lives remain
     this.physics.add.collider(this.capybara, this.ground, () => {
@@ -214,19 +237,22 @@ export class Game extends Phaser.Scene {
     this.input.keyboard?.on("keydown-ESC", () => this.togglePause());
 
     // Listen for pause/resume events from React
-    EventBus.on(GameEvents.PAUSE, () => {
+    const handlePause = () => {
       if (!this.isPaused) this.pauseGame();
-    });
-    EventBus.on(GameEvents.RESUME, () => {
+    };
+    const handleResume = () => {
       if (this.isPaused) this.resumeGame();
-    });
+    };
+    EventBus.on(GameEvents.PAUSE, handlePause);
+    EventBus.on(GameEvents.RESUME, handleResume);
 
     // Listen for "Got it" click on wrong answer hint
-    EventBus.on(GameEvents.WRONG_ANSWER_CONTINUE, () => {
+    const handleWrongAnswerContinue = () => {
       if (this.isPaused && !this.isGameOver) {
         this.resumeGame();
       }
-    });
+    };
+    EventBus.on(GameEvents.WRONG_ANSWER_CONTINUE, handleWrongAnswerContinue);
 
     // Question text (positioned below HUD overlays at ~120px max)
     this.questionText = this.add.text(GAME_WIDTH / 2, 150, "", {
@@ -259,6 +285,18 @@ export class Game extends Phaser.Scene {
     EventBus.emit(GameEvents.GAME_START);
     EventBus.emit(GameEvents.SCORE_UPDATE, this.score);
     EventBus.emit(GameEvents.LIVES_UPDATE, this.lives);
+
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
+      EventBus.off(GameEvents.PAUSE, handlePause);
+      EventBus.off(GameEvents.RESUME, handleResume);
+      EventBus.off(GameEvents.WRONG_ANSWER_CONTINUE, handleWrongAnswerContinue);
+      this.backgroundEffectTimer?.destroy();
+      this.backgroundEffectTimer = null;
+      this.hatLabel?.destroy();
+      this.hatLabel = null;
+      this.accessoryLabel?.destroy();
+      this.accessoryLabel = null;
+    });
 
     this.cameras.main.fadeIn(300);
   }
@@ -307,12 +345,155 @@ export class Game extends Phaser.Scene {
     const velocityY = (this.capybara.body as Phaser.Physics.Arcade.Body)
       .velocity.y;
     this.capybara.setAngle(Phaser.Math.Clamp(velocityY * 0.05, -30, 30));
+    this.updateAvatarCosmeticsPosition();
+    this.emitTrailParticle();
 
     // Ceiling check
     if (this.capybara.y < 50) {
       this.capybara.y = 50;
       (this.capybara.body as Phaser.Physics.Arcade.Body).velocity.y = 0;
     }
+  }
+
+  private applyAvatarCosmetics(): void {
+    const hatEmoji = getHatEmoji(this.equipped.hat);
+    const accessoryEmoji = getAccessoryEmoji(this.equipped.accessory);
+
+    this.hatLabel?.destroy();
+    this.hatLabel = null;
+    this.accessoryLabel?.destroy();
+    this.accessoryLabel = null;
+
+    if (hatEmoji) {
+      this.hatLabel = this.add.text(0, 0, hatEmoji, {
+        fontFamily: "Arial, sans-serif",
+        fontSize: "42px",
+        stroke: "#5E503F",
+        strokeThickness: 7,
+        shadow: { offsetX: 2, offsetY: 2, color: "#00000066", blur: 0, fill: true },
+      });
+      this.hatLabel.setOrigin(0.5);
+      this.hatLabel.setDepth(12);
+    }
+
+    if (accessoryEmoji) {
+      this.accessoryLabel = this.add.text(0, 0, accessoryEmoji, {
+        fontFamily: "Arial, sans-serif",
+        fontSize: "34px",
+        stroke: "#5E503F",
+        strokeThickness: 6,
+        shadow: { offsetX: 2, offsetY: 2, color: "#00000066", blur: 0, fill: true },
+      });
+      this.accessoryLabel.setOrigin(0.5);
+      this.accessoryLabel.setDepth(12);
+    }
+
+    this.updateAvatarCosmeticsPosition();
+  }
+
+  private updateAvatarCosmeticsPosition(): void {
+    if (this.hatLabel) {
+      this.hatLabel.setPosition(this.capybara.x + 9, this.capybara.y - 56);
+      this.hatLabel.setAngle(this.capybara.angle * 0.35);
+    }
+
+    if (this.accessoryLabel) {
+      this.accessoryLabel.setPosition(this.capybara.x + 22, this.capybara.y + 6);
+      this.accessoryLabel.setAngle(this.capybara.angle * 0.25);
+    }
+  }
+
+  private applyBackgroundCosmetics(): void {
+    const cosmetic = getBackgroundCosmetic(this.equipped.background);
+    this.background.setTint(cosmetic.tint);
+    this.backgroundEffectTimer?.destroy();
+    this.backgroundEffectTimer = null;
+
+    const effect = cosmetic.effect;
+    if (effect === "none") return;
+
+    const delayByEffect: Record<Exclude<typeof effect, "none">, number> = {
+      petals: 1050,
+      bubbles: 700,
+      sparkles: 1200,
+    };
+
+    this.backgroundEffectTimer = this.time.addEvent({
+      delay: delayByEffect[effect],
+      callback: () => this.spawnBackgroundEffect(effect),
+      callbackScope: this,
+      loop: true,
+    });
+  }
+
+  private spawnBackgroundEffect(effect: "petals" | "bubbles" | "sparkles"): void {
+    if (effect === "bubbles") {
+      const x = Phaser.Math.Between(50, GAME_WIDTH - 50);
+      const y = GAME_HEIGHT + 10;
+      const bubble = this.add.circle(x, y, Phaser.Math.Between(4, 9), 0xffffff, 0.42);
+      bubble.setDepth(1);
+      this.tweens.add({
+        targets: bubble,
+        y: Phaser.Math.Between(90, GAME_HEIGHT - 160),
+        alpha: 0,
+        duration: Phaser.Math.Between(2300, 3300),
+        onComplete: () => bubble.destroy(),
+      });
+      return;
+    }
+
+    const emoji = effect === "petals" ? "🌸" : "✨";
+    const particle = this.add.text(
+      Phaser.Math.Between(50, GAME_WIDTH - 50),
+      -24,
+      emoji,
+      {
+        fontFamily: "Arial, sans-serif",
+        fontSize: effect === "petals" ? "18px" : "16px",
+      }
+    );
+    particle.setDepth(1);
+    this.tweens.add({
+      targets: particle,
+      x: particle.x + Phaser.Math.Between(-70, 70),
+      y: GAME_HEIGHT + 20,
+      alpha: 0.2,
+      angle: Phaser.Math.Between(-25, 25),
+      duration: Phaser.Math.Between(2800, 3800),
+      onComplete: () => particle.destroy(),
+    });
+  }
+
+  private emitTrailParticle(): void {
+    const trailCosmetic = getTrailCosmetic(this.equipped.trail);
+    if (!trailCosmetic) return;
+
+    if (this.time.now < this.nextTrailSpawnAt) return;
+    this.nextTrailSpawnAt = this.time.now + 90;
+
+    const emoji =
+      trailCosmetic.emojis[
+        Phaser.Math.Between(0, trailCosmetic.emojis.length - 1)
+      ];
+    const trail = this.add.text(this.capybara.x - 42, this.capybara.y + 5, emoji, {
+      fontFamily: "Arial, sans-serif",
+      fontSize: "24px",
+      stroke: "#5E503F",
+      strokeThickness: 4,
+    });
+    trail.setOrigin(0.5);
+    trail.setDepth(9);
+    trail.setAlpha(0.9);
+
+    this.tweens.add({
+      targets: trail,
+      x: trail.x - Phaser.Math.Between(32, 58),
+      y: trail.y + Phaser.Math.Between(-10, 10),
+      alpha: 0,
+      scale: 0.7,
+      duration: Phaser.Math.Between(430, 620),
+      onComplete: () => trail.destroy(),
+    });
   }
 
   private flap(): void {
